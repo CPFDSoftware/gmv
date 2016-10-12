@@ -1,0 +1,1187 @@
+========================= Open Motif 2.3.3 released ============================
+
+2010-03-12  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Makefile.am, lib/Mrm/Makefile.am:
+	Fixed bug #1507 (LDFLAGS not respected for building libXm and libMrm libraries)
+
+2010-03-11  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Label.c, lib/Xm/PushB.c:
+	Dropped fix #1511
+
+2010-03-01  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Label.c, lib/Xm/PushB.c:
+	Fixed bug #1511 (CheckBook program from EditTable samples crashes 
+	with OpenMotif since 2.3.0 release.)
+
+2009-12-29  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Label.c:
+	Fixed bug #1495 (mwm's icon box has graphics corruption)
+
+2009-10-29  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/IconButton.c:
+	Removed junk
+
+2009-10-29  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Xm.h.in:
+	Fixed in order to provide PRINTING_SUPPORTED and USE_XFT 
+	macro definitions in Xm.h
+
+2009-10-28  Ihor Hayvuk <ihayvuk@ics.com>
+	* configure.ac, include/Dt/Print.h, lib/Xm/ImageCache.c, lib/Xm/Makefile.am,
+	  lib/Xm/ResInd.c, lib/Xm/Synthetic.c, lib/Xm/SyntheticI.h, lib/Xm/TextF.c,
+	  lib/Xm/TextOut.c, lib/Xm/Xm.h.in, lib/Xm/XmAll.h: 
+	Fixed in order to allow build without libXp
+
+2009-10-27  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/XmI.h, lib/Xm/XmP.h, lib/Xm/List.c, lib/Xm/ScrolledW.c,
+	  lib/Xm/RowColumn.c:
+	Refixed bug #1474 (Incrementation of XmNvisibleItemCount value does not work
+	properly in XmComboBox)
+
+2009-10-26  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/TextFSel.c:
+	Refixed bug #1321 (Pasting into XmTextField is unreliable)
+
+2009-09-28  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/ToolTip.c:
+	Fixed bug #1502 (crash in ToolTipGetData())
+
+2009-09-08  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Paned.h:
+	Removed xmPanedWindowWidgetClass definition
+
+2009-09-08  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/XmP.h, lib/Xm/List.c, lib/Xm/ScrolledW.c:
+	Fixed bug #1474 (Incrementation of XmNvisibleItemCount value does not work
+	properly in XmComboBox)
+
+2009-07-10  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/PanedW.c:
+	Dropped fix #1476 (PanedWindow orientation error)
+
+2009-07-10  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Color.c, 
+	  lib/Xm/ColorI.h,
+	  lib/Xm/Label.c,
+	  lib/Xm/LabelG.c:
+	Moved FromColorToBlackAndWhite() and ConvertToBW() routines from Label.c,
+	LabelG.c to Color.c   
+
+2009-07-09  Ihor Hayvuk <ihayvuk@ics.com>
+	* configure.ac, 
+	  demos/programs/animate/Makefile.am, 
+	  demos/programs/fileview/Makefile.am,
+	  demos/programs/hellomotif/Makefile.am, 
+	  demos/programs/periodic/Makefile.am:
+	Fixed bug #1195 (Making on FreeBSD with non GNU make)   
+
+2009-07-06  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/XmRenderT.c:
+	Refixed bug #1449 (Uninitalised memory access with XFT fonts)   
+
+2009-07-03  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/ToolTip.c, lib/Xm/VendorS.c:
+	Refixed bug #1388 (SEGV error moving mouse over window related to XmToolTipGetLabel)   
+
+2009-07-01  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/DropDown.c:
+	Fixed warning: implicit declaration of function '_XmPopupSpringLoaded   
+
+2009-06-30  Ihor Hayvuk <ihayvuk@ics.com>
+	* RELNOTES, openmotif-f8.spec, openmotif.spec, RELEASE, Makefile.imake-pure, LICENSE,
+	  Imakefile, configure.ac, lib/Xm/Xm.h.in, clients/mwm/version.c:
+	Updated for OpenMotif 2.3.3  
+
+2009-06-30  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/XmAll.h:
+	Fixed bug #1489 (Paned.h is not included by XmAll.h)  
+
+2009-06-28  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/DropDown.c:
+	Fixed bug #1486 (Tooltip in DropDown widget makes X hang up)  
+
+2009-06-28  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/PanedW.c:
+	Refixed bug #1476 (PanedWindow orientation error)  
+
+2009-06-28  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/TextStrSo.c:
+	Fixed bug #1320 (Resizing a scrolled text widget can be very, very slow)  
+
+2009-06-28  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/XmRenderT.c:
+	Fixed bug #1449 (Uninitalised memory access with XFT fonts)  
+
+2009-06-28  Ihor Hayvuk <ihayvuk@ics.com>
+	* INSTALL.configure: 
+	Fixed bug #1418 (Add file with instructions how to build from CVS)  
+
+2009-06-24  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/IconButtonP.h, lib/Xm/IconG.c, lib/Xm/IconGP.h, lib/Xm/Label.c, lib/Xm/LabelG.c,
+	  lib/Xm/LabelGP.h, lib/Xm/LabelP.h, lib/Xm/List.c, lib/Xm/TabBox.c, lib/Xm/TextF.c,
+	  lib/Xm/TextOut.c, lib/Xm/XmI.h, lib/Xm/XmP.h: 
+	Moved define FIX_1381 from XmI.h to XmP.h  
+
+2009-06-22  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/IconButton.c, lib/Xm/IconButtonP.h, lib/Xm/IconG.c, lib/Xm/IconGP, lib/Xm/Label.c,
+      lib/Xm/LabelG.c, lib/Xm/LabelGP.h, lib/Xm/LabelP.h, lib/Xm/List.c, lib/Xm/TabBox.c,
+      lib/Xm/TextF.c, lib/Xm/TextOut.c, lib/Xm/Xm.c, lib/Xm/XmI.h: 
+	Refixed bug #1381 (Sensitivity invisible with antialiased fonts)
+
+2009-06-19  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Label.c: 
+	Fixed bug #1484 (Warning on XmRlabelType when I put a pixmap and a value "top" on XmNPixmapPlacement)
+
+2009-06-19  Ihor Hayvuk <ihayvuk@ics.com>
+	* configure.ac: 
+	Fixed bug #1475 (autoconf warning "X11/Xmu/Editres.h header present but cannot be compiled")
+
+2009-06-19  Ihor Hayvuk <ihayvuk@ics.com>
+	* configure.ac, clients/mwm/Makefile.am, clients/mwm/WmResParse.c: 
+	Fixed bug #1426 (Make location of system.mwmrc configurable)
+
+2009-06-17  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/XmTenderT.c: 
+	Fixed bug #1451 (XmStringDrawImage works incorrectly with XFT)
+
+2009-06-16  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/I18List.c, lib/Xm/IconG.c, lib/Xm/Label.c, lib/Xm/LabelG.c, 
+	  lib/Xm/List.c, lib/Xm/TextF.c, lib/Xm/TextOut.c, lib/Xm/Xm.c:
+	Fixed bug #1453 (MultiList not displayed properly)
+
+2009-06-16  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/RCPopup.c:
+	Fixed bug #1412 (An insensitive popup menu parent lead to a display-freezing)
+
+2009-05-15  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/MapEvents.c, lib/Xm/RCMenu.c, lib/Xm/Xm.c, lib/Xm/XmI.h:
+	Fixed bug #345 (Openmotif accelerators XmNaccelerator do not work 
+	with CapsLock/ScrollLock/NumLock modifiers)
+
+2009-04-23  Ihor Hayvuk <ihayvuk@ics.com>
+	* configure.ac, config/util/makestrs.c, lib/Mrm/Makefile.am, lib/Xm/Makefile.am:
+	Added splint checking and splint target
+
+2009-04-08  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/PanedW.c:
+	Refixed bug #1476 (PanedWindow orientation error)
+
+2009-04-07  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Form.c:
+	Fixed bug #1299 (XmForm erroneously finds "Circular dependency"
+	if widgets are inter-attachmed in vertical/horizontal directions)
+	
+========================= Open Motif 2.3.2 released ============================	
+
+2009-03-10  Ihor Hayvuk <ihayvuk@ics.com>
+	* RELNOTES, RELEASE:
+	Updated for openmotif 2.3.2 
+
+2009-03-10  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Form.c:
+	Dropped fix for the bug #1299 (XmForm erroneously finds "Circular dependency"
+	if widgets are inter-attachmed in vertical/horizontal directions)
+
+2009-03-06  Ihor Hayvuk <ihayvuk@ics.com>
+	* RELNOTES:
+	Updated for openmotif 2.3.2 
+
+2009-03-06  Ihor Hayvuk <ihayvuk@ics.com>
+	* openmotif-f8.spec, openmotif.spec, RELEASE, Makefile.imake-pure, LICENSE,
+	  Imakefile, configure.ac, lib/Xm/Xm.h.in, clients/mwm/version.c:
+	Updated OpenMotif version 
+
+2009-03-04  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/XmString.c:
+	Added missing 'O' character to UTF8_SUPPORTED macro 
+
+2009-03-02  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Form.c:
+	Refixed bug #1299 (XmForm erroneously finds "Circular dependency"
+	if widgets are inter-attachmed in vertical/horizontal directions)
+
+2009-02-19  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/PanedW.c:
+	Fixed bug #1476 (PanedWindow orientation error)
+
+2009-02-19  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Form.c:
+	Fixed bug #1299 (XmForm erroneously finds "Circular dependency"
+	if widgets are inter-attachmed in vertical/horizontal directions)
+
+2009-02-18  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Paned.c:
+	Fixed bug #1277 (paned widget does not work under Fedora Core 2 with openmotif 2.2.3-4.1)
+
+2009-02-17  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/ComboBox.c:
+	Added ifdef/endif directives arround fix #1473
+
+2009-02-17  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/DropSMgr.c:
+	Fixed bug #1212 (XmDropSiteRetrieve frees XRectangles before caller can use them)
+
+2009-02-13  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/ComboBox.c:
+	Fixed bug #1473 (When we set XmNvisibleItemCount resource available in 
+	XmComboBox, the widget displays the wrong number of items)
+
+2008-10-31  Ihor Hayvuk <ihayvuk@ics.com>
+	* clients/mwm/Makefile.am,
+	  clients/mwm/WmWsmLib/Makefile.am,
+	  clients/xmbind/Makefile.am,
+	  demos/lib/Exm/Makefile.am,
+	  demos/lib/Wsm/Makefile.am,
+	  demos/lib/Xmd/Makefile.am,
+	  demos/programs/Exm/app_in_c/Makefile.am,
+	  demos/programs/Exm/app_in_uil/Makefile.am,
+	  demos/programs/Exm/simple_app/Makefile.am,
+	  demos/programs/airport/Makefile.am,
+	  demos/programs/animate/Makefile.am,
+	  demos/programs/drag_and_drop/Makefile.am,
+	  demos/programs/draw/Makefile.am,
+	  demos/programs/earth/Makefile.am,
+	  demos/programs/filemanager/Makefile.am,
+	  demos/programs/fileview/Makefile.am,
+	  demos/programs/getsubres/Makefile.am,
+	  demos/programs/hellomotif/Makefile.am,
+	  demos/programs/hellomotifi18n/Makefile.am,
+	  demos/programs/i18ninput/Makefile.am,
+	  demos/programs/panner/Makefile.am,
+	  demos/programs/periodic/Makefile.am,
+	  demos/programs/piano/Makefile.am,
+	  demos/programs/popups/Makefile.am,
+	  demos/programs/sampler2_0/Makefile.am,
+	  demos/programs/setdate/Makefile.am,
+	  demos/programs/todo/Makefile.am,
+	  demos/programs/tooltips/Makefile.am,
+	  demos/programs/workspace/Makefile.am,
+	  demos/unsupported/Exm/Makefile.am,
+	  demos/unsupported/aicon/Makefile.am,
+	  demos/unsupported/dainput/Makefile.am,
+	  demos/unsupported/dogs/Makefile.am,
+	  demos/unsupported/hellomotif/Makefile.am,
+	  demos/unsupported/motifshell/Makefile.am,
+	  demos/unsupported/uilsymdump/Makefile.am,
+	  demos/unsupported/xmapdef/Makefile.am,
+	  demos/unsupported/xmfonts/Makefile.am,
+	  demos/unsupported/xmforc/Makefile.am,
+	  demos/unsupported/xmform/Makefile.am,
+	  lib/Xm/Makefile.am,
+	  lib/Xm/TabList.h,
+	  lib/Xm/TxtPropCv.h:
+	Fixed in order to allow build out of source tree
+
+2008-09-19  Ihor Hayvuk <ihayvuk@ics.com>
+	* tools/wml/Makefile.am:
+	Added wml_DEPENDENCIES
+
+2008-09-19  Ihor Hayvuk <ihayvuk@ics.com>
+	* Makefile.am:
+	Added ACLOCAL_AMFLAGS
+	
+========================= Open Motif 2.3.1 released ============================	
+
+2008-09-01  Ihor Hayvuk <ihayvuk@ics.com>
+	* RELNOTES, RELEASE, openmotif-f8.spec, openmotif.spec:
+	Updated for OpenMotif 2.3.1
+
+2008-08-30  Ihor Hayvuk <ihayvuk@ics.com>
+	* demos/programs/ButtonBox/Makefile.am, demos/programs/ColorSel/Makefile.am,
+	  demos/programs/Column/Makefile.am, demos/programs/Combo2/Makefile.am,
+	  demos/programs/Ext18List/Makefile.am, demos/programs/FontSel/Makefile.am,
+	  demos/programs/IconB/Makefile.am, demos/programs/Outline/Makefile.am,
+	  demos/programs/Paned/Makefile.am, demos/programs/TabStack/Makefile.am,
+	  demos/programs/Tree/Makefile.am, demos/programs/airport/Makefile.am,
+	  demos/programs/animate/Makefile.am, demos/programs/drag_and_drop/Makefile.am,
+	  demos/programs/draw/Makefile.am, demos/programs/earth/Makefile.am,
+	  demos/programs/filemanager/Makefile.am, demos/programs/fileview/Makefile.am,
+	  demos/programs/getsubres/Makefile.am, demos/programs/hellomotif/Makefile.am,
+	  demos/programs/hellomotifi18n/Makefile.am, demos/programs/i18ninput/Makefile.am,
+	  demos/programs/panner/Makefile.am, demos/programs/periodic/Makefile.am,
+	  demos/programs/piano/Makefile.am, demos/programs/pixmaps/Makefile.am,
+	  demos/programs/popups/Makefile.am, demos/programs/sampler2_0/Makefile.am,
+	  demos/programs/setdate/Makefile.am, demos/programs/todo/Makefile.am,
+	  demos/programs/tooltips/Makefile.am, demos/programs/workspace/Makefile.am:
+	Fixed in order to put demos binaries in ${prefix}/share/Xm
+
+2008-08-30  Ihor Hayvuk <ihayvuk@ics.com>
+	* configure.ac, lib/Xm/ResEncod.c:
+	Fixed bug #1423 (Build failure on FreeBSD: undefined reference to `libiconv_open')
+
+2008-08-29  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/IconFile.c:
+	Fixed bug #1427 (_xrm '*.iconPixmap:SDtErrors.l' produces bogus error messages)
+
+2008-08-29  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/TextF.c, lib/XmTextOut.c:
+	Refixed bug #1381 (Sensitivity invisible with antialiased fonts)
+
+2008-08-29  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Xmos.c:
+	Fixed bug #1359 (File dialog filter problem with * or [ in directory)
+
+2008-08-29  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/DropDown.c, lib/Xm/DropDownP.h:
+	Fixed bug #1446 (Arrow button in DropDown widget issue.)
+
+2008-08-28  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/MenuUil.c:
+	Fixed bug #1328 (Desktop hang: motif application in XGrabPointer)
+
+2008-08-27  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Container.c:
+	Fixed bug #1425 (Resetting entryParent causes crash)
+
+2008-08-26  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/TabBox.c:
+	Fixed bug #1439 (warnings during compilation in TabBox.c)
+
+2008-08-22  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/DataF.c, lib/Xm/Messages.c, lib/Xm/MessagesI.h, lib/Xm/XmMsgI.h:
+	Fixed bug #1420 (DataF.c holds message strings.)
+
+2008-08-22  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Data.c, lib/Xm/TranslNew.c, TransltnsP.h:
+	Fixed bug #1419 (Bindings of DataField defined in DataF.c instead of TranslNew.c)
+
+2008-08-22  Ihor Hayvuk <ihayvuk@ics.com>
+	* demos/programs/filemanager/filemanager.c,
+	demos/programs/setdate/setDate.c,
+	demos/programs/todo/todo.c:
+	Fixed bug #1431 (openmotif 2.3 and xorg 7.1.0 64bit problems)
+
+2008-08-22  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Container.c:
+	Fixed bug #1432 (XmContainer incorrect GC allocation)
+
+2008-08-21  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/ComboBox.c:
+	Fixed bug #1250 (XmCombo glyph is unexpectedly shifted when setting XmNvisibleItemCount)
+
+2008-08-21  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Container.c:
+	Fixed bug #1401 (Specifying state pixmaps in Container causes crash)
+
+2008-08-21  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/ResEncod.c:
+	Refixed bug #1442 (Crash on Drag'n'Drop)
+
+2008-08-20  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/GrabShell.c, TranslNew.c, XmI.h:
+	Fixed bug #1445 (PopupShell is closing  on MouseWheel)
+
+2008-08-20  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/DropDown.c:
+	Refixed bug #1371 (XmComboBox problem on FC6)
+
+2008-08-15  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/RenderT.c:
+	Fixed bug #1438 (Missing XSetErrorHandler call in XmXftDrawCreate)
+
+2008-08-15  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/RenderT.c:
+	Fixed bug #1444 (Function _XmXftDrawCreate() does not work correct with the pixmap)
+
+2008-08-06  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/XmString.c:
+	Fixed bug #1434 (single character utf8 sting is not displayed)
+
+2008-08-05  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Label.c:
+	Fixed bug #1442 (Crash on Drag'n'Drop)
+
+2008-08-01  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/XmRenderT.c:
+	Fixed bug #1436 (Definition of GetSameRenditions in XmRenderT.c needs USE_XFT conditional)
+
+2008-07-30  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/ColorObj.c:
+	Fixed bug #1400 (Corrupted per-display font cache)
+
+2008-07-09  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/Label.c:
+	Fixed bug #1440 (Tags array size in Label widget is not enough)
+
+2008-06-25  Ihor Hayvuk <ihayvuk@ics.com>
+	* ac_find_xft.m4:
+	Fixed bug #1429 (Build failure with libtool-2.2.4)
+
+======================= Open Motif 2.3.1 beta 1 released =======================
+
+2008-05-29  Ihor Hayvuk <ihayvuk@ics.com>
+	* RELNOTES, RELEASE, openmotif-f8.spec, openmotif.spec:
+	Updated for OpenMotif 2.3.1 beta 1
+
+2008-05-03  Ihor Hayvuk <ihayvuk@ics.com>
+	* openmotif.spec, TODO, RELEASE:
+	Updated for OpenMotif 2.3.1
+
+2008-05-02  Ihor Hayvuk <ihayvuk@ics.com>
+	* RELEASE:
+	Updated release date
+
+2008-04-30  Ihor Hayvuk <ihayvuk@ics.com>
+	* configure.ac:
+	Updated libtool version number
+
+2008-04-23  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/XmRenderT.c:
+	Refixed bug #1414 (XFT support slowness)
+
+2008-04-22  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/DataF.c, lib/Xm/TextF.c, lib/Xm/XmRenderT.c, lib/Xm/XmRenderTI.h:
+	Fixed bug #1415 (XFT width calculation problem)
+	
+2008-04-22  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/RowColumn.c:
+	Fixed bug #1410 (setting XmNisHomogeneous to True without setting XmNentryClass causes sigfault)
+
+2008-04-22  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/DrTog.c, lib/Xm/ToggleB.c, lib/Xm/ToggleBG.c, lib/Xm/XmI.h:
+	Fixed bug #1402 (Toggle button circular buttons can not mimic modern look)
+
+2008-04-22  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/CascadeBG.c, lib/Xm/ToggleB.c, lib/Xm/ToggleBG.c:
+	Refixed bug #1395 (Wrong label foreground for etched in menus)
+
+2008-04-22  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/List.c:
+	Fixed bug #1362 (Repeated calls to XmListReplaceItemsPos cause Error: Cannot perform malloc when using Extended_Select)
+
+2008-04-18  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/List.c:
+	Fixed bug #1365 (Top pixel of German character I with top '^' leaves trails)
+
+2008-04-17  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/XmRenderT.c:
+	Refixed bug #1414 (XFT support slowness)
+
+2008-04-17  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/XmRenderT.c:
+	Fixed bug #1414 (XFT support slowness)
+
+2008-04-17  Ihor Hayvuk <ihayvuk@ics.com>
+	* lib/Xm/RowColumn.c:
+	Fixed bug #1351 (Bad dynamic propagation of the sensitive state to popup menus)
+
+2008-04-15  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/TextF.c:
+	Fixed bug #1409 (XmTextField sometimes crashes if a string is set by
+	XtSetValues when XmNmodifyVerifyCallback is set (Only in multibyte
+	locale))
+
+2008-04-15  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/XmString.c, lib/Xm/XmI.h:
+	Fixed bug #1398 (newline not supported in UTF-8 mode)
+
+2008-02-29  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/Label.c, lib/Xm/LabelG.c:
+	Fixed bug #1406 (Insensitive icon on XmPushButton black instead of grayed out)
+
+2008-02-11  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/ScrollBar.c, lib/Xm/TextOut.c, XmI.h:
+	Fixed bug #1396 (ScrollBar warning when XmNotebook resized)
+
+2007-02-07  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/Gadget.c, lib/Xm/Primitive.c, lib/Xm/ToolTipI.h, lib/Xm/XmI.h, lib/Xm/VendorS.c, lib/Xm/ToolTip.c:
+	Refixed bug #1388 (SEGV error moving mouse over window related to XmToolTipGetLabel).
+
+2008-02-05  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/ToggleB.c, lib/Xm/ToggleBG.c:
+	Fixed bug #1405 (Menus too short if PIXMAP_AND_STRING is used in PushButtons)
+
+2008-01-30  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/RCMenu.c:
+	Fixed bug #1404 (PIXMAP_AND_STRING causes crash in XmPushButtton in OptionMenu)
+
+2007-01-28  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/DropDown.c:
+        Fixed incorrect parenthesis in if statement
+
+2007-01-16  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/DropDown.c:
+        Fixed bug #1371 (XmComboBox problem on FC6)
+
+2008-01-03  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/Label.c:
+	Fixed bug #1296 (Drag-and-drop behaves incorrectly if XtSetLanguageProc() is present)
+
+2008-01-03  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/Transfer.c:
+	Fixed bug #1399 (cut and copy don't work in XmText widget)
+
+2008-01-02  Yuriy Syrota  <yura@ics.com>
+	* configure.ac:
+	Added /usr as possible prefix for toolkit installation
+
+2007-12-31  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/CascadeB.c, lib/Xm/ToggleB.c, lib/Xm/XmI.h:
+	Fixed bug #1395 (Wrong label foreground for etched in menus)
+
+2007-11-14  Yuriy Syrota  <yura@ics.com>
+	* Imakefile:
+	* LICENSE:
+	* Makefile.imake-pure:
+	* RELEASE:
+	* configure.ac:
+	* openmotif.spec:
+	* lib/Xm/Xm.h.in:
+	* clients/mwm/version.c:
+	Changed version number to 2.3.1.
+
+2007-11-08  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/BaseClass.c:
+	Fixed bug #1392 (The label widgets can have their core class translations changed).
+
+2007-11-01  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/PushB.c, lib/Xm/PushBG.c, lib/Xm/XmI.h:
+	Fixed bug #1337 (XmPushButton's ArmAndActivate() has incorrect callback call).
+
+2007-10-31  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/Container.c:
+	Fixed bug #1384 (Use of freed storage in XmContainer).
+
+2007-10-19  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/TextFunc.c:
+	Fixed bug #1209 (XmTextPaste crashes using XmTextField).
+
+2007-10-18  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/XmIm.c:
+	Fixed bug #1367 (XmText autoShowCursorPosition is not always honoured when selected text is deleted).
+
+2007-10-15  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/XmIm.c:
+	Fixed bug #1140 (Functions do not check _XmGetWidgetExtData() result).
+
+2007-10-12  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/List.c:
+	Fixed bug #1383 (missing semi-colon at end of sentense).
+
+2007-10-03  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/List.c:
+	Fixed bug #1390 (out of range in array read in ReplaceItem).
+
+2007-10-03  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/VendorS.c:
+	Fixed bug #1388 (SEGV error moving mouse over window related to XmToolTipGetLabel).
+
+2007-09-13  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/Scale.c:
+	Fixed bug #1387 (Scale Widget draws value text not centered to slider)
+
+2007-09-14  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/I18List.c, lib/Xm/IconButton.c, lib/Xm/IconG.c, lib/Xm/Label.c, lib/Xm/LabelG.c, lib/Xm/List.c, lib/Xm/TextF.c, lib/Xm/TextOut.c, lib/Xm/Xm.c, lib/Xm/XmI.h:
+	Fixed bug #1381 (Sensitivity invisible with antialiased fonts)
+
+2007-09-13  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/ResEncod.c:
+	Fixed bug #1389 (A middle click on a tab lets nedit segfault)
+
+2007-08-15  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/TextP.h, lib/Xm/Text.c:
+	Fixed bug #1377 (XmText memory leak in InitializeHook)
+
+2007-08-15  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/MultiList.c:
+	Fixed bug #1385 (core.self of XmMultiList is NULL, but must be pointer itself.)
+
+2007-08-13  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/ResEncod.c:
+	Fixed bug #1380 (Can not set title bar in 2.3)
+
+2006-12-27  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/List.c:
+	Fixed bugs #1369 and #1370 (XmList max item height problem)
+
+2006-12-27  Yuriy Syrota  <yura@ics.com>
+	* clients/mwm/WmFunction.c:
+	Fixed bug #1350 (A window on a different screen than the cursor can not aquire focus from another window closing)
+
+2006-12-26  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/Tabstack.c:
+	Fixed bug #1324 (Bad view of notebook tabs)
+
+2006-12-21  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/Label.c, lib/Xm/LabelG.c:
+	Fixed bug #1360 (Text is not shown on Widgets if setting XmNsensitive to False and using FONT_IS_XFT)
+
+2006-12-11  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/Text.c, lib/Xm/TextOut.c:
+	Fixed bug #1334 (Resizing scrolled text widget makes scrolling jerky and unpredictable)
+
+2006-11-27  Yuriy Syrota  <yura@ics.com>
+	* doc/man/man3/XmColumn.3:
+	Fixed bug #1344 (The XmColumn.3 manpage is non-standard)
+
+2006-11-27  Yuriy Syrota  <yura@ics.com>
+	* demos/programs/Paned/paned.c, demos/programs/Outline/outline.c,
+	demos/programs/FontSel/fontsel.c:
+	Fixed bug #1342 (Several demos/programs/ use 'lightcoral' background)
+
+2006-11-26  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/TabStack.c:
+	Fixed bug #1348 (XmTabStack adds extra shadowThickness pixels to its children width or height)
+
+2006-11-25  Yuriy Syrota  <yura@ics.com>
+	* configure.ac:
+	Fixed bug #1354 (uil reads uninitialized memory)
+
+2006-11-07  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/ImageCache.c:
+	Fixed bug #1358 (wrong preprocessor symbol in lib/Xm/ImageCache.c)
+
+2006-10-19  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/Label.c:
+	Increased size of supported tags array in Label widget in order to
+	prevent buffer overrun.
+
+2006-08-28  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/List.c:
+	Fixed bug #1321. Updated XmList with fixes from RedHat's bug #167701.
+
+2006-05-28  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/TextF.c:
+	Fixed bug #1321. Updated XmList with fixes from RedHat's bug #167701.
+
+2006-05-04  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/TabStack.c:
+	Fixed using of uninitialized variables in TabStack.c
+
+2006-04-20  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/ImageCache.c, lib/Xm/Label.c:
+	Added some additional NULL checkers.
+
+2006-04-20  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/ImageCache.c:
+	Fixed Coverity's CID 132. Removed unnecessary NULL ckecking
+	in an internal function.
+
+2006-04-20  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/DropSMgr.c:
+	Fixed Coverity's CIDs 175, 58, 59 and 60 in DragOverS.c.
+	Fixed Coverity's CID 147. Moved a pointer resolving to after checking
+	this pointer for NULL.
+
+2006-04-20  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/TabStack.c:
+	Fixed Coverity's CID 148. Moved a pointer resolving to after checking
+	this pointer for NULL.
+
+2006-04-20  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/DragOverS.c:
+	Fixed Coverity's CIDs 175, 58, 59 and 60 in DragOverS.c.
+
+2006-04-20  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/Frame.c:
+	Removed unnecessary code from DragC.c, added some additional
+	NULL checkers.
+
+2006-04-20  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/DragBS.c:
+	Removed unnecessary code from DragBS.c
+
+2006-04-20  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/CutPaste.c:
+	Fixed Coverity's CID 134. Added a NULL ckecking in
+	ClipboardFindItem() in CutPaste.c.
+
+2006-03-31  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/CascadeB.c:
+	Fixed bug #1332 (invalid processing of Cascade Button background color).
+
+2006-03-29  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/List.c:
+	Fixed bug 1331 (XmList item default height set to 0 instead of 1)
+
+2006-03-03  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/TabBox.c:
+	Fixed bug #1346. XmTabStack segfaults with side tabs and
+	XmNtabLabelString==""
+
+2006-02-17  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/MultiList.c:
+	Removed unused invernal funcion from MultiList.c.
+
+2006-02-17  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/List.c:
+	Manually removed callbacks from XmNnodeStateBegEndCallback on
+	destroying widget in order to avoid invalid free() caused by using
+	two names for this callback list.
+
+2006-02-12  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/Hierarchy.c:
+	Manually removed callbacks from XmNnodeStateBegEndCallback on
+	destroying widget in order to avoid invalid free() caused by using
+	two names for this callback list.
+
+2005-12-27  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/FileSB.c:
+	Fixed bug #1294 (XmFileSelectionBox's XmNdirSpec resource misbehaves
+	when pathMode is PATH_MODE_RELATIVE).
+
+2005-12-26  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/Label.c, lib/Xm/LabelG.c:
+	Fixed bug 1297 (Insensitive XmPIXMAP XmPushButtons are stippled with
+	wrong color).
+
+2005-12-19  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/DataF.c, lib/Xm/DataFP.h, lib/Xm/TextOut.c, lib/Xm/Xm.c,
+	lib/Xm/XmI.h, lib/Xm/XmString.c:
+	Added support for ISO10646 font in Unicode environment.
+
+2005-12-19  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/TextF.c:
+	Fixed bug report #1317 (TextField doesn't display 'U:'
+	char with fontType set to FONT_IS_XFT).
+	Added support for ISO10646 font in Unicode environment.
+
+2005-12-17  Rick Scott  <rwscott@omnisig.com>
+	* lib/Xm/ColorS.c:
+	Adjust a prototype to avoid a warning.
+
+2005-12-17  Rick Scott  <rwscott@omnisig.com>
+	* lib/Xm/Text.c:
+	Add a cast so the compiler knows we know what we are doing.
+
+2005-12-17  Rick Scott  <rwscott@omnisig.com>
+	* lib/XmBitmapsI.h, lib/Xm/ColorP.h, lib/Xm/DragOverSP.h,
+	lib/Xm/DropDown.h, lib/Xm/Ext18ListP.h, lib/Xm/IconGI.h,
+	lib/Xm/TabList.h, lib/Xm/ToolTipI.h, lib/Xm/TxtPropCv.h,
+	lib/Xm/XmStrDefs.ht, lib/Xm/XmStrDefs22.ht, lib/Xm/XmStrDefs23.ht:
+	From my investigation, it seems that the way to get rid of the
+	strict-aliasing warnings is to tell the compiler not to use
+	strict aliasing.
+
+	I think header files should include other header files that
+	they rely on.
+
+	Wow, a libXm build with no warnings :)
+
+2005-12-09  Yuriy Syrota  <yura@ics.com>
+	* lib/Xm/DataF.c:
+	Got rid of compiler warnings in DataF.c.
+
+2005-11-21  Yuriy Syrota  <yura@ics.com>
+	* doc/man/man3/XmBulletinBoard.3:
+	Fixed XmBulletinBoard(3) man page, bug peport #1306:
+	(Bug in XmBulletinBoard manpage - XmNdefaultPosition).
+
+2005-06-14  Yuriy Syrota  <yura@ics.com>
+        * doc/man/man3/VirtualBindings.3:
+	Fixed incorrectly formatted table in VirtualBindings manpage.
+
+2005-06-14  Yuriy Syrota  <yura@ics.com>
+        * lib/Xm/CopyPaste.c:
+	Fixed bug #1121 (TabBox translation error) - removed locking
+	of he clipboard from XmClipboardRetrieveStart().
+
+2005-05-22  Yuriy Syrota  <yura@ics.com>
+        * lib/Xm/TabBox.c:
+	Fixed bug #1283 (TabBox translation error)
+
+2005-05-18  Yuriy Syrota  <yura@ics.com>
+        * doc/man/man3/XmLabel*.3, XmToggleButton*.3, XmPushButton*.3:
+        Updated man pages with description of new XmLabel feature to
+	show label strings and pixmaps simultaneusly.
+
+2005-05-18  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/DataF.c: Fixed bug #1249 (XmCombo crashes
+	program when resized) by Yaroslav Hrabar.
+
+2005-05-18  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/DataF.c: Fixed bug #1286 (XmDataField error
+	with XmALIGNMENT_END) by Yaroslav Hrabar.
+
+2005-02-21  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/ToggleBG.c: Fixed bug #1211 (Crash on
+	setting XmNlabelPixmap in a ToggleButtonGadget).
+
+2005-02-02  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/Hash.c: Fixed bug #1264 (crash in
+	PutDSToStream due to bug in _XmResizeHashTable).
+
+2005-02-01  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/XmIm.c: Fixed bug #1276 (XmList: changing
+	AddMode selects/deselects items without callback)
+	by Dmytro Rusyy. Added call of ClickElement() in
+	KAddMode.
+
+2005-02-01  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/XmIm.c: Fixed bug #1196 (Free memory read in
+        XmIm.c/draw_separator(), line 2329).
+
+2005-01-21  Yuriy Syrota  <yura@ics.com>
+
+	* clients/mwm/WmMenu.c: Fixed bug #1193 (MWM crashes when restarting
+	by a session manager).
+
+2005-01-20  Yuriy Syrota  <yura@ics.com>
+
+	* clients/mwm/WmMenu.c: Fixed bug #1202 (mwm crashes when
+	duplicating a window menu containing f.circle_up).
+	Processed arguments as numerical data, not as string.
+
+2004-11-23  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/List.c: Fixed bug #1186 (Invalid replacing XmList selected
+	items) by Dmytro Rusyy.
+
+2004-11-15  Yuriy Syrota  <yura@ics.com>
+
+	* TextF.c: Fixed bug #1214 (Cannot set a string to XmTextField with
+	XtSetValues when XmNmodifyVerifyCallback is set) by Dmytro Rusyy.
+
+2004-11-08  Yuriy Syrota  <yura@ics.com>
+
+	* TextStrSo.c: Fixed bug #1279 (XmTextGetSelectionPosition returns
+	incorrect values after deleting selection).
+
+2004-11-07  Yuriy Syrota  <yura@ics.com>
+
+	* acinclude.m4, clients/uil/Makefile.am: Adopted building scripts
+	to automake 1.9.
+
+2004-09-14  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/MenuUtil.c: Fixed bug #1269 (RedHat's bug #123027).
+
+2004-09-14  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/MenuShell.c: Fixed bug #1262 (Entering Esc key before
+	pulldown menu realized crashes).
+
+2004-09-13  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/ResEncod.c: Fixed bug #1268 (XmCvtXmStringToCT improperly
+	handles empty string).
+
+2004-09-10  Yuriy Syrota  <yura@ics.com>
+
+	* tools/wml/motif.wml: Added missing and removed superfluous
+	resources in provisional widgets. Added XmDataField widget.
+
+2004-09-06  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/DataFP.h, lib/Xm/DataF.c: Avoided of using XmPartOffset
+	in DataField. Made the widget correctly based on TextField's
+	stucture.
+	* lib/Xm/XmAll.h: Added DataField.h and TabBox.h to XmAll.h.
+
+2004-09-06  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/TabStack.h, lib/Xm/Xm.h: Moded XmTabStackCallbackStruct
+	to XmP.h.
+	* lib/Xm/TabBox.h, lib/Xm/Xm.h: Moded XmTabBoxCallbackStruct
+	to XmP.h.
+
+2004-09-03  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/Ext18List.c: Added synthetic resolution independent
+	conversion of width/height resources to ExtendedList.
+
+2004-09-02  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/ComboBox2.c: Used XmStringUnparse() instead of
+	non-standard handling.
+
+2004-09-02  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/Ext18List.c: Created working mirror of I18List
+	resources passed to agregated I18List widget.
+
+2004-09-01  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/Ext18List.c, lib/Xm/Ext18List.h: Added wide character string
+	value of search string to ExtendedListCallbackStruct.
+
+2004-08-30  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/ComboBox2.c, lib/Xm/ComboBox2.h: Made DropDown
+	using XmGrabShell instead of TopLevelShell.
+
+2004-08-09  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/Column.c, lib/Xm/ComboBox2.c, lib/Xm/Ext.h,
+	lib/Xm/FontS.c, lib/Xm/Hierarchy.c, lib/Xm/I18List.c,
+	lib/Xm/IconBox.c, lib/Xm/Paned.c, lib/Xm/TabStack.c,
+	lib/Xm/ExtUtil.c: Got rid of using XtAppWarningMag where
+	XmeWarning() and _XmWarningMsg() are customary.
+
+2004-07-08  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/Ext18List.c, lib/Xm/Messages.c, lib/Xm/MessagesI.c,
+	lib/Xm/XmMsgI.h, lib/Xm/libxm.elist: Moved
+	messages from Ext18List.c to central XmString repository.
+	* lib/Xm/Ext18List.c: Got rid of obsolete XmStringCreateRtoL()
+	call in Ext18List.c.
+
+2004-07-07  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/ButtonBox.c, lib/Xm/ButtonBoxP.h, lib/Xm/ColorS.c,
+	lib/Xm/ColorSP.h, lib/Xm/Column.c, lib/Xm/ColumnP.h, lib/Xm/ComboBox2.c,
+	lib/Xm/ComboBox2P.h, lib/Xm/Ext18List.c, lib/Xm/Ext18ListP.h,
+	lib/Xm/FontS.c, lib/Xm/FontSP.h, lib/Xm/Hierarchy.c,
+	lib/Xm/HierarchyP.h, lib/Xm/I18List.c, lib/Xm/IconBox.c,
+	lib/Xm/IconBoxP.h, lib/Xm/IconButton.h, lib/Xm/IconButtonP.h,
+	lib/Xm/Outline.c, lib/Xm/OutlineP.h, lib/Xm/Paned.c, lib/Xm/PanedP.h,
+	lib/Xm/TabBox.c, lib/Xm/TabBoxP.h, lib/Xm/TabStack.c,
+	lib/Xm/TabStackP.h, lib/Xm/Tree.c, lib/Xm/TreeP.h: Got rid
+	of using XmResolveAllpatrOffsets() in all provosional widgets
+	but DataField.
+
+2004-06-29  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/MenuShell.c: Fixed bug #1260 by Andreas Luik.
+
+2004-06-24  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/FontS.c: Fix invalid cast.
+	* lib/Xm/Resolve.c: Fixes for 64-bit platforms.
+	* localized/util/mkcatdefs.c: Fix for POSIX systems: it is impossible
+	to create an array with size NL_TEXTMAX == MAX_INT.
+
+2004-06-23  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/DataF.ch: Fixed bug #1258 (RedHat's bug #124961).
+
+2004-06-23  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/TextF.ch: Fixed bug #1257 (RedHat's bug #124960).
+
+2004-04-23  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/Ext18List.[ch]: Fixed bug #1256.
+
+2004-04-16  Yuriy Syrota  <yura@ics.com>
+
+        * lib/Xm/I18List.c, lib/Xm/TabStack.c, configure.ac:
+	Added support for FreeBSD.
+
+2004-04-16  Yuriy Syrota  <yura@ics.com>
+
+        * lib/Xm/XmRenderT.c: Fixed incorrect XmRenderTableToProp() behavior
+	appeared in RendToProp test. The function wrote -1 is background or
+	foreground pixel value is XmAS_IS, but XmAS_IS has the same value as
+	blue color pixel (255), besides background or foreground can't equal
+	XmAS_IS in this place. So I just removed this logic.
+
+2004-04-15  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/PushB.c, lib/Xm/PushBG.c, lib/Xm/TabBox.c,
+	lib/Xm/TabList.c, lib/Xm/TranslNew.c, lib/Xm/Transltns.c,
+	lib/Xm/VendorSE.c, lib/Xm/XmIm.c: Removed compilation warnings.
+
+2004-04-07  Yuriy Syrota  <yura@ics.com>
+
+	* lib/Xm/CutPaste.c: Fixed incorrect XmClipboardCopyByName()
+	behavior appeared in CutPaste2 test.
+
+2004-03-23  Yuriy Syrota  <yura@ics.com>
+
+        * lib/Xm/ArrowB.[ch]: Added XmVaCreateArrowButton() and
+	XmVaCreateManagedArrowButton() functions.
+	* lib/Xm/ArrowBG.[ch]: Added XmVaCreateArrowButtonGadget() and
+	XmVaCreateManagedArrowButtonGadget() functions.
+        * lib/Xm/BulletinB.[ch]: Added XmVaCreateBulletinBoard() and
+	XmVaCreateManagedBulletinBoard() functions.
+	* lib/Xm/ButtonBox.c, lib/Xm/XmP.h: Added Fast subclassing support.
+	* lib/Xm/ButtonBox.c, lib/Xm/ButtonBoxP.h: Added XmQtakesDefault trait
+        support.
+	* lib/Xm/ButtonBox.[ch]: Added XmVaCreateButtonBox() and
+	XmVaCreateManagedButtonBox() functions.
+	* lib/Xm/CascadeB.[ch]: Added XmVaCreateCascadeButton() and
+	XmVaCreateManagedCascadeButton() functions.
+	* lib/Xm/CascadeBG.[ch]: Added XmVaCreateCascadeButtonGadget() and
+	XmVaCreateManagedCascadeButtonGadget() functions.
+	* lib/Xm/ChColor.c: Fixed bug #1226 (XmChangeColor() behaviour
+        incorrect on ToggleButtons).
+	* lib/Xm/ColorObjP.h: Declared XmeGetPixelData().
+	* lib/Xm/ColorS.c, lib/Xm/XmP.h: Added Fast Subclassing support to
+        Color Selector.
+	* lib/Xm/ColorS.c, lib/Xm/Ext.h: Used XmeWarning() instead of
+        XtAppWarningMsg().
+	* lib/Xm/ColorS.[ch]: Added XmVaCreateColorSelector() and
+	XmVaCreateManagedColorSelector() functions.
+	* lib/Xm/Column.c, lib/Xm/ColumnP.h: Added Render Table support.
+	* lib/Xm/Column.c, XmP.h: Added Fast Subclassing support.
+	* lib/Xm/Column.c: Improved multi-threading support.
+	* lib/Xm/Column.c: Added Layut dirrection support.
+	* lib/Xm/Column.[ch]: Added XmVaCreateColumn() and
+        XmVaCreateManagedColumn() functions.
+	* lib/Xm/ComboBox.[ch]: Added XmVaCreateComboBox() and
+	XmVaCreateManagedComboBox() functions.
+	* lib/Xm/ComboBox2.c: Added Layout Direction support.
+	* lib/Xm/ComboBox2.[ch]: Added XmVaCreateCombibationBox2() and
+	XmVaCreateManagedCombinationBox2() functions.
+	* lib/Xm/ComboBox2.[ch]: Added XmCombinationBox2GetChild() functions.
+	* lib/Xm/Command.[ch]: Added XmVaCreateCommand() and
+	XmVaCreateManagedCommand() functions.
+	* lib/Xm/Container.[ch]: Added XmVaCreateContainer() and
+	XmVaCreateManagedContainer() functions.
+	* lib/Xm/DataF.c, lib/Xm/DataFP.h: Added Render Table support.
+	* lib/Xm/DataF.c: Avoided using obsolete functions.
+	* lib/Xm/DataF.c: Added Drag-and-Drop support and XmQTtransfer trait.
+	* lib/Xm/DataF.c: Added support of XmQTaccessTextual trait.
+	* lib/Xm/DataF.c, XmP.h: Added Fast Subclassing support.
+	* lib/Xm/DataF.[ch]: Added XmVaCreateDataField() and
+	XmVaCreateManagedDataFiled() functions.
+	* lib/Xm/DrawingA.[ch]: Added XmVaCreateDrawingArea() and
+	XmVaCreateManagedDrawingArea() functions.
+	* lib/Xm/DrawnB.[ch]: Added XmVaCreateDrawnButton() and
+	XmVaCreateManagedDrawnButton() functions.
+	* lib/Xm/Ext18List.c: Avoided using obsolete functions.
+	* lib/Xm/Ext18List.c, lib/Xm/XmP.h: Added Fast Subclassing support.
+	* lib/Xm/Ext18List.c: Added Layout Direction support.
+	* lib/Xm/Ext18List.[ch]: Added XmVaCreateExt18List() and
+	XmVaCreateManagedExt18List() functions.
+	* lib/Xm/Ext18List.c, lib/Xm/Ext18ListP.h: Added Render Table support.
+	* lib/Xm/FileSB.[ch]: Added XmVaCreateFileSelectionBox() and
+	XmVaCreateManagedFileSelectionBox().
+	* lib/Xm/FontS.c, lib/Xm/XmP.h: Added Fast Subclassing support.
+	* lib/Xm/Form.[ch]: Added XmVaCreateForm() and XmVaCreateManagedForm()
+	functions.
+	* lib/Xm/Frame.[ch]: Added XmVaCreateFrame() and XmVaCreateManagedFrame()
+	functions.
+	* lib/Xm/I18List.c: Added Drand-and-Drop and XmQTtransfer trait support.
+	* lib/Xm/I18List.c,lib/Xm/XmP.h: Added Fast Subclassing support.
+	* lib/Xm/I18List.c: Added Layout Direction support.
+	* lib/Xm/I18List.c: Added Render Table support.
+	* lib/Xm/IconBox.c, IconBoxP.h: Added Render Table support.
+	* lib/Xm/IconBox.c, XmP.h: Added Fast Subclassing support.
+	* lib/Xm/IconBox.c: Added support of XmQTactivate trait.
+	* lib/Xm/IconFile.c: Fixed bug #1231 (MakeCachedDirEntry function can
+        corrupt memory).
+	* lib/Xm/IconG.[ch]: Added XmVaCreateIconGadget() and
+	XmVaCreateManagedIconGadget() functions.
+	* lib/Xm/Label.[ch]: Added XmVaCreateLabel() and
+        XmVaCreateManagedLabel() functions.
+	* lib/Xm/Label.[ch]: Added possibility to show pixmap and text simultaneously.
+	* lib/Xm/LabelG.[ch]: Added XmVaCreateLabelGadget() and
+	XmVaCreateManagedLabelGadget() functions.
+	* lib/Xm/LabelG.[ch]: Added possibility to show pixmap and text simultaneously.
+	* lib/Xm/List.[ch]: Added XmVaCreateList() and XmVaCreateManagedList() functions.
+	* lib/Xm/MainW.[ch]: Added XmVaCreateMainWindow() and
+	XmVaCreateManagedMainWindow() functions.
+	* lib/Xm/MessageB.[ch]: Added XmVaCreateMessageBox() and
+	XmVaCreateManagedMessageBox() functions.
+	* lib/Xm/Notebook.[ch]: Added XmVaCreateNotebook() and
+	XmVaCreateManagedNotebook() functions.
+	* lib/Xm/Paned.c: Added Layout Direction support.
+	* lib/Xm/PanedW.[ch]: Added XmVaCreatePanedWindow() and
+        XmVaCreateManagedPanedWindow() functions.
+	* lib/Xm/PushB.[ch]: Added XmVaCreatePushButton() and
+        XmVaCreateManagedPushButton() functions.
+	* lib/Xm/PushBG.[ch]: Added XmVaCreatePushButtonGadget() and
+        XmVaCreateManagedPushButtonGadget() functions.
+	* lib/Xm/RCMenu.c, lib/Xm/Teroff.c: Added possibility to show pixmap and text in menu
+        items simultaneously.
+        * lib/Xm/RepType.c, lib/Xm/RepTypeI.h: Added new label type - XmPIXMAP_AND_STRING, added pixmap
+        placement contacts.
+        * lib/Xm/ResConvert.c: Avoided compilation warnings.
+	* lib/Xm/RowColonm.[ch]: Added XmVaCreateRowColumn() and
+        XmVaCreateManagedRowColumn() functions.
+	* lib/Xm/SpinB.[ch]: Added XmVaCreateSpinButton() and
+        XmVaCreateManagedSpinButton() functions.
+	* lib/Xm/ScrollBar.[ch]: Added XmVaCreateScrollBar() and
+        XmVaCreateManagedScrollBar() functions.
+        * lib/Xm/ScrolledW.c: Fixed bug #1230 (ScrolledW.c MoveWindow() dumps core if
+        focus == NULL).
+	* lib/Xm/ScrolledW.[ch]: Added XmVaCreateScrolledWindow() and
+        XmVaCreateManagedScrolledWindow() functions.
+	* lib/Xm/SelectionB.[ch]: Added XmVaCreateSelectionBox() and
+        XmVaCreateManagedSelectionBox() functions.
+        * lib/Xm/TabBox.c, lib/Xm/TabBoxP.h: Added Render Table support.
+        * lib/Xm/TabBox.c: Added fast Subclassing support.
+        * lib/Xm/TabBox.c: Avoided compilation warnings.
+        * lib/Xm/TabBox.c: Added Layout Direction support.
+        * lib/Xm/TabList.c: Avoided compilation warnings.
+        * lib/Xm/TabStack.c: Added Render Table support.
+        * lib/Xm/TabStack.c: Added Layut Direction support.
+        * lib/Xm/TabStack.[ch]: Added XmVaCreateTabStack() and
+        XmVaCreateManagedTabStack() fucntions.
+        * lib/Xm/TabStack.c: Avoided compilation warnings.
+        * lib/Xm/TextFSel.c: Fixed bug #1228 (DoStuff() can dereference NULL
+        prim_select).
+        * lib/Xm/ToggleB.[ch]: Added XmVaCreateToggleButton() and
+        XmVaCreateManagedToggleButton() functions.
+        * lib/Xm/ToggleBG.[ch]: Added XmVaCreateToggleButtonGadget() and
+        XmVaCreateManagedToggleButtonGadget() functions.
+        * lib/Xm/ToolTip.c: Added Layut Direction support.
+        * lib/Xm/Tree.c, lib/Xm/XmP.h: Added Fast Subclassing support.
+        * lib/Xm/Tree.c: Avoided compilation warnings.
+        * lib/Xm/XmAll.h: Included XmTabStack and XmColumn header files.
+        * lib/Xm/XmString.c: Fixed a bug in XmStringCompare() (the functions doesn't
+        work correct if first argument is an optimized string and second
+        argument isn't).
+
+2004-03-23  Robert Hartley  <rhartley@ics.com>
+
+	* lib/Xm/DialogS.c, lib/Xm/Obso2_0.c, lib/Xm/Protocols.c,
+        lib/Xm/VendorSE.c: Fixed bug #1140 (fixing return values from
+        _XmGetWidgetExtData() for NULL to avoid dereferencing it).
+	* lib/Xm/DropTrans.c, lib/Xm/ExtObject.c: Fixed bug #1146.
+        * lib/Xm/XmExtUtil.c: Removed unnecesary cases, improved thread safety.
+        * lib/Xm/XmRenderT.c: Fixed bug #1152 (64-bit int/long botch in XmRenderT.c).
+        * clients/mwm/WmResParse.c: Fixed bug #1127 (Cannot load Java
+        TextEditor3).
+
+2004-03-23  James E Kogler  <jimk@ics.com>
+
+        * lib/Xm/SpinB.h, lib/Xm/XSpinBP.h: Fixed headerfile protective #ifndef names by
+        adding Xm to the definitions in an attempt to prevent namespace
+        collisions.
+	* lib/Xm/Scale.[ch]: Added XmVaCreateScale() and XmVaCreateManagedScale() functions.
+        * lib/Xm/Screen.c: Fixed the include path for Xm.h.
+	* lib/Xm/SeparatoG.[ch]: Added XmVaCreateSeparatorGadget() and
+        XmVaCreateManagedSeparatorGadget() functions.
+	* lib/Xm/Separator.[ch]: Added XmVaCreateSeparator() and
+        XmVaCreateManagedSeparator() functions.
+        * lib/Xm/SlideCP.h: Fixed the include path for SlideC.h.
+	* lib/Xm/SpinB.[ch]: Added XmVaCreateSpinButton() and XmVaCreateManagedSpinButton()
+        functions.
+        * lib/Xm/TabStack.h, lib/Xm/TabStackP.h: Fixed headerfile protective #ifndef names
+        by adding Xm to the definitions in an attempt to prevent namespace collisions.
+        * lib/Xm/TabStackP.h: Added copyright statement.
+        * lib/Xm/Text.[ch]: Added XmVaCreateText() and XmVaCreateManagedText()
+        functions.
+        * lib/Xm/TextF.[ch]: Added XmVaCreateTextField() and
+        XmVaCreateManagedTextField() functions.
+        * lib/Xm/TextF.c: Used native wide character fucntions for all FreeBSD and
+        Darwin systems.
+        * lib/Xm/TreeB.h, lib/Xm/TreeBP.h: Fixed headerfile protective #ifndef names by
+        adding Xm to the definitions in an attempt to prevent namespace
+        collisions.
+        * lib/Xm/VaSimple.c, lib/Xm/XmP.h: Made Simple Va Convience routines for all to use.
+        Added declarations to XmP.h and added functions to VaSimple.c.
+        * lib/Xm/XmStrDefs.ht: Protected the #defines with #ifndefs.
+
+2003-08-19  Yuriy Syrota  <yura@ics.com>
+
+        * clients/xmbind/xmbind.c: Avoided compilation warnings.
+
+2003-07-18  Rick Scott  <rwscott@omnisig.com>
+
+        * clients/uil/Makefile.am: -version-info is not appropriate for the uil
+        program, just the library.
+
+2002-02-21  James Moss  <moss@ics.com>
+
+        * lib/Xm/ScrolledW.c: Patch applied in hopes of fixing segmentation fault on
+        PageUp/Down in XmMainWindow submitted by Vadim Godunko.
+
+2002-02-23  Rick Scott  <rwscott@omnisig.com>
+
+        * clients/mwm/WmWsmLib/Makefile.am: Get X_CFLAGS as the last include.
+
+2002-02-23  Rick Scott  <rwscott@omnisig.com>
+
+        * clients/mwm/WmWsmLib/Makefile.am: Added support for maintainer-clean
+        target.
+

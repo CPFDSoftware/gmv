@@ -1,0 +1,130 @@
+# DO NOT DELETE
+
+id_objects.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+id_objects.o: ../../../../src/gallium/include/pipe/p_context.h
+id_objects.o: ../../../../src/gallium/include/pipe/p_state.h
+id_objects.o: ../../../../src/gallium/include/pipe/p_compiler.h
+id_objects.o: ../../../../src/gallium/include/pipe/p_config.h
+id_objects.o: /usr/include/stdlib.h /usr/include/features.h
+id_objects.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+id_objects.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+id_objects.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+id_objects.o: /usr/include/string.h
+id_objects.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+id_objects.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+id_objects.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+id_objects.o: ../../../../src/gallium/include/pipe/p_defines.h
+id_objects.o: ../../../../src/gallium/include/pipe/p_format.h
+id_objects.o: ../../../../src/gallium/include/pipe/p_screen.h
+id_objects.o: ../../../../src/gallium/include/pipe/p_compiler.h
+id_objects.o: ../../../../src/gallium/include/pipe/p_format.h
+id_objects.o: ../../../../src/gallium/include/pipe/p_defines.h
+id_objects.o: ../../../../src/gallium/include/pipe/p_state.h
+id_objects.o: ../../../../src/gallium/include/pipe/p_screen.h
+id_objects.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+id_objects.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+id_objects.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+id_objects.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+id_objects.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+id_objects.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+id_objects.o: ../../../../src/gallium/include/pipe/p_config.h
+id_objects.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+id_objects.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+id_objects.o: id_screen.h id_objects.h
+id_objects.o: ../../../../src/gallium/include/pipe/p_video_state.h
+id_context.o: ../../../../src/gallium/include/pipe/p_context.h
+id_context.o: ../../../../src/gallium/include/pipe/p_state.h
+id_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+id_context.o: ../../../../src/gallium/include/pipe/p_config.h
+id_context.o: /usr/include/stdlib.h /usr/include/features.h
+id_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+id_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+id_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+id_context.o: /usr/include/string.h
+id_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+id_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+id_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+id_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+id_context.o: ../../../../src/gallium/include/pipe/p_format.h
+id_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+id_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+id_context.o: ../../../../src/gallium/include/pipe/p_format.h
+id_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+id_context.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+id_context.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+id_context.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+id_context.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+id_context.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+id_context.o: ../../../../src/gallium/include/pipe/p_config.h
+id_context.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+id_context.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+id_context.o: id_context.h ../../../../src/gallium/include/pipe/p_state.h
+id_context.o: id_objects.h
+id_context.o: ../../../../src/gallium/include/pipe/p_video_state.h
+id_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+id_context.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+id_context.o: ../../../../src/gallium/auxiliary/util/u_atomic.h id_screen.h
+id_screen.o: ../../../../src/gallium/include/pipe/p_screen.h
+id_screen.o: ../../../../src/gallium/include/pipe/p_state.h
+id_screen.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+id_screen.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+id_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+id_screen.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+id_screen.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+id_screen.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+id_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+id_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+id_screen.o: /usr/include/stdlib.h /usr/include/features.h
+id_screen.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+id_screen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+id_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+id_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+id_screen.o: id_public.h id_screen.h
+id_screen.o: ../../../../src/gallium/include/pipe/p_defines.h id_context.h
+id_screen.o: ../../../../src/gallium/include/pipe/p_context.h
+id_screen.o: ../../../../src/gallium/include/pipe/p_state.h
+id_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+id_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+id_screen.o: /usr/include/string.h
+id_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+id_screen.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+id_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+id_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+id_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+id_screen.o: ../../../../src/gallium/include/pipe/p_screen.h
+id_screen.o: ../../../../src/gallium/include/pipe/p_format.h id_objects.h
+id_screen.o: ../../../../src/gallium/include/pipe/p_video_state.h
+id_screen.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+id_screen.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+id_drm.o: ../../../../src/gallium/include/state_tracker/drm_api.h
+id_drm.o: ../../../../src/gallium/include/pipe/p_compiler.h
+id_drm.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+id_drm.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+id_drm.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+id_drm.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+id_drm.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+id_drm.o: ../../../../src/gallium/include/pipe/p_config.h
+id_drm.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+id_drm.o: /usr/include/stdlib.h /usr/include/features.h
+id_drm.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+id_drm.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+id_drm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+id_drm.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h id_drm.h
+id_drm.o: id_screen.h ../../../../src/gallium/include/pipe/p_screen.h
+id_drm.o: ../../../../src/gallium/include/pipe/p_defines.h id_public.h
+id_drm.o: id_objects.h ../../../../src/gallium/include/pipe/p_state.h
+id_drm.o: ../../../../src/gallium/include/pipe/p_video_state.h
+id_drm.o: ../../../../src/gallium/include/pipe/p_format.h
+id_drm.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+id_drm.o: ../../../../src/gallium/include/pipe/p_context.h
+id_drm.o: ../../../../src/gallium/include/pipe/p_state.h
+id_drm.o: ../../../../src/gallium/include/pipe/p_compiler.h
+id_drm.o: ../../../../src/gallium/include/pipe/p_config.h
+id_drm.o: /usr/include/string.h
+id_drm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+id_drm.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+id_drm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+id_drm.o: ../../../../src/gallium/include/pipe/p_defines.h
+id_drm.o: ../../../../src/gallium/include/pipe/p_format.h
+id_drm.o: ../../../../src/gallium/include/pipe/p_screen.h
+id_drm.o: ../../../../src/gallium/auxiliary/util/u_atomic.h

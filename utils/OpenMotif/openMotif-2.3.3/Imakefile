@@ -1,0 +1,146 @@
+XCOMM 
+XCOMM @OPENGROUP_COPYRIGHT@
+XCOMM COPYRIGHT NOTICE
+XCOMM Copyright (c) 1990, 1991, 1992, 1993 Open Software Foundation, Inc.
+XCOMM Copyright (c) 1996, 1997, 1998, 1999, 2000 The Open Group
+XCOMM ALL RIGHTS RESERVED (MOTIF). See the file named COPYRIGHT.MOTIF for
+XCOMM the full copyright text.
+XCOMM 
+XCOMM This software is subject to an open license. It may only be
+XCOMM used on, with or for operating systems which are themselves open
+XCOMM source systems. You must contact The Open Group for a license
+XCOMM allowing distribution and sublicensing of this software on, with,
+XCOMM or for operating systems which are not Open Source programs.
+XCOMM 
+XCOMM See http://www.opengroup.org/openmotif/license for full
+XCOMM details of the license agreement. Any use, reproduction, or
+XCOMM distribution of the program constitutes recipient's acceptance of
+XCOMM this agreement.
+XCOMM 
+XCOMM EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS
+XCOMM PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+XCOMM KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY
+XCOMM WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY
+XCOMM OR FITNESS FOR A PARTICULAR PURPOSE
+XCOMM 
+XCOMM EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT
+XCOMM NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT,
+XCOMM INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+XCOMM DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED
+XCOMM AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+XCOMM LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+XCOMM ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE
+XCOMM EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE
+XCOMM POSSIBILITY OF SUCH DAMAGES.
+XCOMM 
+XCOMM 
+XCOMM HISTORY
+XCOMM 
+XCOMM   $TOG: Imakefile /main/22 1999/05/19 17:00:13 mgreess $
+#define IHaveSubdirs
+#define PassCDebugFlags CDEBUGFLAGS="$(CDEBUGFLAGS)"
+
+RELEASE = "Release 2.3.3"
+PRODUCT = "Motif"
+#if BuildMotifDemos
+      DEMOSDIRECTORY = demos
+#endif
+      SUBDIRS = config localized lib tools/wml clients $(DEMOSDIRECTORY) \
+	bitmaps bindings doc/man
+      CDE_SUBDIRS = lib clients/uil clients/xmbind
+
+MakeSubdirs($(SUBDIRS))
+DependSubdirs($(SUBDIRS))
+
+#define IHaveSpecialMakefileTarget
+Makefile:: xmakefile
+ImakeDependency(xmakefile)
+xmakefile:: Imakefile
+	RMoveToBakFile(xmakefile)
+	$(IMAKE_CMD) -s xmakefile -DTOPDIR=$(TOP) -DCURDIR=$(CURRENT_DIR)
+
+
+VerifyOS::
+	@echo ""
+	@echo Building on OSName.
+	@echo ""
+
+includes::
+	MakeDir($(BUILDINCDIR))
+	MakeDir($(BUILDLIBDIR))
+	MakeDir($(BUILDDOCDIR))
+	MakeDir($(BUILDLOCDIR))
+
+XCOMM
+XCOMM Watch out!!!  Make sure you do make includes after removing X11....
+XCOMM
+clean::
+	$(RM) -r $(BUILDINCDIR)
+	$(RM) -r $(BUILDLIBDIR)
+	$(RM) -r $(BUILDDOCDIR)
+	$(RM) -r $(BUILDLOCDIR)
+
+      WORLDOPTS = -k
+      MAKE_OPTS = -f xmakefile
+
+XCOMM 
+XCOMM install; create the directories that we're going to need
+XCOMM 
+
+#ifdef UseInstalled
+TESTS_IMAKE = $(IMAKE) -DUseInstalled
+#else
+TESTS_IMAKE = ../$(IMAKE)
+#endif
+DIRS_TO_CREATE = $(USRLIBDIR) $(BINDIR) $(INCDIR) $(USRINCDIR) $(LIBDIR) $(XAPPLOADDIR)
+CDE_DIRS_TO_CREATE = $(USRLIBDIR) $(BINDIR) $(PROJECTROOT)/share/include
+
+MakeDirectories(install, $(DIRS_TO_CREATE))
+MakeDirectories(install.cde, $(CDE_DIRS_TO_CREATE))
+
+LinkFileList(install.cde,include,$(PROJECTROOT),share)
+
+NamedTargetSubdirs(install.cde,$(CDE_SUBDIRS),"installing",DESTDIR=$(DESTDIR),install)
+
+Everything::
+	@echo ""
+	@echo "Rebuilding $(RELEASE) of $(PRODUCT)"
+	@echo ""
+	@date
+	@echo ""
+	cd $(IMAKESRC) && if [ -f Makefile ]; then \
+	    $(MAKE) $(MFLAGS) BOOTSTRAPCFLAGS="$(BOOTSTRAPCFLAGS)"; \
+	else \
+	    $(MAKE) $(MFLAGS) -f Makefile.ini BOOTSTRAPCFLAGS="$(BOOTSTRAPCFLAGS)"; \
+	fi
+	-$(RM) xmakefile.bak; $(MV) xmakefile xmakefile.bak
+	$(MAKE) $(MFLAGS) -f xmakefile.bak xmakefile
+	$(MAKE) $(MFLAGS) $(MAKE_OPTS) Makefiles
+	$(MAKE) $(MFLAGS) $(MAKE_OPTS) testsMakefile
+	$(MAKE) $(MFLAGS) $(MAKE_OPTS) includes
+	$(MAKE) $(MFLAGS) $(MAKE_OPTS) depend
+	$(MAKE) $(MFLAGS) $(MAKE_OPTS) $(WORLDOPTS)
+	@echo ""
+	@date
+	@echo ""
+	@echo "Rebuild of $(RELEASE) of $(PRODUCT) complete."
+	@echo ""
+
+XCOMM clean out link tree looking for stuff that should get checked in
+dangerous_strip_clean::
+	make -k clean
+	find . -type l -exec rm {} \;
+	find . \( \! \( -type d -o -name Makefile \) \) -print
+
+XCOMM Bootstrap the toplevel Makefile in tests subdirectory.
+
+testsMakefile::
+	-if [ -d tests ] ; then \
+	cd tests; if [ -f Makefile ] ; then set -x; \
+	$(RM) Makefile.bak; $(MV) Makefile Makefile.bak; \
+	fi; \
+	$(TESTS_IMAKE) -I../$(IRULESRC) $(IMAKE_DEFINES) -DTOPDIR=../. -DCURDIR=$(CURRENT_DIR)/tests ; fi
+
+XCOMM special target to determine if the xmakefile exists. 
+XCOMM Works on both Unix and NMAKE.EXE
+xmakefile-exists::

@@ -1,0 +1,13 @@
+#ifndef XmClientLibs
+#define XmClientLibs $(XMLIB) $(XTOOLLIB) $(XLIB)
+#endif
+
+EXTRA_INCLUDES = -I. -I..
+
+SRCS = tree.c bxutil-c.c 
+OBJS = tree.o bxutil-c.o 
+LOCAL_LIBRARIES = -lXm -lXt -lXp -lX11 -lXext
+
+ComplexProgramTarget(tree);
+
+

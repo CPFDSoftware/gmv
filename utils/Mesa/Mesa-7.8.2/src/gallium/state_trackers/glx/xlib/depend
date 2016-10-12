@@ -1,0 +1,178 @@
+# DO NOT DELETE
+
+glx_api.o: ../../../../../include/GL/glx.h /usr/X11R6/include/X11/Xlib.h
+glx_api.o: /usr/include/sys/types.h /usr/include/features.h
+glx_api.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glx_api.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glx_api.o: /usr/include/bits/types.h
+glx_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+glx_api.o: /usr/include/bits/typesizes.h /usr/include/time.h
+glx_api.o: /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h
+glx_api.o: /usr/X11R6/include/X11/Xosdefs.h /usr/X11R6/include/X11/Xutil.h
+glx_api.o: ../../../../../include/GL/gl.h ../../../../../include/GL/glext.h
+glx_api.o: /usr/include/inttypes.h /usr/include/stdint.h
+glx_api.o: /usr/include/bits/wchar.h ../../../../../include/GL/glxext.h
+glx_api.o: xm_api.h ../../../../../src/mesa/main/mtypes.h
+glx_api.o: ../../../../../src/mesa/main/glheader.h
+glx_api.o: ../../../../../include/GL/internal/glcore.h
+glx_api.o: ../../../../../src/mesa/main/config.h
+glx_api.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+glx_api.o: /usr/include/ctype.h /usr/include/endian.h
+glx_api.o: /usr/include/bits/endian.h /usr/include/math.h
+glx_api.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+glx_api.o: /usr/include/bits/mathcalls.h
+glx_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+glx_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+glx_api.o: /usr/include/limits.h /usr/include/stdlib.h /usr/include/stdio.h
+glx_api.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+glx_api.o: /usr/include/gconv.h
+glx_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+glx_api.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+glx_api.o: /usr/include/string.h
+glx_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+glx_api.o: ../../../../../src/mesa/main/mfeatures.h
+glx_api.o: ../../../../../src/mesa/glapi/glapi.h
+glx_api.o: ../../../../../src/mesa/glapi/glthread.h
+glx_api.o: ../../../../../src/mesa/math/m_matrix.h
+glx_api.o: ../../../../../src/mesa/main/simple_list.h
+glx_api.o: ../../../../../src/mesa/main/dd.h
+glx_api.o: ../../../../../src/mesa/state_tracker/st_context.h
+glx_api.o: ../../../../../src/mesa/shader/prog_cache.h
+glx_api.o: ../../../../../src/gallium/include/pipe/p_state.h
+glx_api.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+glx_api.o: ../../../../../src/gallium/include/pipe/p_config.h
+glx_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+glx_api.o: ../../../../../src/gallium/include/pipe/p_defines.h
+glx_api.o: ../../../../../src/gallium/include/pipe/p_format.h
+glx_api.o: ../../../../../src/gallium/include/pipe/p_screen.h
+glx_api.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+glx_api.o: ../../../../../src/gallium/include/pipe/p_format.h
+glx_api.o: ../../../../../src/gallium/include/pipe/p_defines.h
+glx_api.o: ../../../../../src/mesa/state_tracker/st_public.h
+glx_api.o: ../../../../../src/gallium/auxiliary/os/os_thread.h
+glx_api.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+glx_api.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+glx_api.o: /usr/X11R6/include/X11/Xlibint.h /usr/X11R6/include/X11/Xproto.h
+glx_api.o: /usr/X11R6/include/X11/Xmd.h /usr/X11R6/include/X11/Xprotostr.h
+glx_api.o: /usr/X11R6/include/X11/XlibConf.h /usr/include/errno.h
+glx_api.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+glx_api.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+glx_api.o: /usr/include/asm-generic/errno.h
+glx_api.o: /usr/include/asm-generic/errno-base.h
+glx_api.o: /usr/X11R6/include/X11/Xfuncs.h
+glx_api.o: ../../../../../src/mesa/main/context.h
+glx_api.o: ../../../../../src/mesa/main/imports.h
+glx_api.o: ../../../../../src/mesa/main/compiler.h
+glx_api.o: ../../../../../src/mesa/main/glheader.h
+glx_api.o: ../../../../../src/mesa/main/mtypes.h
+glx_api.o: ../../../../../src/mesa/main/macros.h
+glx_api.o: ../../../../../src/mesa/main/imports.h
+glx_api.o: ../../../../../src/mesa/main/version.h
+glx_getproc.o: /usr/include/string.h /usr/include/features.h
+glx_getproc.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glx_getproc.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glx_getproc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+glx_getproc.o: ../../../../../include/GL/glx.h /usr/X11R6/include/X11/Xlib.h
+glx_getproc.o: /usr/include/sys/types.h /usr/include/bits/types.h
+glx_getproc.o: /usr/include/bits/typesizes.h /usr/include/time.h
+glx_getproc.o: /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h
+glx_getproc.o: /usr/X11R6/include/X11/Xosdefs.h
+glx_getproc.o: /usr/X11R6/include/X11/Xutil.h ../../../../../include/GL/gl.h
+glx_getproc.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+glx_getproc.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glx_getproc.o: ../../../../../include/GL/glxext.h
+glx_getproc.o: ../../../../../src/mesa/glapi/glapi.h
+glx_getproc.o: ../../../../../src/mesa/glapi/glthread.h
+glx_getproc.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+glx_usefont.o: ../../../../../src/mesa/main/context.h
+glx_usefont.o: ../../../../../src/mesa/main/imports.h
+glx_usefont.o: ../../../../../src/mesa/main/compiler.h
+glx_usefont.o: ../../../../../src/mesa/main/glheader.h
+glx_usefont.o: ../../../../../src/mesa/main/mtypes.h
+glx_usefont.o: ../../../../../src/mesa/main/imports.h
+glx_usefont.o: ../../../../../include/GL/glx.h /usr/X11R6/include/X11/Xlib.h
+glx_usefont.o: /usr/include/sys/types.h /usr/include/features.h
+glx_usefont.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glx_usefont.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glx_usefont.o: /usr/include/bits/types.h
+glx_usefont.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+glx_usefont.o: /usr/include/bits/typesizes.h /usr/include/time.h
+glx_usefont.o: /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h
+glx_usefont.o: /usr/X11R6/include/X11/Xosdefs.h
+glx_usefont.o: /usr/X11R6/include/X11/Xutil.h ../../../../../include/GL/gl.h
+glx_usefont.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+glx_usefont.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glx_usefont.o: ../../../../../include/GL/glxext.h
+xm_api.o: xm_api.h ../../../../../src/mesa/main/mtypes.h
+xm_api.o: ../../../../../src/mesa/main/glheader.h
+xm_api.o: ../../../../../include/GL/gl.h ../../../../../include/GL/glext.h
+xm_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+xm_api.o: /usr/include/inttypes.h /usr/include/features.h
+xm_api.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xm_api.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+xm_api.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+xm_api.o: ../../../../../include/GL/internal/glcore.h
+xm_api.o: /usr/include/sys/types.h /usr/include/bits/types.h
+xm_api.o: /usr/include/bits/typesizes.h /usr/include/time.h
+xm_api.o: ../../../../../src/mesa/main/config.h
+xm_api.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+xm_api.o: /usr/include/ctype.h /usr/include/endian.h
+xm_api.o: /usr/include/bits/endian.h /usr/include/math.h
+xm_api.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+xm_api.o: /usr/include/bits/mathcalls.h
+xm_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+xm_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+xm_api.o: /usr/include/limits.h /usr/include/stdlib.h /usr/include/stdio.h
+xm_api.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+xm_api.o: /usr/include/gconv.h
+xm_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+xm_api.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+xm_api.o: /usr/include/string.h
+xm_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+xm_api.o: ../../../../../src/mesa/main/mfeatures.h
+xm_api.o: ../../../../../src/mesa/glapi/glapi.h
+xm_api.o: ../../../../../src/mesa/glapi/glthread.h
+xm_api.o: ../../../../../src/mesa/math/m_matrix.h
+xm_api.o: ../../../../../src/mesa/main/simple_list.h
+xm_api.o: ../../../../../src/mesa/main/dd.h
+xm_api.o: ../../../../../src/mesa/state_tracker/st_context.h
+xm_api.o: ../../../../../src/mesa/shader/prog_cache.h
+xm_api.o: ../../../../../src/gallium/include/pipe/p_state.h
+xm_api.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+xm_api.o: ../../../../../src/gallium/include/pipe/p_config.h
+xm_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+xm_api.o: ../../../../../src/gallium/include/pipe/p_defines.h
+xm_api.o: ../../../../../src/gallium/include/pipe/p_format.h
+xm_api.o: ../../../../../src/gallium/include/pipe/p_screen.h
+xm_api.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+xm_api.o: ../../../../../src/gallium/include/pipe/p_format.h
+xm_api.o: ../../../../../src/gallium/include/pipe/p_defines.h
+xm_api.o: ../../../../../src/mesa/state_tracker/st_public.h
+xm_api.o: ../../../../../src/gallium/auxiliary/os/os_thread.h
+xm_api.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+xm_api.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+xm_api.o: /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h
+xm_api.o: /usr/X11R6/include/X11/Xfuncproto.h
+xm_api.o: /usr/X11R6/include/X11/Xosdefs.h /usr/X11R6/include/X11/Xlibint.h
+xm_api.o: /usr/X11R6/include/X11/Xproto.h /usr/X11R6/include/X11/Xmd.h
+xm_api.o: /usr/X11R6/include/X11/Xprotostr.h
+xm_api.o: /usr/X11R6/include/X11/XlibConf.h /usr/include/errno.h
+xm_api.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+xm_api.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+xm_api.o: /usr/include/asm-generic/errno.h
+xm_api.o: /usr/include/asm-generic/errno-base.h
+xm_api.o: /usr/X11R6/include/X11/Xfuncs.h /usr/X11R6/include/X11/Xutil.h
+xm_api.o: ../../../../../src/mesa/main/context.h
+xm_api.o: ../../../../../src/mesa/main/imports.h
+xm_api.o: ../../../../../src/mesa/main/compiler.h
+xm_api.o: ../../../../../src/mesa/main/glheader.h
+xm_api.o: ../../../../../src/mesa/main/mtypes.h
+xm_api.o: ../../../../../src/mesa/main/framebuffer.h
+xm_api.o: ../../../../../src/gallium/include/pipe/p_screen.h
+xm_api.o: ../../../../../src/gallium/include/pipe/p_context.h
+xm_api.o: ../../../../../src/gallium/include/pipe/p_state.h
+xm_api.o: ../../../../../src/gallium/drivers/trace/tr_screen.h
+xm_api.o: ../../../../../src/gallium/drivers/trace/tr_context.h
+xm_api.o: ../../../../../src/gallium/drivers/trace/tr_screen.h
+xm_api.o: ../../../../../src/gallium/drivers/trace/tr_texture.h xm_winsys.h
+xm_api.o: ../../../../../include/GL/glx.h ../../../../../include/GL/glxext.h

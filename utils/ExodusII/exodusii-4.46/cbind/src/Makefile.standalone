@@ -1,0 +1,41 @@
+SRCS = 	ex_conv.c   exgelb.c  exgnsd.c  exgtim.c  expelb.c  expp.c   \
+	ex_utils.c  exgelc.c  exgnsi.c  exgvan.c  expelc.c  exppa.c  \
+	exclos.c    exgenm.c  exgnv.c   exgvnm.c  expenm.c  exppn.c  \
+	excn2s.c    exgev.c   exgnvt.c  exgvp.c   expev.c   expqa.c  \
+	excre.c     exgevt.c  exgp.c    exgvtt.c  expgv.c   expsp.c  \
+	exerr.c     exggv.c   exgpa.c   exinq.c   expinf.c  expss.c  \
+	exgatm.c    exggvt.c  exgpn.c   exopen.c  expini.c  expssd.c \
+	exgcns.c    exginf.c  exgqa.c   exopts.c  expmap.c  exptim.c \
+	exgcon.c    exgini.c  exgsp.c   expcns.c  expnnm.c  expvan.c \
+	exgcor.c    exgmap.c  exgss.c   expcon.c  expnp.c   expvnm.c \
+	exgcss.c    exgnnm.c  exgssd.c  expcor.c  expns.c   expvp.c  \
+	exgeat.c    exgnp.c   exgssi.c  expcss.c  expnsd.c  expvtt.c \
+	exgebi.c    exgns.c   exgssn.c  expeat.c  expnv.c   exupda.c \
+	exgsnl.c    excopy.c  expmp.c   exgmp.c   expem.c   exgem.c  \
+	expnm.c     exgnm.c   exgssc.c  expclb.c  expvpc.c  expfrm.c \
+	exgfrm.c    exgvv.c   expvv.c   expnvv.c  exgnvv.c  exgnvid.c \
+	exgevid.c   expssv.c  expnsv.c  expnstt.c expsstt.c expvpa.c \
+	exgssv.c    exgnsv.c  exgnstt.c exgsstt.c exgssvid.c exgnsvid.c \
+	exgvid.c    exgtt.c   exptt.c   exppem.c  exgpem.c  expnam.c \
+	exgnam.c  expnams.c exgnams.c expean.c  exgean.c expoea.c exgoea.c \
+	exgids.c    exgotv.c  expinix.c exginix.c expcab.c  expconn.c \
+	expatn.c    expatt.c  expvpax.c expvar.c expsetp.c expset.c \
+	expsetd.c   exgblk.c  exgcset.c exgatn.c  exgatt.c  exgconn.c \
+  exgvar.c    exgvart.c exgoatt.c exgsetp.c exgset.c  exgsetd.c \
+  expcset.c   expblk.c  exgnmap.c expoatt.c expnmap.c
+
+OBJS = ${SRCS:.c=.o}
+
+all:: libexoIIv2c.a
+libexoIIv2c.a: $(OBJS)
+	$(AR) $@ $?
+	$(RANLIB) $@
+	cp libexoIIv2c.a ../../
+
+clean::
+	rm -f *.CKP *.ln *.BAK *.bak *.o *.M *.mod core errs ,* *~ *.a .emacs_* tags TAGS make.log MakeOut   "#"*
+
+.SUFFIXES: .c
+.c.o:
+	$(CC) -c $(CFLAGS) $*.c
+

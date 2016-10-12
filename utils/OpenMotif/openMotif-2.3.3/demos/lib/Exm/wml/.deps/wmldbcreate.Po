@@ -1,0 +1,541 @@
+wmldbcreate.o wmldbcreate.o: wmldbcreate.c /usr/include/stdio.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/include/bits/wchar.h /usr/include/gconv.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h ../../../../lib/Mrm/MrmWidget.h \
+  /usr/X11R6/include/X11/IntrinsicP.h /usr/X11R6/include/X11/Intrinsic.h \
+  /usr/X11R6/include/X11/Xlib.h /usr/include/sys/types.h \
+  /usr/include/time.h /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/sys/select.h /usr/include/bits/select.h \
+  /usr/include/bits/sigset.h /usr/include/bits/time.h \
+  /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+  /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+  /usr/X11R6/include/X11/Xosdefs.h /usr/X11R6/include/X11/Xutil.h \
+  /usr/X11R6/include/X11/Xresource.h /usr/include/string.h \
+  /usr/include/bits/string.h /usr/include/bits/string2.h \
+  /usr/include/stdlib.h /usr/X11R6/include/X11/Core.h \
+  /usr/X11R6/include/X11/Composite.h /usr/X11R6/include/X11/Constraint.h \
+  /usr/X11R6/include/X11/Object.h /usr/X11R6/include/X11/RectObj.h \
+  /usr/X11R6/include/X11/CoreP.h /usr/X11R6/include/X11/CompositeP.h \
+  /usr/X11R6/include/X11/ConstrainP.h /usr/X11R6/include/X11/ObjectP.h \
+  /usr/X11R6/include/X11/RectObjP.h /usr/X11R6/include/X11/ShellP.h \
+  /usr/X11R6/include/X11/Shell.h /usr/X11R6/include/X11/SM/SMlib.h \
+  /usr/X11R6/include/X11/SM/SM.h /usr/X11R6/include/X11/ICE/ICElib.h \
+  /usr/X11R6/include/X11/ICE/ICE.h /usr/X11R6/include/X11/VendorP.h \
+  /usr/X11R6/include/X11/Vendor.h ../../../../lib/Mrm/MrmAppl.h \
+  /usr/X11R6/include/X11/StringDefs.h ../../../../lib/Xm/XmP.h \
+  ../../../../lib/Xm/Xm.h /usr/X11R6/include/X11/Xatom.h \
+  ../../../../lib/Xm/XmStrDefs.h ../../../../lib/Xm/XmStrDefs22.h \
+  ../../../../lib/Xm/XmStrDefs23.h ../../../../lib/Xm/VirtKeys.h \
+  ../../../../lib/Xm/Transfer.h ../../../../lib/Xm/DragC.h \
+  ../../../../lib/Xm/Display.h ../../../../lib/Xm/DropSMgr.h \
+  ../../../../lib/Xm/Primitive.h ../../../../lib/Xm/Manager.h \
+  ../../../../lib/Xm/Gadget.h ../../../../lib/Xm/TxtPropCv.h \
+  ../../../../lib/Xm/VendorS.h ../../../../lib/Xm/XmIm.h \
+  ../../../../lib/Xm/ColorP.h ../../../../lib/Xm/AccColorT.h \
+  ../../../../lib/Xm/BaseClassP.h ../../../../lib/Mrm/MrmPublic.h \
+  /usr/X11R6/include/X11/Xmd.h ../../../../lib/Mrm/MrmDecls.h \
+  ../../../../lib/Xm/Label.h ../../../../lib/Xm/LabelG.h \
+  ../../../../lib/Xm/LabelGP.h ../../../../lib/Xm/GadgetP.h \
+  ../../../../lib/Xm/ExtObjectP.h ../../../../lib/Xm/LabelP.h \
+  ../../../../lib/Xm/PrimitiveP.h ../../../../lib/Xm/BulletinB.h \
+  ../../../../lib/Xm/BulletinBP.h ../../../../lib/Xm/ManagerP.h \
+  ../../../../lib/Xm/RowColumn.h ../../../../lib/Xm/RowColumnP.h \
+  ../../../../lib/Xm/ArrowB.h ../../../../lib/Xm/ArrowBG.h \
+  ../../../../lib/Xm/ArrowBGP.h ../../../../lib/Xm/ArrowBP.h \
+  ../../../../lib/Xm/AtomMgr.h ../../../../lib/Xm/CascadeB.h \
+  ../../../../lib/Xm/CascadeBG.h ../../../../lib/Xm/CascadeBGP.h \
+  ../../../../lib/Xm/CascadeBP.h ../../../../lib/Xm/SelectioBP.h \
+  ../../../../lib/Xm/SelectioB.h ../../../../lib/Xm/Command.h \
+  ../../../../lib/Xm/CommandP.h ../../../../lib/Xm/CutPaste.h \
+  ../../../../lib/Xm/DialogS.h ../../../../lib/Xm/DialogSP.h \
+  ../../../../lib/Xm/DrawingA.h ../../../../lib/Xm/DrawingAP.h \
+  ../../../../lib/Xm/DrawnB.h ../../../../lib/Xm/DrawnBP.h \
+  ../../../../lib/Xm/FileSB.h ../../../../lib/Xm/FileSBP.h \
+  ../../../../lib/Xm/Form.h ../../../../lib/Xm/FormP.h \
+  ../../../../lib/Xm/Frame.h ../../../../lib/Xm/FrameP.h \
+  ../../../../lib/Xm/List.h ../../../../lib/Xm/ListP.h \
+  ../../../../lib/Xm/ScrollBar.h ../../../../lib/Xm/ScrolledW.h \
+  ../../../../lib/Xm/XmosP.h ../../../../lib/Xm/Xmfuncs.h \
+  /usr/include/alloca.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h \
+  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h ../../../../lib/Xm/MainW.h \
+  ../../../../lib/Xm/MainWP.h ../../../../lib/Xm/ScrolledWP.h \
+  ../../../../lib/Xm/ScrollFrameT.h ../../../../lib/Xm/NavigatorT.h \
+  ../../../../lib/Xm/SeparatoG.h ../../../../lib/Xm/MenuShell.h \
+  ../../../../lib/Xm/MenuShellP.h ../../../../lib/Xm/MessageB.h \
+  ../../../../lib/Xm/MessageBP.h ../../../../lib/Xm/PanedW.h \
+  ../../../../lib/Xm/PanedWP.h ../../../../lib/Xm/PushB.h \
+  ../../../../lib/Xm/PushBG.h ../../../../lib/Xm/PushBGP.h \
+  ../../../../lib/Xm/PushBP.h ../../../../lib/Xm/SashP.h \
+  ../../../../lib/Xm/Scale.h ../../../../lib/Xm/ScaleP.h \
+  ../../../../lib/Xm/ScrollBarP.h ../../../../lib/Xm/SeparatoGP.h \
+  ../../../../lib/Xm/Separator.h ../../../../lib/Xm/SeparatorP.h \
+  ../../../../lib/Xm/Text.h ../../../../lib/Xm/TextP.h \
+  ../../../../lib/Xm/TextOutP.h ../../../../lib/Xm/TextInP.h \
+  ../../../../lib/Xm/TextStrSoP.h ../../../../lib/Xm/TransferT.h \
+  ../../../../lib/Xm/TransferP.h ../../../../lib/Xm/ToggleB.h \
+  ../../../../lib/Xm/ToggleBG.h ../../../../lib/Xm/ToggleBGP.h \
+  ../../../../lib/Xm/ToggleBP.h ../../../../lib/Xm/MwmUtil.h \
+  ../../../../include/Dt/Editor.h ../../../../include/Dt/Help.h \
+  ../../../../include/Dt/HelpDialog.h ../../../../include/Dt/HelpQuickD.h \
+  ../../../../include/Dt/MenuButton.h ../../../../include/Dt/Print.h \
+  ../../../../include/Dt/TermPrim.h /usr/include/sys/wait.h \
+  /usr/include/signal.h /usr/include/bits/signum.h \
+  /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h \
+  /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h \
+  /usr/include/bits/sigthread.h /usr/include/sys/resource.h \
+  /usr/include/bits/resource.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h ../../../../include/Dt/Term.h \
+  ../../Exm/Simple.h ../../Exm/ExmString.h ../../Exm/StringTrans.h \
+  ../../Exm/CommandB.h ../../Exm/MenuB.h ../../Exm/Panner.h \
+  ../../Exm/Grid.h ../../Exm/TabB.h ../../../../lib/Xm/JoinSideT.h \
+  ../../../../tools/wml/UilDBDef.h ../../../../tools/wml/UilLexPars.h \
+  ../../../../tools/wml/UilSymGen.h ../../../../tools/wml/UilSymArTy.h \
+  ../../../../tools/wml/UilSymRArg.h ../../../../tools/wml/UilSymArTa.h \
+  ../../../../tools/wml/UilSymReas.h ../../../../tools/wml/UilSymCtl.h \
+  ../../../../tools/wml/UilConst.h ../../../../tools/wml/UilSymNam.h \
+  ../../../../tools/wml/UilSymEnum.h ../../../../tools/wml/UilSymCSet.h \
+  ../../../../tools/wml/UilUrmClas.h ../../../../tools/wml/UilKeyTab.h \
+  ../../../../tools/wml/UilSymChCl.h ../../../../tools/wml/UilSymChTa.h
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/gconv.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+../../../../lib/Mrm/MrmWidget.h:
+
+/usr/X11R6/include/X11/IntrinsicP.h:
+
+/usr/X11R6/include/X11/Intrinsic.h:
+
+/usr/X11R6/include/X11/Xlib.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/X11R6/include/X11/X.h:
+
+/usr/X11R6/include/X11/Xfuncproto.h:
+
+/usr/X11R6/include/X11/Xosdefs.h:
+
+/usr/X11R6/include/X11/Xutil.h:
+
+/usr/X11R6/include/X11/Xresource.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/stdlib.h:
+
+/usr/X11R6/include/X11/Core.h:
+
+/usr/X11R6/include/X11/Composite.h:
+
+/usr/X11R6/include/X11/Constraint.h:
+
+/usr/X11R6/include/X11/Object.h:
+
+/usr/X11R6/include/X11/RectObj.h:
+
+/usr/X11R6/include/X11/CoreP.h:
+
+/usr/X11R6/include/X11/CompositeP.h:
+
+/usr/X11R6/include/X11/ConstrainP.h:
+
+/usr/X11R6/include/X11/ObjectP.h:
+
+/usr/X11R6/include/X11/RectObjP.h:
+
+/usr/X11R6/include/X11/ShellP.h:
+
+/usr/X11R6/include/X11/Shell.h:
+
+/usr/X11R6/include/X11/SM/SMlib.h:
+
+/usr/X11R6/include/X11/SM/SM.h:
+
+/usr/X11R6/include/X11/ICE/ICElib.h:
+
+/usr/X11R6/include/X11/ICE/ICE.h:
+
+/usr/X11R6/include/X11/VendorP.h:
+
+/usr/X11R6/include/X11/Vendor.h:
+
+../../../../lib/Mrm/MrmAppl.h:
+
+/usr/X11R6/include/X11/StringDefs.h:
+
+../../../../lib/Xm/XmP.h:
+
+../../../../lib/Xm/Xm.h:
+
+/usr/X11R6/include/X11/Xatom.h:
+
+../../../../lib/Xm/XmStrDefs.h:
+
+../../../../lib/Xm/XmStrDefs22.h:
+
+../../../../lib/Xm/XmStrDefs23.h:
+
+../../../../lib/Xm/VirtKeys.h:
+
+../../../../lib/Xm/Transfer.h:
+
+../../../../lib/Xm/DragC.h:
+
+../../../../lib/Xm/Display.h:
+
+../../../../lib/Xm/DropSMgr.h:
+
+../../../../lib/Xm/Primitive.h:
+
+../../../../lib/Xm/Manager.h:
+
+../../../../lib/Xm/Gadget.h:
+
+../../../../lib/Xm/TxtPropCv.h:
+
+../../../../lib/Xm/VendorS.h:
+
+../../../../lib/Xm/XmIm.h:
+
+../../../../lib/Xm/ColorP.h:
+
+../../../../lib/Xm/AccColorT.h:
+
+../../../../lib/Xm/BaseClassP.h:
+
+../../../../lib/Mrm/MrmPublic.h:
+
+/usr/X11R6/include/X11/Xmd.h:
+
+../../../../lib/Mrm/MrmDecls.h:
+
+../../../../lib/Xm/Label.h:
+
+../../../../lib/Xm/LabelG.h:
+
+../../../../lib/Xm/LabelGP.h:
+
+../../../../lib/Xm/GadgetP.h:
+
+../../../../lib/Xm/ExtObjectP.h:
+
+../../../../lib/Xm/LabelP.h:
+
+../../../../lib/Xm/PrimitiveP.h:
+
+../../../../lib/Xm/BulletinB.h:
+
+../../../../lib/Xm/BulletinBP.h:
+
+../../../../lib/Xm/ManagerP.h:
+
+../../../../lib/Xm/RowColumn.h:
+
+../../../../lib/Xm/RowColumnP.h:
+
+../../../../lib/Xm/ArrowB.h:
+
+../../../../lib/Xm/ArrowBG.h:
+
+../../../../lib/Xm/ArrowBGP.h:
+
+../../../../lib/Xm/ArrowBP.h:
+
+../../../../lib/Xm/AtomMgr.h:
+
+../../../../lib/Xm/CascadeB.h:
+
+../../../../lib/Xm/CascadeBG.h:
+
+../../../../lib/Xm/CascadeBGP.h:
+
+../../../../lib/Xm/CascadeBP.h:
+
+../../../../lib/Xm/SelectioBP.h:
+
+../../../../lib/Xm/SelectioB.h:
+
+../../../../lib/Xm/Command.h:
+
+../../../../lib/Xm/CommandP.h:
+
+../../../../lib/Xm/CutPaste.h:
+
+../../../../lib/Xm/DialogS.h:
+
+../../../../lib/Xm/DialogSP.h:
+
+../../../../lib/Xm/DrawingA.h:
+
+../../../../lib/Xm/DrawingAP.h:
+
+../../../../lib/Xm/DrawnB.h:
+
+../../../../lib/Xm/DrawnBP.h:
+
+../../../../lib/Xm/FileSB.h:
+
+../../../../lib/Xm/FileSBP.h:
+
+../../../../lib/Xm/Form.h:
+
+../../../../lib/Xm/FormP.h:
+
+../../../../lib/Xm/Frame.h:
+
+../../../../lib/Xm/FrameP.h:
+
+../../../../lib/Xm/List.h:
+
+../../../../lib/Xm/ListP.h:
+
+../../../../lib/Xm/ScrollBar.h:
+
+../../../../lib/Xm/ScrolledW.h:
+
+../../../../lib/Xm/XmosP.h:
+
+../../../../lib/Xm/Xmfuncs.h:
+
+/usr/include/alloca.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+../../../../lib/Xm/MainW.h:
+
+../../../../lib/Xm/MainWP.h:
+
+../../../../lib/Xm/ScrolledWP.h:
+
+../../../../lib/Xm/ScrollFrameT.h:
+
+../../../../lib/Xm/NavigatorT.h:
+
+../../../../lib/Xm/SeparatoG.h:
+
+../../../../lib/Xm/MenuShell.h:
+
+../../../../lib/Xm/MenuShellP.h:
+
+../../../../lib/Xm/MessageB.h:
+
+../../../../lib/Xm/MessageBP.h:
+
+../../../../lib/Xm/PanedW.h:
+
+../../../../lib/Xm/PanedWP.h:
+
+../../../../lib/Xm/PushB.h:
+
+../../../../lib/Xm/PushBG.h:
+
+../../../../lib/Xm/PushBGP.h:
+
+../../../../lib/Xm/PushBP.h:
+
+../../../../lib/Xm/SashP.h:
+
+../../../../lib/Xm/Scale.h:
+
+../../../../lib/Xm/ScaleP.h:
+
+../../../../lib/Xm/ScrollBarP.h:
+
+../../../../lib/Xm/SeparatoGP.h:
+
+../../../../lib/Xm/Separator.h:
+
+../../../../lib/Xm/SeparatorP.h:
+
+../../../../lib/Xm/Text.h:
+
+../../../../lib/Xm/TextP.h:
+
+../../../../lib/Xm/TextOutP.h:
+
+../../../../lib/Xm/TextInP.h:
+
+../../../../lib/Xm/TextStrSoP.h:
+
+../../../../lib/Xm/TransferT.h:
+
+../../../../lib/Xm/TransferP.h:
+
+../../../../lib/Xm/ToggleB.h:
+
+../../../../lib/Xm/ToggleBG.h:
+
+../../../../lib/Xm/ToggleBGP.h:
+
+../../../../lib/Xm/ToggleBP.h:
+
+../../../../lib/Xm/MwmUtil.h:
+
+../../../../include/Dt/Editor.h:
+
+../../../../include/Dt/Help.h:
+
+../../../../include/Dt/HelpDialog.h:
+
+../../../../include/Dt/HelpQuickD.h:
+
+../../../../include/Dt/MenuButton.h:
+
+../../../../include/Dt/Print.h:
+
+../../../../include/Dt/TermPrim.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/bits/resource.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+../../../../include/Dt/Term.h:
+
+../../Exm/Simple.h:
+
+../../Exm/ExmString.h:
+
+../../Exm/StringTrans.h:
+
+../../Exm/CommandB.h:
+
+../../Exm/MenuB.h:
+
+../../Exm/Panner.h:
+
+../../Exm/Grid.h:
+
+../../Exm/TabB.h:
+
+../../../../lib/Xm/JoinSideT.h:
+
+../../../../tools/wml/UilDBDef.h:
+
+../../../../tools/wml/UilLexPars.h:
+
+../../../../tools/wml/UilSymGen.h:
+
+../../../../tools/wml/UilSymArTy.h:
+
+../../../../tools/wml/UilSymRArg.h:
+
+../../../../tools/wml/UilSymArTa.h:
+
+../../../../tools/wml/UilSymReas.h:
+
+../../../../tools/wml/UilSymCtl.h:
+
+../../../../tools/wml/UilConst.h:
+
+../../../../tools/wml/UilSymNam.h:
+
+../../../../tools/wml/UilSymEnum.h:
+
+../../../../tools/wml/UilSymCSet.h:
+
+../../../../tools/wml/UilUrmClas.h:
+
+../../../../tools/wml/UilKeyTab.h:
+
+../../../../tools/wml/UilSymChCl.h:
+
+../../../../tools/wml/UilSymChTa.h:

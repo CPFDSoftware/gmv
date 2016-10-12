@@ -1,0 +1,13 @@
+#ifndef XmClientLibs
+#define XmClientLibs $(XMLIB) $(XTOOLLIB) $(XLIB)
+#endif
+
+EXTRA_INCLUDES = -I. -I..
+
+SRCS = iconbuttondemo.c misc.c
+OBJS = iconbuttondemo.o misc.o
+LOCAL_LIBRARIES = -lXm -lXt -lXp -lX11 -lXext
+
+ComplexProgramTarget(iconbuttondemo);
+
+

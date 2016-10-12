@@ -1,0 +1,1010 @@
+# DO NOT DELETE
+
+sp_fs_exec.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_fs_exec.o: /usr/include/stdlib.h /usr/include/features.h
+sp_fs_exec.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_fs_exec.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_fs_exec.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_fs_exec.o: /usr/include/string.h
+sp_fs_exec.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_fs_exec.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_fs_exec.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/os/os_misc.h sp_quad_pipe.h
+sp_fs_exec.o: sp_state.h ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h sp_fs.h
+sp_fs_exec.o: sp_quad.h ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+sp_fs_sse.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_fs_sse.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_fs_sse.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_fs_sse.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_fs_sse.o: /usr/include/stdlib.h /usr/include/features.h
+sp_fs_sse.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_fs_sse.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_fs_sse.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_fs_sse.o: /usr/include/string.h
+sp_fs_sse.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_fs_sse.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_fs_sse.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_fs_sse.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_fs_sse.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_fs_sse.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_fs_sse.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_fs_sse.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_fs_sse.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_fs_sse.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_fs_sse.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_fs_sse.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_fs_sse.o: ../../../../src/gallium/auxiliary/os/os_misc.h sp_quad_pipe.h
+sp_fs_sse.o: sp_state.h ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_fs_sse.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h sp_fs.h
+sp_fs_sse.o: sp_quad.h ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_fs_sse.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_fs_sse.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_fs_sse.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_fs_sse.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_fs_sse.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_fs_sse.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_fs_sse.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_sse2.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_clear.o: ../../../../src/gallium/auxiliary/util/u_pack_color.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_clear.o: ../../../../src/gallium/auxiliary/util/u_format.h
+sp_clear.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_clear.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_clear.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_clear.o: /usr/include/math.h /usr/include/features.h
+sp_clear.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_clear.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_clear.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+sp_clear.o: /usr/include/bits/mathcalls.h
+sp_clear.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_clear.o: sp_clear.h sp_context.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_clear.o: /usr/include/stdlib.h
+sp_clear.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_clear.o: /usr/include/string.h /usr/include/stdint.h
+sp_clear.o: /usr/include/bits/wchar.h
+sp_clear.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_clear.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_state.h sp_quad_pipe.h
+sp_clear.o: sp_query.h sp_tile_cache.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_flush.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_state.h sp_flush.h
+sp_flush.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_flush.o: /usr/include/stdlib.h /usr/include/features.h
+sp_flush.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_flush.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_flush.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_flush.o: /usr/include/string.h
+sp_flush.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_flush.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_flush.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_flush.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_flush.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_flush.o: ../../../../src/gallium/auxiliary/os/os_misc.h sp_quad_pipe.h
+sp_flush.o: sp_state.h ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_flush.o: sp_tile_cache.h sp_tex_tile_cache.h
+sp_query.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_query.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_query.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_query.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_query.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_query.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_query.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_query.o: /usr/include/stdlib.h /usr/include/features.h
+sp_query.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_query.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_query.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_query.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_query.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_query.o: /usr/include/string.h
+sp_query.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_query.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_query.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_query.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_query.o: sp_quad_pipe.h sp_query.h sp_state.h
+sp_query.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_context.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_context.o: ../../../../src/gallium/auxiliary/draw/draw_vbuf.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_context.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_context.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_context.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_context.o: /usr/include/math.h /usr/include/features.h
+sp_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_context.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+sp_context.o: /usr/include/bits/mathcalls.h
+sp_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_context.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_context.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_context.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_context.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_context.o: /usr/include/stdlib.h
+sp_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_context.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_context.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_context.o: /usr/include/string.h /usr/include/stdint.h
+sp_context.o: /usr/include/bits/wchar.h
+sp_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_context.o: ../../../../src/gallium/auxiliary/util/u_atomic.h sp_clear.h
+sp_context.o: sp_context.h
+sp_context.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_context.o: sp_quad_pipe.h sp_flush.h sp_prim_vbuf.h sp_state.h
+sp_context.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_context.o: sp_surface.h sp_tile_cache.h sp_tex_tile_cache.h sp_query.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_draw_arrays.o: /usr/include/stdlib.h /usr/include/features.h
+sp_draw_arrays.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_draw_arrays.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_draw_arrays.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_draw_arrays.o: /usr/include/string.h
+sp_draw_arrays.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_draw_arrays.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_draw_arrays.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/util/u_simple_screen.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/util/u_prim.h
+sp_draw_arrays.o: sp_context.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_draw_arrays.o: sp_quad_pipe.h sp_query.h sp_state.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_prim_vbuf.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_prim_vbuf.o: /usr/include/stdlib.h /usr/include/features.h
+sp_prim_vbuf.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_prim_vbuf.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_prim_vbuf.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_prim_vbuf.o: /usr/include/string.h
+sp_prim_vbuf.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_prim_vbuf.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_prim_vbuf.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/os/os_misc.h sp_quad_pipe.h
+sp_prim_vbuf.o: sp_setup.h sp_state.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_prim_vbuf.o: sp_prim_vbuf.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/draw/draw_vbuf.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/util/u_prim.h
+sp_quad_pipe.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_pipe.o: /usr/include/stdlib.h /usr/include/features.h
+sp_quad_pipe.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_quad_pipe.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_quad_pipe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_quad_pipe.o: /usr/include/string.h
+sp_quad_pipe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_quad_pipe.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_quad_pipe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_pipe.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_quad_pipe.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_quad_pipe.o: ../../../../src/gallium/auxiliary/os/os_misc.h sp_quad_pipe.h
+sp_quad_pipe.o: sp_state.h ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_quad_stipple.o: sp_context.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_stipple.o: /usr/include/stdlib.h /usr/include/features.h
+sp_quad_stipple.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_quad_stipple.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_quad_stipple.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_quad_stipple.o: /usr/include/string.h
+sp_quad_stipple.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_quad_stipple.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_quad_stipple.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_quad_stipple.o: sp_quad_pipe.h sp_quad.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/util/u_format.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_quad_depth_test.o: /usr/include/stdlib.h /usr/include/features.h
+sp_quad_depth_test.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_quad_depth_test.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_quad_depth_test.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_depth_test.o: /usr/include/string.h
+sp_quad_depth_test.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_quad_depth_test.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_quad_depth_test.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_quad_depth_test.o: sp_context.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_quad_depth_test.o: sp_quad_pipe.h sp_quad.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_quad_depth_test.o: sp_tile_cache.h sp_state.h sp_quad_depth_test_tmp.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_quad_fs.o: /usr/include/math.h /usr/include/features.h
+sp_quad_fs.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_quad_fs.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_quad_fs.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+sp_quad_fs.o: /usr/include/bits/mathcalls.h
+sp_quad_fs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_quad_fs.o: /usr/include/stdlib.h
+sp_quad_fs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_fs.o: /usr/include/string.h /usr/include/stdint.h
+sp_quad_fs.o: /usr/include/bits/wchar.h
+sp_quad_fs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_quad_fs.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_state.h sp_quad_pipe.h
+sp_quad_fs.o: sp_state.h ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_quad_fs.o: sp_quad.h ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_quad_blend.o: /usr/include/math.h /usr/include/features.h
+sp_quad_blend.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_quad_blend.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_quad_blend.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+sp_quad_blend.o: /usr/include/bits/mathcalls.h
+sp_quad_blend.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_quad_blend.o: /usr/include/stdlib.h
+sp_quad_blend.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_quad_blend.o: sp_context.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_blend.o: /usr/include/string.h /usr/include/stdint.h
+sp_quad_blend.o: /usr/include/bits/wchar.h
+sp_quad_blend.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_quad_blend.o: sp_quad_pipe.h sp_quad.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_quad_blend.o: sp_tile_cache.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_screen.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_screen.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_screen.o: /usr/include/stdlib.h /usr/include/features.h
+sp_screen.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_screen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_simple_screen.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_screen.h sp_texture.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_video_state.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_screen.o: /usr/include/string.h
+sp_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_screen.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_atomic.h sp_winsys.h
+sp_screen.o: sp_screen.h sp_context.h
+sp_screen.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_screen.o: sp_quad_pipe.h
+sp_setup.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_setup.o: /usr/include/stdlib.h /usr/include/features.h
+sp_setup.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_setup.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_setup.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_setup.o: /usr/include/string.h
+sp_setup.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_setup.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_setup.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_setup.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_setup.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_setup.o: ../../../../src/gallium/auxiliary/os/os_misc.h sp_quad_pipe.h
+sp_setup.o: sp_quad.h ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_setup.o: sp_setup.h sp_state.h
+sp_setup.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_setup.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_setup.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_setup.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_setup.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+sp_setup.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_setup.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_setup.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_setup.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_setup.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_state_blend.o: /usr/include/stdlib.h /usr/include/features.h
+sp_state_blend.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_blend.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_blend.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_state.h sp_context.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_blend.o: /usr/include/string.h
+sp_state_blend.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_state_blend.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_state_blend.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_blend.o: sp_quad_pipe.h sp_state.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_state_clip.o: sp_context.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_clip.o: /usr/include/stdlib.h /usr/include/features.h
+sp_state_clip.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_clip.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_clip.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_state_clip.o: /usr/include/string.h
+sp_state_clip.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_state_clip.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_state_clip.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_clip.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_clip.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_clip.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_state_clip.o: sp_quad_pipe.h sp_state.h
+sp_state_clip.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_state_clip.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_state_derived.o: /usr/include/math.h /usr/include/features.h
+sp_state_derived.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_derived.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_derived.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+sp_state_derived.o: /usr/include/bits/mathcalls.h
+sp_state_derived.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_state_derived.o: /usr/include/stdlib.h
+sp_state_derived.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_derived.o: /usr/include/string.h /usr/include/stdint.h
+sp_state_derived.o: /usr/include/bits/wchar.h
+sp_state_derived.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_derived.o: sp_context.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_derived.o: sp_quad_pipe.h sp_screen.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_derived.o: sp_state.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_derived.o: sp_texture.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_video_state.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_state_derived.o: sp_tex_tile_cache.h
+sp_state_fs.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_state_fs.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_fs.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_fs.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_fs.o: /usr/include/stdlib.h /usr/include/features.h
+sp_state_fs.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_fs.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_fs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_state_fs.o: /usr/include/string.h
+sp_state_fs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_state_fs.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_state_fs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_state_fs.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_fs.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_fs.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_fs.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_fs.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_fs.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_fs.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_fs.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_fs.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_fs.o: ../../../../src/gallium/auxiliary/os/os_misc.h sp_quad_pipe.h
+sp_state_fs.o: sp_state.h ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_fs.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h sp_fs.h
+sp_state_fs.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_state_fs.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_state_fs.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_state_fs.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_fs.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_state_fs.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_state_fs.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_state_fs.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_fs.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_state_fs.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_fs.o: ../../../../src/gallium/auxiliary/draw/draw_vs.h
+sp_state_fs.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_fs.o: ../../../../src/gallium/auxiliary/draw/draw_private.h
+sp_state_fs.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_dump.h
+sp_state_fs.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_state_sampler.o: /usr/include/stdlib.h /usr/include/features.h
+sp_state_sampler.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_sampler.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_sampler.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_sampler.o: sp_context.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_sampler.o: /usr/include/string.h
+sp_state_sampler.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_state_sampler.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_state_sampler.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_sampler.o: sp_quad_pipe.h sp_state.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_state_sampler.o: sp_texture.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_video_state.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_state_sampler.o: sp_tex_sample.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_state_sampler.o: sp_tex_tile_cache.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_state_rasterizer.o: /usr/include/stdlib.h /usr/include/features.h
+sp_state_rasterizer.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_rasterizer.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_rasterizer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_state_rasterizer.o: sp_context.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_rasterizer.o: /usr/include/string.h
+sp_state_rasterizer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_state_rasterizer.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_state_rasterizer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_rasterizer.o: sp_quad_pipe.h sp_state.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_surface.o: sp_context.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_surface.o: /usr/include/stdlib.h /usr/include/features.h
+sp_state_surface.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_surface.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_surface.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_state_surface.o: /usr/include/string.h
+sp_state_surface.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_state_surface.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_state_surface.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_state_surface.o: sp_quad_pipe.h sp_state.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_state_surface.o: sp_tile_cache.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/util/u_format.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_state_vertex.o: sp_context.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_vertex.o: /usr/include/stdlib.h /usr/include/features.h
+sp_state_vertex.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_vertex.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_vertex.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_state_vertex.o: /usr/include/string.h
+sp_state_vertex.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_state_vertex.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_state_vertex.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_state_vertex.o: sp_quad_pipe.h sp_state.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_texture.o: /usr/include/stdlib.h /usr/include/features.h
+sp_texture.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_texture.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_texture.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_texture.o: /usr/include/string.h
+sp_texture.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_texture.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_texture.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_texture.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_format.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_texture.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_texture.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_texture.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_texture.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_texture.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_texture.o: sp_context.h
+sp_texture.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_texture.o: sp_quad_pipe.h sp_texture.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_video_state.h
+sp_texture.o: sp_screen.h sp_winsys.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_tex_sample.o: /usr/include/stdlib.h /usr/include/features.h
+sp_tex_sample.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_tex_sample.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_tex_sample.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_tex_sample.o: /usr/include/string.h
+sp_tex_sample.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_tex_sample.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_tex_sample.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_tex_sample.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_tex_sample.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_tex_sample.o: sp_quad.h ../../../../src/gallium/include/pipe/p_state.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_tex_sample.o: sp_tex_sample.h sp_tex_tile_cache.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_tex_tile_cache.o: /usr/include/stdlib.h /usr/include/features.h
+sp_tex_tile_cache.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_tex_tile_cache.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_tex_tile_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_tex_tile_cache.o: /usr/include/string.h
+sp_tex_tile_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_tex_tile_cache.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_tex_tile_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_tile.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_tex_tile_cache.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_tex_tile_cache.o: /usr/include/bits/mathdef.h
+sp_tex_tile_cache.o: /usr/include/bits/mathcalls.h sp_context.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_tex_tile_cache.o: sp_quad_pipe.h sp_texture.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_video_state.h
+sp_tex_tile_cache.o: sp_tex_tile_cache.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_tile_cache.o: /usr/include/stdlib.h /usr/include/features.h
+sp_tile_cache.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_tile_cache.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_tile_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_tile_cache.o: /usr/include/string.h
+sp_tile_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_tile_cache.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_tile_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_format.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_tile.h
+sp_tile_cache.o: sp_tile_cache.h
+sp_surface.o: ../../../../src/gallium/auxiliary/util/u_rect.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_format.h sp_context.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_surface.o: /usr/include/stdlib.h /usr/include/features.h
+sp_surface.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_surface.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_surface.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_surface.o: /usr/include/string.h
+sp_surface.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_surface.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_surface.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_surface.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_surface.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_surface.o: ../../../../src/gallium/auxiliary/os/os_misc.h sp_quad_pipe.h
+sp_surface.o: sp_surface.h
+sp_video_context.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_video_context.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_video_context.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_video_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_video_context.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_video_context.o: /usr/include/stdlib.h /usr/include/features.h
+sp_video_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_video_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_video_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_video_context.o: /usr/include/string.h
+sp_video_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_video_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_video_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_video_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_video_context.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_video_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_video_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_video_context.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_video_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_video_context.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_video_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_video_context.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_video_context.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_video_context.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_video_context.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_video_context.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_video_context.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_video_context.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_video_context.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_video_context.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_video_context.o: sp_video_context.h
+sp_video_context.o: ../../../../src/gallium/include/pipe/p_video_context.h
+sp_video_context.o: ../../../../src/gallium/include/pipe/p_video_state.h
+sp_video_context.o: ../../../../src/gallium/auxiliary/vl/vl_mpeg12_mc_renderer.h
+sp_video_context.o: ../../../../src/gallium/auxiliary/vl/vl_compositor.h
+sp_video_context.o: sp_texture.h
+sp_winsys.o: ../../../../src/gallium/auxiliary/util/u_simple_screen.h
+sp_winsys.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_winsys.o: ../../../../src/gallium/auxiliary/util/u_format.h
+sp_winsys.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_winsys.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_winsys.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_winsys.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_winsys.o: /usr/include/math.h /usr/include/features.h
+sp_winsys.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_winsys.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_winsys.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+sp_winsys.o: /usr/include/bits/mathcalls.h
+sp_winsys.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+sp_winsys.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_winsys.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_winsys.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_winsys.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_winsys.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_winsys.o: /usr/include/stdlib.h
+sp_winsys.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sp_winsys.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_winsys.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_winsys.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_winsys.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_winsys.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_winsys.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_winsys.o: /usr/include/string.h /usr/include/stdint.h
+sp_winsys.o: /usr/include/bits/wchar.h
+sp_winsys.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+sp_winsys.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_winsys.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_winsys.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_winsys.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_winsys.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_winsys.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_winsys.o: ../../../../src/gallium/auxiliary/util/u_atomic.h sp_winsys.h

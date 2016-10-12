@@ -1,0 +1,15 @@
+#ifndef XmClientLibs
+#define XmClientLibs $(XMLIB) $(XTOOLLIB) $(XLIB)
+#endif
+
+#include "../demos.cf"
+
+EXTRA_INCLUDES = -I.
+
+SRCS = colordemo.c util-c.c 
+OBJS = colordemo.o util-c.o 
+LOCAL_LIBRARIES = -lXm -lXt -lXp -lX11 -lXext
+
+ComplexProgramTarget(colordemo)
+
+

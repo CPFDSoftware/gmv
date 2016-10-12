@@ -1,0 +1,9 @@
+# DO NOT DELETE
+
+sl_cl_parse.o: /usr/include/assert.h /usr/include/features.h
+sl_cl_parse.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sl_cl_parse.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sl_cl_parse.o: /usr/include/stdlib.h
+sl_cl_parse.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+sl_cl_parse.o: /usr/include/string.h ../pp/sl_pp_public.h
+sl_cl_parse.o: ../pp/sl_pp_purify.h ../pp/sl_pp_token.h sl_cl_parse.h

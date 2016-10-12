@@ -1,0 +1,76 @@
+# Makefile for widget demo programs
+
+MOTIFLIBS = -lXm -lXmu -lXt -lX11 -lm
+CFLAGS = $(DEFINES) $(CDEBUGFLAGS)
+CDEBUGFLAGS =
+DEFINES =
+RM = rm -f
+
+WIDGET = SciPlot
+PROGRAMS = sciplot realtime
+TARFILE = sciplot
+
+SRCS = SciPlot.c plotutil.c reader.c strutil.c xyplot.c realtime.c
+HDRS = SciPlot.h SciPlotP.h plotutil.h reader.h strutil.h
+OBJS = $(SRCS:.c=.o)
+PLOTSRCS = SciPlot.c plotutil.c reader.c strutil.c xyplot.c
+PLOTOBJS= $(PLOTSRCS:.c=.o)
+RTSRCS = SciPlot.c plotutil.c reader.c strutil.c realtime.c
+RTOBJS= $(RTSRCS:.c=.o)
+
+DOCS = SciPlot. SciPlotProg. SciPlotDemo.
+HOBJS = $(DOCS:.=.html)
+HSRCS = $(DOCS:.=.hdoc)
+
+INFOFILES = CHANGES LICENSE README Makefile.noImake Imakefile data.txt
+
+MANPAGES = $(INFOFILES) $(HOBJS) *.gif
+
+VERSION = $(SRCS) $(HDRS) $(MANPAGES)
+TARFILES = $(VERSION) $(HSRCS)
+
+
+##########################################################################
+# Definitions for generating the documentation
+HDOC = /usr/local/bin/hdoc
+.SUFFIXES:	.html .hdoc
+.hdoc.html:
+	$(HDOC) $*.hdoc > $*.html
+
+
+##########################################################################
+# Definitions for building the program
+
+
+all:: sciplot realtime
+
+sciplot: $(PLOTOBJS)
+	$(RM) $@
+	$(CC) -o $@ $(PLOTOBJS) $(LDOPTIONS) $(MOTIFLIBS)
+
+realtime: $(RTOBJS)
+	$(RM) $@
+	$(CC) -o $@ $(RTOBJS) $(LDOPTIONS) $(MOTIFLIBS)
+
+doc:	$(HOBJS) $(HDOC)
+	@echo "Updated html."
+
+clean::
+	$(RM) $(PROGRAMS) $(OBJS)
+
+version:
+	-@STUFF=../$(WIDGET)-`fgrep _WIDGET_VERSION $(WIDGET).h|cut -f2`;\
+	echo Making version directory $$STUFF ;\
+	mkdir $$STUFF ;\
+	cp $(VERSION) $$STUFF ;\
+	ls -l $$STUFF
+
+tar:
+	rm -f $(TARFILE).tar $(TARFILE).tar.gz
+	tar cfv $(TARFILE).tar $(TARFILES)
+	gzip $(TARFILE).tar
+
+taz:	$(SRCS)
+	rm -f $(TARFILE).tar $(TARFILE).tar.gz
+	tar cfv $(TARFILE).tar $(TARFILES)
+	compress $(TARFILE).tar

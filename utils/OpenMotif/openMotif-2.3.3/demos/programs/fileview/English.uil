@@ -1,0 +1,63 @@
+! $XConsortium: English.uil /main/4 1996/07/15 15:13:35 drk $
+! 
+! @OPENGROUP_COPYRIGHT@
+! COPYRIGHT NOTICE
+! Copyright (c) 1990, 1991, 1992, 1993 Open Software Foundation, Inc.
+! Copyright (c) 1996, 1997, 1998, 1999, 2000 The Open Group
+! ALL RIGHTS RESERVED (MOTIF). See the file named COPYRIGHT.MOTIF for
+! the full copyright text.
+! 
+! This software is subject to an open license. It may only be
+! used on, with or for operating systems which are themselves open
+! source systems. You must contact The Open Group for a license
+! allowing distribution and sublicensing of this software on, with,
+! or for operating systems which are not Open Source programs.
+! 
+! See http://www.opengroup.org/openmotif/license for full
+! details of the license agreement. Any use, reproduction, or
+! distribution of the program constitutes recipient's acceptance of
+! this agreement.
+! 
+! EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS
+! PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+! KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY
+! WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY
+! OR FITNESS FOR A PARTICULAR PURPOSE
+! 
+! EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT
+! NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT,
+! INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+! DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED
+! AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+! LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+! ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE
+! EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE
+! POSSIBILITY OF SUCH DAMAGES.
+! 
+! 
+! HISTORY
+! 
+! Motif File Viewer -- main uil file
+!
+! Created October 1991 Vania Joloboff
+
+module mce
+    version = 'v1.1'
+    names = case_sensitive
+
+value searchprompt : exported compound_string ('String searched'); 
+value fatal_error : exported compound_string ('Error'); 	
+value no_file : exported compound_string ('Cannot Open File'); 	
+value no_pane : exported compound_string ('No pane to close');
+value no_pattern : exported compound_string ('Enter string to be searched');
+value no_search : exported compound_string ('Searched string too long');
+value not_found : exported compound_string ('String not found: '); 
+value empty_file : exported compound_string ('No File');
+value help_file	 : exported compound_string 
+('In File Menu: open a file with Open, close it with Close');
+value help_view : exported compound_string 
+('In Help menu: open a new pane with New Pane, close it with Close Pane');
+value help_search : exported compound_string 
+('                      Search a string with Search');
+end module;
+

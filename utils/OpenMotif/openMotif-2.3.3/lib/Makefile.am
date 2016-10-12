@@ -1,0 +1,6 @@
+MAINTAINERCLEANFILES = Makefile.in
+
+EXTRA_DIST = Imakefile
+MAINTAINERRCLEANFILES = Makefile.in
+SUBDIRS	= Xm Mrm
+

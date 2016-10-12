@@ -1,0 +1,688 @@
+# DO NOT DELETE
+
+r300_blit.o: r300_blit.h r300_context.h
+r300_blit.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+r300_blit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_blit.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_blit.o: /usr/include/stdlib.h /usr/include/features.h
+r300_blit.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r300_blit.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_blit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_blit.o: /usr/include/string.h
+r300_blit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_blit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r300_blit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+r300_blit.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_blit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_blit.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_blit.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_blit.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_blit.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_blit.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_blit.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r300_blit.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r300_blit.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r300_blit.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r300_blit.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r300_blit.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r300_blit.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_blit.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r300_blit.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r300_blit.o: ../../../../src/gallium/include/pipe/p_context.h
+r300_blit.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_blit.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r300_blit.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_blit.o: ../../../../src/gallium/auxiliary/util/u_atomic.h r300_screen.h
+r300_blit.o: r300_chipset.h r300_texture.h
+r300_blit.o: ../../../../src/gallium/include/pipe/p_video_state.h
+r300_blit.o: ../../../../src/gallium/auxiliary/util/u_format.h r300_reg.h
+r300_chipset.o: r300_chipset.h
+r300_chipset.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_chipset.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_chipset.o: /usr/include/stdlib.h /usr/include/features.h
+r300_chipset.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r300_chipset.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_chipset.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_chipset.o: /usr/include/string.h
+r300_chipset.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_chipset.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r300_chipset.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+r300_chipset.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r300_chipset.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r300_context.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+r300_context.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_context.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_context.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_context.o: /usr/include/stdlib.h /usr/include/features.h
+r300_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r300_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_context.o: /usr/include/string.h
+r300_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r300_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+r300_context.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_context.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r300_context.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r300_context.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r300_context.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r300_context.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r300_context.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_context.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r300_context.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r300_context.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h
+r300_context.o: r300_blit.h r300_context.h
+r300_context.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+r300_context.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r300_context.o: ../../../../src/gallium/include/pipe/p_context.h
+r300_context.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_context.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r300_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_context.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r300_context.o: r300_screen.h r300_chipset.h r300_emit.h
+r300_context.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_code.h
+r300_context.o: r300_flush.h r300_query.h r300_render.h
+r300_context.o: r300_state_invariant.h r300_texture.h
+r300_context.o: ../../../../src/gallium/include/pipe/p_video_state.h
+r300_context.o: ../../../../src/gallium/auxiliary/util/u_format.h r300_reg.h
+r300_context.o: ../../../../src/gallium/winsys/drm/radeon/core/radeon_winsys.h
+r300_context.o: ../../../../src/gallium/auxiliary/util/u_simple_screen.h
+r300_debug.o: r300_context.h
+r300_debug.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+r300_debug.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_debug.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_debug.o: /usr/include/stdlib.h /usr/include/features.h
+r300_debug.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r300_debug.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_debug.o: /usr/include/string.h
+r300_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_debug.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r300_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+r300_debug.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_debug.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_debug.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_debug.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_debug.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_debug.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_debug.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_debug.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r300_debug.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r300_debug.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r300_debug.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r300_debug.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r300_debug.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r300_debug.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_debug.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r300_debug.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r300_debug.o: ../../../../src/gallium/include/pipe/p_context.h
+r300_debug.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_debug.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r300_debug.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_debug.o: ../../../../src/gallium/auxiliary/util/u_atomic.h r300_screen.h
+r300_debug.o: r300_chipset.h
+r300_emit.o: ../../../../src/gallium/auxiliary/util/u_format.h
+r300_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_emit.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r300_emit.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r300_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_emit.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_emit.o: /usr/include/stdlib.h /usr/include/features.h
+r300_emit.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r300_emit.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_emit.o: /usr/include/string.h
+r300_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_emit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r300_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+r300_emit.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r300_emit.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r300_emit.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r300_emit.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h
+r300_emit.o: r300_context.h
+r300_emit.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+r300_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_emit.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_emit.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r300_emit.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r300_emit.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r300_emit.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r300_emit.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_emit.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r300_emit.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r300_emit.o: ../../../../src/gallium/include/pipe/p_context.h
+r300_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_emit.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r300_emit.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_emit.o: ../../../../src/gallium/auxiliary/util/u_atomic.h r300_screen.h
+r300_emit.o: r300_chipset.h r300_cs.h r300_reg.h
+r300_emit.o: ../../../../src/gallium/winsys/drm/radeon/core/radeon_winsys.h
+r300_emit.o: ../../../../src/gallium/auxiliary/util/u_simple_screen.h
+r300_emit.o: r300_emit.h
+r300_emit.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_code.h
+r300_emit.o: r300_fs.h ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+r300_emit.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+r300_emit.o: r300_shader_semantics.h r300_vs.h
+r300_flush.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+r300_flush.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_flush.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_flush.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_flush.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_flush.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_flush.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_flush.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_flush.o: /usr/include/stdlib.h /usr/include/features.h
+r300_flush.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r300_flush.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_flush.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_flush.o: /usr/include/string.h
+r300_flush.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_flush.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r300_flush.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+r300_flush.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_flush.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_flush.o: ../../../../src/gallium/auxiliary/draw/draw_private.h
+r300_flush.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+r300_flush.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+r300_flush.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h
+r300_flush.o: r300_context.h
+r300_flush.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+r300_flush.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r300_flush.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r300_flush.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r300_flush.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r300_flush.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r300_flush.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r300_flush.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_flush.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r300_flush.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r300_flush.o: ../../../../src/gallium/include/pipe/p_context.h
+r300_flush.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_flush.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r300_flush.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_flush.o: ../../../../src/gallium/auxiliary/util/u_atomic.h r300_screen.h
+r300_flush.o: r300_chipset.h r300_cs.h
+r300_flush.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r300_flush.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r300_flush.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r300_flush.o: r300_reg.h
+r300_flush.o: ../../../../src/gallium/winsys/drm/radeon/core/radeon_winsys.h
+r300_flush.o: ../../../../src/gallium/auxiliary/util/u_simple_screen.h
+r300_flush.o: r300_emit.h
+r300_flush.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_code.h
+r300_flush.o: r300_flush.h
+r300_fs.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r300_fs.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_fs.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_fs.o: /usr/include/stdlib.h /usr/include/features.h
+r300_fs.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r300_fs.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_fs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_fs.o: /usr/include/string.h
+r300_fs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_fs.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r300_fs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+r300_fs.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r300_fs.o: ../../../../src/gallium/auxiliary/os/os_misc.h /usr/include/math.h
+r300_fs.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+r300_fs.o: /usr/include/bits/mathcalls.h
+r300_fs.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r300_fs.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r300_fs.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r300_fs.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_fs.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r300_fs.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r300_fs.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_dump.h
+r300_fs.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+r300_fs.o: ../../../../src/gallium/include/pipe/p_compiler.h r300_context.h
+r300_fs.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+r300_fs.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_fs.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_fs.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_fs.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_fs.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_fs.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_fs.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r300_fs.o: ../../../../src/gallium/include/pipe/p_context.h
+r300_fs.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_fs.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r300_fs.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_fs.o: ../../../../src/gallium/auxiliary/util/u_atomic.h r300_screen.h
+r300_fs.o: r300_chipset.h r300_fs.h
+r300_fs.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+r300_fs.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_code.h
+r300_fs.o: r300_shader_semantics.h r300_tgsi_to_rc.h
+r300_fs.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_compiler.h
+r300_fs.o: ../../../../src/mesa/main/compiler.h /usr/include/assert.h
+r300_fs.o: /usr/include/ctype.h /usr/include/bits/types.h
+r300_fs.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r300_fs.o: /usr/include/bits/endian.h
+r300_fs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+r300_fs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+r300_fs.o: /usr/include/limits.h /usr/include/stdio.h /usr/include/libio.h
+r300_fs.o: /usr/include/_G_config.h /usr/include/wchar.h /usr/include/gconv.h
+r300_fs.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+r300_fs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+r300_fs.o: ../../../../src/mesa/drivers/dri/r300/compiler/memory_pool.h
+r300_fs.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_program.h
+r300_fs.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_opcodes.h
+r300_fs.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_program_constants.h
+r300_fs.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_program_pair.h
+r300_query.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r300_query.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r300_query.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_query.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_query.o: /usr/include/stdlib.h /usr/include/features.h
+r300_query.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r300_query.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_query.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_query.o: /usr/include/string.h
+r300_query.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_query.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r300_query.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+r300_query.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r300_query.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r300_query.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r300_query.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_query.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r300_query.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r300_query.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h
+r300_query.o: r300_context.h
+r300_query.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+r300_query.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_query.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_query.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_query.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_query.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_query.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_query.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_query.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r300_query.o: ../../../../src/gallium/include/pipe/p_context.h
+r300_query.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_query.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r300_query.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_query.o: ../../../../src/gallium/auxiliary/util/u_atomic.h r300_screen.h
+r300_query.o: r300_chipset.h r300_cs.h
+r300_query.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r300_query.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r300_query.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r300_query.o: r300_reg.h
+r300_query.o: ../../../../src/gallium/winsys/drm/radeon/core/radeon_winsys.h
+r300_query.o: ../../../../src/gallium/auxiliary/util/u_simple_screen.h
+r300_query.o: r300_emit.h
+r300_query.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_code.h
+r300_query.o: r300_query.h
+r300_render.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+r300_render.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_render.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_render.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_render.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_render.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_render.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_render.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_render.o: /usr/include/stdlib.h /usr/include/features.h
+r300_render.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r300_render.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_render.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_render.o: /usr/include/string.h
+r300_render.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_render.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r300_render.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+r300_render.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_render.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_render.o: ../../../../src/gallium/auxiliary/draw/draw_vbuf.h
+r300_render.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r300_render.o: ../../../../src/gallium/include/pipe/p_context.h
+r300_render.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_render.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_render.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r300_render.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r300_render.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r300_render.o: ../../../../src/gallium/auxiliary/util/u_format.h
+r300_render.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r300_render.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r300_render.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r300_render.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_render.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r300_render.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r300_render.o: ../../../../src/gallium/auxiliary/util/u_prim.h r300_cs.h
+r300_render.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r300_render.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r300_render.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r300_render.o: r300_reg.h
+r300_render.o: ../../../../src/gallium/winsys/drm/radeon/core/radeon_winsys.h
+r300_render.o: ../../../../src/gallium/auxiliary/util/u_simple_screen.h
+r300_render.o: r300_context.h
+r300_render.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+r300_render.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r300_render.o: r300_screen.h r300_chipset.h r300_emit.h
+r300_render.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_code.h
+r300_render.o: r300_render.h r300_state_derived.h
+r300_screen.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r300_screen.o: ../../../../src/gallium/include/pipe/p_context.h
+r300_screen.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_screen.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_screen.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_screen.o: /usr/include/stdlib.h /usr/include/features.h
+r300_screen.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r300_screen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_screen.o: /usr/include/string.h
+r300_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_screen.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r300_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+r300_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_screen.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_screen.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r300_screen.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r300_screen.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r300_screen.o: ../../../../src/gallium/auxiliary/util/u_format.h
+r300_screen.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r300_screen.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r300_screen.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r300_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r300_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r300_screen.o: ../../../../src/gallium/auxiliary/util/u_simple_screen.h
+r300_screen.o: r300_context.h
+r300_screen.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+r300_screen.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r300_screen.o: r300_screen.h r300_chipset.h r300_texture.h
+r300_screen.o: ../../../../src/gallium/include/pipe/p_video_state.h
+r300_screen.o: r300_reg.h
+r300_screen.o: ../../../../src/gallium/winsys/drm/radeon/core/radeon_winsys.h
+r300_screen.o: r300_winsys.h
+r300_state.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+r300_state.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_state.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_state.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_state.o: /usr/include/stdlib.h /usr/include/features.h
+r300_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r300_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_state.o: /usr/include/string.h
+r300_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r300_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+r300_state.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_state.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r300_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r300_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r300_state.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r300_state.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r300_state.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r300_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r300_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r300_state.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r300_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r300_state.o: ../../../../src/gallium/auxiliary/util/u_pack_color.h
+r300_state.o: ../../../../src/gallium/auxiliary/util/u_format.h
+r300_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+r300_state.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+r300_state.o: r300_context.h
+r300_state.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+r300_state.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r300_state.o: ../../../../src/gallium/include/pipe/p_context.h
+r300_state.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_state.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r300_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_state.o: ../../../../src/gallium/auxiliary/util/u_atomic.h r300_screen.h
+r300_state.o: r300_chipset.h r300_reg.h r300_state_inlines.h r300_fs.h
+r300_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+r300_state.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_code.h
+r300_state.o: r300_shader_semantics.h r300_vs.h
+r300_state.o: ../../../../src/gallium/winsys/drm/radeon/core/radeon_winsys.h
+r300_state.o: ../../../../src/gallium/auxiliary/util/u_simple_screen.h
+r300_state_derived.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+r300_state_derived.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_state_derived.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_state_derived.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_state_derived.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_state_derived.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_state_derived.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_state_derived.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_state_derived.o: /usr/include/stdlib.h /usr/include/features.h
+r300_state_derived.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r300_state_derived.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_state_derived.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_state_derived.o: /usr/include/string.h
+r300_state_derived.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_state_derived.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r300_state_derived.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+r300_state_derived.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_state_derived.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_state_derived.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r300_state_derived.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r300_state_derived.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r300_state_derived.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r300_state_derived.o: /usr/include/bits/mathdef.h
+r300_state_derived.o: /usr/include/bits/mathcalls.h
+r300_state_derived.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r300_state_derived.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r300_state_derived.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r300_state_derived.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_state_derived.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r300_state_derived.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r300_state_derived.o: r300_context.h
+r300_state_derived.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+r300_state_derived.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r300_state_derived.o: ../../../../src/gallium/include/pipe/p_context.h
+r300_state_derived.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_state_derived.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r300_state_derived.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_state_derived.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r300_state_derived.o: r300_screen.h r300_chipset.h r300_fs.h
+r300_state_derived.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+r300_state_derived.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+r300_state_derived.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_code.h
+r300_state_derived.o: r300_shader_semantics.h r300_state_derived.h
+r300_state_derived.o: r300_state_inlines.h
+r300_state_derived.o: ../../../../src/gallium/auxiliary/util/u_format.h
+r300_state_derived.o: r300_reg.h r300_vs.h
+r300_state_invariant.o: r300_context.h
+r300_state_invariant.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+r300_state_invariant.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_state_invariant.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_state_invariant.o: /usr/include/stdlib.h /usr/include/features.h
+r300_state_invariant.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r300_state_invariant.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_state_invariant.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_state_invariant.o: /usr/include/string.h
+r300_state_invariant.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_state_invariant.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r300_state_invariant.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+r300_state_invariant.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_state_invariant.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_state_invariant.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_state_invariant.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_state_invariant.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_state_invariant.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_state_invariant.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_state_invariant.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r300_state_invariant.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r300_state_invariant.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r300_state_invariant.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r300_state_invariant.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r300_state_invariant.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r300_state_invariant.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_state_invariant.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r300_state_invariant.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r300_state_invariant.o: ../../../../src/gallium/include/pipe/p_context.h
+r300_state_invariant.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_state_invariant.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r300_state_invariant.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_state_invariant.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r300_state_invariant.o: r300_screen.h r300_chipset.h r300_cs.h
+r300_state_invariant.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r300_state_invariant.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r300_state_invariant.o: /usr/include/bits/mathdef.h
+r300_state_invariant.o: /usr/include/bits/mathcalls.h r300_reg.h
+r300_state_invariant.o: ../../../../src/gallium/winsys/drm/radeon/core/radeon_winsys.h
+r300_state_invariant.o: ../../../../src/gallium/auxiliary/util/u_simple_screen.h
+r300_state_invariant.o: r300_state_invariant.h
+r300_vs.o: r300_vs.h ../../../../src/gallium/include/pipe/p_state.h
+r300_vs.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_vs.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_vs.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_vs.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_vs.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_vs.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_vs.o: /usr/include/stdlib.h /usr/include/features.h
+r300_vs.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r300_vs.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_vs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_vs.o: /usr/include/string.h
+r300_vs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_vs.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r300_vs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+r300_vs.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_vs.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_vs.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+r300_vs.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+r300_vs.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_code.h
+r300_vs.o: r300_shader_semantics.h r300_fs.h r300_context.h
+r300_vs.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+r300_vs.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r300_vs.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r300_vs.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r300_vs.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r300_vs.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r300_vs.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r300_vs.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_vs.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r300_vs.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r300_vs.o: ../../../../src/gallium/include/pipe/p_context.h
+r300_vs.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_vs.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r300_vs.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_vs.o: ../../../../src/gallium/auxiliary/util/u_atomic.h r300_screen.h
+r300_vs.o: r300_chipset.h r300_tgsi_to_rc.h r300_reg.h
+r300_vs.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_dump.h
+r300_vs.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+r300_vs.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_compiler.h
+r300_vs.o: ../../../../src/mesa/main/compiler.h /usr/include/assert.h
+r300_vs.o: /usr/include/ctype.h /usr/include/bits/types.h
+r300_vs.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r300_vs.o: /usr/include/bits/endian.h /usr/include/math.h
+r300_vs.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+r300_vs.o: /usr/include/bits/mathcalls.h
+r300_vs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+r300_vs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+r300_vs.o: /usr/include/limits.h /usr/include/stdio.h /usr/include/libio.h
+r300_vs.o: /usr/include/_G_config.h /usr/include/wchar.h /usr/include/gconv.h
+r300_vs.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+r300_vs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+r300_vs.o: ../../../../src/mesa/drivers/dri/r300/compiler/memory_pool.h
+r300_vs.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_program.h
+r300_vs.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_opcodes.h
+r300_vs.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_program_constants.h
+r300_vs.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_program_pair.h
+r300_vs.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r300_texture.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_texture.o: ../../../../src/gallium/auxiliary/util/u_format.h
+r300_texture.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_texture.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r300_texture.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r300_texture.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_texture.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_texture.o: /usr/include/stdlib.h /usr/include/features.h
+r300_texture.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r300_texture.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_texture.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_texture.o: /usr/include/string.h
+r300_texture.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_texture.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r300_texture.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+r300_texture.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r300_texture.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r300_texture.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r300_texture.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r300_texture.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r300_texture.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r300_texture.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_texture.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r300_texture.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r300_texture.o: r300_context.h
+r300_texture.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+r300_texture.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_texture.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_texture.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_texture.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_texture.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_texture.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_texture.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r300_texture.o: ../../../../src/gallium/include/pipe/p_context.h
+r300_texture.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_texture.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r300_texture.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r300_texture.o: r300_screen.h r300_chipset.h r300_texture.h
+r300_texture.o: ../../../../src/gallium/include/pipe/p_video_state.h
+r300_texture.o: r300_reg.h r300_state_inlines.h
+r300_texture.o: ../../../../src/gallium/winsys/drm/radeon/core/radeon_winsys.h
+r300_texture.o: ../../../../src/gallium/auxiliary/util/u_simple_screen.h
+r300_tgsi_to_rc.o: r300_tgsi_to_rc.h
+r300_tgsi_to_rc.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_tgsi_to_rc.o: ../../../../src/gallium/include/pipe/p_config.h
+r300_tgsi_to_rc.o: /usr/include/stdlib.h /usr/include/features.h
+r300_tgsi_to_rc.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r300_tgsi_to_rc.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_tgsi_to_rc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_tgsi_to_rc.o: /usr/include/string.h
+r300_tgsi_to_rc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_tgsi_to_rc.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r300_tgsi_to_rc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+r300_tgsi_to_rc.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_compiler.h
+r300_tgsi_to_rc.o: ../../../../src/mesa/main/compiler.h /usr/include/assert.h
+r300_tgsi_to_rc.o: /usr/include/ctype.h /usr/include/bits/types.h
+r300_tgsi_to_rc.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r300_tgsi_to_rc.o: /usr/include/bits/endian.h /usr/include/math.h
+r300_tgsi_to_rc.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+r300_tgsi_to_rc.o: /usr/include/bits/mathcalls.h
+r300_tgsi_to_rc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+r300_tgsi_to_rc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+r300_tgsi_to_rc.o: /usr/include/limits.h /usr/include/stdio.h
+r300_tgsi_to_rc.o: /usr/include/libio.h /usr/include/_G_config.h
+r300_tgsi_to_rc.o: /usr/include/wchar.h /usr/include/gconv.h
+r300_tgsi_to_rc.o: /usr/include/bits/stdio_lim.h
+r300_tgsi_to_rc.o: /usr/include/bits/sys_errlist.h
+r300_tgsi_to_rc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+r300_tgsi_to_rc.o: ../../../../src/mesa/drivers/dri/r300/compiler/memory_pool.h
+r300_tgsi_to_rc.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_code.h
+r300_tgsi_to_rc.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_program.h
+r300_tgsi_to_rc.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_opcodes.h
+r300_tgsi_to_rc.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_program_constants.h
+r300_tgsi_to_rc.o: ../../../../src/mesa/drivers/dri/r300/compiler/radeon_program_pair.h
+r300_tgsi_to_rc.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+r300_tgsi_to_rc.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+r300_tgsi_to_rc.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r300_tgsi_to_rc.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+r300_tgsi_to_rc.o: ../../../../src/gallium/include/pipe/p_state.h
+r300_tgsi_to_rc.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_tgsi_to_rc.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_tgsi_to_rc.o: ../../../../src/gallium/include/pipe/p_screen.h
+r300_tgsi_to_rc.o: ../../../../src/gallium/include/pipe/p_format.h
+r300_tgsi_to_rc.o: ../../../../src/gallium/include/pipe/p_defines.h
+r300_tgsi_to_rc.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_util.h
+r300_tgsi_to_rc.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r300_tgsi_to_rc.o: ../../../../src/gallium/auxiliary/os/os_misc.h

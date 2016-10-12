@@ -1,0 +1,3 @@
+./configure --prefix=/remoteNFS/d11/fao/linux64/ExodusII -disable-f77 -disable-f90 -disable-cxx
+
+./configure --prefix=../ -disable-f77 -disable-f90 -disable-cxx

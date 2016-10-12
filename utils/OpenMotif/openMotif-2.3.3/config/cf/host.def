@@ -1,0 +1,13 @@
+#define TopLevelProject         Motif
+#define ProjectRoot             /usr/X11R6
+#define X11ProjectRoot          /usr/X11R6
+#define VirtualBindingsPath     /usr/X11R6/lib/X11/bindings
+#define ImportX11               YES
+#define USE_BYACC               YES
+#define NoMessageCatalog        YES
+#define ForceNormalLib          YES
+#define DebugLibXm              NO
+#define DebugLibMrm             NO
+#define DebugLibUil             NO
+#define LexLib                  -lfl
+#define ExtraWidgets            YES

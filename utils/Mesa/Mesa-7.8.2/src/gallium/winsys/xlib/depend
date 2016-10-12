@@ -1,0 +1,135 @@
+# DO NOT DELETE
+
+xlib.o: xlib.h ../../../../src/gallium/include/pipe/p_compiler.h
+xlib.o: ../../../../src/gallium/include/pipe/p_config.h /usr/include/stdlib.h
+xlib.o: /usr/include/features.h /usr/include/sys/cdefs.h
+xlib.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+xlib.o: /usr/include/gnu/stubs-64.h
+xlib.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+xlib.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+xlib.o: /usr/include/endian.h /usr/include/bits/endian.h
+xlib.o: /usr/include/xlocale.h /usr/include/sys/types.h
+xlib.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+xlib.o: /usr/include/time.h /usr/include/sys/select.h
+xlib.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+xlib.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+xlib.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+xlib.o: /usr/include/string.h
+xlib.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+xlib.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+xlib.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+xlib.o: ../../../../src/gallium/state_trackers/glx/xlib/xm_winsys.h
+xlib.o: /usr/include/assert.h
+xlib_cell.o: xlib.h ../../../../src/gallium/include/pipe/p_compiler.h
+xlib_cell.o: ../../../../src/gallium/include/pipe/p_config.h
+xlib_cell.o: /usr/include/stdlib.h /usr/include/features.h
+xlib_cell.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xlib_cell.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+xlib_cell.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+xlib_cell.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+xlib_cell.o: /usr/include/endian.h /usr/include/bits/endian.h
+xlib_cell.o: /usr/include/xlocale.h /usr/include/sys/types.h
+xlib_cell.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+xlib_cell.o: /usr/include/time.h /usr/include/sys/select.h
+xlib_cell.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+xlib_cell.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+xlib_cell.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+xlib_cell.o: /usr/include/string.h
+xlib_cell.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+xlib_cell.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+xlib_cell.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+xlib_cell.o: ../../../../src/gallium/state_trackers/glx/xlib/xm_winsys.h
+xlib_softpipe.o: ../../../../src/gallium/state_trackers/glx/xlib/xm_api.h
+xlib_softpipe.o: ../../../../src/mesa/main/mtypes.h
+xlib_softpipe.o: ../../../../src/mesa/main/glheader.h
+xlib_softpipe.o: ../../../../include/GL/gl.h ../../../../include/GL/glext.h
+xlib_softpipe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+xlib_softpipe.o: /usr/include/inttypes.h /usr/include/features.h
+xlib_softpipe.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xlib_softpipe.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+xlib_softpipe.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+xlib_softpipe.o: ../../../../include/GL/internal/glcore.h
+xlib_softpipe.o: /usr/include/sys/types.h /usr/include/bits/types.h
+xlib_softpipe.o: /usr/include/bits/typesizes.h /usr/include/time.h
+xlib_softpipe.o: /usr/include/endian.h /usr/include/bits/endian.h
+xlib_softpipe.o: /usr/include/sys/select.h /usr/include/bits/select.h
+xlib_softpipe.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+xlib_softpipe.o: /usr/include/sys/sysmacros.h
+xlib_softpipe.o: /usr/include/bits/pthreadtypes.h
+xlib_softpipe.o: ../../../../src/mesa/main/config.h
+xlib_softpipe.o: ../../../../src/mesa/main/compiler.h /usr/include/assert.h
+xlib_softpipe.o: /usr/include/ctype.h /usr/include/xlocale.h
+xlib_softpipe.o: /usr/include/math.h /usr/include/bits/huge_val.h
+xlib_softpipe.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+xlib_softpipe.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+xlib_softpipe.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+xlib_softpipe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+xlib_softpipe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+xlib_softpipe.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+xlib_softpipe.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+xlib_softpipe.o: /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h
+xlib_softpipe.o: /usr/include/bits/stdio_lim.h /usr/include/stdlib.h
+xlib_softpipe.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+xlib_softpipe.o: /usr/include/alloca.h /usr/include/stdio.h
+xlib_softpipe.o: /usr/include/libio.h /usr/include/_G_config.h
+xlib_softpipe.o: /usr/include/wchar.h /usr/include/gconv.h
+xlib_softpipe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+xlib_softpipe.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+xlib_softpipe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+xlib_softpipe.o: ../../../../src/mesa/main/mfeatures.h
+xlib_softpipe.o: ../../../../src/mesa/glapi/glapi.h
+xlib_softpipe.o: ../../../../src/mesa/glapi/glthread.h /usr/include/pthread.h
+xlib_softpipe.o: /usr/include/sched.h /usr/include/bits/sched.h
+xlib_softpipe.o: /usr/include/signal.h /usr/include/bits/setjmp.h
+xlib_softpipe.o: ../../../../src/mesa/math/m_matrix.h
+xlib_softpipe.o: ../../../../src/mesa/main/simple_list.h
+xlib_softpipe.o: ../../../../src/mesa/main/dd.h
+xlib_softpipe.o: ../../../../src/mesa/state_tracker/st_context.h
+xlib_softpipe.o: ../../../../src/mesa/shader/prog_cache.h
+xlib_softpipe.o: ../../../../src/gallium/include/pipe/p_state.h
+xlib_softpipe.o: ../../../../src/gallium/include/pipe/p_compiler.h
+xlib_softpipe.o: ../../../../src/gallium/include/pipe/p_config.h
+xlib_softpipe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+xlib_softpipe.o: ../../../../src/gallium/include/pipe/p_defines.h
+xlib_softpipe.o: ../../../../src/gallium/include/pipe/p_format.h
+xlib_softpipe.o: ../../../../src/gallium/include/pipe/p_screen.h
+xlib_softpipe.o: ../../../../src/gallium/include/pipe/p_compiler.h
+xlib_softpipe.o: ../../../../src/gallium/include/pipe/p_format.h
+xlib_softpipe.o: ../../../../src/gallium/include/pipe/p_defines.h
+xlib_softpipe.o: ../../../../src/mesa/state_tracker/st_public.h
+xlib_softpipe.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+xlib_softpipe.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+xlib_softpipe.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+xlib_softpipe.o: /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h
+xlib_softpipe.o: /usr/X11R6/include/X11/Xfuncproto.h
+xlib_softpipe.o: /usr/X11R6/include/X11/Xosdefs.h
+xlib_softpipe.o: /usr/X11R6/include/X11/Xlibint.h
+xlib_softpipe.o: /usr/X11R6/include/X11/Xproto.h /usr/X11R6/include/X11/Xmd.h
+xlib_softpipe.o: /usr/X11R6/include/X11/Xprotostr.h
+xlib_softpipe.o: /usr/X11R6/include/X11/XlibConf.h /usr/include/errno.h
+xlib_softpipe.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+xlib_softpipe.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+xlib_softpipe.o: /usr/include/asm-generic/errno.h
+xlib_softpipe.o: /usr/include/asm-generic/errno-base.h
+xlib_softpipe.o: /usr/X11R6/include/X11/Xfuncs.h
+xlib_softpipe.o: /usr/X11R6/include/X11/Xutil.h /usr/include/sys/ipc.h
+xlib_softpipe.o: /usr/include/bits/ipctypes.h /usr/include/bits/ipc.h
+xlib_softpipe.o: /usr/include/sys/shm.h /usr/include/bits/shm.h
+xlib_softpipe.o: /usr/X11R6/include/X11/extensions/XShm.h
+xlib_softpipe.o: ../../../../src/gallium/auxiliary/util/u_simple_screen.h
+xlib_softpipe.o: ../../../../src/gallium/include/pipe/p_context.h
+xlib_softpipe.o: ../../../../src/gallium/include/pipe/p_state.h
+xlib_softpipe.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+xlib_softpipe.o: ../../../../src/gallium/include/pipe/p_screen.h
+xlib_softpipe.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+xlib_softpipe.o: ../../../../src/gallium/auxiliary/util/u_format.h
+xlib_softpipe.o: ../../../../src/gallium/auxiliary/util/u_math.h
+xlib_softpipe.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+xlib_softpipe.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+xlib_softpipe.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+xlib_softpipe.o: ../../../../src/gallium/include/pipe/p_config.h
+xlib_softpipe.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+xlib_softpipe.o: ../../../../src/gallium/drivers/softpipe/sp_winsys.h
+xlib_softpipe.o: ../../../../src/gallium/drivers/softpipe/sp_texture.h
+xlib_softpipe.o: ../../../../src/gallium/include/pipe/p_video_state.h xlib.h
+xlib_softpipe.o: ../../../../src/gallium/state_trackers/glx/xlib/xm_winsys.h

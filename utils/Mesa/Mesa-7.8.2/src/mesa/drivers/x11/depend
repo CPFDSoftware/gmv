@@ -1,0 +1,730 @@
+# DO NOT DELETE
+
+fakeglx.o: glxheader.h ../../../../src/mesa/main/glheader.h
+fakeglx.o: ../../../../include/GL/gl.h ../../../../include/GL/glext.h
+fakeglx.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+fakeglx.o: /usr/include/inttypes.h /usr/include/features.h
+fakeglx.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+fakeglx.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+fakeglx.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+fakeglx.o: ../../../../include/GL/internal/glcore.h /usr/include/sys/types.h
+fakeglx.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+fakeglx.o: /usr/include/time.h /usr/include/endian.h
+fakeglx.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+fakeglx.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+fakeglx.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+fakeglx.o: /usr/include/bits/pthreadtypes.h /usr/X11R6/include/X11/Xlib.h
+fakeglx.o: /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h
+fakeglx.o: /usr/X11R6/include/X11/Xosdefs.h /usr/X11R6/include/X11/Xlibint.h
+fakeglx.o: /usr/X11R6/include/X11/Xproto.h /usr/X11R6/include/X11/Xmd.h
+fakeglx.o: /usr/X11R6/include/X11/Xprotostr.h
+fakeglx.o: /usr/X11R6/include/X11/XlibConf.h /usr/include/errno.h
+fakeglx.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+fakeglx.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+fakeglx.o: /usr/include/asm-generic/errno.h
+fakeglx.o: /usr/include/asm-generic/errno-base.h
+fakeglx.o: /usr/X11R6/include/X11/Xfuncs.h /usr/include/string.h
+fakeglx.o: /usr/include/xlocale.h /usr/include/stdlib.h
+fakeglx.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+fakeglx.o: /usr/include/alloca.h /usr/X11R6/include/X11/Xutil.h
+fakeglx.o: /usr/include/sys/ipc.h /usr/include/bits/ipctypes.h
+fakeglx.o: /usr/include/bits/ipc.h /usr/include/sys/shm.h
+fakeglx.o: /usr/include/bits/shm.h /usr/X11R6/include/X11/extensions/XShm.h
+fakeglx.o: ../../../../include/GL/glx.h ../../../../include/GL/glxext.h
+fakeglx.o: /usr/include/sys/time.h glxapi.h
+fakeglx.o: ../../../../src/mesa/main/context.h
+fakeglx.o: ../../../../src/mesa/main/imports.h
+fakeglx.o: ../../../../src/mesa/main/compiler.h /usr/include/assert.h
+fakeglx.o: /usr/include/ctype.h /usr/include/math.h
+fakeglx.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+fakeglx.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+fakeglx.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+fakeglx.o: /usr/include/bits/mathcalls.h
+fakeglx.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+fakeglx.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+fakeglx.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+fakeglx.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+fakeglx.o: /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h
+fakeglx.o: /usr/include/bits/stdio_lim.h /usr/include/stdio.h
+fakeglx.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+fakeglx.o: /usr/include/gconv.h
+fakeglx.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+fakeglx.o: /usr/include/bits/sys_errlist.h
+fakeglx.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+fakeglx.o: ../../../../src/mesa/main/glheader.h
+fakeglx.o: ../../../../src/mesa/main/mtypes.h
+fakeglx.o: ../../../../src/mesa/main/config.h
+fakeglx.o: ../../../../src/mesa/main/compiler.h
+fakeglx.o: ../../../../src/mesa/main/mfeatures.h
+fakeglx.o: ../../../../src/mesa/glapi/glapi.h
+fakeglx.o: ../../../../src/mesa/glapi/glthread.h /usr/include/pthread.h
+fakeglx.o: /usr/include/sched.h /usr/include/bits/sched.h
+fakeglx.o: /usr/include/signal.h /usr/include/bits/setjmp.h
+fakeglx.o: ../../../../src/mesa/math/m_matrix.h
+fakeglx.o: ../../../../src/mesa/main/simple_list.h
+fakeglx.o: ../../../../src/mesa/main/dd.h ../../../../src/mesa/main/macros.h
+fakeglx.o: ../../../../src/mesa/main/imports.h
+fakeglx.o: ../../../../src/mesa/main/mtypes.h
+fakeglx.o: ../../../../src/mesa/main/version.h xfonts.h xmesaP.h xmesa.h
+fakeglx.o: xmesa_x.h
+glxapi.o: /usr/include/assert.h /usr/include/features.h
+glxapi.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glxapi.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glxapi.o: /usr/include/stdlib.h
+glxapi.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+glxapi.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+glxapi.o: /usr/include/endian.h /usr/include/bits/endian.h
+glxapi.o: /usr/include/xlocale.h /usr/include/sys/types.h
+glxapi.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+glxapi.o: /usr/include/time.h /usr/include/sys/select.h
+glxapi.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+glxapi.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+glxapi.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+glxapi.o: /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h
+glxapi.o: /usr/include/wchar.h /usr/include/bits/wchar.h /usr/include/gconv.h
+glxapi.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+glxapi.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+glxapi.o: /usr/include/string.h ../../../../src/mesa/main/glheader.h
+glxapi.o: ../../../../include/GL/gl.h ../../../../include/GL/glext.h
+glxapi.o: /usr/include/inttypes.h /usr/include/stdint.h
+glxapi.o: ../../../../include/GL/internal/glcore.h
+glxapi.o: ../../../../src/mesa/main/compiler.h
+glxapi.o: ../../../../src/mesa/glapi/glapi.h
+glxapi.o: ../../../../src/mesa/glapi/glthread.h /usr/include/pthread.h
+glxapi.o: /usr/include/sched.h /usr/include/bits/sched.h
+glxapi.o: /usr/include/signal.h /usr/include/bits/setjmp.h glxapi.h
+glxapi.o: ../../../../include/GL/glx.h /usr/X11R6/include/X11/Xlib.h
+glxapi.o: /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h
+glxapi.o: /usr/X11R6/include/X11/Xosdefs.h /usr/X11R6/include/X11/Xutil.h
+glxapi.o: ../../../../include/GL/glxext.h
+xfonts.o: glxheader.h ../../../../src/mesa/main/glheader.h
+xfonts.o: ../../../../include/GL/gl.h ../../../../include/GL/glext.h
+xfonts.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+xfonts.o: /usr/include/inttypes.h /usr/include/features.h
+xfonts.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xfonts.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+xfonts.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+xfonts.o: ../../../../include/GL/internal/glcore.h /usr/include/sys/types.h
+xfonts.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+xfonts.o: /usr/include/time.h /usr/include/endian.h
+xfonts.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+xfonts.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+xfonts.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+xfonts.o: /usr/include/bits/pthreadtypes.h /usr/X11R6/include/X11/Xlib.h
+xfonts.o: /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h
+xfonts.o: /usr/X11R6/include/X11/Xosdefs.h /usr/X11R6/include/X11/Xlibint.h
+xfonts.o: /usr/X11R6/include/X11/Xproto.h /usr/X11R6/include/X11/Xmd.h
+xfonts.o: /usr/X11R6/include/X11/Xprotostr.h
+xfonts.o: /usr/X11R6/include/X11/XlibConf.h /usr/include/errno.h
+xfonts.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+xfonts.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+xfonts.o: /usr/include/asm-generic/errno.h
+xfonts.o: /usr/include/asm-generic/errno-base.h
+xfonts.o: /usr/X11R6/include/X11/Xfuncs.h /usr/include/string.h
+xfonts.o: /usr/include/xlocale.h /usr/include/stdlib.h
+xfonts.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+xfonts.o: /usr/include/alloca.h /usr/X11R6/include/X11/Xutil.h
+xfonts.o: /usr/include/sys/ipc.h /usr/include/bits/ipctypes.h
+xfonts.o: /usr/include/bits/ipc.h /usr/include/sys/shm.h
+xfonts.o: /usr/include/bits/shm.h /usr/X11R6/include/X11/extensions/XShm.h
+xfonts.o: ../../../../include/GL/glx.h ../../../../include/GL/glxext.h
+xfonts.o: /usr/include/sys/time.h ../../../../src/mesa/main/context.h
+xfonts.o: ../../../../src/mesa/main/imports.h
+xfonts.o: ../../../../src/mesa/main/compiler.h /usr/include/assert.h
+xfonts.o: /usr/include/ctype.h /usr/include/math.h
+xfonts.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+xfonts.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+xfonts.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+xfonts.o: /usr/include/bits/mathcalls.h
+xfonts.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+xfonts.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+xfonts.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+xfonts.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+xfonts.o: /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h
+xfonts.o: /usr/include/bits/stdio_lim.h /usr/include/stdio.h
+xfonts.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+xfonts.o: /usr/include/gconv.h
+xfonts.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+xfonts.o: /usr/include/bits/sys_errlist.h
+xfonts.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+xfonts.o: ../../../../src/mesa/main/glheader.h
+xfonts.o: ../../../../src/mesa/main/mtypes.h
+xfonts.o: ../../../../src/mesa/main/config.h
+xfonts.o: ../../../../src/mesa/main/compiler.h
+xfonts.o: ../../../../src/mesa/main/mfeatures.h
+xfonts.o: ../../../../src/mesa/glapi/glapi.h
+xfonts.o: ../../../../src/mesa/glapi/glthread.h /usr/include/pthread.h
+xfonts.o: /usr/include/sched.h /usr/include/bits/sched.h
+xfonts.o: /usr/include/signal.h /usr/include/bits/setjmp.h
+xfonts.o: ../../../../src/mesa/math/m_matrix.h
+xfonts.o: ../../../../src/mesa/main/simple_list.h
+xfonts.o: ../../../../src/mesa/main/dd.h ../../../../src/mesa/main/imports.h
+xfonts.o: xfonts.h
+xm_api.o: glxheader.h ../../../../src/mesa/main/glheader.h
+xm_api.o: ../../../../include/GL/gl.h ../../../../include/GL/glext.h
+xm_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+xm_api.o: /usr/include/inttypes.h /usr/include/features.h
+xm_api.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xm_api.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+xm_api.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+xm_api.o: ../../../../include/GL/internal/glcore.h /usr/include/sys/types.h
+xm_api.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+xm_api.o: /usr/include/time.h /usr/include/endian.h
+xm_api.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+xm_api.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+xm_api.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+xm_api.o: /usr/include/bits/pthreadtypes.h /usr/X11R6/include/X11/Xlib.h
+xm_api.o: /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h
+xm_api.o: /usr/X11R6/include/X11/Xosdefs.h /usr/X11R6/include/X11/Xlibint.h
+xm_api.o: /usr/X11R6/include/X11/Xproto.h /usr/X11R6/include/X11/Xmd.h
+xm_api.o: /usr/X11R6/include/X11/Xprotostr.h
+xm_api.o: /usr/X11R6/include/X11/XlibConf.h /usr/include/errno.h
+xm_api.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+xm_api.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+xm_api.o: /usr/include/asm-generic/errno.h
+xm_api.o: /usr/include/asm-generic/errno-base.h
+xm_api.o: /usr/X11R6/include/X11/Xfuncs.h /usr/include/string.h
+xm_api.o: /usr/include/xlocale.h /usr/include/stdlib.h
+xm_api.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+xm_api.o: /usr/include/alloca.h /usr/X11R6/include/X11/Xutil.h
+xm_api.o: /usr/include/sys/ipc.h /usr/include/bits/ipctypes.h
+xm_api.o: /usr/include/bits/ipc.h /usr/include/sys/shm.h
+xm_api.o: /usr/include/bits/shm.h /usr/X11R6/include/X11/extensions/XShm.h
+xm_api.o: ../../../../include/GL/glx.h ../../../../include/GL/glxext.h
+xm_api.o: /usr/include/sys/time.h xmesaP.h xmesa.h xmesa_x.h
+xm_api.o: ../../../../src/mesa/main/mtypes.h
+xm_api.o: ../../../../src/mesa/main/context.h
+xm_api.o: ../../../../src/mesa/main/imports.h
+xm_api.o: ../../../../src/mesa/main/compiler.h /usr/include/assert.h
+xm_api.o: /usr/include/ctype.h /usr/include/math.h
+xm_api.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+xm_api.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+xm_api.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+xm_api.o: /usr/include/bits/mathcalls.h
+xm_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+xm_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+xm_api.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+xm_api.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+xm_api.o: /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h
+xm_api.o: /usr/include/bits/stdio_lim.h /usr/include/stdio.h
+xm_api.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+xm_api.o: /usr/include/gconv.h
+xm_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+xm_api.o: /usr/include/bits/sys_errlist.h
+xm_api.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+xm_api.o: ../../../../src/mesa/main/glheader.h
+xm_api.o: ../../../../src/mesa/main/mtypes.h
+xm_api.o: ../../../../src/mesa/main/config.h
+xm_api.o: ../../../../src/mesa/main/compiler.h
+xm_api.o: ../../../../src/mesa/main/mfeatures.h
+xm_api.o: ../../../../src/mesa/glapi/glapi.h
+xm_api.o: ../../../../src/mesa/glapi/glthread.h /usr/include/pthread.h
+xm_api.o: /usr/include/sched.h /usr/include/bits/sched.h
+xm_api.o: /usr/include/signal.h /usr/include/bits/setjmp.h
+xm_api.o: ../../../../src/mesa/math/m_matrix.h
+xm_api.o: ../../../../src/mesa/main/simple_list.h
+xm_api.o: ../../../../src/mesa/main/dd.h
+xm_api.o: ../../../../src/mesa/main/extensions.h
+xm_api.o: ../../../../src/mesa/main/framebuffer.h
+xm_api.o: ../../../../src/mesa/main/imports.h
+xm_api.o: ../../../../src/mesa/main/macros.h
+xm_api.o: ../../../../src/mesa/main/renderbuffer.h
+xm_api.o: ../../../../src/mesa/main/teximage.h
+xm_api.o: ../../../../src/mesa/glapi/glthread.h
+xm_api.o: ../../../../src/mesa/swrast/swrast.h
+xm_api.o: ../../../../src/mesa/swrast_setup/swrast_setup.h
+xm_api.o: ../../../../src/mesa/vbo/vbo.h ../../../../src/mesa/tnl/tnl.h
+xm_api.o: ../../../../src/mesa/tnl/t_context.h
+xm_api.o: ../../../../src/mesa/main/bitset.h
+xm_api.o: ../../../../src/mesa/math/m_vector.h
+xm_api.o: ../../../../src/mesa/math/m_xform.h
+xm_api.o: ../../../../src/mesa/tnl/t_pipeline.h
+xm_api.o: ../../../../src/mesa/tnl/t_context.h
+xm_api.o: ../../../../src/mesa/drivers/common/driverfuncs.h
+xm_api.o: ../../../../src/mesa/drivers/common/meta.h
+xm_buffer.o: glxheader.h ../../../../src/mesa/main/glheader.h
+xm_buffer.o: ../../../../include/GL/gl.h ../../../../include/GL/glext.h
+xm_buffer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+xm_buffer.o: /usr/include/inttypes.h /usr/include/features.h
+xm_buffer.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xm_buffer.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+xm_buffer.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+xm_buffer.o: ../../../../include/GL/internal/glcore.h
+xm_buffer.o: /usr/include/sys/types.h /usr/include/bits/types.h
+xm_buffer.o: /usr/include/bits/typesizes.h /usr/include/time.h
+xm_buffer.o: /usr/include/endian.h /usr/include/bits/endian.h
+xm_buffer.o: /usr/include/sys/select.h /usr/include/bits/select.h
+xm_buffer.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+xm_buffer.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+xm_buffer.o: /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h
+xm_buffer.o: /usr/X11R6/include/X11/Xfuncproto.h
+xm_buffer.o: /usr/X11R6/include/X11/Xosdefs.h
+xm_buffer.o: /usr/X11R6/include/X11/Xlibint.h /usr/X11R6/include/X11/Xproto.h
+xm_buffer.o: /usr/X11R6/include/X11/Xmd.h /usr/X11R6/include/X11/Xprotostr.h
+xm_buffer.o: /usr/X11R6/include/X11/XlibConf.h /usr/include/errno.h
+xm_buffer.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+xm_buffer.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+xm_buffer.o: /usr/include/asm-generic/errno.h
+xm_buffer.o: /usr/include/asm-generic/errno-base.h
+xm_buffer.o: /usr/X11R6/include/X11/Xfuncs.h /usr/include/string.h
+xm_buffer.o: /usr/include/xlocale.h /usr/include/stdlib.h
+xm_buffer.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+xm_buffer.o: /usr/include/alloca.h /usr/X11R6/include/X11/Xutil.h
+xm_buffer.o: /usr/include/sys/ipc.h /usr/include/bits/ipctypes.h
+xm_buffer.o: /usr/include/bits/ipc.h /usr/include/sys/shm.h
+xm_buffer.o: /usr/include/bits/shm.h /usr/X11R6/include/X11/extensions/XShm.h
+xm_buffer.o: ../../../../include/GL/glx.h ../../../../include/GL/glxext.h
+xm_buffer.o: /usr/include/sys/time.h xmesaP.h xmesa.h xmesa_x.h
+xm_buffer.o: ../../../../src/mesa/main/mtypes.h
+xm_buffer.o: ../../../../src/mesa/main/imports.h
+xm_buffer.o: ../../../../src/mesa/main/formats.h
+xm_buffer.o: ../../../../src/mesa/main/framebuffer.h
+xm_buffer.o: ../../../../src/mesa/main/renderbuffer.h
+xm_dd.o: glxheader.h ../../../../src/mesa/main/glheader.h
+xm_dd.o: ../../../../include/GL/gl.h ../../../../include/GL/glext.h
+xm_dd.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+xm_dd.o: /usr/include/inttypes.h /usr/include/features.h
+xm_dd.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xm_dd.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+xm_dd.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+xm_dd.o: ../../../../include/GL/internal/glcore.h /usr/include/sys/types.h
+xm_dd.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+xm_dd.o: /usr/include/time.h /usr/include/endian.h /usr/include/bits/endian.h
+xm_dd.o: /usr/include/sys/select.h /usr/include/bits/select.h
+xm_dd.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+xm_dd.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+xm_dd.o: /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h
+xm_dd.o: /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h
+xm_dd.o: /usr/X11R6/include/X11/Xlibint.h /usr/X11R6/include/X11/Xproto.h
+xm_dd.o: /usr/X11R6/include/X11/Xmd.h /usr/X11R6/include/X11/Xprotostr.h
+xm_dd.o: /usr/X11R6/include/X11/XlibConf.h /usr/include/errno.h
+xm_dd.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+xm_dd.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+xm_dd.o: /usr/include/asm-generic/errno.h
+xm_dd.o: /usr/include/asm-generic/errno-base.h
+xm_dd.o: /usr/X11R6/include/X11/Xfuncs.h /usr/include/string.h
+xm_dd.o: /usr/include/xlocale.h /usr/include/stdlib.h
+xm_dd.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+xm_dd.o: /usr/include/alloca.h /usr/X11R6/include/X11/Xutil.h
+xm_dd.o: /usr/include/sys/ipc.h /usr/include/bits/ipctypes.h
+xm_dd.o: /usr/include/bits/ipc.h /usr/include/sys/shm.h
+xm_dd.o: /usr/include/bits/shm.h /usr/X11R6/include/X11/extensions/XShm.h
+xm_dd.o: ../../../../include/GL/glx.h ../../../../include/GL/glxext.h
+xm_dd.o: /usr/include/sys/time.h ../../../../src/mesa/main/bufferobj.h
+xm_dd.o: ../../../../src/mesa/main/context.h
+xm_dd.o: ../../../../src/mesa/main/imports.h
+xm_dd.o: ../../../../src/mesa/main/compiler.h /usr/include/assert.h
+xm_dd.o: /usr/include/ctype.h /usr/include/math.h
+xm_dd.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+xm_dd.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+xm_dd.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+xm_dd.o: /usr/include/bits/mathcalls.h
+xm_dd.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+xm_dd.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+xm_dd.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+xm_dd.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+xm_dd.o: /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h
+xm_dd.o: /usr/include/bits/stdio_lim.h /usr/include/stdio.h
+xm_dd.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+xm_dd.o: /usr/include/gconv.h
+xm_dd.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+xm_dd.o: /usr/include/bits/sys_errlist.h
+xm_dd.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+xm_dd.o: ../../../../src/mesa/main/glheader.h
+xm_dd.o: ../../../../src/mesa/main/mtypes.h
+xm_dd.o: ../../../../src/mesa/main/config.h
+xm_dd.o: ../../../../src/mesa/main/compiler.h
+xm_dd.o: ../../../../src/mesa/main/mfeatures.h
+xm_dd.o: ../../../../src/mesa/glapi/glapi.h
+xm_dd.o: ../../../../src/mesa/glapi/glthread.h /usr/include/pthread.h
+xm_dd.o: /usr/include/sched.h /usr/include/bits/sched.h /usr/include/signal.h
+xm_dd.o: /usr/include/bits/setjmp.h ../../../../src/mesa/math/m_matrix.h
+xm_dd.o: ../../../../src/mesa/main/simple_list.h
+xm_dd.o: ../../../../src/mesa/main/dd.h ../../../../src/mesa/main/buffers.h
+xm_dd.o: ../../../../src/mesa/main/context.h
+xm_dd.o: ../../../../src/mesa/main/colormac.h
+xm_dd.o: ../../../../src/mesa/main/config.h
+xm_dd.o: ../../../../src/mesa/main/macros.h ../../../../src/mesa/main/depth.h
+xm_dd.o: ../../../../src/mesa/main/drawpix.h
+xm_dd.o: ../../../../src/mesa/main/mtypes.h
+xm_dd.o: ../../../../src/mesa/main/extensions.h
+xm_dd.o: ../../../../src/mesa/main/framebuffer.h
+xm_dd.o: ../../../../src/mesa/main/macros.h ../../../../src/mesa/main/image.h
+xm_dd.o: ../../../../src/mesa/main/imports.h
+xm_dd.o: ../../../../src/mesa/main/state.h ../../../../src/mesa/main/texobj.h
+xm_dd.o: ../../../../src/mesa/main/teximage.h
+xm_dd.o: ../../../../src/mesa/main/texstore.h
+xm_dd.o: ../../../../src/mesa/main/formats.h
+xm_dd.o: ../../../../src/mesa/main/texformat.h
+xm_dd.o: ../../../../src/mesa/swrast/swrast.h
+xm_dd.o: ../../../../src/mesa/swrast/s_context.h
+xm_dd.o: ../../../../src/mesa/shader/prog_execute.h
+xm_dd.o: ../../../../src/mesa/swrast/swrast.h
+xm_dd.o: ../../../../src/mesa/swrast/s_span.h
+xm_dd.o: ../../../../src/mesa/swrast_setup/swrast_setup.h
+xm_dd.o: ../../../../src/mesa/tnl/tnl.h ../../../../src/mesa/tnl/t_context.h
+xm_dd.o: ../../../../src/mesa/main/bitset.h
+xm_dd.o: ../../../../src/mesa/math/m_vector.h
+xm_dd.o: ../../../../src/mesa/math/m_xform.h ../../../../src/mesa/vbo/vbo.h
+xm_dd.o: ../../../../src/mesa/drivers/common/meta.h xmesaP.h xmesa.h
+xm_dd.o: xmesa_x.h
+xm_glide.o: glxheader.h ../../../../src/mesa/main/glheader.h
+xm_glide.o: ../../../../include/GL/gl.h ../../../../include/GL/glext.h
+xm_glide.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+xm_glide.o: /usr/include/inttypes.h /usr/include/features.h
+xm_glide.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xm_glide.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+xm_glide.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+xm_glide.o: ../../../../include/GL/internal/glcore.h /usr/include/sys/types.h
+xm_glide.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+xm_glide.o: /usr/include/time.h /usr/include/endian.h
+xm_glide.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+xm_glide.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+xm_glide.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+xm_glide.o: /usr/include/bits/pthreadtypes.h /usr/X11R6/include/X11/Xlib.h
+xm_glide.o: /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h
+xm_glide.o: /usr/X11R6/include/X11/Xosdefs.h /usr/X11R6/include/X11/Xlibint.h
+xm_glide.o: /usr/X11R6/include/X11/Xproto.h /usr/X11R6/include/X11/Xmd.h
+xm_glide.o: /usr/X11R6/include/X11/Xprotostr.h
+xm_glide.o: /usr/X11R6/include/X11/XlibConf.h /usr/include/errno.h
+xm_glide.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+xm_glide.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+xm_glide.o: /usr/include/asm-generic/errno.h
+xm_glide.o: /usr/include/asm-generic/errno-base.h
+xm_glide.o: /usr/X11R6/include/X11/Xfuncs.h /usr/include/string.h
+xm_glide.o: /usr/include/xlocale.h /usr/include/stdlib.h
+xm_glide.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+xm_glide.o: /usr/include/alloca.h /usr/X11R6/include/X11/Xutil.h
+xm_glide.o: /usr/include/sys/ipc.h /usr/include/bits/ipctypes.h
+xm_glide.o: /usr/include/bits/ipc.h /usr/include/sys/shm.h
+xm_glide.o: /usr/include/bits/shm.h /usr/X11R6/include/X11/extensions/XShm.h
+xm_glide.o: ../../../../include/GL/glx.h ../../../../include/GL/glxext.h
+xm_glide.o: /usr/include/sys/time.h xmesaP.h xmesa.h xmesa_x.h
+xm_glide.o: ../../../../src/mesa/main/mtypes.h
+xm_image.o: /usr/include/stdlib.h /usr/include/features.h
+xm_image.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xm_image.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+xm_image.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+xm_image.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+xm_image.o: /usr/include/endian.h /usr/include/bits/endian.h
+xm_image.o: /usr/include/xlocale.h /usr/include/sys/types.h
+xm_image.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+xm_image.o: /usr/include/time.h /usr/include/sys/select.h
+xm_image.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+xm_image.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+xm_image.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+xm_image.o: /usr/X11R6/include/X11/Xmd.h glxheader.h
+xm_image.o: ../../../../src/mesa/main/glheader.h ../../../../include/GL/gl.h
+xm_image.o: ../../../../include/GL/glext.h /usr/include/inttypes.h
+xm_image.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+xm_image.o: ../../../../include/GL/internal/glcore.h
+xm_image.o: /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h
+xm_image.o: /usr/X11R6/include/X11/Xfuncproto.h
+xm_image.o: /usr/X11R6/include/X11/Xosdefs.h /usr/X11R6/include/X11/Xlibint.h
+xm_image.o: /usr/X11R6/include/X11/Xproto.h
+xm_image.o: /usr/X11R6/include/X11/Xprotostr.h
+xm_image.o: /usr/X11R6/include/X11/XlibConf.h /usr/include/errno.h
+xm_image.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+xm_image.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+xm_image.o: /usr/include/asm-generic/errno.h
+xm_image.o: /usr/include/asm-generic/errno-base.h
+xm_image.o: /usr/X11R6/include/X11/Xfuncs.h /usr/include/string.h
+xm_image.o: /usr/X11R6/include/X11/Xutil.h /usr/include/sys/ipc.h
+xm_image.o: /usr/include/bits/ipctypes.h /usr/include/bits/ipc.h
+xm_image.o: /usr/include/sys/shm.h /usr/include/bits/shm.h
+xm_image.o: /usr/X11R6/include/X11/extensions/XShm.h
+xm_image.o: ../../../../include/GL/glx.h ../../../../include/GL/glxext.h
+xm_image.o: /usr/include/sys/time.h xmesaP.h xmesa.h xmesa_x.h
+xm_image.o: ../../../../src/mesa/main/mtypes.h
+xm_line.o: glxheader.h ../../../../src/mesa/main/glheader.h
+xm_line.o: ../../../../include/GL/gl.h ../../../../include/GL/glext.h
+xm_line.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+xm_line.o: /usr/include/inttypes.h /usr/include/features.h
+xm_line.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xm_line.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+xm_line.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+xm_line.o: ../../../../include/GL/internal/glcore.h /usr/include/sys/types.h
+xm_line.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+xm_line.o: /usr/include/time.h /usr/include/endian.h
+xm_line.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+xm_line.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+xm_line.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+xm_line.o: /usr/include/bits/pthreadtypes.h /usr/X11R6/include/X11/Xlib.h
+xm_line.o: /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h
+xm_line.o: /usr/X11R6/include/X11/Xosdefs.h /usr/X11R6/include/X11/Xlibint.h
+xm_line.o: /usr/X11R6/include/X11/Xproto.h /usr/X11R6/include/X11/Xmd.h
+xm_line.o: /usr/X11R6/include/X11/Xprotostr.h
+xm_line.o: /usr/X11R6/include/X11/XlibConf.h /usr/include/errno.h
+xm_line.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+xm_line.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+xm_line.o: /usr/include/asm-generic/errno.h
+xm_line.o: /usr/include/asm-generic/errno-base.h
+xm_line.o: /usr/X11R6/include/X11/Xfuncs.h /usr/include/string.h
+xm_line.o: /usr/include/xlocale.h /usr/include/stdlib.h
+xm_line.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+xm_line.o: /usr/include/alloca.h /usr/X11R6/include/X11/Xutil.h
+xm_line.o: /usr/include/sys/ipc.h /usr/include/bits/ipctypes.h
+xm_line.o: /usr/include/bits/ipc.h /usr/include/sys/shm.h
+xm_line.o: /usr/include/bits/shm.h /usr/X11R6/include/X11/extensions/XShm.h
+xm_line.o: ../../../../include/GL/glx.h ../../../../include/GL/glxext.h
+xm_line.o: /usr/include/sys/time.h ../../../../src/mesa/main/depth.h
+xm_line.o: ../../../../src/mesa/main/mtypes.h
+xm_line.o: ../../../../src/mesa/main/config.h
+xm_line.o: ../../../../src/mesa/main/compiler.h
+xm_line.o: ../../../../src/mesa/main/mfeatures.h
+xm_line.o: ../../../../src/mesa/glapi/glapi.h
+xm_line.o: ../../../../src/mesa/glapi/glthread.h /usr/include/pthread.h
+xm_line.o: /usr/include/sched.h /usr/include/bits/sched.h
+xm_line.o: /usr/include/signal.h /usr/include/bits/setjmp.h
+xm_line.o: ../../../../src/mesa/math/m_matrix.h
+xm_line.o: ../../../../src/mesa/main/simple_list.h
+xm_line.o: ../../../../src/mesa/main/dd.h ../../../../src/mesa/main/macros.h
+xm_line.o: ../../../../src/mesa/main/imports.h
+xm_line.o: ../../../../src/mesa/main/compiler.h /usr/include/assert.h
+xm_line.o: /usr/include/ctype.h /usr/include/math.h
+xm_line.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+xm_line.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+xm_line.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+xm_line.o: /usr/include/bits/mathcalls.h
+xm_line.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+xm_line.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+xm_line.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+xm_line.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+xm_line.o: /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h
+xm_line.o: /usr/include/bits/stdio_lim.h /usr/include/stdio.h
+xm_line.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+xm_line.o: /usr/include/gconv.h
+xm_line.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+xm_line.o: /usr/include/bits/sys_errlist.h
+xm_line.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+xm_line.o: ../../../../src/mesa/main/glheader.h
+xm_line.o: ../../../../src/mesa/main/mtypes.h xmesaP.h xmesa.h xmesa_x.h
+xm_line.o: ../../../../src/mesa/swrast/s_depth.h
+xm_line.o: ../../../../src/mesa/swrast/s_context.h
+xm_line.o: ../../../../src/mesa/shader/prog_execute.h
+xm_line.o: ../../../../src/mesa/swrast/swrast.h
+xm_line.o: ../../../../src/mesa/swrast/s_span.h
+xm_line.o: ../../../../src/mesa/swrast/s_points.h
+xm_line.o: ../../../../src/mesa/swrast/s_lines.h
+xm_line.o: ../../../../src/mesa/swrast/s_context.h
+xm_line.o: ../../../../src/mesa/swrast/s_linetemp.h
+xm_span.o: glxheader.h ../../../../src/mesa/main/glheader.h
+xm_span.o: ../../../../include/GL/gl.h ../../../../include/GL/glext.h
+xm_span.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+xm_span.o: /usr/include/inttypes.h /usr/include/features.h
+xm_span.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xm_span.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+xm_span.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+xm_span.o: ../../../../include/GL/internal/glcore.h /usr/include/sys/types.h
+xm_span.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+xm_span.o: /usr/include/time.h /usr/include/endian.h
+xm_span.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+xm_span.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+xm_span.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+xm_span.o: /usr/include/bits/pthreadtypes.h /usr/X11R6/include/X11/Xlib.h
+xm_span.o: /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h
+xm_span.o: /usr/X11R6/include/X11/Xosdefs.h /usr/X11R6/include/X11/Xlibint.h
+xm_span.o: /usr/X11R6/include/X11/Xproto.h /usr/X11R6/include/X11/Xmd.h
+xm_span.o: /usr/X11R6/include/X11/Xprotostr.h
+xm_span.o: /usr/X11R6/include/X11/XlibConf.h /usr/include/errno.h
+xm_span.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+xm_span.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+xm_span.o: /usr/include/asm-generic/errno.h
+xm_span.o: /usr/include/asm-generic/errno-base.h
+xm_span.o: /usr/X11R6/include/X11/Xfuncs.h /usr/include/string.h
+xm_span.o: /usr/include/xlocale.h /usr/include/stdlib.h
+xm_span.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+xm_span.o: /usr/include/alloca.h /usr/X11R6/include/X11/Xutil.h
+xm_span.o: /usr/include/sys/ipc.h /usr/include/bits/ipctypes.h
+xm_span.o: /usr/include/bits/ipc.h /usr/include/sys/shm.h
+xm_span.o: /usr/include/bits/shm.h /usr/X11R6/include/X11/extensions/XShm.h
+xm_span.o: ../../../../include/GL/glx.h ../../../../include/GL/glxext.h
+xm_span.o: /usr/include/sys/time.h ../../../../src/mesa/main/colormac.h
+xm_span.o: ../../../../src/mesa/main/imports.h
+xm_span.o: ../../../../src/mesa/main/compiler.h /usr/include/assert.h
+xm_span.o: /usr/include/ctype.h /usr/include/math.h
+xm_span.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+xm_span.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+xm_span.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+xm_span.o: /usr/include/bits/mathcalls.h
+xm_span.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+xm_span.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+xm_span.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+xm_span.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+xm_span.o: /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h
+xm_span.o: /usr/include/bits/stdio_lim.h /usr/include/stdio.h
+xm_span.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+xm_span.o: /usr/include/gconv.h
+xm_span.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+xm_span.o: /usr/include/bits/sys_errlist.h
+xm_span.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+xm_span.o: ../../../../src/mesa/main/glheader.h
+xm_span.o: ../../../../src/mesa/main/config.h
+xm_span.o: ../../../../src/mesa/main/macros.h
+xm_span.o: ../../../../src/mesa/main/context.h
+xm_span.o: ../../../../src/mesa/main/mtypes.h
+xm_span.o: ../../../../src/mesa/main/config.h
+xm_span.o: ../../../../src/mesa/main/compiler.h
+xm_span.o: ../../../../src/mesa/main/mfeatures.h
+xm_span.o: ../../../../src/mesa/glapi/glapi.h
+xm_span.o: ../../../../src/mesa/glapi/glthread.h /usr/include/pthread.h
+xm_span.o: /usr/include/sched.h /usr/include/bits/sched.h
+xm_span.o: /usr/include/signal.h /usr/include/bits/setjmp.h
+xm_span.o: ../../../../src/mesa/math/m_matrix.h
+xm_span.o: ../../../../src/mesa/main/simple_list.h
+xm_span.o: ../../../../src/mesa/main/dd.h ../../../../src/mesa/main/depth.h
+xm_span.o: ../../../../src/mesa/main/drawpix.h
+xm_span.o: ../../../../src/mesa/main/mtypes.h
+xm_span.o: ../../../../src/mesa/main/extensions.h
+xm_span.o: ../../../../src/mesa/main/macros.h
+xm_span.o: ../../../../src/mesa/main/imports.h
+xm_span.o: ../../../../src/mesa/main/state.h xmesaP.h xmesa.h xmesa_x.h
+xm_span.o: ../../../../src/mesa/swrast/swrast.h
+xm_tri.o: ../../../../src/mesa/main/depth.h
+xm_tri.o: ../../../../src/mesa/main/mtypes.h
+xm_tri.o: ../../../../src/mesa/main/glheader.h ../../../../include/GL/gl.h
+xm_tri.o: ../../../../include/GL/glext.h
+xm_tri.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+xm_tri.o: /usr/include/inttypes.h /usr/include/features.h
+xm_tri.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xm_tri.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+xm_tri.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+xm_tri.o: ../../../../include/GL/internal/glcore.h /usr/include/sys/types.h
+xm_tri.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+xm_tri.o: /usr/include/time.h /usr/include/endian.h
+xm_tri.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+xm_tri.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+xm_tri.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+xm_tri.o: /usr/include/bits/pthreadtypes.h ../../../../src/mesa/main/config.h
+xm_tri.o: ../../../../src/mesa/main/compiler.h
+xm_tri.o: ../../../../src/mesa/main/mfeatures.h
+xm_tri.o: ../../../../src/mesa/glapi/glapi.h
+xm_tri.o: ../../../../src/mesa/glapi/glthread.h /usr/include/pthread.h
+xm_tri.o: /usr/include/sched.h /usr/include/bits/sched.h
+xm_tri.o: /usr/include/signal.h /usr/include/bits/setjmp.h
+xm_tri.o: ../../../../src/mesa/math/m_matrix.h
+xm_tri.o: ../../../../src/mesa/main/simple_list.h
+xm_tri.o: ../../../../src/mesa/main/dd.h ../../../../src/mesa/main/macros.h
+xm_tri.o: ../../../../src/mesa/main/imports.h
+xm_tri.o: ../../../../src/mesa/main/compiler.h /usr/include/assert.h
+xm_tri.o: /usr/include/ctype.h /usr/include/xlocale.h /usr/include/math.h
+xm_tri.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+xm_tri.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+xm_tri.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+xm_tri.o: /usr/include/bits/mathcalls.h
+xm_tri.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+xm_tri.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+xm_tri.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+xm_tri.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+xm_tri.o: /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h
+xm_tri.o: /usr/include/bits/stdio_lim.h /usr/include/stdlib.h
+xm_tri.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+xm_tri.o: /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h
+xm_tri.o: /usr/include/_G_config.h /usr/include/wchar.h /usr/include/gconv.h
+xm_tri.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+xm_tri.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+xm_tri.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+xm_tri.o: ../../../../src/mesa/main/glheader.h
+xm_tri.o: ../../../../src/mesa/main/imports.h
+xm_tri.o: ../../../../src/mesa/main/mtypes.h glxheader.h
+xm_tri.o: /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h
+xm_tri.o: /usr/X11R6/include/X11/Xfuncproto.h
+xm_tri.o: /usr/X11R6/include/X11/Xosdefs.h /usr/X11R6/include/X11/Xlibint.h
+xm_tri.o: /usr/X11R6/include/X11/Xproto.h /usr/X11R6/include/X11/Xmd.h
+xm_tri.o: /usr/X11R6/include/X11/Xprotostr.h
+xm_tri.o: /usr/X11R6/include/X11/XlibConf.h /usr/include/errno.h
+xm_tri.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+xm_tri.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+xm_tri.o: /usr/include/asm-generic/errno.h
+xm_tri.o: /usr/include/asm-generic/errno-base.h
+xm_tri.o: /usr/X11R6/include/X11/Xfuncs.h /usr/X11R6/include/X11/Xutil.h
+xm_tri.o: /usr/include/sys/ipc.h /usr/include/bits/ipctypes.h
+xm_tri.o: /usr/include/bits/ipc.h /usr/include/sys/shm.h
+xm_tri.o: /usr/include/bits/shm.h /usr/X11R6/include/X11/extensions/XShm.h
+xm_tri.o: ../../../../include/GL/glx.h ../../../../include/GL/glxext.h
+xm_tri.o: /usr/include/sys/time.h xmesaP.h xmesa.h xmesa_x.h
+xm_tri.o: ../../../../src/mesa/swrast/s_context.h
+xm_tri.o: ../../../../src/mesa/shader/prog_execute.h
+xm_tri.o: ../../../../src/mesa/swrast/swrast.h
+xm_tri.o: ../../../../src/mesa/swrast/s_span.h
+xm_tri.o: ../../../../src/mesa/swrast/s_depth.h
+xm_tri.o: ../../../../src/mesa/swrast/s_context.h
+xm_tri.o: ../../../../src/mesa/swrast/s_triangle.h
+xm_tri.o: ../../../../src/mesa/swrast/s_tritemp.h
+glxapi.o: ../../../../include/GL/glx.h /usr/X11R6/include/X11/Xlib.h
+glxapi.o: /usr/include/sys/types.h /usr/include/features.h
+glxapi.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glxapi.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glxapi.o: /usr/include/bits/types.h
+glxapi.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+glxapi.o: /usr/include/bits/typesizes.h /usr/include/time.h
+glxapi.o: /usr/include/endian.h /usr/include/bits/endian.h
+glxapi.o: /usr/include/sys/select.h /usr/include/bits/select.h
+glxapi.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+glxapi.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+glxapi.o: /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h
+glxapi.o: /usr/X11R6/include/X11/Xosdefs.h /usr/X11R6/include/X11/Xutil.h
+glxapi.o: ../../../../include/GL/gl.h ../../../../include/GL/glext.h
+glxapi.o: /usr/include/inttypes.h /usr/include/stdint.h
+glxapi.o: /usr/include/bits/wchar.h ../../../../include/GL/glxext.h
+glxheader.o: ../../../../src/mesa/main/glheader.h ../../../../include/GL/gl.h
+glxheader.o: ../../../../include/GL/glext.h
+glxheader.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+glxheader.o: /usr/include/inttypes.h /usr/include/features.h
+glxheader.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glxheader.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glxheader.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glxheader.o: ../../../../include/GL/internal/glcore.h
+glxheader.o: /usr/include/sys/types.h /usr/include/bits/types.h
+glxheader.o: /usr/include/bits/typesizes.h /usr/include/time.h
+glxheader.o: /usr/include/endian.h /usr/include/bits/endian.h
+glxheader.o: /usr/include/sys/select.h /usr/include/bits/select.h
+glxheader.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+glxheader.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+glxheader.o: /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h
+glxheader.o: /usr/X11R6/include/X11/Xfuncproto.h
+glxheader.o: /usr/X11R6/include/X11/Xosdefs.h
+glxheader.o: /usr/X11R6/include/X11/Xlibint.h /usr/X11R6/include/X11/Xproto.h
+glxheader.o: /usr/X11R6/include/X11/Xmd.h /usr/X11R6/include/X11/Xprotostr.h
+glxheader.o: /usr/X11R6/include/X11/XlibConf.h /usr/include/errno.h
+glxheader.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+glxheader.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+glxheader.o: /usr/include/asm-generic/errno.h
+glxheader.o: /usr/include/asm-generic/errno-base.h
+glxheader.o: /usr/X11R6/include/X11/Xfuncs.h /usr/include/string.h
+glxheader.o: /usr/include/xlocale.h /usr/include/stdlib.h
+glxheader.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+glxheader.o: /usr/include/alloca.h /usr/X11R6/include/X11/Xutil.h
+glxheader.o: /usr/include/sys/ipc.h /usr/include/bits/ipctypes.h
+glxheader.o: /usr/include/bits/ipc.h /usr/include/sys/shm.h
+glxheader.o: /usr/include/bits/shm.h /usr/X11R6/include/X11/extensions/XShm.h
+glxheader.o: ../../../../include/GL/glx.h ../../../../include/GL/glxext.h
+glxheader.o: /usr/include/sys/time.h
+xfonts.o: /usr/X11R6/include/X11/Xlib.h /usr/include/sys/types.h
+xfonts.o: /usr/include/features.h /usr/include/sys/cdefs.h
+xfonts.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+xfonts.o: /usr/include/gnu/stubs-64.h /usr/include/bits/types.h
+xfonts.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+xfonts.o: /usr/include/bits/typesizes.h /usr/include/time.h
+xfonts.o: /usr/include/endian.h /usr/include/bits/endian.h
+xfonts.o: /usr/include/sys/select.h /usr/include/bits/select.h
+xfonts.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+xfonts.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+xfonts.o: /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h
+xfonts.o: /usr/X11R6/include/X11/Xosdefs.h
+xmesaP.o: xmesa.h /usr/X11R6/include/X11/Xlib.h /usr/include/sys/types.h
+xmesaP.o: /usr/include/features.h /usr/include/sys/cdefs.h
+xmesaP.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+xmesaP.o: /usr/include/gnu/stubs-64.h /usr/include/bits/types.h
+xmesaP.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+xmesaP.o: /usr/include/bits/typesizes.h /usr/include/time.h
+xmesaP.o: /usr/include/endian.h /usr/include/bits/endian.h
+xmesaP.o: /usr/include/sys/select.h /usr/include/bits/select.h
+xmesaP.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+xmesaP.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+xmesaP.o: /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h
+xmesaP.o: /usr/X11R6/include/X11/Xosdefs.h /usr/X11R6/include/X11/Xutil.h
+xmesaP.o: xmesa_x.h ../../../../include/GL/gl.h
+xmesaP.o: ../../../../include/GL/glext.h /usr/include/inttypes.h
+xmesaP.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+xmesaP.o: ../../../../src/mesa/main/mtypes.h

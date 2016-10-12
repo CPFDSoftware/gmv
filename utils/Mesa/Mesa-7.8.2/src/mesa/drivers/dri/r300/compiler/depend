@@ -1,0 +1,446 @@
+# DO NOT DELETE
+
+radeon_code.o: radeon_code.h /usr/include/stdint.h /usr/include/features.h
+radeon_code.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_code.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_code.o: /usr/include/bits/wchar.h /usr/include/stdlib.h
+radeon_code.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+radeon_code.o: /usr/include/string.h radeon_program.h radeon_opcodes.h
+radeon_code.o: /usr/include/assert.h radeon_program_constants.h
+radeon_code.o: radeon_program_pair.h
+radeon_compiler.o: radeon_compiler.h ../../../../main/compiler.h
+radeon_compiler.o: /usr/include/assert.h /usr/include/features.h
+radeon_compiler.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_compiler.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_compiler.o: /usr/include/ctype.h /usr/include/bits/types.h
+radeon_compiler.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+radeon_compiler.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+radeon_compiler.o: /usr/include/bits/endian.h /usr/include/math.h
+radeon_compiler.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+radeon_compiler.o: /usr/include/bits/mathcalls.h
+radeon_compiler.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+radeon_compiler.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+radeon_compiler.o: /usr/include/limits.h /usr/include/stdlib.h
+radeon_compiler.o: /usr/include/stdio.h /usr/include/libio.h
+radeon_compiler.o: /usr/include/_G_config.h /usr/include/wchar.h
+radeon_compiler.o: /usr/include/bits/wchar.h /usr/include/gconv.h
+radeon_compiler.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+radeon_compiler.o: /usr/include/bits/stdio_lim.h
+radeon_compiler.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+radeon_compiler.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+radeon_compiler.o: /usr/include/stdint.h memory_pool.h radeon_code.h
+radeon_compiler.o: radeon_program.h radeon_opcodes.h
+radeon_compiler.o: radeon_program_constants.h radeon_program_pair.h
+radeon_program.o: radeon_program.h /usr/include/stdint.h
+radeon_program.o: /usr/include/features.h /usr/include/sys/cdefs.h
+radeon_program.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+radeon_program.o: /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+radeon_program.o: /usr/include/string.h
+radeon_program.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+radeon_program.o: radeon_opcodes.h /usr/include/assert.h radeon_code.h
+radeon_program.o: radeon_program_constants.h radeon_program_pair.h
+radeon_program.o: /usr/include/stdio.h /usr/include/bits/types.h
+radeon_program.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+radeon_program.o: /usr/include/_G_config.h /usr/include/wchar.h
+radeon_program.o: /usr/include/gconv.h
+radeon_program.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+radeon_program.o: /usr/include/bits/stdio_lim.h
+radeon_program.o: /usr/include/bits/sys_errlist.h radeon_compiler.h
+radeon_program.o: ../../../../main/compiler.h /usr/include/ctype.h
+radeon_program.o: /usr/include/endian.h /usr/include/bits/endian.h
+radeon_program.o: /usr/include/math.h /usr/include/bits/huge_val.h
+radeon_program.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+radeon_program.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+radeon_program.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+radeon_program.o: /usr/include/limits.h /usr/include/stdlib.h
+radeon_program.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+radeon_program.o: memory_pool.h
+radeon_program_print.o: radeon_program.h /usr/include/stdint.h
+radeon_program_print.o: /usr/include/features.h /usr/include/sys/cdefs.h
+radeon_program_print.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+radeon_program_print.o: /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+radeon_program_print.o: /usr/include/string.h
+radeon_program_print.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+radeon_program_print.o: radeon_opcodes.h /usr/include/assert.h radeon_code.h
+radeon_program_print.o: radeon_program_constants.h radeon_program_pair.h
+radeon_program_print.o: /usr/include/stdio.h /usr/include/bits/types.h
+radeon_program_print.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+radeon_program_print.o: /usr/include/_G_config.h /usr/include/wchar.h
+radeon_program_print.o: /usr/include/gconv.h
+radeon_program_print.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+radeon_program_print.o: /usr/include/bits/stdio_lim.h
+radeon_program_print.o: /usr/include/bits/sys_errlist.h
+radeon_opcodes.o: radeon_opcodes.h /usr/include/assert.h
+radeon_opcodes.o: /usr/include/features.h /usr/include/sys/cdefs.h
+radeon_opcodes.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+radeon_opcodes.o: /usr/include/gnu/stubs-64.h radeon_program_constants.h
+radeon_program_alu.o: radeon_program_alu.h radeon_program.h
+radeon_program_alu.o: /usr/include/stdint.h /usr/include/features.h
+radeon_program_alu.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_program_alu.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_program_alu.o: /usr/include/bits/wchar.h /usr/include/string.h
+radeon_program_alu.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+radeon_program_alu.o: radeon_opcodes.h /usr/include/assert.h radeon_code.h
+radeon_program_alu.o: radeon_program_constants.h radeon_program_pair.h
+radeon_program_alu.o: radeon_compiler.h ../../../../main/compiler.h
+radeon_program_alu.o: /usr/include/ctype.h /usr/include/bits/types.h
+radeon_program_alu.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+radeon_program_alu.o: /usr/include/bits/endian.h /usr/include/math.h
+radeon_program_alu.o: /usr/include/bits/huge_val.h
+radeon_program_alu.o: /usr/include/bits/mathdef.h
+radeon_program_alu.o: /usr/include/bits/mathcalls.h
+radeon_program_alu.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+radeon_program_alu.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+radeon_program_alu.o: /usr/include/limits.h /usr/include/stdlib.h
+radeon_program_alu.o: /usr/include/stdio.h /usr/include/libio.h
+radeon_program_alu.o: /usr/include/_G_config.h /usr/include/wchar.h
+radeon_program_alu.o: /usr/include/gconv.h
+radeon_program_alu.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+radeon_program_alu.o: /usr/include/bits/stdio_lim.h
+radeon_program_alu.o: /usr/include/bits/sys_errlist.h
+radeon_program_alu.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+radeon_program_alu.o: memory_pool.h
+radeon_program_pair.o: radeon_program_pair.h radeon_code.h
+radeon_program_pair.o: /usr/include/stdint.h /usr/include/features.h
+radeon_program_pair.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_program_pair.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_program_pair.o: /usr/include/bits/wchar.h radeon_opcodes.h
+radeon_program_pair.o: /usr/include/assert.h radeon_program_constants.h
+radeon_pair_translate.o: radeon_program_pair.h radeon_code.h
+radeon_pair_translate.o: /usr/include/stdint.h /usr/include/features.h
+radeon_pair_translate.o: /usr/include/sys/cdefs.h
+radeon_pair_translate.o: /usr/include/bits/wordsize.h
+radeon_pair_translate.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_pair_translate.o: /usr/include/bits/wchar.h radeon_opcodes.h
+radeon_pair_translate.o: /usr/include/assert.h radeon_program_constants.h
+radeon_pair_translate.o: radeon_compiler.h ../../../../main/compiler.h
+radeon_pair_translate.o: /usr/include/ctype.h /usr/include/bits/types.h
+radeon_pair_translate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+radeon_pair_translate.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+radeon_pair_translate.o: /usr/include/bits/endian.h /usr/include/math.h
+radeon_pair_translate.o: /usr/include/bits/huge_val.h
+radeon_pair_translate.o: /usr/include/bits/mathdef.h
+radeon_pair_translate.o: /usr/include/bits/mathcalls.h
+radeon_pair_translate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+radeon_pair_translate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+radeon_pair_translate.o: /usr/include/limits.h /usr/include/stdlib.h
+radeon_pair_translate.o: /usr/include/stdio.h /usr/include/libio.h
+radeon_pair_translate.o: /usr/include/_G_config.h /usr/include/wchar.h
+radeon_pair_translate.o: /usr/include/gconv.h
+radeon_pair_translate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+radeon_pair_translate.o: /usr/include/bits/stdio_lim.h
+radeon_pair_translate.o: /usr/include/bits/sys_errlist.h
+radeon_pair_translate.o: /usr/include/string.h
+radeon_pair_translate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+radeon_pair_translate.o: memory_pool.h radeon_program.h
+radeon_pair_schedule.o: radeon_program_pair.h radeon_code.h
+radeon_pair_schedule.o: /usr/include/stdint.h /usr/include/features.h
+radeon_pair_schedule.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_pair_schedule.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_pair_schedule.o: /usr/include/bits/wchar.h radeon_opcodes.h
+radeon_pair_schedule.o: /usr/include/assert.h radeon_program_constants.h
+radeon_pair_schedule.o: /usr/include/stdio.h
+radeon_pair_schedule.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+radeon_pair_schedule.o: /usr/include/bits/types.h
+radeon_pair_schedule.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+radeon_pair_schedule.o: /usr/include/_G_config.h /usr/include/wchar.h
+radeon_pair_schedule.o: /usr/include/gconv.h
+radeon_pair_schedule.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+radeon_pair_schedule.o: /usr/include/bits/stdio_lim.h
+radeon_pair_schedule.o: /usr/include/bits/sys_errlist.h radeon_compiler.h
+radeon_pair_schedule.o: ../../../../main/compiler.h /usr/include/ctype.h
+radeon_pair_schedule.o: /usr/include/endian.h /usr/include/bits/endian.h
+radeon_pair_schedule.o: /usr/include/math.h /usr/include/bits/huge_val.h
+radeon_pair_schedule.o: /usr/include/bits/mathdef.h
+radeon_pair_schedule.o: /usr/include/bits/mathcalls.h
+radeon_pair_schedule.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+radeon_pair_schedule.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+radeon_pair_schedule.o: /usr/include/limits.h /usr/include/stdlib.h
+radeon_pair_schedule.o: /usr/include/string.h
+radeon_pair_schedule.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+radeon_pair_schedule.o: memory_pool.h radeon_program.h radeon_dataflow.h
+radeon_pair_regalloc.o: radeon_program_pair.h radeon_code.h
+radeon_pair_regalloc.o: /usr/include/stdint.h /usr/include/features.h
+radeon_pair_regalloc.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_pair_regalloc.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_pair_regalloc.o: /usr/include/bits/wchar.h radeon_opcodes.h
+radeon_pair_regalloc.o: /usr/include/assert.h radeon_program_constants.h
+radeon_pair_regalloc.o: /usr/include/stdio.h
+radeon_pair_regalloc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+radeon_pair_regalloc.o: /usr/include/bits/types.h
+radeon_pair_regalloc.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+radeon_pair_regalloc.o: /usr/include/_G_config.h /usr/include/wchar.h
+radeon_pair_regalloc.o: /usr/include/gconv.h
+radeon_pair_regalloc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+radeon_pair_regalloc.o: /usr/include/bits/stdio_lim.h
+radeon_pair_regalloc.o: /usr/include/bits/sys_errlist.h radeon_compiler.h
+radeon_pair_regalloc.o: ../../../../main/compiler.h /usr/include/ctype.h
+radeon_pair_regalloc.o: /usr/include/endian.h /usr/include/bits/endian.h
+radeon_pair_regalloc.o: /usr/include/math.h /usr/include/bits/huge_val.h
+radeon_pair_regalloc.o: /usr/include/bits/mathdef.h
+radeon_pair_regalloc.o: /usr/include/bits/mathcalls.h
+radeon_pair_regalloc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+radeon_pair_regalloc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+radeon_pair_regalloc.o: /usr/include/limits.h /usr/include/stdlib.h
+radeon_pair_regalloc.o: /usr/include/string.h
+radeon_pair_regalloc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+radeon_pair_regalloc.o: memory_pool.h radeon_program.h radeon_dataflow.h
+radeon_dataflow.o: radeon_dataflow.h radeon_program_constants.h
+radeon_dataflow.o: radeon_program.h /usr/include/stdint.h
+radeon_dataflow.o: /usr/include/features.h /usr/include/sys/cdefs.h
+radeon_dataflow.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+radeon_dataflow.o: /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+radeon_dataflow.o: /usr/include/string.h
+radeon_dataflow.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+radeon_dataflow.o: radeon_opcodes.h /usr/include/assert.h radeon_code.h
+radeon_dataflow.o: radeon_program_pair.h
+radeon_dataflow_deadcode.o: radeon_dataflow.h radeon_program_constants.h
+radeon_dataflow_deadcode.o: radeon_compiler.h ../../../../main/compiler.h
+radeon_dataflow_deadcode.o: /usr/include/assert.h /usr/include/features.h
+radeon_dataflow_deadcode.o: /usr/include/sys/cdefs.h
+radeon_dataflow_deadcode.o: /usr/include/bits/wordsize.h
+radeon_dataflow_deadcode.o: /usr/include/gnu/stubs.h
+radeon_dataflow_deadcode.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+radeon_dataflow_deadcode.o: /usr/include/bits/types.h
+radeon_dataflow_deadcode.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+radeon_dataflow_deadcode.o: /usr/include/bits/typesizes.h
+radeon_dataflow_deadcode.o: /usr/include/endian.h /usr/include/bits/endian.h
+radeon_dataflow_deadcode.o: /usr/include/math.h /usr/include/bits/huge_val.h
+radeon_dataflow_deadcode.o: /usr/include/bits/mathdef.h
+radeon_dataflow_deadcode.o: /usr/include/bits/mathcalls.h
+radeon_dataflow_deadcode.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+radeon_dataflow_deadcode.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+radeon_dataflow_deadcode.o: /usr/include/limits.h /usr/include/stdlib.h
+radeon_dataflow_deadcode.o: /usr/include/stdio.h /usr/include/libio.h
+radeon_dataflow_deadcode.o: /usr/include/_G_config.h /usr/include/wchar.h
+radeon_dataflow_deadcode.o: /usr/include/bits/wchar.h /usr/include/gconv.h
+radeon_dataflow_deadcode.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+radeon_dataflow_deadcode.o: /usr/include/bits/stdio_lim.h
+radeon_dataflow_deadcode.o: /usr/include/bits/sys_errlist.h
+radeon_dataflow_deadcode.o: /usr/include/string.h
+radeon_dataflow_deadcode.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+radeon_dataflow_deadcode.o: /usr/include/stdint.h memory_pool.h radeon_code.h
+radeon_dataflow_deadcode.o: radeon_program.h radeon_opcodes.h
+radeon_dataflow_deadcode.o: radeon_program_pair.h
+radeon_dataflow_swizzles.o: radeon_dataflow.h radeon_program_constants.h
+radeon_dataflow_swizzles.o: radeon_compiler.h ../../../../main/compiler.h
+radeon_dataflow_swizzles.o: /usr/include/assert.h /usr/include/features.h
+radeon_dataflow_swizzles.o: /usr/include/sys/cdefs.h
+radeon_dataflow_swizzles.o: /usr/include/bits/wordsize.h
+radeon_dataflow_swizzles.o: /usr/include/gnu/stubs.h
+radeon_dataflow_swizzles.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+radeon_dataflow_swizzles.o: /usr/include/bits/types.h
+radeon_dataflow_swizzles.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+radeon_dataflow_swizzles.o: /usr/include/bits/typesizes.h
+radeon_dataflow_swizzles.o: /usr/include/endian.h /usr/include/bits/endian.h
+radeon_dataflow_swizzles.o: /usr/include/math.h /usr/include/bits/huge_val.h
+radeon_dataflow_swizzles.o: /usr/include/bits/mathdef.h
+radeon_dataflow_swizzles.o: /usr/include/bits/mathcalls.h
+radeon_dataflow_swizzles.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+radeon_dataflow_swizzles.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+radeon_dataflow_swizzles.o: /usr/include/limits.h /usr/include/stdlib.h
+radeon_dataflow_swizzles.o: /usr/include/stdio.h /usr/include/libio.h
+radeon_dataflow_swizzles.o: /usr/include/_G_config.h /usr/include/wchar.h
+radeon_dataflow_swizzles.o: /usr/include/bits/wchar.h /usr/include/gconv.h
+radeon_dataflow_swizzles.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+radeon_dataflow_swizzles.o: /usr/include/bits/stdio_lim.h
+radeon_dataflow_swizzles.o: /usr/include/bits/sys_errlist.h
+radeon_dataflow_swizzles.o: /usr/include/string.h
+radeon_dataflow_swizzles.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+radeon_dataflow_swizzles.o: /usr/include/stdint.h memory_pool.h radeon_code.h
+radeon_dataflow_swizzles.o: radeon_program.h radeon_opcodes.h
+radeon_dataflow_swizzles.o: radeon_program_pair.h radeon_swizzle.h
+r3xx_fragprog.o: radeon_compiler.h ../../../../main/compiler.h
+r3xx_fragprog.o: /usr/include/assert.h /usr/include/features.h
+r3xx_fragprog.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r3xx_fragprog.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r3xx_fragprog.o: /usr/include/ctype.h /usr/include/bits/types.h
+r3xx_fragprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r3xx_fragprog.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r3xx_fragprog.o: /usr/include/bits/endian.h /usr/include/math.h
+r3xx_fragprog.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+r3xx_fragprog.o: /usr/include/bits/mathcalls.h
+r3xx_fragprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+r3xx_fragprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+r3xx_fragprog.o: /usr/include/limits.h /usr/include/stdlib.h
+r3xx_fragprog.o: /usr/include/stdio.h /usr/include/libio.h
+r3xx_fragprog.o: /usr/include/_G_config.h /usr/include/wchar.h
+r3xx_fragprog.o: /usr/include/bits/wchar.h /usr/include/gconv.h
+r3xx_fragprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r3xx_fragprog.o: /usr/include/bits/stdio_lim.h
+r3xx_fragprog.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+r3xx_fragprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+r3xx_fragprog.o: /usr/include/stdint.h memory_pool.h radeon_code.h
+r3xx_fragprog.o: radeon_program.h radeon_opcodes.h radeon_program_constants.h
+r3xx_fragprog.o: radeon_program_pair.h radeon_dataflow.h radeon_program_alu.h
+r3xx_fragprog.o: r300_fragprog.h r300_fragprog_swizzle.h radeon_swizzle.h
+r3xx_fragprog.o: r500_fragprog.h
+r300_fragprog.o: r300_fragprog.h radeon_compiler.h
+r300_fragprog.o: ../../../../main/compiler.h /usr/include/assert.h
+r300_fragprog.o: /usr/include/features.h /usr/include/sys/cdefs.h
+r300_fragprog.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+r300_fragprog.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+r300_fragprog.o: /usr/include/bits/types.h
+r300_fragprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_fragprog.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r300_fragprog.o: /usr/include/bits/endian.h /usr/include/math.h
+r300_fragprog.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+r300_fragprog.o: /usr/include/bits/mathcalls.h
+r300_fragprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+r300_fragprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+r300_fragprog.o: /usr/include/limits.h /usr/include/stdlib.h
+r300_fragprog.o: /usr/include/stdio.h /usr/include/libio.h
+r300_fragprog.o: /usr/include/_G_config.h /usr/include/wchar.h
+r300_fragprog.o: /usr/include/bits/wchar.h /usr/include/gconv.h
+r300_fragprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_fragprog.o: /usr/include/bits/stdio_lim.h
+r300_fragprog.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+r300_fragprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+r300_fragprog.o: /usr/include/stdint.h memory_pool.h radeon_code.h
+r300_fragprog.o: radeon_program.h radeon_opcodes.h radeon_program_constants.h
+r300_fragprog.o: radeon_program_pair.h ../r300_reg.h
+r300_fragprog_swizzle.o: r300_fragprog_swizzle.h radeon_swizzle.h
+r300_fragprog_swizzle.o: radeon_program.h /usr/include/stdint.h
+r300_fragprog_swizzle.o: /usr/include/features.h /usr/include/sys/cdefs.h
+r300_fragprog_swizzle.o: /usr/include/bits/wordsize.h
+r300_fragprog_swizzle.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r300_fragprog_swizzle.o: /usr/include/bits/wchar.h /usr/include/string.h
+r300_fragprog_swizzle.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_fragprog_swizzle.o: radeon_opcodes.h /usr/include/assert.h radeon_code.h
+r300_fragprog_swizzle.o: radeon_program_constants.h radeon_program_pair.h
+r300_fragprog_swizzle.o: /usr/include/stdio.h /usr/include/bits/types.h
+r300_fragprog_swizzle.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+r300_fragprog_swizzle.o: /usr/include/_G_config.h /usr/include/wchar.h
+r300_fragprog_swizzle.o: /usr/include/gconv.h
+r300_fragprog_swizzle.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_fragprog_swizzle.o: /usr/include/bits/stdio_lim.h
+r300_fragprog_swizzle.o: /usr/include/bits/sys_errlist.h ../r300_reg.h
+r300_fragprog_swizzle.o: radeon_compiler.h ../../../../main/compiler.h
+r300_fragprog_swizzle.o: /usr/include/ctype.h /usr/include/endian.h
+r300_fragprog_swizzle.o: /usr/include/bits/endian.h /usr/include/math.h
+r300_fragprog_swizzle.o: /usr/include/bits/huge_val.h
+r300_fragprog_swizzle.o: /usr/include/bits/mathdef.h
+r300_fragprog_swizzle.o: /usr/include/bits/mathcalls.h
+r300_fragprog_swizzle.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+r300_fragprog_swizzle.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+r300_fragprog_swizzle.o: /usr/include/limits.h /usr/include/stdlib.h
+r300_fragprog_swizzle.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+r300_fragprog_swizzle.o: memory_pool.h
+r300_fragprog_emit.o: r300_fragprog.h radeon_compiler.h
+r300_fragprog_emit.o: ../../../../main/compiler.h /usr/include/assert.h
+r300_fragprog_emit.o: /usr/include/features.h /usr/include/sys/cdefs.h
+r300_fragprog_emit.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+r300_fragprog_emit.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+r300_fragprog_emit.o: /usr/include/bits/types.h
+r300_fragprog_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r300_fragprog_emit.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r300_fragprog_emit.o: /usr/include/bits/endian.h /usr/include/math.h
+r300_fragprog_emit.o: /usr/include/bits/huge_val.h
+r300_fragprog_emit.o: /usr/include/bits/mathdef.h
+r300_fragprog_emit.o: /usr/include/bits/mathcalls.h
+r300_fragprog_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+r300_fragprog_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+r300_fragprog_emit.o: /usr/include/limits.h /usr/include/stdlib.h
+r300_fragprog_emit.o: /usr/include/stdio.h /usr/include/libio.h
+r300_fragprog_emit.o: /usr/include/_G_config.h /usr/include/wchar.h
+r300_fragprog_emit.o: /usr/include/bits/wchar.h /usr/include/gconv.h
+r300_fragprog_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r300_fragprog_emit.o: /usr/include/bits/stdio_lim.h
+r300_fragprog_emit.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+r300_fragprog_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+r300_fragprog_emit.o: /usr/include/stdint.h memory_pool.h radeon_code.h
+r300_fragprog_emit.o: radeon_program.h radeon_opcodes.h
+r300_fragprog_emit.o: radeon_program_constants.h radeon_program_pair.h
+r300_fragprog_emit.o: ../r300_reg.h r300_fragprog_swizzle.h radeon_swizzle.h
+r500_fragprog.o: r500_fragprog.h radeon_compiler.h
+r500_fragprog.o: ../../../../main/compiler.h /usr/include/assert.h
+r500_fragprog.o: /usr/include/features.h /usr/include/sys/cdefs.h
+r500_fragprog.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+r500_fragprog.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+r500_fragprog.o: /usr/include/bits/types.h
+r500_fragprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r500_fragprog.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r500_fragprog.o: /usr/include/bits/endian.h /usr/include/math.h
+r500_fragprog.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+r500_fragprog.o: /usr/include/bits/mathcalls.h
+r500_fragprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+r500_fragprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+r500_fragprog.o: /usr/include/limits.h /usr/include/stdlib.h
+r500_fragprog.o: /usr/include/stdio.h /usr/include/libio.h
+r500_fragprog.o: /usr/include/_G_config.h /usr/include/wchar.h
+r500_fragprog.o: /usr/include/bits/wchar.h /usr/include/gconv.h
+r500_fragprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r500_fragprog.o: /usr/include/bits/stdio_lim.h
+r500_fragprog.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+r500_fragprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+r500_fragprog.o: /usr/include/stdint.h memory_pool.h radeon_code.h
+r500_fragprog.o: radeon_program.h radeon_opcodes.h radeon_program_constants.h
+r500_fragprog.o: radeon_program_pair.h radeon_swizzle.h ../r300_reg.h
+r500_fragprog_emit.o: r500_fragprog.h radeon_compiler.h
+r500_fragprog_emit.o: ../../../../main/compiler.h /usr/include/assert.h
+r500_fragprog_emit.o: /usr/include/features.h /usr/include/sys/cdefs.h
+r500_fragprog_emit.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+r500_fragprog_emit.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+r500_fragprog_emit.o: /usr/include/bits/types.h
+r500_fragprog_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r500_fragprog_emit.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r500_fragprog_emit.o: /usr/include/bits/endian.h /usr/include/math.h
+r500_fragprog_emit.o: /usr/include/bits/huge_val.h
+r500_fragprog_emit.o: /usr/include/bits/mathdef.h
+r500_fragprog_emit.o: /usr/include/bits/mathcalls.h
+r500_fragprog_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+r500_fragprog_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+r500_fragprog_emit.o: /usr/include/limits.h /usr/include/stdlib.h
+r500_fragprog_emit.o: /usr/include/stdio.h /usr/include/libio.h
+r500_fragprog_emit.o: /usr/include/_G_config.h /usr/include/wchar.h
+r500_fragprog_emit.o: /usr/include/bits/wchar.h /usr/include/gconv.h
+r500_fragprog_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r500_fragprog_emit.o: /usr/include/bits/stdio_lim.h
+r500_fragprog_emit.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+r500_fragprog_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+r500_fragprog_emit.o: /usr/include/stdint.h memory_pool.h radeon_code.h
+r500_fragprog_emit.o: radeon_program.h radeon_opcodes.h
+r500_fragprog_emit.o: radeon_program_constants.h radeon_program_pair.h
+r500_fragprog_emit.o: radeon_swizzle.h ../r300_reg.h
+r3xx_vertprog.o: radeon_compiler.h ../../../../main/compiler.h
+r3xx_vertprog.o: /usr/include/assert.h /usr/include/features.h
+r3xx_vertprog.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r3xx_vertprog.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r3xx_vertprog.o: /usr/include/ctype.h /usr/include/bits/types.h
+r3xx_vertprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r3xx_vertprog.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r3xx_vertprog.o: /usr/include/bits/endian.h /usr/include/math.h
+r3xx_vertprog.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+r3xx_vertprog.o: /usr/include/bits/mathcalls.h
+r3xx_vertprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+r3xx_vertprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+r3xx_vertprog.o: /usr/include/limits.h /usr/include/stdlib.h
+r3xx_vertprog.o: /usr/include/stdio.h /usr/include/libio.h
+r3xx_vertprog.o: /usr/include/_G_config.h /usr/include/wchar.h
+r3xx_vertprog.o: /usr/include/bits/wchar.h /usr/include/gconv.h
+r3xx_vertprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r3xx_vertprog.o: /usr/include/bits/stdio_lim.h
+r3xx_vertprog.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+r3xx_vertprog.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/float.h
+r3xx_vertprog.o: /usr/include/stdint.h memory_pool.h radeon_code.h
+r3xx_vertprog.o: radeon_program.h radeon_opcodes.h radeon_program_constants.h
+r3xx_vertprog.o: radeon_program_pair.h ../r300_reg.h radeon_dataflow.h
+r3xx_vertprog.o: radeon_program_alu.h radeon_swizzle.h
+r3xx_vertprog_dump.o: radeon_code.h /usr/include/stdint.h
+r3xx_vertprog_dump.o: /usr/include/features.h /usr/include/sys/cdefs.h
+r3xx_vertprog_dump.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+r3xx_vertprog_dump.o: /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+r3xx_vertprog_dump.o: /usr/include/stdio.h
+r3xx_vertprog_dump.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+r3xx_vertprog_dump.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+r3xx_vertprog_dump.o: /usr/include/libio.h /usr/include/_G_config.h
+r3xx_vertprog_dump.o: /usr/include/wchar.h /usr/include/gconv.h
+r3xx_vertprog_dump.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+r3xx_vertprog_dump.o: /usr/include/bits/stdio_lim.h
+r3xx_vertprog_dump.o: /usr/include/bits/sys_errlist.h
+memory_pool.o: memory_pool.h /usr/include/assert.h /usr/include/features.h
+memory_pool.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+memory_pool.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+memory_pool.o: /usr/include/stdlib.h
+memory_pool.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+memory_pool.o: /usr/include/string.h

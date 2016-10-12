@@ -1,0 +1,13 @@
+XCOMM $XConsortium: Imakefile /main/2 1996/06/06 16:38:19 drk $
+
+#define IHaveSubdirs
+#define PassCDebugFlags 'CDEBUGFLAGS=$(CDEBUGFLAGS)'
+
+SUBDIRS = util
+
+ALL_DIRS = $(SUBDIRS) 
+
+LinkFileList(includes,$(ALL_DIRS),$(BUILDLOCDIR),$(BUILDINCTOP)/$(CURRENT_DIR))
+
+MakeSubdirs($(SUBDIRS))
+DependSubdirs($(SUBDIRS))

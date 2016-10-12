@@ -1,0 +1,88 @@
+.\" $XConsortium: xmanimate.man /main/4 1995/07/17 10:46:33 drk $
+...\" @OPENGROUP_COPYRIGHT@
+...\" COPYRIGHT NOTICE
+...\" Copyright (c) 1990, 1991, 1992, 1993 Open Software Foundation, Inc.
+...\" Copyright (c) 1996, 1997, 1998, 1999, 2000 The Open Group
+...\" ALL RIGHTS RESERVED (MOTIF).  See the file named COPYRIGHT.MOTIF for
+...\" the full copyright text.
+...\" 
+...\" This software is subject to an open license. It may only be
+...\" used on, with or for operating systems which are themselves open
+...\" source systems. You must contact The Open Group for a license
+...\" allowing distribution and sublicensing of this software on, with,
+...\" or for operating systems which are not Open Source programs.
+...\" 
+...\" See http://www.opengroup.org/openmotif/license for full
+...\" details of the license agreement. Any use, reproduction, or
+...\" distribution of the program constitutes recipient's acceptance of
+...\" this agreement.
+...\" 
+...\" EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS
+...\" PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+...\" KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY
+...\" WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY
+...\" OR FITNESS FOR A PARTICULAR PURPOSE
+...\" 
+...\" EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT
+...\" NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT,
+...\" INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+...\" DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED
+...\" AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+...\" LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+...\" ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE
+...\" EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE
+...\" POSSIBILITY OF SUCH DAMAGES.
+...\" 
+...\" 
+...\" HISTORY
+.TH xmanimate 1X MOTIF "Demonstration programs"
+.SH NAME
+\*Lxmanimate\*O : an animation program using Motif
+.SH SYNOPSIS
+.sS
+\*Lxmanimate\*O [-anim uidfile] [-speed speed_factor]
+.sE
+.SH DESCRIPTION
+\*LXmanimate\*O
+demonstrates the following Motif features:
+     - declaration of icon/bitmap using UIL
+     - exchange of value between UIL and C using Mrm.
+     - use of the Motif form widget.
+     - background procedure running while the client process
+       is waiting for inputs (Xt intrinsics feature).
+     
+Xmanimate allows the user to animate a set of pixmaps in a window.
+The pixmaps are not fixed by xmanimate but instead read at startup from
+existing UID files. 
+
+The syntax of all the 'animation.uid' files follows some simple rules and
+one can easily add a new set of pixmaps to be animated using xmanimate.
+
+dog.uil, plane.uil and superman.uil are tree examples of animation data 
+files. (superman<N>.xbm are referenced in superman.uil). The default animation
+is 'dog'. To run the demo with the other animations, use the command:
+
+% xmanimate -anim plane
+
+% xmanimate -anim superman
+
+xmanimate.uil and xmanimate.c are the core components of the program.
+
+speed_factor is a number between 0 and 100.
+
+
+.SH Files
+.nf
+.ta 1.2i
+XmdAnimate: the app-default file, which is very important for usability.
+Try running something like: (XENVIRONMENT=XmdAnimate xmanimate) 
+
+.fi
+.SH X Defaults
+The class of this application is \fIXmdAnimate\fR.  
+
+.SH Editres: 
+Xmanimate is Editres aware, so you can use 'editres' to see the
+names of the widgets in the instance hierarchy.
+
+

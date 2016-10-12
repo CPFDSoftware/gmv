@@ -1,0 +1,15 @@
+#ifndef XmClientLibs
+#define XmClientLibs $(XMLIB) $(XTOOLLIB) $(XLIB)
+#endif
+
+#include "../demos.cf"
+
+EXTRA_INCLUDES = -I.
+
+SRCS = ext18list.c callbacks-c.c creation.c util-c.c
+OBJS = ext18list.o callbacks-c.o creation.o util-c.o
+LOCAL_LIBRARIES = -lXm -lXt -lXp -lX11 -lXext
+
+ComplexProgramTarget(ext18list);
+
+

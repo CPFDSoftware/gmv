@@ -1,0 +1,2666 @@
+# DO NOT DELETE
+
+cso_cache/cso_context.o: ../../../src/gallium/include/pipe/p_state.h
+cso_cache/cso_context.o: ../../../src/gallium/include/pipe/p_compiler.h
+cso_cache/cso_context.o: ../../../src/gallium/include/pipe/p_config.h
+cso_cache/cso_context.o: /usr/include/stdlib.h /usr/include/features.h
+cso_cache/cso_context.o: /usr/include/sys/cdefs.h
+cso_cache/cso_context.o: /usr/include/bits/wordsize.h
+cso_cache/cso_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+cso_cache/cso_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+cso_cache/cso_context.o: /usr/include/string.h
+cso_cache/cso_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+cso_cache/cso_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+cso_cache/cso_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+cso_cache/cso_context.o: ../../../src/gallium/include/pipe/p_defines.h
+cso_cache/cso_context.o: ../../../src/gallium/include/pipe/p_format.h
+cso_cache/cso_context.o: ../../../src/gallium/include/pipe/p_screen.h
+cso_cache/cso_context.o: ../../../src/gallium/include/pipe/p_compiler.h
+cso_cache/cso_context.o: ../../../src/gallium/include/pipe/p_format.h
+cso_cache/cso_context.o: ../../../src/gallium/include/pipe/p_defines.h
+cso_cache/cso_context.o: util/u_inlines.h
+cso_cache/cso_context.o: ../../../src/gallium/include/pipe/p_context.h
+cso_cache/cso_context.o: ../../../src/gallium/include/pipe/p_state.h
+cso_cache/cso_context.o: ../../../src/gallium/include/pipe/p_screen.h
+cso_cache/cso_context.o: util/u_debug.h os/os_misc.h util/u_atomic.h
+cso_cache/cso_context.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+cso_cache/cso_context.o: ../../../src/gallium/include/pipe/p_config.h
+cso_cache/cso_context.o: os/os_memory_stdc.h os/os_memory_aligned.h
+cso_cache/cso_context.o: tgsi/tgsi_parse.h
+cso_cache/cso_context.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+cso_cache/cso_context.o: cso_cache/cso_context.h cso_cache/cso_cache.h
+cso_cache/cso_context.o: cso_cache/cso_hash.h cso_cache/cso_hash.h
+cso_cache/cso_context.o: cso_cache/cso_context.h
+cso_cache/cso_cache.o: util/u_debug.h os/os_misc.h
+cso_cache/cso_cache.o: ../../../src/gallium/include/pipe/p_compiler.h
+cso_cache/cso_cache.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+cso_cache/cso_cache.o: ../../../src/gallium/include/pipe/p_config.h
+cso_cache/cso_cache.o: os/os_memory_stdc.h /usr/include/stdlib.h
+cso_cache/cso_cache.o: /usr/include/features.h /usr/include/sys/cdefs.h
+cso_cache/cso_cache.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+cso_cache/cso_cache.o: /usr/include/gnu/stubs-64.h
+cso_cache/cso_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+cso_cache/cso_cache.o: os/os_memory_aligned.h cso_cache/cso_cache.h
+cso_cache/cso_cache.o: ../../../src/gallium/include/pipe/p_context.h
+cso_cache/cso_cache.o: ../../../src/gallium/include/pipe/p_state.h
+cso_cache/cso_cache.o: ../../../src/gallium/include/pipe/p_state.h
+cso_cache/cso_cache.o: ../../../src/gallium/include/pipe/p_compiler.h
+cso_cache/cso_cache.o: ../../../src/gallium/include/pipe/p_config.h
+cso_cache/cso_cache.o: /usr/include/string.h
+cso_cache/cso_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+cso_cache/cso_cache.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+cso_cache/cso_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+cso_cache/cso_cache.o: ../../../src/gallium/include/pipe/p_defines.h
+cso_cache/cso_cache.o: ../../../src/gallium/include/pipe/p_format.h
+cso_cache/cso_cache.o: ../../../src/gallium/include/pipe/p_screen.h
+cso_cache/cso_cache.o: ../../../src/gallium/include/pipe/p_format.h
+cso_cache/cso_cache.o: ../../../src/gallium/include/pipe/p_defines.h
+cso_cache/cso_cache.o: cso_cache/cso_hash.h
+cso_cache/cso_hash.o: util/u_debug.h os/os_misc.h
+cso_cache/cso_hash.o: ../../../src/gallium/include/pipe/p_compiler.h
+cso_cache/cso_hash.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+cso_cache/cso_hash.o: ../../../src/gallium/include/pipe/p_config.h
+cso_cache/cso_hash.o: os/os_memory_stdc.h /usr/include/stdlib.h
+cso_cache/cso_hash.o: /usr/include/features.h /usr/include/sys/cdefs.h
+cso_cache/cso_hash.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+cso_cache/cso_hash.o: /usr/include/gnu/stubs-64.h
+cso_cache/cso_hash.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+cso_cache/cso_hash.o: os/os_memory_aligned.h cso_cache/cso_hash.h
+draw/draw_context.o: ../../../src/gallium/include/pipe/p_context.h
+draw/draw_context.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_context.o: util/u_memory.h util/u_pointer.h
+draw/draw_context.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_context.o: util/u_debug.h os/os_misc.h os/os_memory.h
+draw/draw_context.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_context.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_context.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_context.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_context.o: /usr/include/gnu/stubs-64.h
+draw/draw_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_context.o: os/os_memory_aligned.h util/u_math.h /usr/include/math.h
+draw/draw_context.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+draw/draw_context.o: /usr/include/bits/mathcalls.h
+draw/draw_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_context.o: draw/draw_context.h
+draw/draw_context.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_context.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_context.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_context.o: /usr/include/string.h /usr/include/stdint.h
+draw/draw_context.o: /usr/include/bits/wchar.h
+draw/draw_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_context.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_context.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_context.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_context.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_context.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_context.o: draw/draw_vs.h draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_context.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_context.o: draw/draw_gs.h
+draw/draw_gs.o: draw/draw_gs.h draw/draw_context.h
+draw/draw_gs.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_gs.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_gs.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_gs.o: /usr/include/stdlib.h /usr/include/features.h
+draw/draw_gs.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+draw/draw_gs.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+draw/draw_gs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_gs.o: /usr/include/string.h
+draw/draw_gs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_gs.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_gs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_gs.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_gs.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_gs.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_gs.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_gs.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_gs.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_gs.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_gs.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_gs.o: tgsi/tgsi_parse.h tgsi/tgsi_exec.h util/u_math.h
+draw/draw_gs.o: util/u_debug.h os/os_misc.h /usr/include/math.h
+draw/draw_gs.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+draw/draw_gs.o: /usr/include/bits/mathcalls.h util/u_memory.h
+draw/draw_gs.o: util/u_pointer.h os/os_memory.h
+draw/draw_gs.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_gs.o: os/os_memory_stdc.h os/os_memory_aligned.h
+draw/draw_pipe.o: draw/draw_private.h
+draw/draw_pipe.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe.o: /usr/include/stdlib.h /usr/include/features.h
+draw/draw_pipe.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+draw/draw_pipe.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+draw/draw_pipe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pipe.o: /usr/include/string.h
+draw/draw_pipe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pipe.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pipe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pipe.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe.o: tgsi/tgsi_scan.h
+draw/draw_pipe.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pipe.o: draw/draw_pipe.h draw/draw_private.h util/u_debug.h
+draw/draw_pipe.o: os/os_misc.h draw/draw_pt_decompose.h
+draw/draw_pipe_aaline.o: ../../../src/gallium/include/pipe/p_context.h
+draw/draw_pipe_aaline.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_aaline.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_aaline.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pipe_aaline.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_aaline.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_aaline.o: /usr/include/stdlib.h /usr/include/features.h
+draw/draw_pipe_aaline.o: /usr/include/sys/cdefs.h
+draw/draw_pipe_aaline.o: /usr/include/bits/wordsize.h
+draw/draw_pipe_aaline.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+draw/draw_pipe_aaline.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pipe_aaline.o: /usr/include/string.h
+draw/draw_pipe_aaline.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pipe_aaline.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pipe_aaline.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pipe_aaline.o: util/u_inlines.h
+draw/draw_pipe_aaline.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_aaline.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_aaline.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_aaline.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_aaline.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_aaline.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_aaline.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_aaline.o: util/u_debug.h os/os_misc.h util/u_atomic.h
+draw/draw_pipe_aaline.o: util/u_format.h util/u_math.h /usr/include/math.h
+draw/draw_pipe_aaline.o: /usr/include/bits/huge_val.h
+draw/draw_pipe_aaline.o: /usr/include/bits/mathdef.h
+draw/draw_pipe_aaline.o: /usr/include/bits/mathcalls.h util/u_memory.h
+draw/draw_pipe_aaline.o: util/u_pointer.h os/os_memory.h
+draw/draw_pipe_aaline.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_aaline.o: os/os_memory_stdc.h os/os_memory_aligned.h
+draw/draw_pipe_aaline.o: tgsi/tgsi_transform.h tgsi/tgsi_parse.h
+draw/draw_pipe_aaline.o: tgsi/tgsi_build.h tgsi/tgsi_dump.h
+draw/draw_pipe_aaline.o: draw/draw_context.h draw/draw_private.h
+draw/draw_pipe_aaline.o: tgsi/tgsi_scan.h draw/draw_pipe.h
+draw/draw_pipe_aapoint.o: ../../../src/gallium/include/pipe/p_context.h
+draw/draw_pipe_aapoint.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_aapoint.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_aapoint.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pipe_aapoint.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_aapoint.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_aapoint.o: /usr/include/stdlib.h /usr/include/features.h
+draw/draw_pipe_aapoint.o: /usr/include/sys/cdefs.h
+draw/draw_pipe_aapoint.o: /usr/include/bits/wordsize.h
+draw/draw_pipe_aapoint.o: /usr/include/gnu/stubs.h
+draw/draw_pipe_aapoint.o: /usr/include/gnu/stubs-64.h
+draw/draw_pipe_aapoint.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pipe_aapoint.o: /usr/include/string.h
+draw/draw_pipe_aapoint.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pipe_aapoint.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pipe_aapoint.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pipe_aapoint.o: tgsi/tgsi_transform.h tgsi/tgsi_parse.h
+draw/draw_pipe_aapoint.o: tgsi/tgsi_build.h tgsi/tgsi_dump.h util/u_math.h
+draw/draw_pipe_aapoint.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_aapoint.o: util/u_debug.h os/os_misc.h /usr/include/math.h
+draw/draw_pipe_aapoint.o: /usr/include/bits/huge_val.h
+draw/draw_pipe_aapoint.o: /usr/include/bits/mathdef.h
+draw/draw_pipe_aapoint.o: /usr/include/bits/mathcalls.h util/u_memory.h
+draw/draw_pipe_aapoint.o: util/u_pointer.h os/os_memory.h
+draw/draw_pipe_aapoint.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_aapoint.o: os/os_memory_stdc.h os/os_memory_aligned.h
+draw/draw_pipe_aapoint.o: draw/draw_context.h
+draw/draw_pipe_aapoint.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_aapoint.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_aapoint.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_aapoint.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_aapoint.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_aapoint.o: draw/draw_vs.h draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_pipe_aapoint.o: draw/draw_pipe.h
+draw/draw_pipe_clip.o: util/u_memory.h util/u_pointer.h
+draw/draw_pipe_clip.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_clip.o: util/u_debug.h os/os_misc.h os/os_memory.h
+draw/draw_pipe_clip.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_clip.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pipe_clip.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_pipe_clip.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_pipe_clip.o: /usr/include/gnu/stubs-64.h
+draw/draw_pipe_clip.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pipe_clip.o: os/os_memory_aligned.h util/u_math.h
+draw/draw_pipe_clip.o: /usr/include/math.h /usr/include/bits/huge_val.h
+draw/draw_pipe_clip.o: /usr/include/bits/mathdef.h
+draw/draw_pipe_clip.o: /usr/include/bits/mathcalls.h
+draw/draw_pipe_clip.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pipe_clip.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pipe_clip.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_clip.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_clip.o: /usr/include/string.h /usr/include/stdint.h
+draw/draw_pipe_clip.o: /usr/include/bits/wchar.h
+draw/draw_pipe_clip.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pipe_clip.o: draw/draw_vs.h draw/draw_context.h
+draw/draw_pipe_clip.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_clip.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_clip.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_clip.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_clip.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_clip.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_clip.o: draw/draw_private.h tgsi/tgsi_scan.h draw/draw_pipe.h
+draw/draw_pipe_cull.o: util/u_memory.h util/u_pointer.h
+draw/draw_pipe_cull.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_cull.o: util/u_debug.h os/os_misc.h os/os_memory.h
+draw/draw_pipe_cull.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_cull.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pipe_cull.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_pipe_cull.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_pipe_cull.o: /usr/include/gnu/stubs-64.h
+draw/draw_pipe_cull.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pipe_cull.o: os/os_memory_aligned.h
+draw/draw_pipe_cull.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_cull.o: draw/draw_pipe.h draw/draw_private.h
+draw/draw_pipe_cull.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_cull.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_cull.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_cull.o: /usr/include/string.h
+draw/draw_pipe_cull.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pipe_cull.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pipe_cull.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pipe_cull.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_cull.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_cull.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_cull.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_cull.o: tgsi/tgsi_scan.h
+draw/draw_pipe_cull.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pipe_flatshade.o: util/u_math.h
+draw/draw_pipe_flatshade.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_flatshade.o: util/u_debug.h os/os_misc.h /usr/include/math.h
+draw/draw_pipe_flatshade.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_pipe_flatshade.o: /usr/include/bits/wordsize.h
+draw/draw_pipe_flatshade.o: /usr/include/gnu/stubs.h
+draw/draw_pipe_flatshade.o: /usr/include/gnu/stubs-64.h
+draw/draw_pipe_flatshade.o: /usr/include/bits/huge_val.h
+draw/draw_pipe_flatshade.o: /usr/include/bits/mathdef.h
+draw/draw_pipe_flatshade.o: /usr/include/bits/mathcalls.h
+draw/draw_pipe_flatshade.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pipe_flatshade.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+draw/draw_pipe_flatshade.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_flatshade.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pipe_flatshade.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pipe_flatshade.o: os/os_memory_aligned.h
+draw/draw_pipe_flatshade.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pipe_flatshade.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_flatshade.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_flatshade.o: /usr/include/string.h /usr/include/stdint.h
+draw/draw_pipe_flatshade.o: /usr/include/bits/wchar.h
+draw/draw_pipe_flatshade.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pipe_flatshade.o: draw/draw_vs.h draw/draw_context.h
+draw/draw_pipe_flatshade.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_flatshade.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_flatshade.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_flatshade.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_flatshade.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_flatshade.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_flatshade.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_pipe_flatshade.o: draw/draw_pipe.h
+draw/draw_pipe_offset.o: util/u_math.h
+draw/draw_pipe_offset.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_offset.o: util/u_debug.h os/os_misc.h /usr/include/math.h
+draw/draw_pipe_offset.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_pipe_offset.o: /usr/include/bits/wordsize.h
+draw/draw_pipe_offset.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+draw/draw_pipe_offset.o: /usr/include/bits/huge_val.h
+draw/draw_pipe_offset.o: /usr/include/bits/mathdef.h
+draw/draw_pipe_offset.o: /usr/include/bits/mathcalls.h
+draw/draw_pipe_offset.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pipe_offset.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+draw/draw_pipe_offset.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_offset.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pipe_offset.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pipe_offset.o: os/os_memory_aligned.h draw/draw_pipe.h
+draw/draw_pipe_offset.o: draw/draw_private.h
+draw/draw_pipe_offset.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_offset.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_offset.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_offset.o: /usr/include/string.h /usr/include/stdint.h
+draw/draw_pipe_offset.o: /usr/include/bits/wchar.h
+draw/draw_pipe_offset.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pipe_offset.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_offset.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_offset.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_offset.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_offset.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_offset.o: tgsi/tgsi_scan.h
+draw/draw_pipe_offset.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pipe_pstipple.o: ../../../src/gallium/include/pipe/p_context.h
+draw/draw_pipe_pstipple.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_pstipple.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_pstipple.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pipe_pstipple.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_pstipple.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_pstipple.o: /usr/include/stdlib.h /usr/include/features.h
+draw/draw_pipe_pstipple.o: /usr/include/sys/cdefs.h
+draw/draw_pipe_pstipple.o: /usr/include/bits/wordsize.h
+draw/draw_pipe_pstipple.o: /usr/include/gnu/stubs.h
+draw/draw_pipe_pstipple.o: /usr/include/gnu/stubs-64.h
+draw/draw_pipe_pstipple.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pipe_pstipple.o: /usr/include/string.h
+draw/draw_pipe_pstipple.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pipe_pstipple.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pipe_pstipple.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pipe_pstipple.o: util/u_inlines.h
+draw/draw_pipe_pstipple.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_pstipple.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_pstipple.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_pstipple.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_pstipple.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_pstipple.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_pstipple.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_pstipple.o: util/u_debug.h os/os_misc.h util/u_atomic.h
+draw/draw_pipe_pstipple.o: util/u_format.h util/u_math.h /usr/include/math.h
+draw/draw_pipe_pstipple.o: /usr/include/bits/huge_val.h
+draw/draw_pipe_pstipple.o: /usr/include/bits/mathdef.h
+draw/draw_pipe_pstipple.o: /usr/include/bits/mathcalls.h util/u_memory.h
+draw/draw_pipe_pstipple.o: util/u_pointer.h os/os_memory.h
+draw/draw_pipe_pstipple.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_pstipple.o: os/os_memory_stdc.h os/os_memory_aligned.h
+draw/draw_pipe_pstipple.o: tgsi/tgsi_transform.h tgsi/tgsi_parse.h
+draw/draw_pipe_pstipple.o: tgsi/tgsi_build.h tgsi/tgsi_dump.h
+draw/draw_pipe_pstipple.o: draw/draw_context.h draw/draw_pipe.h
+draw/draw_pipe_pstipple.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_pipe_stipple.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_stipple.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pipe_stipple.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_stipple.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_stipple.o: /usr/include/stdlib.h /usr/include/features.h
+draw/draw_pipe_stipple.o: /usr/include/sys/cdefs.h
+draw/draw_pipe_stipple.o: /usr/include/bits/wordsize.h
+draw/draw_pipe_stipple.o: /usr/include/gnu/stubs.h
+draw/draw_pipe_stipple.o: /usr/include/gnu/stubs-64.h
+draw/draw_pipe_stipple.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pipe_stipple.o: /usr/include/string.h
+draw/draw_pipe_stipple.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pipe_stipple.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pipe_stipple.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pipe_stipple.o: util/u_math.h
+draw/draw_pipe_stipple.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_stipple.o: util/u_debug.h os/os_misc.h /usr/include/math.h
+draw/draw_pipe_stipple.o: /usr/include/bits/huge_val.h
+draw/draw_pipe_stipple.o: /usr/include/bits/mathdef.h
+draw/draw_pipe_stipple.o: /usr/include/bits/mathcalls.h util/u_memory.h
+draw/draw_pipe_stipple.o: util/u_pointer.h os/os_memory.h
+draw/draw_pipe_stipple.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_stipple.o: os/os_memory_stdc.h os/os_memory_aligned.h
+draw/draw_pipe_stipple.o: draw/draw_pipe.h draw/draw_private.h
+draw/draw_pipe_stipple.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_stipple.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_stipple.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_stipple.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_stipple.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_stipple.o: tgsi/tgsi_scan.h
+draw/draw_pipe_twoside.o: util/u_math.h
+draw/draw_pipe_twoside.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_twoside.o: util/u_debug.h os/os_misc.h /usr/include/math.h
+draw/draw_pipe_twoside.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_pipe_twoside.o: /usr/include/bits/wordsize.h
+draw/draw_pipe_twoside.o: /usr/include/gnu/stubs.h
+draw/draw_pipe_twoside.o: /usr/include/gnu/stubs-64.h
+draw/draw_pipe_twoside.o: /usr/include/bits/huge_val.h
+draw/draw_pipe_twoside.o: /usr/include/bits/mathdef.h
+draw/draw_pipe_twoside.o: /usr/include/bits/mathcalls.h
+draw/draw_pipe_twoside.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pipe_twoside.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+draw/draw_pipe_twoside.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_twoside.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pipe_twoside.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pipe_twoside.o: os/os_memory_aligned.h
+draw/draw_pipe_twoside.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_twoside.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pipe_twoside.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_twoside.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_twoside.o: /usr/include/string.h /usr/include/stdint.h
+draw/draw_pipe_twoside.o: /usr/include/bits/wchar.h
+draw/draw_pipe_twoside.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pipe_twoside.o: draw/draw_vs.h draw/draw_context.h
+draw/draw_pipe_twoside.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_twoside.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_twoside.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_twoside.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_twoside.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_twoside.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_pipe_twoside.o: draw/draw_pipe.h
+draw/draw_pipe_unfilled.o: util/u_memory.h util/u_pointer.h
+draw/draw_pipe_unfilled.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_unfilled.o: util/u_debug.h os/os_misc.h os/os_memory.h
+draw/draw_pipe_unfilled.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_unfilled.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pipe_unfilled.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_pipe_unfilled.o: /usr/include/bits/wordsize.h
+draw/draw_pipe_unfilled.o: /usr/include/gnu/stubs.h
+draw/draw_pipe_unfilled.o: /usr/include/gnu/stubs-64.h
+draw/draw_pipe_unfilled.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pipe_unfilled.o: os/os_memory_aligned.h
+draw/draw_pipe_unfilled.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_unfilled.o: draw/draw_private.h
+draw/draw_pipe_unfilled.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_unfilled.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_unfilled.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_unfilled.o: /usr/include/string.h
+draw/draw_pipe_unfilled.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pipe_unfilled.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pipe_unfilled.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pipe_unfilled.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_unfilled.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_unfilled.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_unfilled.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_unfilled.o: tgsi/tgsi_scan.h
+draw/draw_pipe_unfilled.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pipe_unfilled.o: draw/draw_pipe.h
+draw/draw_pipe_util.o: util/u_memory.h util/u_pointer.h
+draw/draw_pipe_util.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_util.o: util/u_debug.h os/os_misc.h os/os_memory.h
+draw/draw_pipe_util.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_util.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pipe_util.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_pipe_util.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_pipe_util.o: /usr/include/gnu/stubs-64.h
+draw/draw_pipe_util.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pipe_util.o: os/os_memory_aligned.h draw/draw_private.h
+draw/draw_pipe_util.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_util.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_util.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_util.o: /usr/include/string.h
+draw/draw_pipe_util.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pipe_util.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pipe_util.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pipe_util.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_util.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_util.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_util.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_util.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_util.o: tgsi/tgsi_scan.h
+draw/draw_pipe_util.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pipe_util.o: draw/draw_pipe.h draw/draw_private.h
+draw/draw_pipe_validate.o: util/u_memory.h util/u_pointer.h
+draw/draw_pipe_validate.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_validate.o: util/u_debug.h os/os_misc.h os/os_memory.h
+draw/draw_pipe_validate.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_validate.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pipe_validate.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_pipe_validate.o: /usr/include/bits/wordsize.h
+draw/draw_pipe_validate.o: /usr/include/gnu/stubs.h
+draw/draw_pipe_validate.o: /usr/include/gnu/stubs-64.h
+draw/draw_pipe_validate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pipe_validate.o: os/os_memory_aligned.h
+draw/draw_pipe_validate.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_validate.o: draw/draw_private.h
+draw/draw_pipe_validate.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_validate.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_validate.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_validate.o: /usr/include/string.h
+draw/draw_pipe_validate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pipe_validate.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pipe_validate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pipe_validate.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_validate.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_validate.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_validate.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_validate.o: tgsi/tgsi_scan.h
+draw/draw_pipe_validate.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pipe_validate.o: draw/draw_pipe.h draw/draw_context.h
+draw/draw_pipe_validate.o: draw/draw_vbuf.h
+draw/draw_pipe_vbuf.o: util/u_debug.h os/os_misc.h
+draw/draw_pipe_vbuf.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_vbuf.o: util/u_math.h /usr/include/math.h
+draw/draw_pipe_vbuf.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_pipe_vbuf.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_pipe_vbuf.o: /usr/include/gnu/stubs-64.h
+draw/draw_pipe_vbuf.o: /usr/include/bits/huge_val.h
+draw/draw_pipe_vbuf.o: /usr/include/bits/mathdef.h
+draw/draw_pipe_vbuf.o: /usr/include/bits/mathcalls.h
+draw/draw_pipe_vbuf.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pipe_vbuf.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+draw/draw_pipe_vbuf.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_vbuf.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pipe_vbuf.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pipe_vbuf.o: os/os_memory_aligned.h draw/draw_vbuf.h
+draw/draw_pipe_vbuf.o: draw/draw_private.h
+draw/draw_pipe_vbuf.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_vbuf.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_vbuf.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_vbuf.o: /usr/include/string.h /usr/include/stdint.h
+draw/draw_pipe_vbuf.o: /usr/include/bits/wchar.h
+draw/draw_pipe_vbuf.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pipe_vbuf.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_vbuf.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_vbuf.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_vbuf.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_vbuf.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_vbuf.o: tgsi/tgsi_scan.h
+draw/draw_pipe_vbuf.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pipe_vbuf.o: draw/draw_vertex.h draw/draw_pipe.h
+draw/draw_pipe_vbuf.o: translate/translate.h translate/translate_cache.h
+draw/draw_pipe_wide_line.o: ../../../src/gallium/include/pipe/p_context.h
+draw/draw_pipe_wide_line.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_wide_line.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_wide_line.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pipe_wide_line.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_wide_line.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_wide_line.o: /usr/include/stdlib.h /usr/include/features.h
+draw/draw_pipe_wide_line.o: /usr/include/sys/cdefs.h
+draw/draw_pipe_wide_line.o: /usr/include/bits/wordsize.h
+draw/draw_pipe_wide_line.o: /usr/include/gnu/stubs.h
+draw/draw_pipe_wide_line.o: /usr/include/gnu/stubs-64.h
+draw/draw_pipe_wide_line.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pipe_wide_line.o: /usr/include/string.h
+draw/draw_pipe_wide_line.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pipe_wide_line.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pipe_wide_line.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pipe_wide_line.o: util/u_math.h
+draw/draw_pipe_wide_line.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_wide_line.o: util/u_debug.h os/os_misc.h /usr/include/math.h
+draw/draw_pipe_wide_line.o: /usr/include/bits/huge_val.h
+draw/draw_pipe_wide_line.o: /usr/include/bits/mathdef.h
+draw/draw_pipe_wide_line.o: /usr/include/bits/mathcalls.h util/u_memory.h
+draw/draw_pipe_wide_line.o: util/u_pointer.h os/os_memory.h
+draw/draw_pipe_wide_line.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_wide_line.o: os/os_memory_stdc.h os/os_memory_aligned.h
+draw/draw_pipe_wide_line.o: draw/draw_private.h
+draw/draw_pipe_wide_line.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_wide_line.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_wide_line.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_wide_line.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_wide_line.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_wide_line.o: tgsi/tgsi_scan.h draw/draw_pipe.h
+draw/draw_pipe_wide_point.o: ../../../src/gallium/include/pipe/p_context.h
+draw/draw_pipe_wide_point.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_wide_point.o: util/u_math.h
+draw/draw_pipe_wide_point.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_wide_point.o: util/u_debug.h os/os_misc.h /usr/include/math.h
+draw/draw_pipe_wide_point.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_pipe_wide_point.o: /usr/include/bits/wordsize.h
+draw/draw_pipe_wide_point.o: /usr/include/gnu/stubs.h
+draw/draw_pipe_wide_point.o: /usr/include/gnu/stubs-64.h
+draw/draw_pipe_wide_point.o: /usr/include/bits/huge_val.h
+draw/draw_pipe_wide_point.o: /usr/include/bits/mathdef.h
+draw/draw_pipe_wide_point.o: /usr/include/bits/mathcalls.h
+draw/draw_pipe_wide_point.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pipe_wide_point.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+draw/draw_pipe_wide_point.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_wide_point.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pipe_wide_point.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pipe_wide_point.o: os/os_memory_aligned.h
+draw/draw_pipe_wide_point.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_wide_point.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pipe_wide_point.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pipe_wide_point.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pipe_wide_point.o: /usr/include/string.h /usr/include/stdint.h
+draw/draw_pipe_wide_point.o: /usr/include/bits/wchar.h
+draw/draw_pipe_wide_point.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pipe_wide_point.o: draw/draw_vs.h draw/draw_context.h
+draw/draw_pipe_wide_point.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pipe_wide_point.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pipe_wide_point.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_wide_point.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pipe_wide_point.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pipe_wide_point.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_pipe_wide_point.o: draw/draw_pipe.h
+draw/draw_pt.o: draw/draw_context.h
+draw/draw_pt.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pt.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt.o: /usr/include/stdlib.h /usr/include/features.h
+draw/draw_pt.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+draw/draw_pt.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+draw/draw_pt.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pt.o: /usr/include/string.h
+draw/draw_pt.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pt.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pt.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pt.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pt.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_pt.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pt.o: draw/draw_pt.h tgsi/tgsi_dump.h util/u_math.h util/u_debug.h
+draw/draw_pt.o: os/os_misc.h /usr/include/math.h /usr/include/bits/huge_val.h
+draw/draw_pt.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+draw/draw_pt.o: util/u_prim.h
+draw/draw_pt_elts.o: draw/draw_pt.h
+draw/draw_pt_elts.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_elts.o: draw/draw_private.h
+draw/draw_pt_elts.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pt_elts.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_elts.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_elts.o: /usr/include/stdlib.h /usr/include/features.h
+draw/draw_pt_elts.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+draw/draw_pt_elts.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+draw/draw_pt_elts.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pt_elts.o: /usr/include/string.h
+draw/draw_pt_elts.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pt_elts.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pt_elts.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pt_elts.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_elts.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_elts.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pt_elts.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_elts.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_elts.o: tgsi/tgsi_scan.h
+draw/draw_pt_elts.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pt_emit.o: util/u_memory.h util/u_pointer.h
+draw/draw_pt_emit.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_emit.o: util/u_debug.h os/os_misc.h os/os_memory.h
+draw/draw_pt_emit.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_emit.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pt_emit.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_pt_emit.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_pt_emit.o: /usr/include/gnu/stubs-64.h
+draw/draw_pt_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pt_emit.o: os/os_memory_aligned.h draw/draw_context.h
+draw/draw_pt_emit.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pt_emit.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_emit.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_emit.o: /usr/include/string.h
+draw/draw_pt_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pt_emit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pt_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pt_emit.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_emit.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_emit.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pt_emit.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_emit.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_emit.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_pt_emit.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pt_emit.o: draw/draw_vbuf.h draw/draw_vertex.h draw/draw_pt.h
+draw/draw_pt_emit.o: translate/translate.h translate/translate_cache.h
+draw/draw_pt_fetch.o: util/u_memory.h util/u_pointer.h
+draw/draw_pt_fetch.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_fetch.o: util/u_debug.h os/os_misc.h os/os_memory.h
+draw/draw_pt_fetch.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_fetch.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pt_fetch.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_pt_fetch.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_pt_fetch.o: /usr/include/gnu/stubs-64.h
+draw/draw_pt_fetch.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pt_fetch.o: os/os_memory_aligned.h util/u_math.h
+draw/draw_pt_fetch.o: /usr/include/math.h /usr/include/bits/huge_val.h
+draw/draw_pt_fetch.o: /usr/include/bits/mathdef.h
+draw/draw_pt_fetch.o: /usr/include/bits/mathcalls.h
+draw/draw_pt_fetch.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pt_fetch.o: draw/draw_context.h
+draw/draw_pt_fetch.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pt_fetch.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_fetch.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_fetch.o: /usr/include/string.h /usr/include/stdint.h
+draw/draw_pt_fetch.o: /usr/include/bits/wchar.h
+draw/draw_pt_fetch.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pt_fetch.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_fetch.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_fetch.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pt_fetch.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_fetch.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_fetch.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_pt_fetch.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pt_fetch.o: draw/draw_vbuf.h draw/draw_pt.h translate/translate.h
+draw/draw_pt_fetch.o: translate/translate_cache.h
+draw/draw_pt_fetch_emit.o: util/u_memory.h util/u_pointer.h
+draw/draw_pt_fetch_emit.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_fetch_emit.o: util/u_debug.h os/os_misc.h os/os_memory.h
+draw/draw_pt_fetch_emit.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_fetch_emit.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pt_fetch_emit.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_pt_fetch_emit.o: /usr/include/bits/wordsize.h
+draw/draw_pt_fetch_emit.o: /usr/include/gnu/stubs.h
+draw/draw_pt_fetch_emit.o: /usr/include/gnu/stubs-64.h
+draw/draw_pt_fetch_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pt_fetch_emit.o: os/os_memory_aligned.h draw/draw_context.h
+draw/draw_pt_fetch_emit.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pt_fetch_emit.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_fetch_emit.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_fetch_emit.o: /usr/include/string.h
+draw/draw_pt_fetch_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pt_fetch_emit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pt_fetch_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pt_fetch_emit.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_fetch_emit.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_fetch_emit.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pt_fetch_emit.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_fetch_emit.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_fetch_emit.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_pt_fetch_emit.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pt_fetch_emit.o: draw/draw_vbuf.h draw/draw_vertex.h draw/draw_pt.h
+draw/draw_pt_fetch_emit.o: translate/translate.h translate/translate_cache.h
+draw/draw_pt_fetch_shade_emit.o: util/u_math.h
+draw/draw_pt_fetch_shade_emit.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_fetch_shade_emit.o: util/u_debug.h os/os_misc.h
+draw/draw_pt_fetch_shade_emit.o: /usr/include/math.h /usr/include/features.h
+draw/draw_pt_fetch_shade_emit.o: /usr/include/sys/cdefs.h
+draw/draw_pt_fetch_shade_emit.o: /usr/include/bits/wordsize.h
+draw/draw_pt_fetch_shade_emit.o: /usr/include/gnu/stubs.h
+draw/draw_pt_fetch_shade_emit.o: /usr/include/gnu/stubs-64.h
+draw/draw_pt_fetch_shade_emit.o: /usr/include/bits/huge_val.h
+draw/draw_pt_fetch_shade_emit.o: /usr/include/bits/mathdef.h
+draw/draw_pt_fetch_shade_emit.o: /usr/include/bits/mathcalls.h
+draw/draw_pt_fetch_shade_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pt_fetch_shade_emit.o: util/u_memory.h util/u_pointer.h
+draw/draw_pt_fetch_shade_emit.o: os/os_memory.h
+draw/draw_pt_fetch_shade_emit.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_fetch_shade_emit.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pt_fetch_shade_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pt_fetch_shade_emit.o: os/os_memory_aligned.h draw/draw_context.h
+draw/draw_pt_fetch_shade_emit.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pt_fetch_shade_emit.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_fetch_shade_emit.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_fetch_shade_emit.o: /usr/include/string.h /usr/include/stdint.h
+draw/draw_pt_fetch_shade_emit.o: /usr/include/bits/wchar.h
+draw/draw_pt_fetch_shade_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pt_fetch_shade_emit.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_fetch_shade_emit.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_fetch_shade_emit.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pt_fetch_shade_emit.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_fetch_shade_emit.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_fetch_shade_emit.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_pt_fetch_shade_emit.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pt_fetch_shade_emit.o: draw/draw_vbuf.h draw/draw_vertex.h
+draw/draw_pt_fetch_shade_emit.o: draw/draw_pt.h draw/draw_vs.h
+draw/draw_pt_fetch_shade_emit.o: draw/draw_context.h draw/draw_private.h
+draw/draw_pt_fetch_shade_pipeline.o: util/u_math.h
+draw/draw_pt_fetch_shade_pipeline.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_fetch_shade_pipeline.o: util/u_debug.h os/os_misc.h
+draw/draw_pt_fetch_shade_pipeline.o: /usr/include/math.h
+draw/draw_pt_fetch_shade_pipeline.o: /usr/include/features.h
+draw/draw_pt_fetch_shade_pipeline.o: /usr/include/sys/cdefs.h
+draw/draw_pt_fetch_shade_pipeline.o: /usr/include/bits/wordsize.h
+draw/draw_pt_fetch_shade_pipeline.o: /usr/include/gnu/stubs.h
+draw/draw_pt_fetch_shade_pipeline.o: /usr/include/gnu/stubs-64.h
+draw/draw_pt_fetch_shade_pipeline.o: /usr/include/bits/huge_val.h
+draw/draw_pt_fetch_shade_pipeline.o: /usr/include/bits/mathdef.h
+draw/draw_pt_fetch_shade_pipeline.o: /usr/include/bits/mathcalls.h
+draw/draw_pt_fetch_shade_pipeline.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pt_fetch_shade_pipeline.o: util/u_memory.h util/u_pointer.h
+draw/draw_pt_fetch_shade_pipeline.o: os/os_memory.h
+draw/draw_pt_fetch_shade_pipeline.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_fetch_shade_pipeline.o: os/os_memory_stdc.h
+draw/draw_pt_fetch_shade_pipeline.o: /usr/include/stdlib.h
+draw/draw_pt_fetch_shade_pipeline.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pt_fetch_shade_pipeline.o: os/os_memory_aligned.h
+draw/draw_pt_fetch_shade_pipeline.o: draw/draw_context.h
+draw/draw_pt_fetch_shade_pipeline.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pt_fetch_shade_pipeline.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_fetch_shade_pipeline.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_fetch_shade_pipeline.o: /usr/include/string.h
+draw/draw_pt_fetch_shade_pipeline.o: /usr/include/stdint.h
+draw/draw_pt_fetch_shade_pipeline.o: /usr/include/bits/wchar.h
+draw/draw_pt_fetch_shade_pipeline.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pt_fetch_shade_pipeline.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_fetch_shade_pipeline.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_fetch_shade_pipeline.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pt_fetch_shade_pipeline.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_fetch_shade_pipeline.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_fetch_shade_pipeline.o: draw/draw_vbuf.h draw/draw_vertex.h
+draw/draw_pt_fetch_shade_pipeline.o: draw/draw_pt.h draw/draw_vs.h
+draw/draw_pt_fetch_shade_pipeline.o: draw/draw_context.h draw/draw_private.h
+draw/draw_pt_fetch_shade_pipeline.o: tgsi/tgsi_scan.h
+draw/draw_pt_fetch_shade_pipeline.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pt_fetch_shade_pipeline.o: draw/draw_gs.h
+draw/draw_pt_post_vs.o: util/u_memory.h util/u_pointer.h
+draw/draw_pt_post_vs.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_post_vs.o: util/u_debug.h os/os_misc.h os/os_memory.h
+draw/draw_pt_post_vs.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_post_vs.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pt_post_vs.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_pt_post_vs.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_pt_post_vs.o: /usr/include/gnu/stubs-64.h
+draw/draw_pt_post_vs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pt_post_vs.o: os/os_memory_aligned.h
+draw/draw_pt_post_vs.o: ../../../src/gallium/include/pipe/p_context.h
+draw/draw_pt_post_vs.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pt_post_vs.o: draw/draw_context.h
+draw/draw_pt_post_vs.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pt_post_vs.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_post_vs.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_post_vs.o: /usr/include/string.h
+draw/draw_pt_post_vs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pt_post_vs.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pt_post_vs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pt_post_vs.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_post_vs.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_post_vs.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pt_post_vs.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_post_vs.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_post_vs.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_pt_post_vs.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pt_post_vs.o: draw/draw_vbuf.h draw/draw_pt.h
+draw/draw_pt_util.o: draw/draw_context.h
+draw/draw_pt_util.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pt_util.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_util.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_util.o: /usr/include/stdlib.h /usr/include/features.h
+draw/draw_pt_util.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+draw/draw_pt_util.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+draw/draw_pt_util.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pt_util.o: /usr/include/string.h
+draw/draw_pt_util.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pt_util.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pt_util.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pt_util.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_util.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_util.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pt_util.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_util.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_util.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_util.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_pt_util.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pt_util.o: draw/draw_pt.h util/u_debug.h os/os_misc.h
+draw/draw_pt_varray.o: util/u_math.h
+draw/draw_pt_varray.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_varray.o: util/u_debug.h os/os_misc.h /usr/include/math.h
+draw/draw_pt_varray.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_pt_varray.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_pt_varray.o: /usr/include/gnu/stubs-64.h
+draw/draw_pt_varray.o: /usr/include/bits/huge_val.h
+draw/draw_pt_varray.o: /usr/include/bits/mathdef.h
+draw/draw_pt_varray.o: /usr/include/bits/mathcalls.h
+draw/draw_pt_varray.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pt_varray.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+draw/draw_pt_varray.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_varray.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pt_varray.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pt_varray.o: os/os_memory_aligned.h draw/draw_context.h
+draw/draw_pt_varray.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pt_varray.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_varray.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_varray.o: /usr/include/string.h /usr/include/stdint.h
+draw/draw_pt_varray.o: /usr/include/bits/wchar.h
+draw/draw_pt_varray.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pt_varray.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_varray.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_varray.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pt_varray.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_varray.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_varray.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_pt_varray.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pt_varray.o: draw/draw_pt.h draw/draw_pt_varray_tmp_linear.h
+draw/draw_pt_vcache.o: util/u_memory.h util/u_pointer.h
+draw/draw_pt_vcache.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_vcache.o: util/u_debug.h os/os_misc.h os/os_memory.h
+draw/draw_pt_vcache.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_vcache.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_pt_vcache.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_pt_vcache.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_pt_vcache.o: /usr/include/gnu/stubs-64.h
+draw/draw_pt_vcache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_pt_vcache.o: os/os_memory_aligned.h util/u_prim.h
+draw/draw_pt_vcache.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_vcache.o: draw/draw_context.h
+draw/draw_pt_vcache.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_pt_vcache.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_pt_vcache.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_pt_vcache.o: /usr/include/string.h
+draw/draw_pt_vcache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_pt_vcache.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_pt_vcache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_pt_vcache.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_pt_vcache.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_vcache.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_pt_vcache.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_pt_vcache.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_pt_vcache.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_pt_vcache.o: draw/draw_pt.h draw/draw_pt_vcache_tmp.h
+draw/draw_vertex.o: draw/draw_private.h
+draw/draw_vertex.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_vertex.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vertex.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vertex.o: /usr/include/stdlib.h /usr/include/features.h
+draw/draw_vertex.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+draw/draw_vertex.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+draw/draw_vertex.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_vertex.o: /usr/include/string.h
+draw/draw_vertex.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_vertex.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_vertex.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_vertex.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vertex.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vertex.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_vertex.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vertex.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vertex.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vertex.o: tgsi/tgsi_scan.h
+draw/draw_vertex.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_vertex.o: draw/draw_vertex.h util/u_debug.h os/os_misc.h
+draw/draw_vs.o: util/u_math.h ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs.o: util/u_debug.h os/os_misc.h /usr/include/math.h
+draw/draw_vs.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_vs.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_vs.o: /usr/include/gnu/stubs-64.h /usr/include/bits/huge_val.h
+draw/draw_vs.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+draw/draw_vs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_vs.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+draw/draw_vs.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_vs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_vs.o: os/os_memory_aligned.h
+draw/draw_vs.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_vs.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs.o: /usr/include/string.h /usr/include/stdint.h
+draw/draw_vs.o: /usr/include/bits/wchar.h
+draw/draw_vs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_vs.o: draw/draw_private.h
+draw/draw_vs.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_vs.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_vs.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs.o: tgsi/tgsi_scan.h draw/draw_context.h draw/draw_vs.h
+draw/draw_vs.o: translate/translate.h translate/translate_cache.h
+draw/draw_vs.o: tgsi/tgsi_dump.h tgsi/tgsi_exec.h
+draw/draw_vs_varient.o: util/u_memory.h util/u_pointer.h
+draw/draw_vs_varient.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs_varient.o: util/u_debug.h os/os_misc.h os/os_memory.h
+draw/draw_vs_varient.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs_varient.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_vs_varient.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_vs_varient.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_vs_varient.o: /usr/include/gnu/stubs-64.h
+draw/draw_vs_varient.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_vs_varient.o: os/os_memory_aligned.h util/u_math.h
+draw/draw_vs_varient.o: /usr/include/math.h /usr/include/bits/huge_val.h
+draw/draw_vs_varient.o: /usr/include/bits/mathdef.h
+draw/draw_vs_varient.o: /usr/include/bits/mathcalls.h
+draw/draw_vs_varient.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_vs_varient.o: draw/draw_context.h
+draw/draw_vs_varient.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_vs_varient.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs_varient.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs_varient.o: /usr/include/string.h /usr/include/stdint.h
+draw/draw_vs_varient.o: /usr/include/bits/wchar.h
+draw/draw_vs_varient.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_vs_varient.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs_varient.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs_varient.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_vs_varient.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs_varient.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs_varient.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_vs_varient.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_vs_varient.o: draw/draw_vbuf.h draw/draw_vertex.h draw/draw_vs.h
+draw/draw_vs_varient.o: draw/draw_context.h draw/draw_private.h
+draw/draw_vs_varient.o: translate/translate.h
+draw/draw_vs_aos.o: util/u_memory.h util/u_pointer.h
+draw/draw_vs_aos.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs_aos.o: util/u_debug.h os/os_misc.h os/os_memory.h
+draw/draw_vs_aos.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs_aos.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_vs_aos.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_vs_aos.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_vs_aos.o: /usr/include/gnu/stubs-64.h
+draw/draw_vs_aos.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_vs_aos.o: os/os_memory_aligned.h util/u_math.h /usr/include/math.h
+draw/draw_vs_aos.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+draw/draw_vs_aos.o: /usr/include/bits/mathcalls.h
+draw/draw_vs_aos.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_vs_aos.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_vs_aos.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs_aos.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs_aos.o: /usr/include/string.h /usr/include/stdint.h
+draw/draw_vs_aos.o: /usr/include/bits/wchar.h
+draw/draw_vs_aos.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_vs_aos.o: tgsi/tgsi_parse.h tgsi/tgsi_util.h tgsi/tgsi_exec.h
+draw/draw_vs_aos.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_vs_aos.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs_aos.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs_aos.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_vs_aos.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs_aos.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs_aos.o: tgsi/tgsi_dump.h draw/draw_vs.h draw/draw_context.h
+draw/draw_vs_aos.o: draw/draw_private.h tgsi/tgsi_scan.h draw/draw_vs_aos.h
+draw/draw_vs_aos.o: rtasm/rtasm_x86sse.h
+draw/draw_vs_aos_io.o: util/u_memory.h util/u_pointer.h
+draw/draw_vs_aos_io.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs_aos_io.o: util/u_debug.h os/os_misc.h os/os_memory.h
+draw/draw_vs_aos_io.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs_aos_io.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_vs_aos_io.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_vs_aos_io.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_vs_aos_io.o: /usr/include/gnu/stubs-64.h
+draw/draw_vs_aos_io.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_vs_aos_io.o: os/os_memory_aligned.h
+draw/draw_vs_aos_io.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_vs_aos_io.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs_aos_io.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs_aos_io.o: /usr/include/string.h
+draw/draw_vs_aos_io.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_vs_aos_io.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_vs_aos_io.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_vs_aos_io.o: tgsi/tgsi_parse.h tgsi/tgsi_util.h tgsi/tgsi_exec.h
+draw/draw_vs_aos_io.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_vs_aos_io.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs_aos_io.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs_aos_io.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_vs_aos_io.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs_aos_io.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs_aos_io.o: draw/draw_vs.h draw/draw_context.h draw/draw_private.h
+draw/draw_vs_aos_io.o: tgsi/tgsi_scan.h draw/draw_vs_aos.h draw/draw_vertex.h
+draw/draw_vs_aos_io.o: rtasm/rtasm_x86sse.h
+draw/draw_vs_aos_machine.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs_aos_machine.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_vs_aos_machine.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs_aos_machine.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs_aos_machine.o: /usr/include/stdlib.h /usr/include/features.h
+draw/draw_vs_aos_machine.o: /usr/include/sys/cdefs.h
+draw/draw_vs_aos_machine.o: /usr/include/bits/wordsize.h
+draw/draw_vs_aos_machine.o: /usr/include/gnu/stubs.h
+draw/draw_vs_aos_machine.o: /usr/include/gnu/stubs-64.h
+draw/draw_vs_aos_machine.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_vs_aos_machine.o: /usr/include/string.h
+draw/draw_vs_aos_machine.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_vs_aos_machine.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_vs_aos_machine.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_vs_aos_machine.o: util/u_math.h
+draw/draw_vs_aos_machine.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs_aos_machine.o: util/u_debug.h os/os_misc.h /usr/include/math.h
+draw/draw_vs_aos_machine.o: /usr/include/bits/huge_val.h
+draw/draw_vs_aos_machine.o: /usr/include/bits/mathdef.h
+draw/draw_vs_aos_machine.o: /usr/include/bits/mathcalls.h util/u_memory.h
+draw/draw_vs_aos_machine.o: util/u_pointer.h os/os_memory.h
+draw/draw_vs_aos_machine.o: os/os_memory_stdc.h os/os_memory_aligned.h
+draw/draw_vs_aos_machine.o: tgsi/tgsi_parse.h tgsi/tgsi_util.h
+draw/draw_vs_aos_machine.o: tgsi/tgsi_exec.h
+draw/draw_vs_aos_machine.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_vs_aos_machine.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs_aos_machine.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs_aos_machine.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_vs_aos_machine.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs_aos_machine.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs_aos_machine.o: draw/draw_vs.h draw/draw_context.h
+draw/draw_vs_aos_machine.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_vs_aos_machine.o: draw/draw_vs_aos.h draw/draw_vertex.h
+draw/draw_vs_exec.o: util/u_math.h
+draw/draw_vs_exec.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs_exec.o: util/u_debug.h os/os_misc.h /usr/include/math.h
+draw/draw_vs_exec.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_vs_exec.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_vs_exec.o: /usr/include/gnu/stubs-64.h /usr/include/bits/huge_val.h
+draw/draw_vs_exec.o: /usr/include/bits/mathdef.h
+draw/draw_vs_exec.o: /usr/include/bits/mathcalls.h
+draw/draw_vs_exec.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_vs_exec.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+draw/draw_vs_exec.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs_exec.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_vs_exec.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_vs_exec.o: os/os_memory_aligned.h
+draw/draw_vs_exec.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_vs_exec.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs_exec.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs_exec.o: /usr/include/string.h /usr/include/stdint.h
+draw/draw_vs_exec.o: /usr/include/bits/wchar.h
+draw/draw_vs_exec.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_vs_exec.o: draw/draw_private.h
+draw/draw_vs_exec.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_vs_exec.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs_exec.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs_exec.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_vs_exec.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs_exec.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs_exec.o: tgsi/tgsi_scan.h draw/draw_context.h draw/draw_vs.h
+draw/draw_vs_exec.o: tgsi/tgsi_parse.h tgsi/tgsi_exec.h
+draw/draw_vs_llvm.o: util/u_memory.h util/u_pointer.h
+draw/draw_vs_llvm.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs_llvm.o: util/u_debug.h os/os_misc.h os/os_memory.h
+draw/draw_vs_llvm.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs_llvm.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_vs_llvm.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_vs_llvm.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_vs_llvm.o: /usr/include/gnu/stubs-64.h
+draw/draw_vs_llvm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_vs_llvm.o: os/os_memory_aligned.h
+draw/draw_vs_llvm.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_vs_llvm.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs_llvm.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs_llvm.o: /usr/include/string.h
+draw/draw_vs_llvm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_vs_llvm.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+draw/draw_vs_llvm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_vs_llvm.o: draw/draw_private.h
+draw/draw_vs_llvm.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_vs_llvm.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs_llvm.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs_llvm.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_vs_llvm.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs_llvm.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs_llvm.o: tgsi/tgsi_scan.h draw/draw_context.h draw/draw_vs.h
+draw/draw_vs_llvm.o: tgsi/tgsi_parse.h
+draw/draw_vs_ppc.o: util/u_math.h
+draw/draw_vs_ppc.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs_ppc.o: util/u_debug.h os/os_misc.h /usr/include/math.h
+draw/draw_vs_ppc.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_vs_ppc.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_vs_ppc.o: /usr/include/gnu/stubs-64.h /usr/include/bits/huge_val.h
+draw/draw_vs_ppc.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+draw/draw_vs_ppc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_vs_ppc.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+draw/draw_vs_ppc.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs_ppc.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_vs_ppc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_vs_ppc.o: os/os_memory_aligned.h draw/draw_vs.h draw/draw_context.h
+draw/draw_vs_ppc.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_vs_ppc.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs_ppc.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs_ppc.o: /usr/include/string.h /usr/include/stdint.h
+draw/draw_vs_ppc.o: /usr/include/bits/wchar.h
+draw/draw_vs_ppc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_vs_ppc.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs_ppc.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs_ppc.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_vs_ppc.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs_ppc.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs_ppc.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_vs_ppc.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+draw/draw_vs_sse.o: util/u_math.h
+draw/draw_vs_sse.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs_sse.o: util/u_debug.h os/os_misc.h /usr/include/math.h
+draw/draw_vs_sse.o: /usr/include/features.h /usr/include/sys/cdefs.h
+draw/draw_vs_sse.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+draw/draw_vs_sse.o: /usr/include/gnu/stubs-64.h /usr/include/bits/huge_val.h
+draw/draw_vs_sse.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+draw/draw_vs_sse.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+draw/draw_vs_sse.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+draw/draw_vs_sse.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs_sse.o: os/os_memory_stdc.h /usr/include/stdlib.h
+draw/draw_vs_sse.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+draw/draw_vs_sse.o: os/os_memory_aligned.h draw/draw_vs.h draw/draw_context.h
+draw/draw_vs_sse.o: ../../../src/gallium/include/pipe/p_state.h
+draw/draw_vs_sse.o: ../../../src/gallium/include/pipe/p_compiler.h
+draw/draw_vs_sse.o: ../../../src/gallium/include/pipe/p_config.h
+draw/draw_vs_sse.o: /usr/include/string.h /usr/include/stdint.h
+draw/draw_vs_sse.o: /usr/include/bits/wchar.h
+draw/draw_vs_sse.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+draw/draw_vs_sse.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs_sse.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs_sse.o: ../../../src/gallium/include/pipe/p_screen.h
+draw/draw_vs_sse.o: ../../../src/gallium/include/pipe/p_format.h
+draw/draw_vs_sse.o: ../../../src/gallium/include/pipe/p_defines.h
+draw/draw_vs_sse.o: draw/draw_private.h tgsi/tgsi_scan.h
+draw/draw_vs_sse.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+indices/u_indices_gen.o: indices/u_indices.h
+indices/u_indices_gen.o: ../../../src/gallium/include/pipe/p_compiler.h
+indices/u_indices_gen.o: indices/u_indices_priv.h indices/u_indices.h
+indices/u_indices_gen.o: util/u_debug.h os/os_misc.h
+indices/u_indices_gen.o: ../../../src/gallium/include/pipe/p_defines.h
+indices/u_indices_gen.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+indices/u_indices_gen.o: ../../../src/gallium/include/pipe/p_config.h
+indices/u_indices_gen.o: os/os_memory_stdc.h /usr/include/stdlib.h
+indices/u_indices_gen.o: /usr/include/features.h /usr/include/sys/cdefs.h
+indices/u_indices_gen.o: /usr/include/bits/wordsize.h
+indices/u_indices_gen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+indices/u_indices_gen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+indices/u_indices_gen.o: os/os_memory_aligned.h indices/u_indices.c
+indices/u_indices_gen.o: indices/u_indices_priv.h
+indices/u_unfilled_gen.o: indices/u_indices.h
+indices/u_unfilled_gen.o: ../../../src/gallium/include/pipe/p_compiler.h
+indices/u_unfilled_gen.o: indices/u_indices_priv.h indices/u_indices.h
+indices/u_unfilled_gen.o: util/u_debug.h os/os_misc.h
+indices/u_unfilled_gen.o: ../../../src/gallium/include/pipe/p_defines.h
+indices/u_unfilled_gen.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+indices/u_unfilled_gen.o: ../../../src/gallium/include/pipe/p_config.h
+indices/u_unfilled_gen.o: os/os_memory_stdc.h /usr/include/stdlib.h
+indices/u_unfilled_gen.o: /usr/include/features.h /usr/include/sys/cdefs.h
+indices/u_unfilled_gen.o: /usr/include/bits/wordsize.h
+indices/u_unfilled_gen.o: /usr/include/gnu/stubs.h
+indices/u_unfilled_gen.o: /usr/include/gnu/stubs-64.h
+indices/u_unfilled_gen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+indices/u_unfilled_gen.o: os/os_memory_aligned.h indices/u_unfilled_indices.c
+indices/u_unfilled_gen.o: indices/u_indices_priv.h
+os/os_misc.o: os/os_misc.h ../../../src/gallium/include/pipe/p_compiler.h
+os/os_misc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+os/os_misc.o: /usr/include/stdio.h /usr/include/features.h
+os/os_misc.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+os/os_misc.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+os/os_misc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+os/os_misc.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+os/os_misc.o: /usr/include/libio.h /usr/include/_G_config.h
+os/os_misc.o: /usr/include/wchar.h /usr/include/bits/wchar.h
+os/os_misc.o: /usr/include/gconv.h /usr/include/bits/stdio_lim.h
+os/os_misc.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+os/os_stream_log.o: os/os_memory.h
+os/os_stream_log.o: ../../../src/gallium/include/pipe/p_config.h
+os/os_stream_log.o: ../../../src/gallium/include/pipe/p_compiler.h
+os/os_stream_log.o: os/os_memory_stdc.h /usr/include/stdlib.h
+os/os_stream_log.o: /usr/include/features.h /usr/include/sys/cdefs.h
+os/os_stream_log.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+os/os_stream_log.o: /usr/include/gnu/stubs-64.h
+os/os_stream_log.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+os/os_stream_log.o: os/os_memory_aligned.h os/os_misc.h os/os_stream.h
+os/os_stream_stdc.o: ../../../src/gallium/include/pipe/p_config.h
+os/os_stream_str.o: ../../../src/gallium/include/pipe/p_config.h
+os/os_stream_str.o: os/os_memory.h
+os/os_stream_str.o: ../../../src/gallium/include/pipe/p_compiler.h
+os/os_stream_str.o: os/os_memory_stdc.h /usr/include/stdlib.h
+os/os_stream_str.o: /usr/include/features.h /usr/include/sys/cdefs.h
+os/os_stream_str.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+os/os_stream_str.o: /usr/include/gnu/stubs-64.h
+os/os_stream_str.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+os/os_stream_str.o: os/os_memory_aligned.h os/os_stream.h
+os/os_stream_null.o: os/os_memory.h
+os/os_stream_null.o: ../../../src/gallium/include/pipe/p_config.h
+os/os_stream_null.o: ../../../src/gallium/include/pipe/p_compiler.h
+os/os_stream_null.o: os/os_memory_stdc.h /usr/include/stdlib.h
+os/os_stream_null.o: /usr/include/features.h /usr/include/sys/cdefs.h
+os/os_stream_null.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+os/os_stream_null.o: /usr/include/gnu/stubs-64.h
+os/os_stream_null.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+os/os_stream_null.o: os/os_memory_aligned.h os/os_stream.h
+os/os_time.o: ../../../src/gallium/include/pipe/p_config.h os/os_time.h
+os/os_time.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_buffer_fenced.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_buffer_fenced.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_buffer_fenced.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_buffer_fenced.o: util/u_debug.h os/os_misc.h os/os_thread.h
+pipebuffer/pb_buffer_fenced.o: util/u_memory.h util/u_pointer.h
+pipebuffer/pb_buffer_fenced.o: os/os_memory.h os/os_memory_stdc.h
+pipebuffer/pb_buffer_fenced.o: /usr/include/stdlib.h /usr/include/features.h
+pipebuffer/pb_buffer_fenced.o: /usr/include/sys/cdefs.h
+pipebuffer/pb_buffer_fenced.o: /usr/include/bits/wordsize.h
+pipebuffer/pb_buffer_fenced.o: /usr/include/gnu/stubs.h
+pipebuffer/pb_buffer_fenced.o: /usr/include/gnu/stubs-64.h
+pipebuffer/pb_buffer_fenced.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+pipebuffer/pb_buffer_fenced.o: os/os_memory_aligned.h util/u_double_list.h
+pipebuffer/pb_buffer_fenced.o: pipebuffer/pb_buffer.h util/u_inlines.h
+pipebuffer/pb_buffer_fenced.o: ../../../src/gallium/include/pipe/p_context.h
+pipebuffer/pb_buffer_fenced.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_buffer_fenced.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_buffer_fenced.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_buffer_fenced.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_buffer_fenced.o: /usr/include/string.h
+pipebuffer/pb_buffer_fenced.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+pipebuffer/pb_buffer_fenced.o: /usr/include/stdint.h
+pipebuffer/pb_buffer_fenced.o: /usr/include/bits/wchar.h
+pipebuffer/pb_buffer_fenced.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+pipebuffer/pb_buffer_fenced.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_buffer_fenced.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_buffer_fenced.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_buffer_fenced.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_buffer_fenced.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_buffer_fenced.o: util/u_atomic.h pipebuffer/pb_buffer_fenced.h
+pipebuffer/pb_buffer_fenced.o: pipebuffer/pb_bufmgr.h
+pipebuffer/pb_buffer_malloc.o: util/u_debug.h os/os_misc.h
+pipebuffer/pb_buffer_malloc.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_buffer_malloc.o: util/u_memory.h util/u_pointer.h
+pipebuffer/pb_buffer_malloc.o: os/os_memory.h
+pipebuffer/pb_buffer_malloc.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_buffer_malloc.o: os/os_memory_stdc.h /usr/include/stdlib.h
+pipebuffer/pb_buffer_malloc.o: /usr/include/features.h
+pipebuffer/pb_buffer_malloc.o: /usr/include/sys/cdefs.h
+pipebuffer/pb_buffer_malloc.o: /usr/include/bits/wordsize.h
+pipebuffer/pb_buffer_malloc.o: /usr/include/gnu/stubs.h
+pipebuffer/pb_buffer_malloc.o: /usr/include/gnu/stubs-64.h
+pipebuffer/pb_buffer_malloc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+pipebuffer/pb_buffer_malloc.o: os/os_memory_aligned.h pipebuffer/pb_buffer.h
+pipebuffer/pb_buffer_malloc.o: util/u_inlines.h
+pipebuffer/pb_buffer_malloc.o: ../../../src/gallium/include/pipe/p_context.h
+pipebuffer/pb_buffer_malloc.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_buffer_malloc.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_buffer_malloc.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_buffer_malloc.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_buffer_malloc.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_buffer_malloc.o: /usr/include/string.h
+pipebuffer/pb_buffer_malloc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+pipebuffer/pb_buffer_malloc.o: /usr/include/stdint.h
+pipebuffer/pb_buffer_malloc.o: /usr/include/bits/wchar.h
+pipebuffer/pb_buffer_malloc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+pipebuffer/pb_buffer_malloc.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_buffer_malloc.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_buffer_malloc.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_buffer_malloc.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_buffer_malloc.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_buffer_malloc.o: util/u_atomic.h pipebuffer/pb_bufmgr.h
+pipebuffer/pb_bufmgr_alt.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_bufmgr_alt.o: util/u_debug.h os/os_misc.h util/u_memory.h
+pipebuffer/pb_bufmgr_alt.o: util/u_pointer.h os/os_memory.h
+pipebuffer/pb_bufmgr_alt.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_bufmgr_alt.o: os/os_memory_stdc.h /usr/include/stdlib.h
+pipebuffer/pb_bufmgr_alt.o: /usr/include/features.h /usr/include/sys/cdefs.h
+pipebuffer/pb_bufmgr_alt.o: /usr/include/bits/wordsize.h
+pipebuffer/pb_bufmgr_alt.o: /usr/include/gnu/stubs.h
+pipebuffer/pb_bufmgr_alt.o: /usr/include/gnu/stubs-64.h
+pipebuffer/pb_bufmgr_alt.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+pipebuffer/pb_bufmgr_alt.o: os/os_memory_aligned.h pipebuffer/pb_buffer.h
+pipebuffer/pb_bufmgr_alt.o: util/u_inlines.h
+pipebuffer/pb_bufmgr_alt.o: ../../../src/gallium/include/pipe/p_context.h
+pipebuffer/pb_bufmgr_alt.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_bufmgr_alt.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_bufmgr_alt.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_bufmgr_alt.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_bufmgr_alt.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_bufmgr_alt.o: /usr/include/string.h
+pipebuffer/pb_bufmgr_alt.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+pipebuffer/pb_bufmgr_alt.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+pipebuffer/pb_bufmgr_alt.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+pipebuffer/pb_bufmgr_alt.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_bufmgr_alt.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_bufmgr_alt.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_bufmgr_alt.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_bufmgr_alt.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_bufmgr_alt.o: util/u_atomic.h pipebuffer/pb_bufmgr.h
+pipebuffer/pb_bufmgr_cache.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_bufmgr_cache.o: util/u_debug.h os/os_misc.h os/os_thread.h
+pipebuffer/pb_bufmgr_cache.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+pipebuffer/pb_bufmgr_cache.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_bufmgr_cache.o: os/os_memory_stdc.h /usr/include/stdlib.h
+pipebuffer/pb_bufmgr_cache.o: /usr/include/features.h
+pipebuffer/pb_bufmgr_cache.o: /usr/include/sys/cdefs.h
+pipebuffer/pb_bufmgr_cache.o: /usr/include/bits/wordsize.h
+pipebuffer/pb_bufmgr_cache.o: /usr/include/gnu/stubs.h
+pipebuffer/pb_bufmgr_cache.o: /usr/include/gnu/stubs-64.h
+pipebuffer/pb_bufmgr_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+pipebuffer/pb_bufmgr_cache.o: os/os_memory_aligned.h util/u_double_list.h
+pipebuffer/pb_bufmgr_cache.o: util/u_time.h os/os_time.h
+pipebuffer/pb_bufmgr_cache.o: pipebuffer/pb_buffer.h util/u_inlines.h
+pipebuffer/pb_bufmgr_cache.o: ../../../src/gallium/include/pipe/p_context.h
+pipebuffer/pb_bufmgr_cache.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_bufmgr_cache.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_bufmgr_cache.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_bufmgr_cache.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_bufmgr_cache.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_bufmgr_cache.o: /usr/include/string.h
+pipebuffer/pb_bufmgr_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+pipebuffer/pb_bufmgr_cache.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+pipebuffer/pb_bufmgr_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+pipebuffer/pb_bufmgr_cache.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_bufmgr_cache.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_bufmgr_cache.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_bufmgr_cache.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_bufmgr_cache.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_bufmgr_cache.o: util/u_atomic.h pipebuffer/pb_bufmgr.h
+pipebuffer/pb_bufmgr_debug.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_bufmgr_debug.o: util/u_debug.h os/os_misc.h os/os_thread.h
+pipebuffer/pb_bufmgr_debug.o: util/u_math.h /usr/include/math.h
+pipebuffer/pb_bufmgr_debug.o: /usr/include/features.h
+pipebuffer/pb_bufmgr_debug.o: /usr/include/sys/cdefs.h
+pipebuffer/pb_bufmgr_debug.o: /usr/include/bits/wordsize.h
+pipebuffer/pb_bufmgr_debug.o: /usr/include/gnu/stubs.h
+pipebuffer/pb_bufmgr_debug.o: /usr/include/gnu/stubs-64.h
+pipebuffer/pb_bufmgr_debug.o: /usr/include/bits/huge_val.h
+pipebuffer/pb_bufmgr_debug.o: /usr/include/bits/mathdef.h
+pipebuffer/pb_bufmgr_debug.o: /usr/include/bits/mathcalls.h
+pipebuffer/pb_bufmgr_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+pipebuffer/pb_bufmgr_debug.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+pipebuffer/pb_bufmgr_debug.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_bufmgr_debug.o: os/os_memory_stdc.h /usr/include/stdlib.h
+pipebuffer/pb_bufmgr_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+pipebuffer/pb_bufmgr_debug.o: os/os_memory_aligned.h util/u_double_list.h
+pipebuffer/pb_bufmgr_debug.o: util/u_time.h os/os_time.h util/u_debug_stack.h
+pipebuffer/pb_bufmgr_debug.o: pipebuffer/pb_buffer.h util/u_inlines.h
+pipebuffer/pb_bufmgr_debug.o: ../../../src/gallium/include/pipe/p_context.h
+pipebuffer/pb_bufmgr_debug.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_bufmgr_debug.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_bufmgr_debug.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_bufmgr_debug.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_bufmgr_debug.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_bufmgr_debug.o: /usr/include/string.h /usr/include/stdint.h
+pipebuffer/pb_bufmgr_debug.o: /usr/include/bits/wchar.h
+pipebuffer/pb_bufmgr_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+pipebuffer/pb_bufmgr_debug.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_bufmgr_debug.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_bufmgr_debug.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_bufmgr_debug.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_bufmgr_debug.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_bufmgr_debug.o: util/u_atomic.h pipebuffer/pb_bufmgr.h
+pipebuffer/pb_bufmgr_mm.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_bufmgr_mm.o: util/u_debug.h os/os_misc.h
+pipebuffer/pb_bufmgr_mm.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_bufmgr_mm.o: os/os_thread.h util/u_memory.h util/u_pointer.h
+pipebuffer/pb_bufmgr_mm.o: os/os_memory.h
+pipebuffer/pb_bufmgr_mm.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_bufmgr_mm.o: os/os_memory_stdc.h /usr/include/stdlib.h
+pipebuffer/pb_bufmgr_mm.o: /usr/include/features.h /usr/include/sys/cdefs.h
+pipebuffer/pb_bufmgr_mm.o: /usr/include/bits/wordsize.h
+pipebuffer/pb_bufmgr_mm.o: /usr/include/gnu/stubs.h
+pipebuffer/pb_bufmgr_mm.o: /usr/include/gnu/stubs-64.h
+pipebuffer/pb_bufmgr_mm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+pipebuffer/pb_bufmgr_mm.o: os/os_memory_aligned.h util/u_double_list.h
+pipebuffer/pb_bufmgr_mm.o: util/u_mm.h pipebuffer/pb_buffer.h
+pipebuffer/pb_bufmgr_mm.o: util/u_inlines.h
+pipebuffer/pb_bufmgr_mm.o: ../../../src/gallium/include/pipe/p_context.h
+pipebuffer/pb_bufmgr_mm.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_bufmgr_mm.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_bufmgr_mm.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_bufmgr_mm.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_bufmgr_mm.o: /usr/include/string.h
+pipebuffer/pb_bufmgr_mm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+pipebuffer/pb_bufmgr_mm.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+pipebuffer/pb_bufmgr_mm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+pipebuffer/pb_bufmgr_mm.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_bufmgr_mm.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_bufmgr_mm.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_bufmgr_mm.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_bufmgr_mm.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_bufmgr_mm.o: util/u_atomic.h pipebuffer/pb_bufmgr.h
+pipebuffer/pb_bufmgr_ondemand.o: util/u_debug.h os/os_misc.h
+pipebuffer/pb_bufmgr_ondemand.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_bufmgr_ondemand.o: util/u_memory.h util/u_pointer.h
+pipebuffer/pb_bufmgr_ondemand.o: os/os_memory.h
+pipebuffer/pb_bufmgr_ondemand.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_bufmgr_ondemand.o: os/os_memory_stdc.h /usr/include/stdlib.h
+pipebuffer/pb_bufmgr_ondemand.o: /usr/include/features.h
+pipebuffer/pb_bufmgr_ondemand.o: /usr/include/sys/cdefs.h
+pipebuffer/pb_bufmgr_ondemand.o: /usr/include/bits/wordsize.h
+pipebuffer/pb_bufmgr_ondemand.o: /usr/include/gnu/stubs.h
+pipebuffer/pb_bufmgr_ondemand.o: /usr/include/gnu/stubs-64.h
+pipebuffer/pb_bufmgr_ondemand.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+pipebuffer/pb_bufmgr_ondemand.o: os/os_memory_aligned.h
+pipebuffer/pb_bufmgr_ondemand.o: pipebuffer/pb_buffer.h util/u_inlines.h
+pipebuffer/pb_bufmgr_ondemand.o: ../../../src/gallium/include/pipe/p_context.h
+pipebuffer/pb_bufmgr_ondemand.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_bufmgr_ondemand.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_bufmgr_ondemand.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_bufmgr_ondemand.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_bufmgr_ondemand.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_bufmgr_ondemand.o: /usr/include/string.h
+pipebuffer/pb_bufmgr_ondemand.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+pipebuffer/pb_bufmgr_ondemand.o: /usr/include/stdint.h
+pipebuffer/pb_bufmgr_ondemand.o: /usr/include/bits/wchar.h
+pipebuffer/pb_bufmgr_ondemand.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+pipebuffer/pb_bufmgr_ondemand.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_bufmgr_ondemand.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_bufmgr_ondemand.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_bufmgr_ondemand.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_bufmgr_ondemand.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_bufmgr_ondemand.o: util/u_atomic.h pipebuffer/pb_bufmgr.h
+pipebuffer/pb_bufmgr_pool.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_bufmgr_pool.o: util/u_debug.h os/os_misc.h os/os_thread.h
+pipebuffer/pb_bufmgr_pool.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_bufmgr_pool.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+pipebuffer/pb_bufmgr_pool.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_bufmgr_pool.o: os/os_memory_stdc.h /usr/include/stdlib.h
+pipebuffer/pb_bufmgr_pool.o: /usr/include/features.h /usr/include/sys/cdefs.h
+pipebuffer/pb_bufmgr_pool.o: /usr/include/bits/wordsize.h
+pipebuffer/pb_bufmgr_pool.o: /usr/include/gnu/stubs.h
+pipebuffer/pb_bufmgr_pool.o: /usr/include/gnu/stubs-64.h
+pipebuffer/pb_bufmgr_pool.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+pipebuffer/pb_bufmgr_pool.o: os/os_memory_aligned.h util/u_double_list.h
+pipebuffer/pb_bufmgr_pool.o: pipebuffer/pb_buffer.h util/u_inlines.h
+pipebuffer/pb_bufmgr_pool.o: ../../../src/gallium/include/pipe/p_context.h
+pipebuffer/pb_bufmgr_pool.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_bufmgr_pool.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_bufmgr_pool.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_bufmgr_pool.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_bufmgr_pool.o: /usr/include/string.h
+pipebuffer/pb_bufmgr_pool.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+pipebuffer/pb_bufmgr_pool.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+pipebuffer/pb_bufmgr_pool.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+pipebuffer/pb_bufmgr_pool.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_bufmgr_pool.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_bufmgr_pool.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_bufmgr_pool.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_bufmgr_pool.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_bufmgr_pool.o: util/u_atomic.h pipebuffer/pb_bufmgr.h
+pipebuffer/pb_bufmgr_slab.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_bufmgr_slab.o: util/u_debug.h os/os_misc.h os/os_thread.h
+pipebuffer/pb_bufmgr_slab.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_bufmgr_slab.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+pipebuffer/pb_bufmgr_slab.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_bufmgr_slab.o: os/os_memory_stdc.h /usr/include/stdlib.h
+pipebuffer/pb_bufmgr_slab.o: /usr/include/features.h /usr/include/sys/cdefs.h
+pipebuffer/pb_bufmgr_slab.o: /usr/include/bits/wordsize.h
+pipebuffer/pb_bufmgr_slab.o: /usr/include/gnu/stubs.h
+pipebuffer/pb_bufmgr_slab.o: /usr/include/gnu/stubs-64.h
+pipebuffer/pb_bufmgr_slab.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+pipebuffer/pb_bufmgr_slab.o: os/os_memory_aligned.h util/u_double_list.h
+pipebuffer/pb_bufmgr_slab.o: util/u_time.h os/os_time.h
+pipebuffer/pb_bufmgr_slab.o: pipebuffer/pb_buffer.h util/u_inlines.h
+pipebuffer/pb_bufmgr_slab.o: ../../../src/gallium/include/pipe/p_context.h
+pipebuffer/pb_bufmgr_slab.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_bufmgr_slab.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_bufmgr_slab.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_bufmgr_slab.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_bufmgr_slab.o: /usr/include/string.h
+pipebuffer/pb_bufmgr_slab.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+pipebuffer/pb_bufmgr_slab.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+pipebuffer/pb_bufmgr_slab.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+pipebuffer/pb_bufmgr_slab.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_bufmgr_slab.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_bufmgr_slab.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_bufmgr_slab.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_bufmgr_slab.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_bufmgr_slab.o: util/u_atomic.h pipebuffer/pb_bufmgr.h
+pipebuffer/pb_validate.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_validate.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_validate.o: util/u_memory.h util/u_pointer.h util/u_debug.h
+pipebuffer/pb_validate.o: os/os_misc.h os/os_memory.h
+pipebuffer/pb_validate.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_validate.o: os/os_memory_stdc.h /usr/include/stdlib.h
+pipebuffer/pb_validate.o: /usr/include/features.h /usr/include/sys/cdefs.h
+pipebuffer/pb_validate.o: /usr/include/bits/wordsize.h
+pipebuffer/pb_validate.o: /usr/include/gnu/stubs.h
+pipebuffer/pb_validate.o: /usr/include/gnu/stubs-64.h
+pipebuffer/pb_validate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+pipebuffer/pb_validate.o: os/os_memory_aligned.h pipebuffer/pb_buffer.h
+pipebuffer/pb_validate.o: util/u_inlines.h
+pipebuffer/pb_validate.o: ../../../src/gallium/include/pipe/p_context.h
+pipebuffer/pb_validate.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_validate.o: ../../../src/gallium/include/pipe/p_state.h
+pipebuffer/pb_validate.o: ../../../src/gallium/include/pipe/p_compiler.h
+pipebuffer/pb_validate.o: ../../../src/gallium/include/pipe/p_config.h
+pipebuffer/pb_validate.o: /usr/include/string.h
+pipebuffer/pb_validate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+pipebuffer/pb_validate.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+pipebuffer/pb_validate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+pipebuffer/pb_validate.o: ../../../src/gallium/include/pipe/p_defines.h
+pipebuffer/pb_validate.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_validate.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_validate.o: ../../../src/gallium/include/pipe/p_format.h
+pipebuffer/pb_validate.o: ../../../src/gallium/include/pipe/p_screen.h
+pipebuffer/pb_validate.o: util/u_atomic.h pipebuffer/pb_validate.h
+rbug/rbug_connection.o: rbug/rbug.h rbug/rbug_core.h rbug/rbug_proto.h
+rbug/rbug_connection.o: ../../../src/gallium/include/pipe/p_compiler.h
+rbug/rbug_connection.o: rbug/rbug_shader.h rbug/rbug_context.h
+rbug/rbug_connection.o: rbug/rbug_texture.h rbug/rbug_connection.h
+rbug/rbug_connection.o: rbug/rbug_internal.h util/u_memory.h util/u_pointer.h
+rbug/rbug_connection.o: util/u_debug.h os/os_misc.h os/os_memory.h
+rbug/rbug_connection.o: ../../../src/gallium/include/pipe/p_config.h
+rbug/rbug_connection.o: os/os_memory_stdc.h /usr/include/stdlib.h
+rbug/rbug_connection.o: /usr/include/features.h /usr/include/sys/cdefs.h
+rbug/rbug_connection.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+rbug/rbug_connection.o: /usr/include/gnu/stubs-64.h
+rbug/rbug_connection.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+rbug/rbug_connection.o: os/os_memory_aligned.h /usr/include/errno.h
+rbug/rbug_connection.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+rbug/rbug_connection.o: /usr/include/asm/errno.h
+rbug/rbug_connection.o: /usr/include/asm-x86_64/errno.h
+rbug/rbug_connection.o: /usr/include/asm-generic/errno.h
+rbug/rbug_connection.o: /usr/include/asm-generic/errno-base.h
+rbug/rbug_connection.o: util/u_network.h
+rbug/rbug_core.o: rbug/rbug_internal.h rbug/rbug_proto.h
+rbug/rbug_core.o: ../../../src/gallium/include/pipe/p_compiler.h
+rbug/rbug_core.o: util/u_memory.h util/u_pointer.h util/u_debug.h
+rbug/rbug_core.o: os/os_misc.h os/os_memory.h
+rbug/rbug_core.o: ../../../src/gallium/include/pipe/p_config.h
+rbug/rbug_core.o: os/os_memory_stdc.h /usr/include/stdlib.h
+rbug/rbug_core.o: /usr/include/features.h /usr/include/sys/cdefs.h
+rbug/rbug_core.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+rbug/rbug_core.o: /usr/include/gnu/stubs-64.h
+rbug/rbug_core.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+rbug/rbug_core.o: os/os_memory_aligned.h /usr/include/errno.h
+rbug/rbug_core.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+rbug/rbug_core.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+rbug/rbug_core.o: /usr/include/asm-generic/errno.h
+rbug/rbug_core.o: /usr/include/asm-generic/errno-base.h rbug/rbug_core.h
+rbug/rbug_texture.o: rbug/rbug_internal.h rbug/rbug_proto.h
+rbug/rbug_texture.o: ../../../src/gallium/include/pipe/p_compiler.h
+rbug/rbug_texture.o: util/u_memory.h util/u_pointer.h util/u_debug.h
+rbug/rbug_texture.o: os/os_misc.h os/os_memory.h
+rbug/rbug_texture.o: ../../../src/gallium/include/pipe/p_config.h
+rbug/rbug_texture.o: os/os_memory_stdc.h /usr/include/stdlib.h
+rbug/rbug_texture.o: /usr/include/features.h /usr/include/sys/cdefs.h
+rbug/rbug_texture.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+rbug/rbug_texture.o: /usr/include/gnu/stubs-64.h
+rbug/rbug_texture.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+rbug/rbug_texture.o: os/os_memory_aligned.h /usr/include/errno.h
+rbug/rbug_texture.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+rbug/rbug_texture.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+rbug/rbug_texture.o: /usr/include/asm-generic/errno.h
+rbug/rbug_texture.o: /usr/include/asm-generic/errno-base.h
+rbug/rbug_texture.o: rbug/rbug_texture.h rbug/rbug_core.h
+rbug/rbug_context.o: rbug/rbug_internal.h rbug/rbug_proto.h
+rbug/rbug_context.o: ../../../src/gallium/include/pipe/p_compiler.h
+rbug/rbug_context.o: util/u_memory.h util/u_pointer.h util/u_debug.h
+rbug/rbug_context.o: os/os_misc.h os/os_memory.h
+rbug/rbug_context.o: ../../../src/gallium/include/pipe/p_config.h
+rbug/rbug_context.o: os/os_memory_stdc.h /usr/include/stdlib.h
+rbug/rbug_context.o: /usr/include/features.h /usr/include/sys/cdefs.h
+rbug/rbug_context.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+rbug/rbug_context.o: /usr/include/gnu/stubs-64.h
+rbug/rbug_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+rbug/rbug_context.o: os/os_memory_aligned.h /usr/include/errno.h
+rbug/rbug_context.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+rbug/rbug_context.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+rbug/rbug_context.o: /usr/include/asm-generic/errno.h
+rbug/rbug_context.o: /usr/include/asm-generic/errno-base.h
+rbug/rbug_context.o: rbug/rbug_context.h rbug/rbug_core.h
+rbug/rbug_shader.o: rbug/rbug_internal.h rbug/rbug_proto.h
+rbug/rbug_shader.o: ../../../src/gallium/include/pipe/p_compiler.h
+rbug/rbug_shader.o: util/u_memory.h util/u_pointer.h util/u_debug.h
+rbug/rbug_shader.o: os/os_misc.h os/os_memory.h
+rbug/rbug_shader.o: ../../../src/gallium/include/pipe/p_config.h
+rbug/rbug_shader.o: os/os_memory_stdc.h /usr/include/stdlib.h
+rbug/rbug_shader.o: /usr/include/features.h /usr/include/sys/cdefs.h
+rbug/rbug_shader.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+rbug/rbug_shader.o: /usr/include/gnu/stubs-64.h
+rbug/rbug_shader.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+rbug/rbug_shader.o: os/os_memory_aligned.h /usr/include/errno.h
+rbug/rbug_shader.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+rbug/rbug_shader.o: /usr/include/asm/errno.h /usr/include/asm-x86_64/errno.h
+rbug/rbug_shader.o: /usr/include/asm-generic/errno.h
+rbug/rbug_shader.o: /usr/include/asm-generic/errno-base.h rbug/rbug_shader.h
+rbug/rbug_shader.o: rbug/rbug_core.h
+rbug/rbug_demarshal.o: rbug/rbug.h rbug/rbug_core.h rbug/rbug_proto.h
+rbug/rbug_demarshal.o: ../../../src/gallium/include/pipe/p_compiler.h
+rbug/rbug_demarshal.o: rbug/rbug_shader.h rbug/rbug_context.h
+rbug/rbug_demarshal.o: rbug/rbug_texture.h rbug/rbug_connection.h
+rtasm/rtasm_cpu.o: util/u_debug.h os/os_misc.h
+rtasm/rtasm_cpu.o: ../../../src/gallium/include/pipe/p_compiler.h
+rtasm/rtasm_cpu.o: rtasm/rtasm_cpu.h
+rtasm/rtasm_execmem.o: ../../../src/gallium/include/pipe/p_compiler.h
+rtasm/rtasm_execmem.o: util/u_debug.h os/os_misc.h os/os_thread.h
+rtasm/rtasm_execmem.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+rtasm/rtasm_execmem.o: ../../../src/gallium/include/pipe/p_config.h
+rtasm/rtasm_execmem.o: os/os_memory_stdc.h /usr/include/stdlib.h
+rtasm/rtasm_execmem.o: /usr/include/features.h /usr/include/sys/cdefs.h
+rtasm/rtasm_execmem.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+rtasm/rtasm_execmem.o: /usr/include/gnu/stubs-64.h
+rtasm/rtasm_execmem.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+rtasm/rtasm_execmem.o: os/os_memory_aligned.h rtasm/rtasm_execmem.h
+rtasm/rtasm_x86sse.o: ../../../src/gallium/include/pipe/p_config.h
+rtasm/rtasm_ppc.o: /usr/include/stdio.h /usr/include/features.h
+rtasm/rtasm_ppc.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+rtasm/rtasm_ppc.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+rtasm/rtasm_ppc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+rtasm/rtasm_ppc.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+rtasm/rtasm_ppc.o: /usr/include/libio.h /usr/include/_G_config.h
+rtasm/rtasm_ppc.o: /usr/include/wchar.h /usr/include/bits/wchar.h
+rtasm/rtasm_ppc.o: /usr/include/gconv.h
+rtasm/rtasm_ppc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+rtasm/rtasm_ppc.o: /usr/include/bits/stdio_lim.h
+rtasm/rtasm_ppc.o: /usr/include/bits/sys_errlist.h util/u_memory.h
+rtasm/rtasm_ppc.o: util/u_pointer.h
+rtasm/rtasm_ppc.o: ../../../src/gallium/include/pipe/p_compiler.h
+rtasm/rtasm_ppc.o: util/u_debug.h os/os_misc.h os/os_memory.h
+rtasm/rtasm_ppc.o: ../../../src/gallium/include/pipe/p_config.h
+rtasm/rtasm_ppc.o: os/os_memory_stdc.h /usr/include/stdlib.h
+rtasm/rtasm_ppc.o: os/os_memory_aligned.h rtasm/rtasm_execmem.h
+rtasm/rtasm_ppc.o: rtasm/rtasm_ppc.h
+rtasm/rtasm_ppc_spe.o: /usr/include/stdio.h /usr/include/features.h
+rtasm/rtasm_ppc_spe.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+rtasm/rtasm_ppc_spe.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+rtasm/rtasm_ppc_spe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+rtasm/rtasm_ppc_spe.o: /usr/include/bits/types.h
+rtasm/rtasm_ppc_spe.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+rtasm/rtasm_ppc_spe.o: /usr/include/_G_config.h /usr/include/wchar.h
+rtasm/rtasm_ppc_spe.o: /usr/include/bits/wchar.h /usr/include/gconv.h
+rtasm/rtasm_ppc_spe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+rtasm/rtasm_ppc_spe.o: /usr/include/bits/stdio_lim.h
+rtasm/rtasm_ppc_spe.o: /usr/include/bits/sys_errlist.h
+rtasm/rtasm_ppc_spe.o: ../../../src/gallium/include/pipe/p_compiler.h
+rtasm/rtasm_ppc_spe.o: util/u_memory.h util/u_pointer.h util/u_debug.h
+rtasm/rtasm_ppc_spe.o: os/os_misc.h os/os_memory.h
+rtasm/rtasm_ppc_spe.o: ../../../src/gallium/include/pipe/p_config.h
+rtasm/rtasm_ppc_spe.o: os/os_memory_stdc.h /usr/include/stdlib.h
+rtasm/rtasm_ppc_spe.o: os/os_memory_aligned.h rtasm/rtasm_ppc_spe.h
+tgsi/tgsi_sanity.o: util/u_debug.h os/os_misc.h
+tgsi/tgsi_sanity.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_sanity.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+tgsi/tgsi_sanity.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_sanity.o: os/os_memory_stdc.h /usr/include/stdlib.h
+tgsi/tgsi_sanity.o: /usr/include/features.h /usr/include/sys/cdefs.h
+tgsi/tgsi_sanity.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+tgsi/tgsi_sanity.o: /usr/include/gnu/stubs-64.h
+tgsi/tgsi_sanity.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tgsi/tgsi_sanity.o: os/os_memory_aligned.h util/u_prim.h
+tgsi/tgsi_sanity.o: ../../../src/gallium/include/pipe/p_defines.h
+tgsi/tgsi_sanity.o: cso_cache/cso_hash.h tgsi/tgsi_sanity.h
+tgsi/tgsi_sanity.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+tgsi/tgsi_sanity.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_sanity.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_sanity.o: /usr/include/string.h
+tgsi/tgsi_sanity.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tgsi/tgsi_sanity.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tgsi/tgsi_sanity.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tgsi/tgsi_sanity.o: tgsi/tgsi_info.h tgsi/tgsi_iterate.h tgsi/tgsi_parse.h
+tgsi/tgsi_build.o: util/u_debug.h os/os_misc.h
+tgsi/tgsi_build.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_build.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+tgsi/tgsi_build.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_build.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_build.o: /usr/include/stdlib.h /usr/include/features.h
+tgsi/tgsi_build.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tgsi/tgsi_build.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tgsi/tgsi_build.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tgsi/tgsi_build.o: /usr/include/string.h
+tgsi/tgsi_build.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tgsi/tgsi_build.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tgsi/tgsi_build.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tgsi/tgsi_build.o: tgsi/tgsi_build.h tgsi/tgsi_parse.h
+tgsi/tgsi_dump.o: util/u_debug.h os/os_misc.h
+tgsi/tgsi_dump.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_dump.o: util/u_string.h /usr/include/stdio.h
+tgsi/tgsi_dump.o: /usr/include/features.h /usr/include/sys/cdefs.h
+tgsi/tgsi_dump.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+tgsi/tgsi_dump.o: /usr/include/gnu/stubs-64.h
+tgsi/tgsi_dump.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tgsi/tgsi_dump.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+tgsi/tgsi_dump.o: /usr/include/libio.h /usr/include/_G_config.h
+tgsi/tgsi_dump.o: /usr/include/wchar.h /usr/include/bits/wchar.h
+tgsi/tgsi_dump.o: /usr/include/gconv.h
+tgsi/tgsi_dump.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tgsi/tgsi_dump.o: /usr/include/bits/stdio_lim.h
+tgsi/tgsi_dump.o: /usr/include/bits/sys_errlist.h util/u_math.h
+tgsi/tgsi_dump.o: /usr/include/math.h /usr/include/bits/huge_val.h
+tgsi/tgsi_dump.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+tgsi/tgsi_dump.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+tgsi/tgsi_dump.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_dump.o: os/os_memory_stdc.h /usr/include/stdlib.h
+tgsi/tgsi_dump.o: os/os_memory_aligned.h tgsi/tgsi_dump.h
+tgsi/tgsi_dump.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+tgsi/tgsi_dump.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_dump.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_dump.o: /usr/include/string.h /usr/include/stdint.h
+tgsi/tgsi_dump.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tgsi/tgsi_dump.o: tgsi/tgsi_info.h tgsi/tgsi_iterate.h tgsi/tgsi_parse.h
+tgsi/tgsi_exec.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_exec.o: ../../../src/gallium/include/pipe/p_state.h
+tgsi/tgsi_exec.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_exec.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_exec.o: /usr/include/stdlib.h /usr/include/features.h
+tgsi/tgsi_exec.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tgsi/tgsi_exec.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tgsi/tgsi_exec.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tgsi/tgsi_exec.o: /usr/include/string.h
+tgsi/tgsi_exec.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tgsi/tgsi_exec.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tgsi/tgsi_exec.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tgsi/tgsi_exec.o: ../../../src/gallium/include/pipe/p_defines.h
+tgsi/tgsi_exec.o: ../../../src/gallium/include/pipe/p_format.h
+tgsi/tgsi_exec.o: ../../../src/gallium/include/pipe/p_screen.h
+tgsi/tgsi_exec.o: ../../../src/gallium/include/pipe/p_format.h
+tgsi/tgsi_exec.o: ../../../src/gallium/include/pipe/p_defines.h
+tgsi/tgsi_exec.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+tgsi/tgsi_exec.o: tgsi/tgsi_dump.h tgsi/tgsi_parse.h tgsi/tgsi_util.h
+tgsi/tgsi_exec.o: tgsi/tgsi_exec.h util/u_memory.h util/u_pointer.h
+tgsi/tgsi_exec.o: util/u_debug.h os/os_misc.h os/os_memory.h
+tgsi/tgsi_exec.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_exec.o: os/os_memory_stdc.h os/os_memory_aligned.h util/u_math.h
+tgsi/tgsi_exec.o: /usr/include/math.h /usr/include/bits/huge_val.h
+tgsi/tgsi_exec.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+tgsi/tgsi_info.o: util/u_debug.h os/os_misc.h
+tgsi/tgsi_info.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_info.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+tgsi/tgsi_info.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_info.o: os/os_memory_stdc.h /usr/include/stdlib.h
+tgsi/tgsi_info.o: /usr/include/features.h /usr/include/sys/cdefs.h
+tgsi/tgsi_info.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+tgsi/tgsi_info.o: /usr/include/gnu/stubs-64.h
+tgsi/tgsi_info.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tgsi/tgsi_info.o: os/os_memory_aligned.h tgsi/tgsi_info.h
+tgsi/tgsi_info.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+tgsi/tgsi_info.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_info.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_info.o: /usr/include/string.h
+tgsi/tgsi_info.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tgsi/tgsi_info.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tgsi/tgsi_info.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tgsi/tgsi_iterate.o: util/u_debug.h os/os_misc.h
+tgsi/tgsi_iterate.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_iterate.o: tgsi/tgsi_iterate.h
+tgsi/tgsi_iterate.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+tgsi/tgsi_iterate.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_iterate.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_iterate.o: /usr/include/stdlib.h /usr/include/features.h
+tgsi/tgsi_iterate.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tgsi/tgsi_iterate.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tgsi/tgsi_iterate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tgsi/tgsi_iterate.o: /usr/include/string.h
+tgsi/tgsi_iterate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tgsi/tgsi_iterate.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tgsi/tgsi_iterate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tgsi/tgsi_iterate.o: tgsi/tgsi_parse.h
+tgsi/tgsi_parse.o: util/u_debug.h os/os_misc.h
+tgsi/tgsi_parse.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_parse.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+tgsi/tgsi_parse.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_parse.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_parse.o: /usr/include/stdlib.h /usr/include/features.h
+tgsi/tgsi_parse.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tgsi/tgsi_parse.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tgsi/tgsi_parse.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tgsi/tgsi_parse.o: /usr/include/string.h
+tgsi/tgsi_parse.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tgsi/tgsi_parse.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tgsi/tgsi_parse.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tgsi/tgsi_parse.o: tgsi/tgsi_parse.h util/u_memory.h util/u_pointer.h
+tgsi/tgsi_parse.o: os/os_memory.h
+tgsi/tgsi_parse.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_parse.o: os/os_memory_stdc.h os/os_memory_aligned.h
+tgsi/tgsi_ppc.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_scan.o: util/u_math.h
+tgsi/tgsi_scan.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_scan.o: util/u_debug.h os/os_misc.h /usr/include/math.h
+tgsi/tgsi_scan.o: /usr/include/features.h /usr/include/sys/cdefs.h
+tgsi/tgsi_scan.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+tgsi/tgsi_scan.o: /usr/include/gnu/stubs-64.h /usr/include/bits/huge_val.h
+tgsi/tgsi_scan.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+tgsi/tgsi_scan.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tgsi/tgsi_scan.o: tgsi/tgsi_parse.h
+tgsi/tgsi_scan.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+tgsi/tgsi_scan.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_scan.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_scan.o: /usr/include/stdlib.h
+tgsi/tgsi_scan.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tgsi/tgsi_scan.o: /usr/include/string.h /usr/include/stdint.h
+tgsi/tgsi_scan.o: /usr/include/bits/wchar.h
+tgsi/tgsi_scan.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tgsi/tgsi_scan.o: tgsi/tgsi_scan.h
+tgsi/tgsi_scan.o: ../../../src/gallium/include/pipe/p_state.h
+tgsi/tgsi_scan.o: ../../../src/gallium/include/pipe/p_defines.h
+tgsi/tgsi_scan.o: ../../../src/gallium/include/pipe/p_format.h
+tgsi/tgsi_scan.o: ../../../src/gallium/include/pipe/p_screen.h
+tgsi/tgsi_scan.o: ../../../src/gallium/include/pipe/p_format.h
+tgsi/tgsi_scan.o: ../../../src/gallium/include/pipe/p_defines.h
+tgsi/tgsi_sse2.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_text.o: util/u_debug.h os/os_misc.h
+tgsi/tgsi_text.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_text.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+tgsi/tgsi_text.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_text.o: os/os_memory_stdc.h /usr/include/stdlib.h
+tgsi/tgsi_text.o: /usr/include/features.h /usr/include/sys/cdefs.h
+tgsi/tgsi_text.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+tgsi/tgsi_text.o: /usr/include/gnu/stubs-64.h
+tgsi/tgsi_text.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tgsi/tgsi_text.o: os/os_memory_aligned.h util/u_prim.h
+tgsi/tgsi_text.o: ../../../src/gallium/include/pipe/p_defines.h
+tgsi/tgsi_text.o: util/u_inlines.h
+tgsi/tgsi_text.o: ../../../src/gallium/include/pipe/p_context.h
+tgsi/tgsi_text.o: ../../../src/gallium/include/pipe/p_state.h
+tgsi/tgsi_text.o: ../../../src/gallium/include/pipe/p_state.h
+tgsi/tgsi_text.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_text.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_text.o: /usr/include/string.h
+tgsi/tgsi_text.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tgsi/tgsi_text.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tgsi/tgsi_text.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tgsi/tgsi_text.o: ../../../src/gallium/include/pipe/p_defines.h
+tgsi/tgsi_text.o: ../../../src/gallium/include/pipe/p_format.h
+tgsi/tgsi_text.o: ../../../src/gallium/include/pipe/p_screen.h
+tgsi/tgsi_text.o: ../../../src/gallium/include/pipe/p_format.h
+tgsi/tgsi_text.o: ../../../src/gallium/include/pipe/p_screen.h
+tgsi/tgsi_text.o: util/u_atomic.h tgsi/tgsi_text.h
+tgsi/tgsi_text.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+tgsi/tgsi_text.o: tgsi/tgsi_build.h tgsi/tgsi_info.h tgsi/tgsi_parse.h
+tgsi/tgsi_text.o: tgsi/tgsi_sanity.h tgsi/tgsi_util.h
+tgsi/tgsi_transform.o: util/u_debug.h os/os_misc.h
+tgsi/tgsi_transform.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_transform.o: tgsi/tgsi_transform.h
+tgsi/tgsi_transform.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+tgsi/tgsi_transform.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_transform.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_transform.o: /usr/include/stdlib.h /usr/include/features.h
+tgsi/tgsi_transform.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tgsi/tgsi_transform.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tgsi/tgsi_transform.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tgsi/tgsi_transform.o: /usr/include/string.h
+tgsi/tgsi_transform.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tgsi/tgsi_transform.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tgsi/tgsi_transform.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tgsi/tgsi_transform.o: tgsi/tgsi_parse.h tgsi/tgsi_build.h tgsi/tgsi_text.h
+tgsi/tgsi_ureg.o: ../../../src/gallium/include/pipe/p_context.h
+tgsi/tgsi_ureg.o: ../../../src/gallium/include/pipe/p_state.h
+tgsi/tgsi_ureg.o: ../../../src/gallium/include/pipe/p_state.h
+tgsi/tgsi_ureg.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_ureg.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_ureg.o: /usr/include/stdlib.h /usr/include/features.h
+tgsi/tgsi_ureg.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tgsi/tgsi_ureg.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tgsi/tgsi_ureg.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tgsi/tgsi_ureg.o: /usr/include/string.h
+tgsi/tgsi_ureg.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tgsi/tgsi_ureg.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tgsi/tgsi_ureg.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tgsi/tgsi_ureg.o: ../../../src/gallium/include/pipe/p_defines.h
+tgsi/tgsi_ureg.o: ../../../src/gallium/include/pipe/p_format.h
+tgsi/tgsi_ureg.o: ../../../src/gallium/include/pipe/p_screen.h
+tgsi/tgsi_ureg.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_ureg.o: ../../../src/gallium/include/pipe/p_format.h
+tgsi/tgsi_ureg.o: ../../../src/gallium/include/pipe/p_defines.h
+tgsi/tgsi_ureg.o: tgsi/tgsi_ureg.h
+tgsi/tgsi_ureg.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+tgsi/tgsi_ureg.o: util/u_debug.h os/os_misc.h tgsi/tgsi_opcode_tmp.h
+tgsi/tgsi_ureg.o: tgsi/tgsi_build.h tgsi/tgsi_info.h tgsi/tgsi_dump.h
+tgsi/tgsi_ureg.o: tgsi/tgsi_sanity.h util/u_memory.h util/u_pointer.h
+tgsi/tgsi_ureg.o: os/os_memory.h ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_ureg.o: os/os_memory_stdc.h os/os_memory_aligned.h util/u_math.h
+tgsi/tgsi_ureg.o: /usr/include/math.h /usr/include/bits/huge_val.h
+tgsi/tgsi_ureg.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+tgsi/tgsi_util.o: util/u_debug.h os/os_misc.h
+tgsi/tgsi_util.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_util.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+tgsi/tgsi_util.o: ../../../src/gallium/include/pipe/p_compiler.h
+tgsi/tgsi_util.o: ../../../src/gallium/include/pipe/p_config.h
+tgsi/tgsi_util.o: /usr/include/stdlib.h /usr/include/features.h
+tgsi/tgsi_util.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tgsi/tgsi_util.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tgsi/tgsi_util.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tgsi/tgsi_util.o: /usr/include/string.h
+tgsi/tgsi_util.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tgsi/tgsi_util.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tgsi/tgsi_util.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tgsi/tgsi_util.o: tgsi/tgsi_parse.h tgsi/tgsi_util.h
+translate/translate_generic.o: util/u_memory.h util/u_pointer.h
+translate/translate_generic.o: ../../../src/gallium/include/pipe/p_compiler.h
+translate/translate_generic.o: util/u_debug.h os/os_misc.h os/os_memory.h
+translate/translate_generic.o: ../../../src/gallium/include/pipe/p_config.h
+translate/translate_generic.o: os/os_memory_stdc.h /usr/include/stdlib.h
+translate/translate_generic.o: /usr/include/features.h
+translate/translate_generic.o: /usr/include/sys/cdefs.h
+translate/translate_generic.o: /usr/include/bits/wordsize.h
+translate/translate_generic.o: /usr/include/gnu/stubs.h
+translate/translate_generic.o: /usr/include/gnu/stubs-64.h
+translate/translate_generic.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+translate/translate_generic.o: os/os_memory_aligned.h
+translate/translate_generic.o: ../../../src/gallium/include/pipe/p_state.h
+translate/translate_generic.o: ../../../src/gallium/include/pipe/p_compiler.h
+translate/translate_generic.o: ../../../src/gallium/include/pipe/p_config.h
+translate/translate_generic.o: /usr/include/string.h
+translate/translate_generic.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+translate/translate_generic.o: /usr/include/stdint.h
+translate/translate_generic.o: /usr/include/bits/wchar.h
+translate/translate_generic.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+translate/translate_generic.o: ../../../src/gallium/include/pipe/p_defines.h
+translate/translate_generic.o: ../../../src/gallium/include/pipe/p_format.h
+translate/translate_generic.o: ../../../src/gallium/include/pipe/p_screen.h
+translate/translate_generic.o: ../../../src/gallium/include/pipe/p_format.h
+translate/translate_generic.o: ../../../src/gallium/include/pipe/p_defines.h
+translate/translate_generic.o: translate/translate.h
+translate/translate_sse.o: ../../../src/gallium/include/pipe/p_config.h
+translate/translate_sse.o: ../../../src/gallium/include/pipe/p_compiler.h
+translate/translate_sse.o: util/u_memory.h util/u_pointer.h util/u_debug.h
+translate/translate_sse.o: os/os_misc.h os/os_memory.h os/os_memory_stdc.h
+translate/translate_sse.o: /usr/include/stdlib.h /usr/include/features.h
+translate/translate_sse.o: /usr/include/sys/cdefs.h
+translate/translate_sse.o: /usr/include/bits/wordsize.h
+translate/translate_sse.o: /usr/include/gnu/stubs.h
+translate/translate_sse.o: /usr/include/gnu/stubs-64.h
+translate/translate_sse.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+translate/translate_sse.o: os/os_memory_aligned.h util/u_math.h
+translate/translate_sse.o: /usr/include/math.h /usr/include/bits/huge_val.h
+translate/translate_sse.o: /usr/include/bits/mathdef.h
+translate/translate_sse.o: /usr/include/bits/mathcalls.h
+translate/translate_sse.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+translate/translate_sse.o: translate/translate.h
+translate/translate_sse.o: ../../../src/gallium/include/pipe/p_format.h
+translate/translate_sse.o: ../../../src/gallium/include/pipe/p_state.h
+translate/translate_sse.o: ../../../src/gallium/include/pipe/p_compiler.h
+translate/translate_sse.o: ../../../src/gallium/include/pipe/p_config.h
+translate/translate_sse.o: /usr/include/string.h /usr/include/stdint.h
+translate/translate_sse.o: /usr/include/bits/wchar.h
+translate/translate_sse.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+translate/translate_sse.o: ../../../src/gallium/include/pipe/p_defines.h
+translate/translate_sse.o: ../../../src/gallium/include/pipe/p_format.h
+translate/translate_sse.o: ../../../src/gallium/include/pipe/p_screen.h
+translate/translate_sse.o: ../../../src/gallium/include/pipe/p_defines.h
+translate/translate.o: ../../../src/gallium/include/pipe/p_config.h
+translate/translate.o: ../../../src/gallium/include/pipe/p_state.h
+translate/translate.o: ../../../src/gallium/include/pipe/p_compiler.h
+translate/translate.o: ../../../src/gallium/include/pipe/p_config.h
+translate/translate.o: /usr/include/stdlib.h /usr/include/features.h
+translate/translate.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+translate/translate.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+translate/translate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+translate/translate.o: /usr/include/string.h
+translate/translate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+translate/translate.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+translate/translate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+translate/translate.o: ../../../src/gallium/include/pipe/p_defines.h
+translate/translate.o: ../../../src/gallium/include/pipe/p_format.h
+translate/translate.o: ../../../src/gallium/include/pipe/p_screen.h
+translate/translate.o: ../../../src/gallium/include/pipe/p_compiler.h
+translate/translate.o: ../../../src/gallium/include/pipe/p_format.h
+translate/translate.o: ../../../src/gallium/include/pipe/p_defines.h
+translate/translate.o: translate/translate.h
+translate/translate_cache.o: util/u_memory.h util/u_pointer.h
+translate/translate_cache.o: ../../../src/gallium/include/pipe/p_compiler.h
+translate/translate_cache.o: util/u_debug.h os/os_misc.h os/os_memory.h
+translate/translate_cache.o: ../../../src/gallium/include/pipe/p_config.h
+translate/translate_cache.o: os/os_memory_stdc.h /usr/include/stdlib.h
+translate/translate_cache.o: /usr/include/features.h /usr/include/sys/cdefs.h
+translate/translate_cache.o: /usr/include/bits/wordsize.h
+translate/translate_cache.o: /usr/include/gnu/stubs.h
+translate/translate_cache.o: /usr/include/gnu/stubs-64.h
+translate/translate_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+translate/translate_cache.o: os/os_memory_aligned.h
+translate/translate_cache.o: ../../../src/gallium/include/pipe/p_state.h
+translate/translate_cache.o: ../../../src/gallium/include/pipe/p_compiler.h
+translate/translate_cache.o: ../../../src/gallium/include/pipe/p_config.h
+translate/translate_cache.o: /usr/include/string.h
+translate/translate_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+translate/translate_cache.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+translate/translate_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+translate/translate_cache.o: ../../../src/gallium/include/pipe/p_defines.h
+translate/translate_cache.o: ../../../src/gallium/include/pipe/p_format.h
+translate/translate_cache.o: ../../../src/gallium/include/pipe/p_screen.h
+translate/translate_cache.o: ../../../src/gallium/include/pipe/p_format.h
+translate/translate_cache.o: ../../../src/gallium/include/pipe/p_defines.h
+translate/translate_cache.o: translate/translate.h
+translate/translate_cache.o: translate/translate_cache.h
+translate/translate_cache.o: cso_cache/cso_cache.h
+translate/translate_cache.o: ../../../src/gallium/include/pipe/p_context.h
+translate/translate_cache.o: ../../../src/gallium/include/pipe/p_state.h
+translate/translate_cache.o: cso_cache/cso_hash.h cso_cache/cso_hash.h
+util/u_debug.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_debug.o: ../../../src/gallium/include/pipe/p_compiler.h os/os_stream.h
+util/u_debug.o: util/u_debug.h os/os_misc.h
+util/u_debug.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_debug.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_debug.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_debug.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_debug.o: /usr/include/stdlib.h /usr/include/features.h
+util/u_debug.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+util/u_debug.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+util/u_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_debug.o: /usr/include/string.h
+util/u_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_debug.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+util/u_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+util/u_debug.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_debug.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_debug.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_debug.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_debug.o: util/u_inlines.h
+util/u_debug.o: ../../../src/gallium/include/pipe/p_context.h
+util/u_debug.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_debug.o: ../../../src/gallium/include/pipe/p_screen.h util/u_atomic.h
+util/u_debug.o: util/u_format.h util/u_memory.h util/u_pointer.h
+util/u_debug.o: os/os_memory.h os/os_memory_stdc.h os/os_memory_aligned.h
+util/u_debug.o: util/u_string.h /usr/include/stdio.h
+util/u_debug.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+util/u_debug.o: /usr/include/libio.h /usr/include/_G_config.h
+util/u_debug.o: /usr/include/wchar.h /usr/include/gconv.h
+util/u_debug.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+util/u_debug.o: util/u_math.h /usr/include/math.h
+util/u_debug.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+util/u_debug.o: /usr/include/bits/mathcalls.h util/u_tile.h util/u_prim.h
+util/u_debug_symbol.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_debug_symbol.o: util/u_debug.h os/os_misc.h util/u_debug_symbol.h
+util/u_debug_stack.o: util/u_debug.h os/os_misc.h
+util/u_debug_stack.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_debug_stack.o: util/u_debug_symbol.h util/u_debug_stack.h
+util/u_dump_defines.o: util/u_memory.h util/u_pointer.h
+util/u_dump_defines.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_dump_defines.o: util/u_debug.h os/os_misc.h os/os_memory.h
+util/u_dump_defines.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_dump_defines.o: os/os_memory_stdc.h /usr/include/stdlib.h
+util/u_dump_defines.o: /usr/include/features.h /usr/include/sys/cdefs.h
+util/u_dump_defines.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+util/u_dump_defines.o: /usr/include/gnu/stubs-64.h
+util/u_dump_defines.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_dump_defines.o: os/os_memory_aligned.h util/u_dump.h
+util/u_dump_defines.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_dump_defines.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_dump_defines.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_dump_defines.o: /usr/include/string.h
+util/u_dump_defines.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_dump_defines.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+util/u_dump_defines.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+util/u_dump_defines.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_dump_defines.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_dump_defines.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_dump_defines.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_dump_defines.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_dump_state.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_dump_state.o: os/os_stream.h util/u_memory.h util/u_pointer.h
+util/u_dump_state.o: util/u_debug.h os/os_misc.h os/os_memory.h
+util/u_dump_state.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_dump_state.o: os/os_memory_stdc.h /usr/include/stdlib.h
+util/u_dump_state.o: /usr/include/features.h /usr/include/sys/cdefs.h
+util/u_dump_state.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+util/u_dump_state.o: /usr/include/gnu/stubs-64.h
+util/u_dump_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_dump_state.o: os/os_memory_aligned.h util/u_string.h
+util/u_dump_state.o: /usr/include/stdio.h /usr/include/bits/types.h
+util/u_dump_state.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+util/u_dump_state.o: /usr/include/_G_config.h /usr/include/wchar.h
+util/u_dump_state.o: /usr/include/bits/wchar.h /usr/include/gconv.h
+util/u_dump_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_dump_state.o: /usr/include/bits/stdio_lim.h
+util/u_dump_state.o: /usr/include/bits/sys_errlist.h util/u_format.h
+util/u_dump_state.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_dump_state.o: tgsi/tgsi_dump.h
+util/u_dump_state.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+util/u_dump_state.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_dump_state.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_dump_state.o: /usr/include/string.h /usr/include/stdint.h
+util/u_dump_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+util/u_dump_state.o: util/u_dump.h
+util/u_dump_state.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_dump_state.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_dump_state.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_dump_state.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_dump_state.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_bitmask.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_bitmask.o: util/u_debug.h os/os_misc.h util/u_memory.h
+util/u_bitmask.o: util/u_pointer.h os/os_memory.h
+util/u_bitmask.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_bitmask.o: os/os_memory_stdc.h /usr/include/stdlib.h
+util/u_bitmask.o: /usr/include/features.h /usr/include/sys/cdefs.h
+util/u_bitmask.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+util/u_bitmask.o: /usr/include/gnu/stubs-64.h
+util/u_bitmask.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_bitmask.o: os/os_memory_aligned.h util/u_bitmask.h
+util/u_blit.o: ../../../src/gallium/include/pipe/p_context.h
+util/u_blit.o: ../../../src/gallium/include/pipe/p_state.h util/u_debug.h
+util/u_blit.o: os/os_misc.h ../../../src/gallium/include/pipe/p_compiler.h
+util/u_blit.o: ../../../src/gallium/include/pipe/p_defines.h util/u_inlines.h
+util/u_blit.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_blit.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_blit.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_blit.o: /usr/include/stdlib.h /usr/include/features.h
+util/u_blit.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+util/u_blit.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+util/u_blit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_blit.o: /usr/include/string.h
+util/u_blit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_blit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+util/u_blit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+util/u_blit.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_blit.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_blit.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_blit.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_blit.o: ../../../src/gallium/include/pipe/p_screen.h util/u_atomic.h
+util/u_blit.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+util/u_blit.o: util/u_blit.h util/u_draw_quad.h util/u_format.h util/u_math.h
+util/u_blit.o: /usr/include/math.h /usr/include/bits/huge_val.h
+util/u_blit.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+util/u_blit.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+util/u_blit.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_blit.o: os/os_memory_stdc.h os/os_memory_aligned.h
+util/u_blit.o: util/u_simple_shaders.h util/u_surface.h util/u_rect.h
+util/u_blit.o: cso_cache/cso_context.h
+util/u_blitter.o: ../../../src/gallium/include/pipe/p_context.h
+util/u_blitter.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_blitter.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_blitter.o: util/u_inlines.h
+util/u_blitter.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_blitter.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_blitter.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_blitter.o: /usr/include/stdlib.h /usr/include/features.h
+util/u_blitter.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+util/u_blitter.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+util/u_blitter.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_blitter.o: /usr/include/string.h
+util/u_blitter.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_blitter.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+util/u_blitter.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+util/u_blitter.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_blitter.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_blitter.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_blitter.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_blitter.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_blitter.o: ../../../src/gallium/include/pipe/p_screen.h util/u_debug.h
+util/u_blitter.o: os/os_misc.h util/u_atomic.h
+util/u_blitter.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+util/u_blitter.o: util/u_format.h util/u_memory.h util/u_pointer.h
+util/u_blitter.o: os/os_memory.h ../../../src/gallium/include/pipe/p_config.h
+util/u_blitter.o: os/os_memory_stdc.h os/os_memory_aligned.h util/u_math.h
+util/u_blitter.o: /usr/include/math.h /usr/include/bits/huge_val.h
+util/u_blitter.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+util/u_blitter.o: util/u_blitter.h util/u_draw_quad.h util/u_pack_color.h
+util/u_blitter.o: util/u_rect.h util/u_simple_shaders.h util/u_texture.h
+util/u_cache.o: ../../../src/gallium/include/pipe/p_compiler.h util/u_debug.h
+util/u_cache.o: os/os_misc.h util/u_math.h /usr/include/math.h
+util/u_cache.o: /usr/include/features.h /usr/include/sys/cdefs.h
+util/u_cache.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+util/u_cache.o: /usr/include/gnu/stubs-64.h /usr/include/bits/huge_val.h
+util/u_cache.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+util/u_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_cache.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+util/u_cache.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_cache.o: os/os_memory_stdc.h /usr/include/stdlib.h
+util/u_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_cache.o: os/os_memory_aligned.h util/u_cache.h
+util/u_cpu_detect.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_cpu_detect.o: util/u_debug.h os/os_misc.h
+util/u_cpu_detect.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_cpu_detect.o: util/u_cpu_detect.h
+util/u_dl.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_dl.o: ../../../src/gallium/include/pipe/p_compiler.h util/u_dl.h
+util/u_draw_quad.o: ../../../src/gallium/include/pipe/p_context.h
+util/u_draw_quad.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_draw_quad.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_draw_quad.o: util/u_inlines.h
+util/u_draw_quad.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_draw_quad.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_draw_quad.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_draw_quad.o: /usr/include/stdlib.h /usr/include/features.h
+util/u_draw_quad.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+util/u_draw_quad.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+util/u_draw_quad.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_draw_quad.o: /usr/include/string.h
+util/u_draw_quad.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_draw_quad.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+util/u_draw_quad.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+util/u_draw_quad.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_draw_quad.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_draw_quad.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_draw_quad.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_draw_quad.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_draw_quad.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_draw_quad.o: util/u_debug.h os/os_misc.h util/u_atomic.h
+util/u_draw_quad.o: util/u_draw_quad.h
+util/u_format_access.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_format_access.o: util/u_math.h util/u_debug.h os/os_misc.h
+util/u_format_access.o: /usr/include/math.h /usr/include/features.h
+util/u_format_access.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+util/u_format_access.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+util/u_format_access.o: /usr/include/bits/huge_val.h
+util/u_format_access.o: /usr/include/bits/mathdef.h
+util/u_format_access.o: /usr/include/bits/mathcalls.h
+util/u_format_access.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_format_access.o: util/u_format_pack.h util/u_format.h
+util/u_format_access.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_format_table.o: util/u_format.h
+util/u_format_table.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_format_table.o: util/u_debug.h os/os_misc.h
+util/u_format_table.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_gen_mipmap.o: ../../../src/gallium/include/pipe/p_context.h
+util/u_gen_mipmap.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_gen_mipmap.o: util/u_debug.h os/os_misc.h
+util/u_gen_mipmap.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_gen_mipmap.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_gen_mipmap.o: util/u_inlines.h
+util/u_gen_mipmap.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_gen_mipmap.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_gen_mipmap.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_gen_mipmap.o: /usr/include/stdlib.h /usr/include/features.h
+util/u_gen_mipmap.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+util/u_gen_mipmap.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+util/u_gen_mipmap.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_gen_mipmap.o: /usr/include/string.h
+util/u_gen_mipmap.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_gen_mipmap.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+util/u_gen_mipmap.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+util/u_gen_mipmap.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_gen_mipmap.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_gen_mipmap.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_gen_mipmap.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_gen_mipmap.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_gen_mipmap.o: util/u_atomic.h
+util/u_gen_mipmap.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+util/u_gen_mipmap.o: util/u_format.h util/u_memory.h util/u_pointer.h
+util/u_gen_mipmap.o: os/os_memory.h
+util/u_gen_mipmap.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_gen_mipmap.o: os/os_memory_stdc.h os/os_memory_aligned.h
+util/u_gen_mipmap.o: util/u_draw_quad.h util/u_gen_mipmap.h
+util/u_gen_mipmap.o: util/u_simple_shaders.h util/u_math.h
+util/u_gen_mipmap.o: /usr/include/math.h /usr/include/bits/huge_val.h
+util/u_gen_mipmap.o: /usr/include/bits/mathdef.h
+util/u_gen_mipmap.o: /usr/include/bits/mathcalls.h util/u_texture.h
+util/u_gen_mipmap.o: cso_cache/cso_context.h
+util/u_handle_table.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_handle_table.o: util/u_debug.h os/os_misc.h util/u_memory.h
+util/u_handle_table.o: util/u_pointer.h os/os_memory.h
+util/u_handle_table.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_handle_table.o: os/os_memory_stdc.h /usr/include/stdlib.h
+util/u_handle_table.o: /usr/include/features.h /usr/include/sys/cdefs.h
+util/u_handle_table.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+util/u_handle_table.o: /usr/include/gnu/stubs-64.h
+util/u_handle_table.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_handle_table.o: os/os_memory_aligned.h util/u_handle_table.h
+util/u_hash_table.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_hash_table.o: util/u_debug.h os/os_misc.h cso_cache/cso_hash.h
+util/u_hash_table.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+util/u_hash_table.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_hash_table.o: os/os_memory_stdc.h /usr/include/stdlib.h
+util/u_hash_table.o: /usr/include/features.h /usr/include/sys/cdefs.h
+util/u_hash_table.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+util/u_hash_table.o: /usr/include/gnu/stubs-64.h
+util/u_hash_table.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_hash_table.o: os/os_memory_aligned.h util/u_hash_table.h
+util/u_hash_table.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_hash.o: util/u_hash.h ../../../src/gallium/include/pipe/p_compiler.h
+util/u_keymap.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_keymap.o: util/u_debug.h os/os_misc.h cso_cache/cso_hash.h
+util/u_keymap.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+util/u_keymap.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_keymap.o: os/os_memory_stdc.h /usr/include/stdlib.h
+util/u_keymap.o: /usr/include/features.h /usr/include/sys/cdefs.h
+util/u_keymap.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+util/u_keymap.o: /usr/include/gnu/stubs-64.h
+util/u_keymap.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_keymap.o: os/os_memory_aligned.h util/u_keymap.h
+util/u_linear.o: util/u_debug.h os/os_misc.h
+util/u_linear.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_linear.o: util/u_linear.h ../../../src/gallium/include/pipe/p_format.h
+util/u_network.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_network.o: util/u_network.h util/u_debug.h os/os_misc.h
+util/u_math.o: util/u_math.h ../../../src/gallium/include/pipe/p_compiler.h
+util/u_math.o: util/u_debug.h os/os_misc.h /usr/include/math.h
+util/u_math.o: /usr/include/features.h /usr/include/sys/cdefs.h
+util/u_math.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+util/u_math.o: /usr/include/gnu/stubs-64.h /usr/include/bits/huge_val.h
+util/u_math.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+util/u_math.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_mm.o: ../../../src/gallium/include/pipe/p_compiler.h util/u_debug.h
+util/u_mm.o: os/os_misc.h util/u_memory.h util/u_pointer.h os/os_memory.h
+util/u_mm.o: ../../../src/gallium/include/pipe/p_config.h os/os_memory_stdc.h
+util/u_mm.o: /usr/include/stdlib.h /usr/include/features.h
+util/u_mm.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+util/u_mm.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+util/u_mm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_mm.o: os/os_memory_aligned.h util/u_mm.h
+util/u_rect.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_rect.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_rect.o: ../../../src/gallium/include/pipe/p_context.h
+util/u_rect.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_rect.o: ../../../src/gallium/include/pipe/p_screen.h util/u_format.h
+util/u_rect.o: util/u_debug.h os/os_misc.h
+util/u_rect.o: ../../../src/gallium/include/pipe/p_compiler.h util/u_rect.h
+util/u_ringbuffer.o: os/os_thread.h
+util/u_ringbuffer.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_ringbuffer.o: util/u_debug.h os/os_misc.h
+util/u_ringbuffer.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_ringbuffer.o: util/u_ringbuffer.h util/u_math.h /usr/include/math.h
+util/u_ringbuffer.o: /usr/include/features.h /usr/include/sys/cdefs.h
+util/u_ringbuffer.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+util/u_ringbuffer.o: /usr/include/gnu/stubs-64.h /usr/include/bits/huge_val.h
+util/u_ringbuffer.o: /usr/include/bits/mathdef.h
+util/u_ringbuffer.o: /usr/include/bits/mathcalls.h
+util/u_ringbuffer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_ringbuffer.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+util/u_ringbuffer.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_ringbuffer.o: os/os_memory_stdc.h /usr/include/stdlib.h
+util/u_ringbuffer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_ringbuffer.o: os/os_memory_aligned.h
+util/u_simple_shaders.o: ../../../src/gallium/include/pipe/p_context.h
+util/u_simple_shaders.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_simple_shaders.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+util/u_simple_shaders.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_simple_shaders.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_simple_shaders.o: /usr/include/stdlib.h /usr/include/features.h
+util/u_simple_shaders.o: /usr/include/sys/cdefs.h
+util/u_simple_shaders.o: /usr/include/bits/wordsize.h
+util/u_simple_shaders.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+util/u_simple_shaders.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_simple_shaders.o: /usr/include/string.h
+util/u_simple_shaders.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_simple_shaders.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+util/u_simple_shaders.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+util/u_simple_shaders.o: util/u_simple_shaders.h
+util/u_simple_shaders.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_simple_shaders.o: util/u_debug.h os/os_misc.h tgsi/tgsi_ureg.h
+util/u_simple_shaders.o: tgsi/tgsi_opcode_tmp.h
+util/u_snprintf.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_surface.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_surface.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_surface.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_surface.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_surface.o: /usr/include/stdlib.h /usr/include/features.h
+util/u_surface.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+util/u_surface.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+util/u_surface.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_surface.o: /usr/include/string.h
+util/u_surface.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_surface.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+util/u_surface.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+util/u_surface.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_surface.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_surface.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_surface.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_surface.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_surface.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_surface.o: util/u_inlines.h
+util/u_surface.o: ../../../src/gallium/include/pipe/p_context.h
+util/u_surface.o: ../../../src/gallium/include/pipe/p_state.h util/u_debug.h
+util/u_surface.o: os/os_misc.h util/u_atomic.h util/u_memory.h
+util/u_surface.o: util/u_pointer.h os/os_memory.h
+util/u_surface.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_surface.o: os/os_memory_stdc.h os/os_memory_aligned.h util/u_surface.h
+util/u_texture.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_texture.o: util/u_debug.h os/os_misc.h
+util/u_texture.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_texture.o: util/u_texture.h
+util/u_tile.o: ../../../src/gallium/include/pipe/p_defines.h util/u_inlines.h
+util/u_tile.o: ../../../src/gallium/include/pipe/p_context.h
+util/u_tile.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_tile.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_tile.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_tile.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_tile.o: /usr/include/stdlib.h /usr/include/features.h
+util/u_tile.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+util/u_tile.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+util/u_tile.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_tile.o: /usr/include/string.h
+util/u_tile.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_tile.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+util/u_tile.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+util/u_tile.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_tile.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_tile.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_tile.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_tile.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_tile.o: ../../../src/gallium/include/pipe/p_screen.h util/u_debug.h
+util/u_tile.o: os/os_misc.h util/u_atomic.h util/u_format.h util/u_math.h
+util/u_tile.o: /usr/include/math.h /usr/include/bits/huge_val.h
+util/u_tile.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+util/u_tile.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+util/u_tile.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_tile.o: os/os_memory_stdc.h os/os_memory_aligned.h util/u_rect.h
+util/u_tile.o: util/u_tile.h
+util/u_timed_winsys.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_timed_winsys.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_timed_winsys.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_timed_winsys.o: /usr/include/stdlib.h /usr/include/features.h
+util/u_timed_winsys.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+util/u_timed_winsys.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+util/u_timed_winsys.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_timed_winsys.o: /usr/include/string.h
+util/u_timed_winsys.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_timed_winsys.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+util/u_timed_winsys.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+util/u_timed_winsys.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_timed_winsys.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_timed_winsys.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_timed_winsys.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_timed_winsys.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_timed_winsys.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_timed_winsys.o: util/u_simple_screen.h util/u_timed_winsys.h
+util/u_timed_winsys.o: util/u_memory.h util/u_pointer.h util/u_debug.h
+util/u_timed_winsys.o: os/os_misc.h os/os_memory.h
+util/u_timed_winsys.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_timed_winsys.o: os/os_memory_stdc.h os/os_memory_aligned.h
+util/u_timed_winsys.o: os/os_time.h
+util/u_upload_mgr.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_upload_mgr.o: util/u_inlines.h
+util/u_upload_mgr.o: ../../../src/gallium/include/pipe/p_context.h
+util/u_upload_mgr.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_upload_mgr.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_upload_mgr.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_upload_mgr.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_upload_mgr.o: /usr/include/stdlib.h /usr/include/features.h
+util/u_upload_mgr.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+util/u_upload_mgr.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+util/u_upload_mgr.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_upload_mgr.o: /usr/include/string.h
+util/u_upload_mgr.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_upload_mgr.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+util/u_upload_mgr.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+util/u_upload_mgr.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_upload_mgr.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_upload_mgr.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_upload_mgr.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_upload_mgr.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_upload_mgr.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_upload_mgr.o: util/u_debug.h os/os_misc.h util/u_atomic.h
+util/u_upload_mgr.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+util/u_upload_mgr.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_upload_mgr.o: os/os_memory_stdc.h os/os_memory_aligned.h util/u_math.h
+util/u_upload_mgr.o: /usr/include/math.h /usr/include/bits/huge_val.h
+util/u_upload_mgr.o: /usr/include/bits/mathdef.h
+util/u_upload_mgr.o: /usr/include/bits/mathcalls.h util/u_upload_mgr.h
+util/u_simple_screen.o: util/u_simple_screen.h
+util/u_simple_screen.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_simple_screen.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_simple_screen.o: ../../../src/gallium/include/pipe/p_state.h
+util/u_simple_screen.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_simple_screen.o: ../../../src/gallium/include/pipe/p_config.h
+util/u_simple_screen.o: /usr/include/stdlib.h /usr/include/features.h
+util/u_simple_screen.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+util/u_simple_screen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+util/u_simple_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+util/u_simple_screen.o: /usr/include/string.h
+util/u_simple_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_simple_screen.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+util/u_simple_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+util/u_simple_screen.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_simple_screen.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_simple_screen.o: ../../../src/gallium/include/pipe/p_screen.h
+util/u_simple_screen.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_simple_screen.o: ../../../src/gallium/include/pipe/p_defines.h
+util/u_simple_screen.o: util/u_simple_screen.h
+vl/vl_bitstream_parser.o: vl/vl_bitstream_parser.h
+vl/vl_bitstream_parser.o: ../../../src/gallium/include/pipe/p_compiler.h
+vl/vl_bitstream_parser.o: /usr/include/assert.h /usr/include/features.h
+vl/vl_bitstream_parser.o: /usr/include/sys/cdefs.h
+vl/vl_bitstream_parser.o: /usr/include/bits/wordsize.h
+vl/vl_bitstream_parser.o: /usr/include/gnu/stubs.h
+vl/vl_bitstream_parser.o: /usr/include/gnu/stubs-64.h
+vl/vl_bitstream_parser.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h
+vl/vl_bitstream_parser.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h
+vl/vl_bitstream_parser.o: /usr/include/limits.h util/u_memory.h
+vl/vl_bitstream_parser.o: util/u_pointer.h util/u_debug.h os/os_misc.h
+vl/vl_bitstream_parser.o: os/os_memory.h
+vl/vl_bitstream_parser.o: ../../../src/gallium/include/pipe/p_config.h
+vl/vl_bitstream_parser.o: os/os_memory_stdc.h /usr/include/stdlib.h
+vl/vl_bitstream_parser.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+vl/vl_bitstream_parser.o: os/os_memory_aligned.h
+vl/vl_mpeg12_mc_renderer.o: vl/vl_mpeg12_mc_renderer.h
+vl/vl_mpeg12_mc_renderer.o: ../../../src/gallium/include/pipe/p_compiler.h
+vl/vl_mpeg12_mc_renderer.o: ../../../src/gallium/include/pipe/p_state.h
+vl/vl_mpeg12_mc_renderer.o: ../../../src/gallium/include/pipe/p_compiler.h
+vl/vl_mpeg12_mc_renderer.o: ../../../src/gallium/include/pipe/p_config.h
+vl/vl_mpeg12_mc_renderer.o: /usr/include/stdlib.h /usr/include/features.h
+vl/vl_mpeg12_mc_renderer.o: /usr/include/sys/cdefs.h
+vl/vl_mpeg12_mc_renderer.o: /usr/include/bits/wordsize.h
+vl/vl_mpeg12_mc_renderer.o: /usr/include/gnu/stubs.h
+vl/vl_mpeg12_mc_renderer.o: /usr/include/gnu/stubs-64.h
+vl/vl_mpeg12_mc_renderer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+vl/vl_mpeg12_mc_renderer.o: /usr/include/string.h
+vl/vl_mpeg12_mc_renderer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+vl/vl_mpeg12_mc_renderer.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+vl/vl_mpeg12_mc_renderer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+vl/vl_mpeg12_mc_renderer.o: ../../../src/gallium/include/pipe/p_defines.h
+vl/vl_mpeg12_mc_renderer.o: ../../../src/gallium/include/pipe/p_format.h
+vl/vl_mpeg12_mc_renderer.o: ../../../src/gallium/include/pipe/p_screen.h
+vl/vl_mpeg12_mc_renderer.o: ../../../src/gallium/include/pipe/p_format.h
+vl/vl_mpeg12_mc_renderer.o: ../../../src/gallium/include/pipe/p_defines.h
+vl/vl_mpeg12_mc_renderer.o: ../../../src/gallium/include/pipe/p_video_state.h
+vl/vl_mpeg12_mc_renderer.o: ../../../src/gallium/include/pipe/p_screen.h
+vl/vl_mpeg12_mc_renderer.o: util/u_inlines.h
+vl/vl_mpeg12_mc_renderer.o: ../../../src/gallium/include/pipe/p_context.h
+vl/vl_mpeg12_mc_renderer.o: ../../../src/gallium/include/pipe/p_state.h
+vl/vl_mpeg12_mc_renderer.o: util/u_debug.h os/os_misc.h util/u_atomic.h
+vl/vl_mpeg12_mc_renderer.o: /usr/include/assert.h util/u_format.h
+vl/vl_mpeg12_mc_renderer.o: util/u_math.h /usr/include/math.h
+vl/vl_mpeg12_mc_renderer.o: /usr/include/bits/huge_val.h
+vl/vl_mpeg12_mc_renderer.o: /usr/include/bits/mathdef.h
+vl/vl_mpeg12_mc_renderer.o: /usr/include/bits/mathcalls.h util/u_memory.h
+vl/vl_mpeg12_mc_renderer.o: util/u_pointer.h os/os_memory.h
+vl/vl_mpeg12_mc_renderer.o: ../../../src/gallium/include/pipe/p_config.h
+vl/vl_mpeg12_mc_renderer.o: os/os_memory_stdc.h os/os_memory_aligned.h
+vl/vl_mpeg12_mc_renderer.o: tgsi/tgsi_parse.h
+vl/vl_mpeg12_mc_renderer.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+vl/vl_mpeg12_mc_renderer.o: tgsi/tgsi_build.h vl/vl_shader_build.h
+vl/vl_compositor.o: vl/vl_compositor.h
+vl/vl_compositor.o: ../../../src/gallium/include/pipe/p_compiler.h
+vl/vl_compositor.o: ../../../src/gallium/include/pipe/p_state.h
+vl/vl_compositor.o: ../../../src/gallium/include/pipe/p_compiler.h
+vl/vl_compositor.o: ../../../src/gallium/include/pipe/p_config.h
+vl/vl_compositor.o: /usr/include/stdlib.h /usr/include/features.h
+vl/vl_compositor.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+vl/vl_compositor.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+vl/vl_compositor.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+vl/vl_compositor.o: /usr/include/string.h
+vl/vl_compositor.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+vl/vl_compositor.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+vl/vl_compositor.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+vl/vl_compositor.o: ../../../src/gallium/include/pipe/p_defines.h
+vl/vl_compositor.o: ../../../src/gallium/include/pipe/p_format.h
+vl/vl_compositor.o: ../../../src/gallium/include/pipe/p_screen.h
+vl/vl_compositor.o: ../../../src/gallium/include/pipe/p_format.h
+vl/vl_compositor.o: ../../../src/gallium/include/pipe/p_defines.h
+vl/vl_compositor.o: ../../../src/gallium/include/pipe/p_video_state.h
+vl/vl_compositor.o: ../../../src/gallium/include/pipe/p_screen.h
+vl/vl_compositor.o: util/u_inlines.h
+vl/vl_compositor.o: ../../../src/gallium/include/pipe/p_context.h
+vl/vl_compositor.o: ../../../src/gallium/include/pipe/p_state.h
+vl/vl_compositor.o: util/u_debug.h os/os_misc.h util/u_atomic.h
+vl/vl_compositor.o: /usr/include/assert.h tgsi/tgsi_parse.h
+vl/vl_compositor.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+vl/vl_compositor.o: tgsi/tgsi_build.h util/u_memory.h util/u_pointer.h
+vl/vl_compositor.o: os/os_memory.h
+vl/vl_compositor.o: ../../../src/gallium/include/pipe/p_config.h
+vl/vl_compositor.o: os/os_memory_stdc.h os/os_memory_aligned.h vl/vl_csc.h
+vl/vl_compositor.o: vl/vl_shader_build.h
+vl/vl_csc.o: vl/vl_csc.h ../../../src/gallium/include/pipe/p_compiler.h
+vl/vl_csc.o: util/u_math.h util/u_debug.h os/os_misc.h /usr/include/math.h
+vl/vl_csc.o: /usr/include/features.h /usr/include/sys/cdefs.h
+vl/vl_csc.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+vl/vl_csc.o: /usr/include/gnu/stubs-64.h /usr/include/bits/huge_val.h
+vl/vl_csc.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+vl/vl_csc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+vl/vl_shader_build.o: vl/vl_shader_build.h
+vl/vl_shader_build.o: ../../../src/gallium/include/pipe/p_shader_tokens.h
+vl/vl_shader_build.o: ../../../src/gallium/include/pipe/p_compiler.h
+vl/vl_shader_build.o: ../../../src/gallium/include/pipe/p_config.h
+vl/vl_shader_build.o: /usr/include/stdlib.h /usr/include/features.h
+vl/vl_shader_build.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+vl/vl_shader_build.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+vl/vl_shader_build.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+vl/vl_shader_build.o: /usr/include/string.h
+vl/vl_shader_build.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+vl/vl_shader_build.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+vl/vl_shader_build.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+vl/vl_shader_build.o: /usr/include/assert.h tgsi/tgsi_parse.h
+vl/vl_shader_build.o: tgsi/tgsi_build.h
+indices/u_indices_gen.o: indices/u_indices.h
+indices/u_indices_gen.o: ../../../src/gallium/include/pipe/p_compiler.h
+indices/u_indices_gen.o: indices/u_indices_priv.h indices/u_indices.h
+indices/u_indices_gen.o: util/u_debug.h os/os_misc.h
+indices/u_indices_gen.o: ../../../src/gallium/include/pipe/p_defines.h
+indices/u_indices_gen.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+indices/u_indices_gen.o: ../../../src/gallium/include/pipe/p_config.h
+indices/u_indices_gen.o: os/os_memory_stdc.h /usr/include/stdlib.h
+indices/u_indices_gen.o: /usr/include/features.h /usr/include/sys/cdefs.h
+indices/u_indices_gen.o: /usr/include/bits/wordsize.h
+indices/u_indices_gen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+indices/u_indices_gen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+indices/u_indices_gen.o: os/os_memory_aligned.h indices/u_indices.c
+indices/u_indices_gen.o: indices/u_indices_priv.h
+indices/u_unfilled_gen.o: indices/u_indices.h
+indices/u_unfilled_gen.o: ../../../src/gallium/include/pipe/p_compiler.h
+indices/u_unfilled_gen.o: indices/u_indices_priv.h indices/u_indices.h
+indices/u_unfilled_gen.o: util/u_debug.h os/os_misc.h
+indices/u_unfilled_gen.o: ../../../src/gallium/include/pipe/p_defines.h
+indices/u_unfilled_gen.o: util/u_memory.h util/u_pointer.h os/os_memory.h
+indices/u_unfilled_gen.o: ../../../src/gallium/include/pipe/p_config.h
+indices/u_unfilled_gen.o: os/os_memory_stdc.h /usr/include/stdlib.h
+indices/u_unfilled_gen.o: /usr/include/features.h /usr/include/sys/cdefs.h
+indices/u_unfilled_gen.o: /usr/include/bits/wordsize.h
+indices/u_unfilled_gen.o: /usr/include/gnu/stubs.h
+indices/u_unfilled_gen.o: /usr/include/gnu/stubs-64.h
+indices/u_unfilled_gen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+indices/u_unfilled_gen.o: os/os_memory_aligned.h indices/u_unfilled_indices.c
+indices/u_unfilled_gen.o: indices/u_indices_priv.h
+util/u_format_access.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_format_access.o: util/u_math.h util/u_debug.h os/os_misc.h
+util/u_format_access.o: /usr/include/math.h /usr/include/features.h
+util/u_format_access.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+util/u_format_access.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+util/u_format_access.o: /usr/include/bits/huge_val.h
+util/u_format_access.o: /usr/include/bits/mathdef.h
+util/u_format_access.o: /usr/include/bits/mathcalls.h
+util/u_format_access.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_format_access.o: util/u_format_pack.h util/u_format.h
+util/u_format_access.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_format_pack.o: ../../../src/gallium/include/pipe/p_compiler.h
+util/u_format_pack.o: util/u_math.h util/u_debug.h os/os_misc.h
+util/u_format_pack.o: /usr/include/math.h /usr/include/features.h
+util/u_format_pack.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+util/u_format_pack.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+util/u_format_pack.o: /usr/include/bits/huge_val.h
+util/u_format_pack.o: /usr/include/bits/mathdef.h
+util/u_format_pack.o: /usr/include/bits/mathcalls.h
+util/u_format_pack.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+util/u_format_pack.o: util/u_format.h
+util/u_format_pack.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_format_table.o: util/u_format.h
+util/u_format_table.o: ../../../src/gallium/include/pipe/p_format.h
+util/u_format_table.o: util/u_debug.h os/os_misc.h
+util/u_format_table.o: ../../../src/gallium/include/pipe/p_compiler.h

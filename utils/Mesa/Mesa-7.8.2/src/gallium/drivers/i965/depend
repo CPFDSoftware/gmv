@@ -1,0 +1,2106 @@
+# DO NOT DELETE
+
+brw_cc.o: brw_context.h brw_structs.h brw_types.h
+brw_cc.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_cc.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_cc.o: /usr/include/stdlib.h /usr/include/features.h
+brw_cc.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_cc.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_cc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_cc.o: /usr/include/string.h
+brw_cc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_cc.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_cc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_cc.o: brw_winsys.h ../../../../src/gallium/include/pipe/p_defines.h
+brw_cc.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_cc.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_cc.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_cc.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_cc.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_cc.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_cc.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_cc.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_cc.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_cc.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_cc.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_cc.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_cc.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_cc.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_cc.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h brw_state.h
+brw_cc.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_cc.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_cc.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_cc.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_cc.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_cc.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_clip.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_clip.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_clip.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_clip.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_clip.o: /usr/include/stdlib.h /usr/include/features.h
+brw_clip.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_clip.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_clip.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_clip.o: /usr/include/string.h
+brw_clip.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_clip.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_clip.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_clip.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_clip.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_clip.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_clip.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+brw_clip.o: brw_screen.h ../../../../src/gallium/include/pipe/p_screen.h
+brw_clip.o: brw_reg.h brw_structs.h brw_types.h brw_batchbuffer.h
+brw_clip.o: brw_winsys.h ../../../../src/gallium/include/pipe/p_defines.h
+brw_clip.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_clip.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_clip.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_clip.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_clip.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_clip.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_clip.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_clip.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_clip.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_defines.h
+brw_clip.o: brw_context.h ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_clip.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h brw_eu.h
+brw_clip.o: brw_state.h ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_clip.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_clip.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_clip.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_clip.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_clip.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_clip.o: brw_pipe_rast.h brw_clip.h
+brw_clip_line.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_clip_line.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_clip_line.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_clip_line.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_clip_line.o: /usr/include/stdlib.h /usr/include/features.h
+brw_clip_line.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_clip_line.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_clip_line.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_clip_line.o: /usr/include/string.h
+brw_clip_line.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_clip_line.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_clip_line.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_clip_line.o: brw_defines.h brw_eu.h
+brw_clip_line.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_clip_line.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_clip_line.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_clip_line.o: brw_structs.h brw_types.h brw_clip.h
+brw_clip_line.o: ../../../../src/gallium/include/pipe/p_state.h brw_reg.h
+brw_clip_point.o: brw_defines.h brw_eu.h
+brw_clip_point.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_clip_point.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_clip_point.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_clip_point.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_clip_point.o: /usr/include/stdlib.h /usr/include/features.h
+brw_clip_point.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_clip_point.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_clip_point.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_clip_point.o: /usr/include/string.h
+brw_clip_point.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_clip_point.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_clip_point.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_clip_point.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_clip_point.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_clip_point.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_clip_point.o: brw_structs.h brw_types.h brw_clip.h
+brw_clip_point.o: ../../../../src/gallium/include/pipe/p_state.h brw_reg.h
+brw_clip_state.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_clip_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_clip_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_clip_state.o: /usr/include/stdlib.h /usr/include/features.h
+brw_clip_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_clip_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_clip_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_clip_state.o: /usr/include/string.h
+brw_clip_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_clip_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_clip_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_clip_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_clip_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_clip_state.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_clip_state.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+brw_clip_state.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h
+brw_clip_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_clip_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_clip_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_clip_state.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_clip_state.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_clip_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_clip_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_clip_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_clip_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_clip_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_clip_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_clip_state.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_clip_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_clip_state.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_clip_state.o: brw_clip.h brw_eu.h brw_defines.h brw_state.h
+brw_clip_state.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_clip_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_clip_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_clip_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_clip_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_clip_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_clip_state.o: brw_debug.h
+brw_clip_tri.o: brw_defines.h brw_eu.h
+brw_clip_tri.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_clip_tri.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_clip_tri.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_clip_tri.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_clip_tri.o: /usr/include/stdlib.h /usr/include/features.h
+brw_clip_tri.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_clip_tri.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_clip_tri.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_clip_tri.o: /usr/include/string.h
+brw_clip_tri.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_clip_tri.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_clip_tri.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_clip_tri.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_clip_tri.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_clip_tri.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_clip_tri.o: brw_structs.h brw_types.h brw_clip.h
+brw_clip_tri.o: ../../../../src/gallium/include/pipe/p_state.h brw_reg.h
+brw_clip_unfilled.o: brw_defines.h brw_eu.h
+brw_clip_unfilled.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_clip_unfilled.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_clip_unfilled.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_clip_unfilled.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_clip_unfilled.o: /usr/include/stdlib.h /usr/include/features.h
+brw_clip_unfilled.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_clip_unfilled.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_clip_unfilled.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_clip_unfilled.o: /usr/include/string.h
+brw_clip_unfilled.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_clip_unfilled.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_clip_unfilled.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_clip_unfilled.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_clip_unfilled.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_clip_unfilled.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_clip_unfilled.o: brw_structs.h brw_types.h brw_util.h brw_clip.h
+brw_clip_unfilled.o: ../../../../src/gallium/include/pipe/p_state.h brw_reg.h
+brw_clip_util.o: brw_defines.h brw_eu.h
+brw_clip_util.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_clip_util.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_clip_util.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_clip_util.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_clip_util.o: /usr/include/stdlib.h /usr/include/features.h
+brw_clip_util.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_clip_util.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_clip_util.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_clip_util.o: /usr/include/string.h
+brw_clip_util.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_clip_util.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_clip_util.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_clip_util.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_clip_util.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_clip_util.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_clip_util.o: brw_structs.h brw_types.h brw_clip.h
+brw_clip_util.o: ../../../../src/gallium/include/pipe/p_state.h brw_reg.h
+brw_context.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_context.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_context.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_context.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_context.o: /usr/include/stdlib.h /usr/include/features.h
+brw_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_context.o: /usr/include/string.h
+brw_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_context.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_context.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_context.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_context.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_context.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_context.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_context.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h
+brw_context.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h brw_reg.h
+brw_context.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_context.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_context.o: brw_draw.h brw_state.h
+brw_context.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_context.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_context.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_context.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_context.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_context.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_context.o: brw_batchbuffer.h brw_screen.h
+brw_curbe.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_curbe.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_curbe.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_curbe.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_curbe.o: /usr/include/stdlib.h /usr/include/features.h
+brw_curbe.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_curbe.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_curbe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_curbe.o: /usr/include/string.h
+brw_curbe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_curbe.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_curbe.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_curbe.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_curbe.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_curbe.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_curbe.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_curbe.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_curbe.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_curbe.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_curbe.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_curbe.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+brw_curbe.o: brw_batchbuffer.h brw_types.h brw_winsys.h
+brw_curbe.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_curbe.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_curbe.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_curbe.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_curbe.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_curbe.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_curbe.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_curbe.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_curbe.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_curbe.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_curbe.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_curbe.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_curbe.o: brw_context.h brw_structs.h
+brw_curbe.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_curbe.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_curbe.o: brw_defines.h brw_state.h brw_debug.h
+brw_disasm.o: /usr/include/stdio.h /usr/include/features.h
+brw_disasm.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_disasm.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_disasm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_disasm.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+brw_disasm.o: /usr/include/libio.h /usr/include/_G_config.h
+brw_disasm.o: /usr/include/wchar.h /usr/include/bits/wchar.h
+brw_disasm.o: /usr/include/gconv.h
+brw_disasm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_disasm.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+brw_disasm.o: /usr/include/stdlib.h /usr/include/string.h
+brw_disasm.o: /usr/include/getopt.h /usr/include/unistd.h
+brw_disasm.o: /usr/include/bits/posix_opt.h /usr/include/bits/confname.h
+brw_disasm.o: brw_disasm.h brw_structs.h brw_types.h
+brw_disasm.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_disasm.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_disasm.o: /usr/include/stdint.h
+brw_disasm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_disasm.o: brw_reg.h brw_defines.h
+brw_draw.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_draw.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_draw.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_draw.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_draw.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_draw.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_draw.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_draw.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_draw.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_draw.o: /usr/include/stdlib.h /usr/include/features.h
+brw_draw.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_draw.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_draw.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_draw.o: /usr/include/string.h
+brw_draw.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_draw.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_draw.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_draw.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_draw.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_draw.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_draw.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_draw.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_draw.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_draw.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_draw.o: ../../../../src/gallium/auxiliary/util/u_prim.h
+brw_draw.o: ../../../../src/gallium/auxiliary/util/u_upload_mgr.h brw_draw.h
+brw_draw.o: brw_types.h brw_defines.h brw_context.h brw_structs.h
+brw_draw.o: brw_winsys.h brw_reg.h
+brw_draw.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_draw.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_draw.o: brw_state.h ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_draw.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_draw.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_draw.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_draw.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_draw.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_draw.o: brw_debug.h brw_batchbuffer.h
+brw_draw_upload.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_draw_upload.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_draw_upload.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_draw_upload.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_draw_upload.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_draw_upload.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_draw_upload.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_draw_upload.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_draw_upload.o: /usr/include/stdlib.h /usr/include/features.h
+brw_draw_upload.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_draw_upload.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_draw_upload.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_draw_upload.o: /usr/include/string.h
+brw_draw_upload.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_draw_upload.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_draw_upload.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_draw_upload.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_draw_upload.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_draw_upload.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_draw_upload.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_draw_upload.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_draw_upload.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_draw_upload.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_draw_upload.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_draw_upload.o: ../../../../src/gallium/auxiliary/util/u_upload_mgr.h
+brw_draw_upload.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_draw_upload.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_draw_upload.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+brw_draw_upload.o: brw_draw.h brw_types.h brw_defines.h brw_context.h
+brw_draw_upload.o: brw_structs.h brw_winsys.h brw_reg.h
+brw_draw_upload.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_draw_upload.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_draw_upload.o: brw_state.h
+brw_draw_upload.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_draw_upload.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_draw_upload.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_draw_upload.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_draw_upload.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_draw_upload.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_draw_upload.o: brw_screen.h brw_batchbuffer.h brw_debug.h
+brw_eu.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_eu.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_eu.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_eu.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_eu.o: /usr/include/stdlib.h /usr/include/features.h
+brw_eu.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_eu.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_eu.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_eu.o: /usr/include/string.h
+brw_eu.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_eu.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_eu.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_eu.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_eu.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_eu.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_eu.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_eu.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_eu.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_eu.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h
+brw_eu.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_eu.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_eu.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_eu.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_eu.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_eu.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_eu.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_eu.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_eu.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_eu.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_eu.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_eu.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_eu.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_eu.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_eu.o: brw_defines.h brw_eu.h
+brw_eu_debug.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_eu_debug.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_eu_debug.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_eu_debug.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_eu_debug.o: /usr/include/stdlib.h /usr/include/features.h
+brw_eu_debug.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_eu_debug.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_eu_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_eu_debug.o: /usr/include/string.h
+brw_eu_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_eu_debug.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_eu_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_eu_debug.o: brw_eu.h ../../../../src/gallium/include/pipe/p_defines.h
+brw_eu_debug.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_eu_debug.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_eu_debug.o: brw_structs.h brw_types.h brw_defines.h
+brw_eu_emit.o: brw_context.h brw_structs.h brw_types.h
+brw_eu_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_eu_emit.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_eu_emit.o: /usr/include/stdlib.h /usr/include/features.h
+brw_eu_emit.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_eu_emit.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_eu_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_eu_emit.o: /usr/include/string.h
+brw_eu_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_eu_emit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_eu_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_eu_emit.o: brw_winsys.h ../../../../src/gallium/include/pipe/p_defines.h
+brw_eu_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_eu_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_eu_emit.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_eu_emit.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_eu_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_eu_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_eu_emit.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_eu_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_eu_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_eu_emit.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_eu_emit.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_eu_emit.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_eu_emit.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_eu_emit.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_eu_emit.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_eu_emit.o: brw_defines.h brw_eu.h brw_debug.h brw_disasm.h
+brw_eu_emit.o: /usr/include/stdio.h /usr/include/bits/types.h
+brw_eu_emit.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+brw_eu_emit.o: /usr/include/_G_config.h /usr/include/wchar.h
+brw_eu_emit.o: /usr/include/gconv.h /usr/include/bits/stdio_lim.h
+brw_eu_emit.o: /usr/include/bits/sys_errlist.h
+brw_eu_util.o: brw_context.h brw_structs.h brw_types.h
+brw_eu_util.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_eu_util.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_eu_util.o: /usr/include/stdlib.h /usr/include/features.h
+brw_eu_util.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_eu_util.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_eu_util.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_eu_util.o: /usr/include/string.h
+brw_eu_util.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_eu_util.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_eu_util.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_eu_util.o: brw_winsys.h ../../../../src/gallium/include/pipe/p_defines.h
+brw_eu_util.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_eu_util.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_eu_util.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_eu_util.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_eu_util.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_eu_util.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_eu_util.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_eu_util.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_eu_util.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_eu_util.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_eu_util.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_eu_util.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_eu_util.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_eu_util.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_eu_util.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_eu_util.o: brw_defines.h brw_eu.h
+brw_gs.o: brw_batchbuffer.h ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_gs.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_gs.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_gs.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_gs.o: /usr/include/stdlib.h /usr/include/features.h
+brw_gs.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_gs.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_gs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_gs.o: /usr/include/string.h
+brw_gs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_gs.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_gs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_gs.o: brw_types.h brw_winsys.h
+brw_gs.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_gs.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_gs.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_gs.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_gs.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_gs.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_gs.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_gs.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_gs.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_gs.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_gs.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_gs.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_gs.o: brw_defines.h brw_context.h brw_structs.h
+brw_gs.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_gs.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h brw_eu.h
+brw_gs.o: brw_state.h ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_gs.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_gs.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_gs.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_gs.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_gs.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h brw_gs.h
+brw_gs_emit.o: brw_batchbuffer.h
+brw_gs_emit.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_gs_emit.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_gs_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_gs_emit.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_gs_emit.o: /usr/include/stdlib.h /usr/include/features.h
+brw_gs_emit.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_gs_emit.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_gs_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_gs_emit.o: /usr/include/string.h
+brw_gs_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_gs_emit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_gs_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_gs_emit.o: brw_types.h brw_winsys.h
+brw_gs_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_gs_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_gs_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_gs_emit.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_gs_emit.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_gs_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_gs_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_gs_emit.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_gs_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_gs_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_gs_emit.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_gs_emit.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_gs_emit.o: brw_defines.h brw_context.h brw_structs.h
+brw_gs_emit.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_gs_emit.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_gs_emit.o: brw_eu.h brw_gs.h
+brw_gs_state.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_gs_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_gs_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_gs_state.o: /usr/include/stdlib.h /usr/include/features.h
+brw_gs_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_gs_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_gs_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_gs_state.o: /usr/include/string.h
+brw_gs_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_gs_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_gs_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_gs_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_gs_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_gs_state.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_gs_state.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+brw_gs_state.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h
+brw_gs_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_gs_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_gs_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_gs_state.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_gs_state.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_gs_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_gs_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_gs_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_gs_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_gs_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_gs_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_gs_state.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_gs_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_gs_state.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_gs_state.o: brw_state.h ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_gs_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_gs_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_gs_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_gs_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_gs_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_gs_state.o: brw_defines.h brw_debug.h
+brw_misc_state.o: brw_debug.h brw_batchbuffer.h
+brw_misc_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_misc_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_misc_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_misc_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_misc_state.o: /usr/include/stdlib.h /usr/include/features.h
+brw_misc_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_misc_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_misc_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_misc_state.o: /usr/include/string.h
+brw_misc_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_misc_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_misc_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_misc_state.o: brw_types.h brw_winsys.h
+brw_misc_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_misc_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_misc_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_misc_state.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_misc_state.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_misc_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_misc_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_misc_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_misc_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_misc_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_misc_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_misc_state.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_misc_state.o: brw_context.h brw_structs.h
+brw_misc_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_misc_state.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_misc_state.o: brw_state.h
+brw_misc_state.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_misc_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_misc_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_misc_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_misc_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_misc_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_misc_state.o: brw_defines.h brw_screen.h brw_pipe_rast.h brw_clip.h
+brw_misc_state.o: brw_eu.h
+brw_pipe_blend.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_pipe_blend.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_pipe_blend.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_blend.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_blend.o: /usr/include/stdlib.h /usr/include/features.h
+brw_pipe_blend.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_pipe_blend.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_pipe_blend.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_pipe_blend.o: /usr/include/string.h
+brw_pipe_blend.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_pipe_blend.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_pipe_blend.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_pipe_blend.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_pipe_blend.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_pipe_blend.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_pipe_blend.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_blend.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_pipe_blend.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_pipe_blend.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_pipe_blend.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_blend.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_blend.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_blend.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_blend.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_blend.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_blend.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_blend.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_blend.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h
+brw_pipe_blend.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_pipe_blend.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_blend.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_pipe_blend.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_pipe_blend.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_pipe_blend.o: brw_defines.h brw_debug.h
+brw_pipe_depth.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_pipe_depth.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_depth.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_depth.o: /usr/include/stdlib.h /usr/include/features.h
+brw_pipe_depth.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_pipe_depth.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_pipe_depth.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_pipe_depth.o: /usr/include/string.h
+brw_pipe_depth.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_pipe_depth.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_pipe_depth.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_pipe_depth.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_pipe_depth.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_pipe_depth.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_pipe_depth.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+brw_pipe_depth.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_pipe_depth.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_pipe_depth.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_pipe_depth.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_depth.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_pipe_depth.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_pipe_depth.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h
+brw_pipe_depth.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_depth.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_depth.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_depth.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_pipe_depth.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_pipe_depth.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_depth.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_depth.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_depth.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_depth.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_depth.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_depth.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_pipe_depth.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_pipe_depth.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_pipe_depth.o: brw_defines.h brw_wm.h brw_eu.h
+brw_pipe_fb.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_pipe_fb.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_fb.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_fb.o: /usr/include/stdlib.h /usr/include/features.h
+brw_pipe_fb.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_pipe_fb.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_pipe_fb.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_pipe_fb.o: /usr/include/string.h
+brw_pipe_fb.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_pipe_fb.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_pipe_fb.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_pipe_fb.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_pipe_fb.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_pipe_fb.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_pipe_fb.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+brw_pipe_fb.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_pipe_fb.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_fb.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_fb.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_fb.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_fb.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_fb.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_fb.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_fb.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_fb.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_pipe_fb.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_fb.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_pipe_fb.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h brw_reg.h
+brw_pipe_fb.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_pipe_fb.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_pipe_query.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h
+brw_pipe_query.o: brw_context.h brw_structs.h brw_types.h
+brw_pipe_query.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_query.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_query.o: /usr/include/stdlib.h /usr/include/features.h
+brw_pipe_query.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_pipe_query.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_pipe_query.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_pipe_query.o: /usr/include/string.h
+brw_pipe_query.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_pipe_query.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_pipe_query.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_pipe_query.o: brw_winsys.h
+brw_pipe_query.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_query.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_query.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_query.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_pipe_query.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_pipe_query.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_query.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_query.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_query.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_query.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_query.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_query.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_pipe_query.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_pipe_query.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_pipe_query.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_pipe_query.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_pipe_query.o: brw_state.h
+brw_pipe_query.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_pipe_query.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_pipe_query.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_pipe_query.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_query.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_pipe_query.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_pipe_query.o: brw_batchbuffer.h
+brw_pipe_shader.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_pipe_shader.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_pipe_shader.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_shader.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_shader.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_shader.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_shader.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_shader.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_shader.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_shader.o: /usr/include/stdlib.h /usr/include/features.h
+brw_pipe_shader.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_pipe_shader.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_pipe_shader.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_pipe_shader.o: /usr/include/string.h
+brw_pipe_shader.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_pipe_shader.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_pipe_shader.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_pipe_shader.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_shader.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_shader.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_shader.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_shader.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_pipe_shader.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_pipe_shader.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_pipe_shader.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_pipe_shader.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_pipe_shader.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_pipe_shader.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_shader.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_pipe_shader.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_pipe_shader.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+brw_pipe_shader.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_pipe_shader.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_pipe_shader.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h
+brw_pipe_shader.o: brw_reg.h brw_wm.h brw_eu.h brw_defines.h
+brw_pipe_flush.o: ../../../../src/gallium/auxiliary/util/u_upload_mgr.h
+brw_pipe_flush.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_flush.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_flush.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_flush.o: brw_context.h brw_structs.h brw_types.h
+brw_pipe_flush.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_flush.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_flush.o: /usr/include/stdlib.h /usr/include/features.h
+brw_pipe_flush.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_pipe_flush.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_pipe_flush.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_pipe_flush.o: /usr/include/string.h
+brw_pipe_flush.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_pipe_flush.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_pipe_flush.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_pipe_flush.o: brw_winsys.h
+brw_pipe_flush.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_pipe_flush.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_pipe_flush.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_flush.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_flush.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_flush.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_flush.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_flush.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_flush.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_pipe_flush.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_pipe_flush.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_pipe_flush.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_pipe_flush.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_pipe_flush.o: brw_screen.h brw_batchbuffer.h
+brw_pipe_misc.o: brw_context.h brw_structs.h brw_types.h
+brw_pipe_misc.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_misc.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_misc.o: /usr/include/stdlib.h /usr/include/features.h
+brw_pipe_misc.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_pipe_misc.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_pipe_misc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_pipe_misc.o: /usr/include/string.h
+brw_pipe_misc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_pipe_misc.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_pipe_misc.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_pipe_misc.o: brw_winsys.h
+brw_pipe_misc.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_misc.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_misc.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_misc.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_pipe_misc.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_pipe_misc.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_misc.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_misc.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_misc.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_misc.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_misc.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_misc.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_pipe_misc.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_pipe_misc.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_pipe_misc.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_pipe_misc.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_pipe_misc.o: brw_defines.h
+brw_pipe_sampler.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_pipe_sampler.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_pipe_sampler.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_sampler.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_sampler.o: /usr/include/stdlib.h /usr/include/features.h
+brw_pipe_sampler.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_pipe_sampler.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_pipe_sampler.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_pipe_sampler.o: /usr/include/string.h
+brw_pipe_sampler.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_pipe_sampler.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_pipe_sampler.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_pipe_sampler.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_pipe_sampler.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_pipe_sampler.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_pipe_sampler.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_sampler.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_pipe_sampler.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_pipe_sampler.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_pipe_sampler.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_pipe_sampler.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+brw_pipe_sampler.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_pipe_sampler.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_sampler.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_sampler.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_sampler.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_sampler.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_sampler.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_sampler.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_sampler.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_sampler.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_pipe_sampler.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_sampler.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_pipe_sampler.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h
+brw_pipe_sampler.o: brw_reg.h
+brw_pipe_sampler.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_pipe_sampler.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_pipe_sampler.o: brw_defines.h
+brw_pipe_vertex.o: brw_context.h brw_structs.h brw_types.h
+brw_pipe_vertex.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_vertex.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_vertex.o: /usr/include/stdlib.h /usr/include/features.h
+brw_pipe_vertex.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_pipe_vertex.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_pipe_vertex.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_pipe_vertex.o: /usr/include/string.h
+brw_pipe_vertex.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_pipe_vertex.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_pipe_vertex.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_pipe_vertex.o: brw_winsys.h
+brw_pipe_vertex.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_vertex.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_vertex.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_vertex.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_pipe_vertex.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_pipe_vertex.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_vertex.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_vertex.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_vertex.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_vertex.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_vertex.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_vertex.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_pipe_vertex.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_pipe_vertex.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_pipe_vertex.o: brw_reg.h
+brw_pipe_vertex.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_pipe_vertex.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_pipe_clear.o: ../../../../src/gallium/auxiliary/util/u_pack_color.h
+brw_pipe_clear.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_clear.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_clear.o: /usr/include/stdlib.h /usr/include/features.h
+brw_pipe_clear.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_pipe_clear.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_pipe_clear.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_pipe_clear.o: /usr/include/string.h
+brw_pipe_clear.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_pipe_clear.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_pipe_clear.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_pipe_clear.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_clear.o: ../../../../src/gallium/auxiliary/util/u_format.h
+brw_pipe_clear.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_pipe_clear.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_pipe_clear.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_pipe_clear.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_pipe_clear.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+brw_pipe_clear.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_clear.o: brw_batchbuffer.h brw_types.h brw_winsys.h
+brw_pipe_clear.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_clear.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_clear.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_clear.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_pipe_clear.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_pipe_clear.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_clear.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_clear.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_clear.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_clear.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_pipe_clear.o: brw_screen.h brw_structs.h brw_context.h
+brw_pipe_clear.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_pipe_clear.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_pipe_rast.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_pipe_rast.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_pipe_rast.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_rast.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_rast.o: /usr/include/stdlib.h /usr/include/features.h
+brw_pipe_rast.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_pipe_rast.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_pipe_rast.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_pipe_rast.o: /usr/include/string.h
+brw_pipe_rast.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_pipe_rast.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_pipe_rast.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_pipe_rast.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_pipe_rast.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_pipe_rast.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_pipe_rast.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_pipe_rast.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_pipe_rast.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_pipe_rast.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_rast.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_rast.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_pipe_rast.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h
+brw_pipe_rast.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_pipe_rast.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_pipe_rast.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_rast.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_pipe_rast.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_rast.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_pipe_rast.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_pipe_rast.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_pipe_rast.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_pipe_rast.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_pipe_rast.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_pipe_rast.o: brw_defines.h brw_pipe_rast.h brw_clip.h brw_eu.h brw_wm.h
+brw_sf.o: ../../../../src/gallium/include/pipe/p_state.h brw_batchbuffer.h
+brw_sf.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_sf.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_sf.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_sf.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_sf.o: /usr/include/stdlib.h /usr/include/features.h
+brw_sf.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_sf.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_sf.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_sf.o: /usr/include/string.h
+brw_sf.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_sf.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_sf.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_sf.o: brw_types.h brw_winsys.h
+brw_sf.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_sf.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_sf.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_sf.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_sf.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_sf.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_sf.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_sf.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_sf.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_sf.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_sf.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_sf.o: brw_defines.h brw_context.h brw_structs.h
+brw_sf.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_sf.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_sf.o: brw_pipe_rast.h brw_clip.h brw_eu.h brw_sf.h brw_state.h
+brw_sf.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_sf.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_sf.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_sf.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_sf.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_sf.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_sf_emit.o: brw_batchbuffer.h
+brw_sf_emit.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_sf_emit.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_sf_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_sf_emit.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_sf_emit.o: /usr/include/stdlib.h /usr/include/features.h
+brw_sf_emit.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_sf_emit.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_sf_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_sf_emit.o: /usr/include/string.h
+brw_sf_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_sf_emit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_sf_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_sf_emit.o: brw_types.h brw_winsys.h
+brw_sf_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_sf_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_sf_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_sf_emit.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_sf_emit.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_sf_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_sf_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_sf_emit.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_sf_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_sf_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_sf_emit.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_sf_emit.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_sf_emit.o: brw_defines.h brw_context.h brw_structs.h
+brw_sf_emit.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_sf_emit.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_sf_emit.o: brw_eu.h brw_sf.h
+brw_sf_state.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_sf_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_sf_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_sf_state.o: /usr/include/stdlib.h /usr/include/features.h
+brw_sf_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_sf_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_sf_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_sf_state.o: /usr/include/string.h
+brw_sf_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_sf_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_sf_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_sf_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_sf_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_sf_state.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_sf_state.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+brw_sf_state.o: ../../../../src/gallium/include/pipe/p_state.h brw_context.h
+brw_sf_state.o: brw_structs.h brw_types.h brw_winsys.h
+brw_sf_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_sf_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_sf_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_sf_state.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_sf_state.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_sf_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_sf_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_sf_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_sf_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_sf_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_sf_state.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_sf_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_sf_state.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_sf_state.o: brw_state.h ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_sf_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_sf_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_sf_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_sf_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_sf_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_sf_state.o: brw_defines.h brw_debug.h brw_pipe_rast.h brw_clip.h brw_eu.h
+brw_state_batch.o: brw_state.h
+brw_state_batch.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_state_batch.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_state_batch.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_state_batch.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_state_batch.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_state_batch.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_state_batch.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_state_batch.o: /usr/include/stdlib.h /usr/include/features.h
+brw_state_batch.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_state_batch.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_state_batch.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_state_batch.o: /usr/include/string.h
+brw_state_batch.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_state_batch.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_state_batch.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_state_batch.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_state_batch.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_state_batch.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_state_batch.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_state_batch.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_state_batch.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_state_batch.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h
+brw_state_batch.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_state_batch.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_state_batch.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_state_batch.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_state_batch.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_state_batch.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_state_batch.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_state_batch.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_state_batch.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_state_batch.o: brw_reg.h
+brw_state_batch.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_state_batch.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_state_batch.o: brw_batchbuffer.h
+brw_state_debug.o: brw_context.h brw_structs.h brw_types.h
+brw_state_debug.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_state_debug.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_state_debug.o: /usr/include/stdlib.h /usr/include/features.h
+brw_state_debug.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_state_debug.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_state_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_state_debug.o: /usr/include/string.h
+brw_state_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_state_debug.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_state_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_state_debug.o: brw_winsys.h
+brw_state_debug.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_state_debug.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_state_debug.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_state_debug.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_state_debug.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_state_debug.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_state_debug.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_state_debug.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_state_debug.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_state_debug.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_state_debug.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_state_debug.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_state_debug.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_state_debug.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_state_debug.o: brw_reg.h
+brw_state_debug.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_state_debug.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_state_debug.o: brw_state.h
+brw_state_debug.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_state_debug.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_state_debug.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_state_debug.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_state_debug.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_state_debug.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_state_cache.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_state_cache.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_state_cache.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_state_cache.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_state_cache.o: /usr/include/stdlib.h /usr/include/features.h
+brw_state_cache.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_state_cache.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_state_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_state_cache.o: /usr/include/string.h
+brw_state_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_state_cache.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_state_cache.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_state_cache.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_state_cache.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_state_cache.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_state_cache.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_state_cache.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_state_cache.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_state_cache.o: brw_debug.h brw_state.h
+brw_state_cache.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_state_cache.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_state_cache.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_state_cache.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h
+brw_state_cache.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_state_cache.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_state_cache.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_state_cache.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_state_cache.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_state_cache.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_state_cache.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_state_cache.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_state_cache.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_state_cache.o: brw_reg.h
+brw_state_cache.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_state_cache.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_state_cache.o: brw_wm.h brw_eu.h brw_defines.h brw_vs.h brw_clip.h
+brw_state_cache.o: brw_sf.h brw_gs.h
+brw_state_upload.o: brw_context.h brw_structs.h brw_types.h
+brw_state_upload.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_state_upload.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_state_upload.o: /usr/include/stdlib.h /usr/include/features.h
+brw_state_upload.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_state_upload.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_state_upload.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_state_upload.o: /usr/include/string.h
+brw_state_upload.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_state_upload.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_state_upload.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_state_upload.o: brw_winsys.h
+brw_state_upload.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_state_upload.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_state_upload.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_state_upload.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_state_upload.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_state_upload.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_state_upload.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_state_upload.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_state_upload.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_state_upload.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_state_upload.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_state_upload.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_state_upload.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_state_upload.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_state_upload.o: brw_reg.h
+brw_state_upload.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_state_upload.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_state_upload.o: brw_state.h
+brw_state_upload.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_state_upload.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_state_upload.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_state_upload.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_state_upload.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_state_upload.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_state_upload.o: brw_batchbuffer.h brw_debug.h
+brw_structs_dump.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_structs_dump.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_structs_dump.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_structs_dump.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_structs_dump.o: /usr/include/stdlib.h /usr/include/features.h
+brw_structs_dump.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_structs_dump.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_structs_dump.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_structs_dump.o: /usr/include/string.h
+brw_structs_dump.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_structs_dump.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_structs_dump.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_structs_dump.o: brw_types.h brw_structs.h brw_structs_dump.h
+brw_swtnl.o: brw_context.h brw_structs.h brw_types.h
+brw_swtnl.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_swtnl.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_swtnl.o: /usr/include/stdlib.h /usr/include/features.h
+brw_swtnl.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_swtnl.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_swtnl.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_swtnl.o: /usr/include/string.h
+brw_swtnl.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_swtnl.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_swtnl.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_swtnl.o: brw_winsys.h ../../../../src/gallium/include/pipe/p_defines.h
+brw_swtnl.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_swtnl.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_swtnl.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_swtnl.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_swtnl.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_swtnl.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_swtnl.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_swtnl.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_swtnl.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_swtnl.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_swtnl.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_swtnl.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_swtnl.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_swtnl.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_swtnl.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_swtnl.o: brw_pipe_rast.h brw_clip.h brw_eu.h brw_defines.h
+brw_urb.o: brw_batchbuffer.h ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_urb.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_urb.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_urb.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_urb.o: /usr/include/stdlib.h /usr/include/features.h
+brw_urb.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_urb.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_urb.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_urb.o: /usr/include/string.h
+brw_urb.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_urb.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_urb.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_urb.o: brw_types.h brw_winsys.h
+brw_urb.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_urb.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_urb.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_urb.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_urb.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_urb.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_urb.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_urb.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_urb.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_urb.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_urb.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_urb.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_urb.o: brw_context.h brw_structs.h
+brw_urb.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_urb.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h brw_state.h
+brw_urb.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_urb.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_urb.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_urb.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_urb.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_urb.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_urb.o: brw_defines.h brw_debug.h
+brw_vs.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_dump.h
+brw_vs.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_vs.o: ../../../../src/gallium/include/pipe/p_compiler.h brw_context.h
+brw_vs.o: brw_structs.h brw_types.h
+brw_vs.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_vs.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_vs.o: /usr/include/stdlib.h /usr/include/features.h
+brw_vs.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_vs.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_vs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_vs.o: /usr/include/string.h
+brw_vs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_vs.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_vs.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_vs.o: brw_winsys.h ../../../../src/gallium/include/pipe/p_defines.h
+brw_vs.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_vs.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_vs.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_vs.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_vs.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_vs.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_vs.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_vs.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_vs.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_vs.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_vs.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_vs.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_vs.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h brw_vs.h
+brw_vs.o: brw_eu.h brw_defines.h brw_state.h
+brw_vs.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_vs.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_vs.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_vs.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_vs.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_vs.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_vs_emit.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_vs_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_vs_emit.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_vs_emit.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_vs_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_vs_emit.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_vs_emit.o: /usr/include/stdlib.h /usr/include/features.h
+brw_vs_emit.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_vs_emit.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_vs_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_vs_emit.o: /usr/include/string.h
+brw_vs_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_vs_emit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_vs_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_vs_emit.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_vs_emit.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_vs_emit.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_vs_emit.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_vs_emit.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_vs_emit.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_vs_emit.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_vs_emit.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_vs_emit.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+brw_vs_emit.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+brw_vs_emit.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_dump.h
+brw_vs_emit.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_info.h
+brw_vs_emit.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h
+brw_vs_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_vs_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_vs_emit.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_vs_emit.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_vs_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_vs_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_vs_emit.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_vs_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_vs_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_vs_emit.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_vs_emit.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_vs_emit.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h brw_vs.h
+brw_vs_emit.o: brw_eu.h brw_defines.h brw_debug.h brw_disasm.h
+brw_vs_emit.o: /usr/include/stdio.h /usr/include/bits/types.h
+brw_vs_emit.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+brw_vs_emit.o: /usr/include/_G_config.h /usr/include/wchar.h
+brw_vs_emit.o: /usr/include/gconv.h /usr/include/bits/stdio_lim.h
+brw_vs_emit.o: /usr/include/bits/sys_errlist.h
+brw_vs_state.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_vs_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_vs_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_vs_state.o: /usr/include/stdlib.h /usr/include/features.h
+brw_vs_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_vs_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_vs_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_vs_state.o: /usr/include/string.h
+brw_vs_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_vs_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_vs_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_vs_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_vs_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_vs_state.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_vs_state.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+brw_vs_state.o: brw_debug.h brw_context.h brw_structs.h brw_types.h
+brw_vs_state.o: brw_winsys.h ../../../../src/gallium/include/pipe/p_defines.h
+brw_vs_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_vs_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_vs_state.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_vs_state.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_vs_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_vs_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_vs_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_vs_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_vs_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_vs_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_vs_state.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_vs_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_vs_state.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_vs_state.o: brw_state.h ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_vs_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_vs_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_vs_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_vs_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_vs_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_vs_state.o: brw_defines.h
+brw_vs_surface_state.o: brw_context.h brw_structs.h brw_types.h
+brw_vs_surface_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_vs_surface_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_vs_surface_state.o: /usr/include/stdlib.h /usr/include/features.h
+brw_vs_surface_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_vs_surface_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_vs_surface_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_vs_surface_state.o: /usr/include/string.h
+brw_vs_surface_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_vs_surface_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_vs_surface_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_vs_surface_state.o: brw_winsys.h
+brw_vs_surface_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_vs_surface_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_vs_surface_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_vs_surface_state.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_vs_surface_state.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_vs_surface_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_vs_surface_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_vs_surface_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_vs_surface_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_vs_surface_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_vs_surface_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_vs_surface_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_vs_surface_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_vs_surface_state.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_vs_surface_state.o: brw_reg.h
+brw_vs_surface_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_vs_surface_state.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_vs_surface_state.o: brw_state.h
+brw_vs_surface_state.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_vs_surface_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_vs_surface_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_vs_surface_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_vs_surface_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_vs_surface_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_wm.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_info.h
+brw_wm.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_wm.o: ../../../../src/gallium/include/pipe/p_compiler.h brw_context.h
+brw_wm.o: brw_structs.h brw_types.h
+brw_wm.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm.o: /usr/include/stdlib.h /usr/include/features.h
+brw_wm.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_wm.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_wm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_wm.o: /usr/include/string.h
+brw_wm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_wm.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_wm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_wm.o: brw_winsys.h ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_wm.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_wm.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_wm.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_wm.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_wm.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h brw_screen.h
+brw_wm.o: brw_wm.h brw_eu.h brw_defines.h brw_state.h
+brw_wm.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_wm.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_wm.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_wm.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_wm.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_wm.o: brw_debug.h brw_pipe_rast.h brw_clip.h
+brw_wm_debug.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_info.h
+brw_wm_debug.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_wm_debug.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_debug.o: brw_context.h brw_structs.h brw_types.h
+brw_wm_debug.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_debug.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm_debug.o: /usr/include/stdlib.h /usr/include/features.h
+brw_wm_debug.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_wm_debug.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_wm_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_wm_debug.o: /usr/include/string.h
+brw_wm_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_wm_debug.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_wm_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_wm_debug.o: brw_winsys.h ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_debug.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_debug.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_wm_debug.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_wm_debug.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_debug.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_debug.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_debug.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_debug.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_debug.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_debug.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_wm_debug.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_wm_debug.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_wm_debug.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h brw_wm.h
+brw_wm_debug.o: brw_eu.h brw_defines.h
+brw_wm_emit.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_wm_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_emit.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm_emit.o: /usr/include/stdlib.h /usr/include/features.h
+brw_wm_emit.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_wm_emit.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_wm_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_wm_emit.o: /usr/include/string.h
+brw_wm_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_wm_emit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_wm_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_wm_emit.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_wm_emit.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_wm_emit.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_wm_emit.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+brw_wm_emit.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_info.h
+brw_wm_emit.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_wm_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_emit.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h
+brw_wm_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_emit.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_wm_emit.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_wm_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_emit.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_emit.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_emit.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_wm_emit.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h brw_wm.h
+brw_wm_emit.o: brw_eu.h brw_defines.h brw_debug.h brw_disasm.h
+brw_wm_emit.o: /usr/include/stdio.h /usr/include/bits/types.h
+brw_wm_emit.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+brw_wm_emit.o: /usr/include/_G_config.h /usr/include/wchar.h
+brw_wm_emit.o: /usr/include/gconv.h /usr/include/bits/stdio_lim.h
+brw_wm_emit.o: /usr/include/bits/sys_errlist.h
+brw_wm_fp.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_wm_fp.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_fp.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_wm_fp.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_fp.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm_fp.o: /usr/include/stdlib.h /usr/include/features.h
+brw_wm_fp.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_wm_fp.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_wm_fp.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_wm_fp.o: /usr/include/string.h
+brw_wm_fp.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_wm_fp.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_wm_fp.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_wm_fp.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_wm_fp.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_wm_fp.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_wm_fp.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+brw_wm_fp.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_wm_fp.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_wm_fp.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_wm_fp.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm_fp.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_wm_fp.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_wm_fp.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+brw_wm_fp.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_dump.h
+brw_wm_fp.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_info.h
+brw_wm_fp.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_util.h brw_wm.h
+brw_wm_fp.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h
+brw_wm_fp.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_fp.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_fp.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_wm_fp.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_wm_fp.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_fp.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_fp.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_fp.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_fp.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_fp.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_fp.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_wm_fp.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h brw_eu.h
+brw_wm_fp.o: brw_defines.h brw_debug.h
+brw_wm_iz.o: brw_wm.h brw_context.h brw_structs.h brw_types.h
+brw_wm_iz.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_iz.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm_iz.o: /usr/include/stdlib.h /usr/include/features.h
+brw_wm_iz.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_wm_iz.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_wm_iz.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_wm_iz.o: /usr/include/string.h
+brw_wm_iz.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_wm_iz.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_wm_iz.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_wm_iz.o: brw_winsys.h ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_iz.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_iz.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_iz.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_wm_iz.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_wm_iz.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_iz.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_iz.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_iz.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_iz.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_iz.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_iz.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_wm_iz.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_wm_iz.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_wm_iz.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_wm_iz.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h brw_eu.h
+brw_wm_iz.o: brw_defines.h
+brw_wm_pass0.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_wm_pass0.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_wm_pass0.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_pass0.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm_pass0.o: /usr/include/stdlib.h /usr/include/features.h
+brw_wm_pass0.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_wm_pass0.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_wm_pass0.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_wm_pass0.o: /usr/include/string.h
+brw_wm_pass0.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_wm_pass0.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_wm_pass0.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_wm_pass0.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_wm_pass0.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_wm_pass0.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_wm_pass0.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm_pass0.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_wm_pass0.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_wm_pass0.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_wm_pass0.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_wm_pass0.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+brw_wm_pass0.o: brw_debug.h brw_wm.h brw_context.h brw_structs.h brw_types.h
+brw_wm_pass0.o: brw_winsys.h ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_pass0.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_pass0.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_pass0.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_wm_pass0.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_wm_pass0.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_pass0.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_pass0.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_pass0.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_pass0.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_pass0.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_pass0.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_wm_pass0.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_wm_pass0.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_wm_pass0.o: brw_eu.h brw_defines.h
+brw_wm_pass1.o: brw_wm.h brw_context.h brw_structs.h brw_types.h
+brw_wm_pass1.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_pass1.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm_pass1.o: /usr/include/stdlib.h /usr/include/features.h
+brw_wm_pass1.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_wm_pass1.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_wm_pass1.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_wm_pass1.o: /usr/include/string.h
+brw_wm_pass1.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_wm_pass1.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_wm_pass1.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_wm_pass1.o: brw_winsys.h ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_pass1.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_pass1.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_pass1.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_wm_pass1.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_wm_pass1.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_pass1.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_pass1.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_pass1.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_pass1.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_pass1.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_pass1.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_wm_pass1.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_wm_pass1.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_wm_pass1.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_wm_pass1.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_wm_pass1.o: brw_eu.h brw_defines.h brw_debug.h
+brw_wm_pass2.o: brw_debug.h brw_wm.h brw_context.h brw_structs.h brw_types.h
+brw_wm_pass2.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_pass2.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm_pass2.o: /usr/include/stdlib.h /usr/include/features.h
+brw_wm_pass2.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_wm_pass2.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_wm_pass2.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_wm_pass2.o: /usr/include/string.h
+brw_wm_pass2.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_wm_pass2.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_wm_pass2.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_wm_pass2.o: brw_winsys.h ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_pass2.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_pass2.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_pass2.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_wm_pass2.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_wm_pass2.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_pass2.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_pass2.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_pass2.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_pass2.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_pass2.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_pass2.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_wm_pass2.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_wm_pass2.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_wm_pass2.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_wm_pass2.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_wm_pass2.o: brw_eu.h brw_defines.h
+brw_wm_sampler_state.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_wm_sampler_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_sampler_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm_sampler_state.o: /usr/include/stdlib.h /usr/include/features.h
+brw_wm_sampler_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_wm_sampler_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_wm_sampler_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_wm_sampler_state.o: /usr/include/string.h
+brw_wm_sampler_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_wm_sampler_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_wm_sampler_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_wm_sampler_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_wm_sampler_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_wm_sampler_state.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_wm_sampler_state.o: /usr/include/bits/mathdef.h
+brw_wm_sampler_state.o: /usr/include/bits/mathcalls.h
+brw_wm_sampler_state.o: ../../../../src/gallium/auxiliary/util/u_format.h
+brw_wm_sampler_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_sampler_state.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h
+brw_wm_sampler_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_sampler_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_sampler_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_sampler_state.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_wm_sampler_state.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_wm_sampler_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_sampler_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_sampler_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_sampler_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_sampler_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_sampler_state.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_wm_sampler_state.o: brw_reg.h
+brw_wm_sampler_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_wm_sampler_state.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_wm_sampler_state.o: brw_state.h
+brw_wm_sampler_state.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_wm_sampler_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_wm_sampler_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_wm_sampler_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm_sampler_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_wm_sampler_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_wm_sampler_state.o: brw_defines.h brw_screen.h
+brw_wm_state.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_wm_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm_state.o: /usr/include/stdlib.h /usr/include/features.h
+brw_wm_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_wm_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_wm_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_wm_state.o: /usr/include/string.h
+brw_wm_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_wm_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_wm_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_wm_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_wm_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_wm_state.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_wm_state.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+brw_wm_state.o: brw_context.h brw_structs.h brw_types.h brw_winsys.h
+brw_wm_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_state.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_wm_state.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_wm_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_state.o: ../../../../src/gallium/auxiliary/util/u_atomic.h brw_reg.h
+brw_wm_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_wm_state.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_wm_state.o: brw_state.h ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_wm_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_wm_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_wm_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_wm_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_wm_state.o: brw_defines.h brw_wm.h brw_eu.h brw_debug.h brw_pipe_rast.h
+brw_wm_state.o: brw_clip.h
+brw_wm_surface_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_surface_state.o: brw_batchbuffer.h
+brw_wm_surface_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_wm_surface_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_wm_surface_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_surface_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm_surface_state.o: /usr/include/stdlib.h /usr/include/features.h
+brw_wm_surface_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_wm_surface_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_wm_surface_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_wm_surface_state.o: /usr/include/string.h
+brw_wm_surface_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_wm_surface_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_wm_surface_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_wm_surface_state.o: brw_types.h brw_winsys.h
+brw_wm_surface_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_surface_state.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_wm_surface_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_wm_surface_state.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_wm_surface_state.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_wm_surface_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_surface_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_wm_surface_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_surface_state.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_wm_surface_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_wm_surface_state.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_wm_surface_state.o: brw_reg.h brw_context.h brw_structs.h
+brw_wm_surface_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_wm_surface_state.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_wm_surface_state.o: brw_state.h
+brw_wm_surface_state.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_wm_surface_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_wm_surface_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_wm_surface_state.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_wm_surface_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_wm_surface_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_wm_surface_state.o: brw_screen.h
+brw_screen.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_screen.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_screen.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_screen.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_screen.o: /usr/include/stdlib.h /usr/include/features.h
+brw_screen.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_screen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_screen.o: /usr/include/string.h
+brw_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_screen.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_screen.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_screen.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_screen.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_screen.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_screen.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_screen.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_screen.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_screen.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_screen.o: ../../../../src/gallium/auxiliary/util/u_string.h
+brw_screen.o: /usr/include/stdio.h /usr/include/bits/types.h
+brw_screen.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+brw_screen.o: /usr/include/_G_config.h /usr/include/wchar.h
+brw_screen.o: /usr/include/gconv.h /usr/include/bits/stdio_lim.h
+brw_screen.o: /usr/include/bits/sys_errlist.h brw_reg.h brw_context.h
+brw_screen.o: brw_structs.h brw_types.h brw_winsys.h
+brw_screen.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+brw_screen.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+brw_screen.o: brw_screen.h brw_debug.h
+brw_screen_buffers.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_screen_buffers.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_screen_buffers.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_screen_buffers.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_screen_buffers.o: /usr/include/stdlib.h /usr/include/features.h
+brw_screen_buffers.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_screen_buffers.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_screen_buffers.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_screen_buffers.o: /usr/include/string.h
+brw_screen_buffers.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_screen_buffers.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_screen_buffers.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_screen_buffers.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_screen_buffers.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_screen_buffers.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_screen_buffers.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_screen_buffers.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_screen_buffers.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_screen_buffers.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_screen_buffers.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_screen_buffers.o: /usr/include/bits/mathdef.h
+brw_screen_buffers.o: /usr/include/bits/mathcalls.h
+brw_screen_buffers.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_screen_buffers.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_screen_buffers.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_screen_buffers.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_screen_buffers.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_screen_buffers.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_screen_buffers.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_screen_buffers.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_screen_buffers.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_screen_buffers.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_screen_buffers.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_screen_buffers.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_screen_buffers.o: brw_screen.h brw_reg.h brw_structs.h brw_types.h
+brw_screen_buffers.o: brw_winsys.h
+brw_screen_tex_layout.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_screen_tex_layout.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_screen_tex_layout.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_screen_tex_layout.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_screen_tex_layout.o: /usr/include/stdlib.h /usr/include/features.h
+brw_screen_tex_layout.o: /usr/include/sys/cdefs.h
+brw_screen_tex_layout.o: /usr/include/bits/wordsize.h
+brw_screen_tex_layout.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_screen_tex_layout.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_screen_tex_layout.o: /usr/include/string.h
+brw_screen_tex_layout.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_screen_tex_layout.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_screen_tex_layout.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_screen_tex_layout.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_screen_tex_layout.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_screen_tex_layout.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_screen_tex_layout.o: /usr/include/bits/mathdef.h
+brw_screen_tex_layout.o: /usr/include/bits/mathcalls.h
+brw_screen_tex_layout.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_screen_tex_layout.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_screen_tex_layout.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_screen_tex_layout.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_screen_tex_layout.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_screen_tex_layout.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_screen_tex_layout.o: brw_screen.h
+brw_screen_tex_layout.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_screen_tex_layout.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_screen_tex_layout.o: brw_reg.h brw_structs.h brw_types.h brw_debug.h
+brw_screen_tex_layout.o: brw_winsys.h
+brw_screen_tex_layout.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_screen_tex_layout.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_screen_tex_layout.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_screen_tex_layout.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_screen_tex_layout.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_screen_tex_layout.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_screen_tex_layout.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_screen_tex_layout.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_screen_tex_layout.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_screen_texture.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_screen_texture.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_screen_texture.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_screen_texture.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_screen_texture.o: /usr/include/stdlib.h /usr/include/features.h
+brw_screen_texture.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_screen_texture.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_screen_texture.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_screen_texture.o: /usr/include/string.h
+brw_screen_texture.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_screen_texture.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_screen_texture.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_screen_texture.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_screen_texture.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_screen_texture.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_screen_texture.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_screen_texture.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_screen_texture.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_screen_texture.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h
+brw_screen_texture.o: ../../../../src/gallium/auxiliary/util/u_format.h
+brw_screen_texture.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_screen_texture.o: brw_screen.h
+brw_screen_texture.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_screen_texture.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_screen_texture.o: brw_reg.h brw_structs.h brw_types.h brw_defines.h
+brw_screen_texture.o: brw_winsys.h
+brw_screen_texture.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_screen_texture.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_screen_texture.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_screen_texture.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_screen_texture.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_screen_texture.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_screen_texture.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_screen_texture.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_screen_texture.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_screen_surface.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_screen_surface.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_screen_surface.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_screen_surface.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_screen_surface.o: /usr/include/stdlib.h /usr/include/features.h
+brw_screen_surface.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_screen_surface.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_screen_surface.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_screen_surface.o: /usr/include/string.h
+brw_screen_surface.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_screen_surface.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_screen_surface.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_screen_surface.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_screen_surface.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_screen_surface.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_screen_surface.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_screen_surface.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_screen_surface.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_screen_surface.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h
+brw_screen_surface.o: ../../../../src/gallium/auxiliary/util/u_math.h
+brw_screen_surface.o: /usr/include/math.h /usr/include/bits/huge_val.h
+brw_screen_surface.o: /usr/include/bits/mathdef.h
+brw_screen_surface.o: /usr/include/bits/mathcalls.h
+brw_screen_surface.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_screen_surface.o: brw_screen.h
+brw_screen_surface.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_screen_surface.o: brw_reg.h brw_structs.h brw_types.h brw_defines.h
+brw_screen_surface.o: brw_winsys.h
+brw_screen_surface.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_screen_surface.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_screen_surface.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_screen_surface.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_screen_surface.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_screen_surface.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_screen_surface.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_screen_surface.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_screen_surface.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_screen_surface.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_batchbuffer.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+brw_batchbuffer.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+brw_batchbuffer.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_batchbuffer.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_batchbuffer.o: /usr/include/stdlib.h /usr/include/features.h
+brw_batchbuffer.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_batchbuffer.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_batchbuffer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_batchbuffer.o: /usr/include/string.h
+brw_batchbuffer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_batchbuffer.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_batchbuffer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_batchbuffer.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_batchbuffer.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_batchbuffer.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+brw_batchbuffer.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_batchbuffer.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+brw_batchbuffer.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+brw_batchbuffer.o: brw_batchbuffer.h brw_types.h brw_winsys.h
+brw_batchbuffer.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_batchbuffer.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_batchbuffer.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_batchbuffer.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_batchbuffer.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_batchbuffer.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_batchbuffer.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_batchbuffer.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_batchbuffer.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_batchbuffer.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_batchbuffer.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_batchbuffer.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_batchbuffer.o: brw_reg.h brw_debug.h brw_structs.h
+brw_winsys_debug.o: brw_winsys.h
+brw_winsys_debug.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_winsys_debug.o: ../../../../src/gallium/include/pipe/p_config.h
+brw_winsys_debug.o: /usr/include/stdlib.h /usr/include/features.h
+brw_winsys_debug.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+brw_winsys_debug.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+brw_winsys_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+brw_winsys_debug.o: /usr/include/string.h
+brw_winsys_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+brw_winsys_debug.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+brw_winsys_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+brw_winsys_debug.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_winsys_debug.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_winsys_debug.o: ../../../../src/gallium/include/pipe/p_compiler.h
+brw_winsys_debug.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+brw_winsys_debug.o: ../../../../src/gallium/include/pipe/p_context.h
+brw_winsys_debug.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_winsys_debug.o: ../../../../src/gallium/include/pipe/p_defines.h
+brw_winsys_debug.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_winsys_debug.o: ../../../../src/gallium/include/pipe/p_format.h
+brw_winsys_debug.o: ../../../../src/gallium/include/pipe/p_state.h
+brw_winsys_debug.o: ../../../../src/gallium/include/pipe/p_screen.h
+brw_winsys_debug.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+brw_winsys_debug.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+brw_winsys_debug.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+brw_winsys_debug.o: brw_disasm.h /usr/include/stdio.h
+brw_winsys_debug.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+brw_winsys_debug.o: /usr/include/libio.h /usr/include/_G_config.h
+brw_winsys_debug.o: /usr/include/wchar.h /usr/include/gconv.h
+brw_winsys_debug.o: /usr/include/bits/stdio_lim.h
+brw_winsys_debug.o: /usr/include/bits/sys_errlist.h brw_structs_dump.h
+brw_winsys_debug.o: brw_structs.h brw_types.h intel_decode.h
+intel_decode.o: /usr/include/stdio.h /usr/include/features.h
+intel_decode.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+intel_decode.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+intel_decode.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+intel_decode.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+intel_decode.o: /usr/include/libio.h /usr/include/_G_config.h
+intel_decode.o: /usr/include/wchar.h /usr/include/bits/wchar.h
+intel_decode.o: /usr/include/gconv.h
+intel_decode.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+intel_decode.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+intel_decode.o: /usr/include/string.h /usr/include/inttypes.h
+intel_decode.o: /usr/include/stdint.h intel_decode.h

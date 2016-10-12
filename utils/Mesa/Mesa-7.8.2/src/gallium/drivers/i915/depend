@@ -1,0 +1,645 @@
+# DO NOT DELETE
+
+i915_blit.o: i915_blit.h i915_context.h
+i915_blit.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_blit.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_blit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_blit.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_blit.o: /usr/include/stdlib.h /usr/include/features.h
+i915_blit.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_blit.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_blit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_blit.o: /usr/include/string.h
+i915_blit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_blit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_blit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_blit.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_blit.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_blit.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_blit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_blit.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_blit.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_blit.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_blit.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_blit.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_blit.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_blit.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_blit.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_blit.o: i915_reg.h i915_batch.h intel_batchbuffer.h intel_winsys.h
+i915_blit.o: i915_debug.h
+i915_buffer.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+i915_buffer.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_buffer.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_buffer.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_buffer.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_buffer.o: /usr/include/stdlib.h /usr/include/features.h
+i915_buffer.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_buffer.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_buffer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_buffer.o: /usr/include/string.h
+i915_buffer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_buffer.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_buffer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_buffer.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_buffer.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_buffer.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_buffer.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_buffer.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_buffer.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_buffer.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_buffer.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_buffer.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_buffer.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_buffer.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+i915_buffer.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+i915_buffer.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+i915_buffer.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+i915_buffer.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_buffer.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+i915_buffer.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+i915_buffer.o: i915_screen.h i915_buffer.h
+i915_clear.o: ../../../../src/gallium/auxiliary/util/u_clear.h
+i915_clear.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_clear.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_clear.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_clear.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_clear.o: /usr/include/stdlib.h /usr/include/features.h
+i915_clear.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_clear.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_clear.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_clear.o: /usr/include/string.h
+i915_clear.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_clear.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_clear.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_clear.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_clear.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_clear.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_clear.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_clear.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_clear.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_clear.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_clear.o: ../../../../src/gallium/auxiliary/util/u_pack_color.h
+i915_clear.o: ../../../../src/gallium/auxiliary/util/u_format.h
+i915_clear.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_clear.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_clear.o: ../../../../src/gallium/auxiliary/util/u_math.h
+i915_clear.o: /usr/include/math.h /usr/include/bits/huge_val.h
+i915_clear.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+i915_clear.o: ../../../../src/gallium/auxiliary/util/u_rect.h i915_context.h
+i915_clear.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_clear.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_clear.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_flush.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_flush.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+i915_flush.o: ../../../../src/gallium/include/pipe/p_state.h i915_context.h
+i915_flush.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_flush.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_flush.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_flush.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_flush.o: /usr/include/stdlib.h /usr/include/features.h
+i915_flush.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_flush.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_flush.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_flush.o: /usr/include/string.h
+i915_flush.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_flush.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_flush.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_flush.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_flush.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_flush.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_flush.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_flush.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_flush.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_flush.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_flush.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_flush.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_flush.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_flush.o: i915_reg.h i915_batch.h intel_batchbuffer.h intel_winsys.h
+i915_context.o: i915_context.h
+i915_context.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_context.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_context.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_context.o: /usr/include/stdlib.h /usr/include/features.h
+i915_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_context.o: /usr/include/string.h
+i915_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_context.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_context.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_context.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_context.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_context.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_context.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_context.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_context.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_context.o: i915_state.h i915_screen.h
+i915_context.o: ../../../../src/gallium/include/pipe/p_screen.h i915_batch.h
+i915_context.o: intel_batchbuffer.h intel_winsys.h
+i915_context.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+i915_context.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+i915_context.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+i915_context.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+i915_context.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+i915_context.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+i915_context.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_context.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+i915_context.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+i915_debug.o: i915_reg.h i915_context.h
+i915_debug.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_debug.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_debug.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_debug.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_debug.o: /usr/include/stdlib.h /usr/include/features.h
+i915_debug.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_debug.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_debug.o: /usr/include/string.h
+i915_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_debug.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_debug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_debug.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_debug.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_debug.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_debug.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_debug.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_debug.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_debug.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_debug.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_debug.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_debug.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_debug.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_debug.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_debug.o: i915_debug.h i915_batch.h intel_batchbuffer.h intel_winsys.h
+i915_debug_fp.o: i915_reg.h i915_debug.h
+i915_debug_fp.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_debug_fp.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_debug_fp.o: ../../../../src/gallium/auxiliary/util/u_simple_screen.h
+i915_debug_fp.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_debug_fp.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_debug_fp.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_state.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+i915_state.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_state.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+i915_state.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_state.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_state.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_state.o: /usr/include/stdlib.h /usr/include/features.h
+i915_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_state.o: /usr/include/string.h
+i915_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_state.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_state.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_state.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+i915_state.o: ../../../../src/gallium/auxiliary/util/u_math.h
+i915_state.o: /usr/include/math.h /usr/include/bits/huge_val.h
+i915_state.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+i915_state.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+i915_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+i915_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+i915_state.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+i915_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+i915_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+i915_state.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_state.o: i915_context.h
+i915_state.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h i915_reg.h
+i915_state.o: i915_state_inlines.h i915_fpc.h
+i915_state_immediate.o: i915_state_inlines.h
+i915_state_immediate.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_state_immediate.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_state_immediate.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_state_immediate.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_state_immediate.o: i915_reg.h i915_context.h
+i915_state_immediate.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_state_immediate.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_state_immediate.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_state_immediate.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_state_immediate.o: /usr/include/stdlib.h /usr/include/features.h
+i915_state_immediate.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_state_immediate.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_state_immediate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_state_immediate.o: /usr/include/string.h
+i915_state_immediate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_state_immediate.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_state_immediate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_state_immediate.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_state_immediate.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_state_immediate.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_state_immediate.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_state_immediate.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_state_immediate.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_state_immediate.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_state_immediate.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_state_immediate.o: i915_state.h
+i915_state_immediate.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+i915_state_immediate.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+i915_state_immediate.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+i915_state_immediate.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_state_immediate.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+i915_state_immediate.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+i915_state_dynamic.o: i915_batch.h intel_batchbuffer.h intel_winsys.h
+i915_state_dynamic.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_state_dynamic.o: i915_state_inlines.h
+i915_state_dynamic.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_state_dynamic.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_state_dynamic.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_state_dynamic.o: i915_reg.h i915_context.h
+i915_state_dynamic.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_state_dynamic.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_state_dynamic.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_state_dynamic.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_state_dynamic.o: /usr/include/stdlib.h /usr/include/features.h
+i915_state_dynamic.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_state_dynamic.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_state_dynamic.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_state_dynamic.o: /usr/include/string.h
+i915_state_dynamic.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_state_dynamic.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_state_dynamic.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_state_dynamic.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_state_dynamic.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_state_dynamic.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_state_dynamic.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_state_dynamic.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_state_dynamic.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_state_dynamic.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_state_dynamic.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_state_dynamic.o: i915_state.h
+i915_state_dynamic.o: ../../../../src/gallium/auxiliary/util/u_math.h
+i915_state_dynamic.o: /usr/include/math.h /usr/include/bits/huge_val.h
+i915_state_dynamic.o: /usr/include/bits/mathdef.h
+i915_state_dynamic.o: /usr/include/bits/mathcalls.h
+i915_state_dynamic.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+i915_state_dynamic.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+i915_state_dynamic.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+i915_state_dynamic.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_state_dynamic.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+i915_state_dynamic.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+i915_state_dynamic.o: ../../../../src/gallium/auxiliary/util/u_pack_color.h
+i915_state_dynamic.o: ../../../../src/gallium/auxiliary/util/u_format.h
+i915_state_derived.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+i915_state_derived.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+i915_state_derived.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_state_derived.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_state_derived.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_state_derived.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+i915_state_derived.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_state_derived.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+i915_state_derived.o: /usr/include/stdlib.h /usr/include/features.h
+i915_state_derived.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_state_derived.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_state_derived.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_state_derived.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+i915_state_derived.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_state_derived.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_state_derived.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_state_derived.o: /usr/include/string.h
+i915_state_derived.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_state_derived.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_state_derived.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_state_derived.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+i915_state_derived.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_state_derived.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_state_derived.o: i915_context.h
+i915_state_derived.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_state_derived.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_state_derived.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_state_derived.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_state_derived.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_state_derived.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_state_derived.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_state_derived.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_state_derived.o: i915_state.h i915_reg.h
+i915_state_emit.o: i915_reg.h i915_context.h
+i915_state_emit.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_state_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_state_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_state_emit.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_state_emit.o: /usr/include/stdlib.h /usr/include/features.h
+i915_state_emit.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_state_emit.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_state_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_state_emit.o: /usr/include/string.h
+i915_state_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_state_emit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_state_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_state_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_state_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_state_emit.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_state_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_state_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_state_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_state_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_state_emit.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_state_emit.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_state_emit.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_state_emit.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_state_emit.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_state_emit.o: i915_batch.h intel_batchbuffer.h intel_winsys.h
+i915_state_sampler.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_state_sampler.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_state_sampler.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_state_sampler.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_state_sampler.o: /usr/include/stdlib.h /usr/include/features.h
+i915_state_sampler.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_state_sampler.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_state_sampler.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_state_sampler.o: /usr/include/string.h
+i915_state_sampler.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_state_sampler.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_state_sampler.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_state_sampler.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_state_sampler.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_state_sampler.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_state_sampler.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_state_sampler.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_state_sampler.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_state_sampler.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_state_sampler.o: i915_state_inlines.h
+i915_state_sampler.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_state_sampler.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_state_sampler.o: i915_reg.h i915_context.h
+i915_state_sampler.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_state_sampler.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_state_sampler.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_state_sampler.o: i915_state.h
+i915_screen.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+i915_screen.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_screen.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_screen.o: /usr/include/stdlib.h /usr/include/features.h
+i915_screen.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_screen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_screen.o: /usr/include/string.h
+i915_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_screen.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_screen.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_screen.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_screen.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_screen.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_screen.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_screen.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+i915_screen.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+i915_screen.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+i915_screen.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+i915_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+i915_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+i915_screen.o: ../../../../src/gallium/auxiliary/util/u_string.h
+i915_screen.o: /usr/include/stdio.h /usr/include/bits/types.h
+i915_screen.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+i915_screen.o: /usr/include/_G_config.h /usr/include/wchar.h
+i915_screen.o: /usr/include/gconv.h /usr/include/bits/stdio_lim.h
+i915_screen.o: /usr/include/bits/sys_errlist.h i915_reg.h i915_context.h
+i915_screen.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_screen.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_screen.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_screen.o: i915_screen.h i915_buffer.h i915_texture.h intel_winsys.h
+i915_prim_emit.o: ../../../../src/gallium/auxiliary/draw/draw_pipe.h
+i915_prim_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_prim_emit.o: ../../../../src/gallium/auxiliary/draw/draw_private.h
+i915_prim_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_prim_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_prim_emit.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_prim_emit.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_prim_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_prim_emit.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_prim_emit.o: /usr/include/stdlib.h /usr/include/features.h
+i915_prim_emit.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_prim_emit.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_prim_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_prim_emit.o: /usr/include/string.h
+i915_prim_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_prim_emit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_prim_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_prim_emit.o: ../../../../src/gallium/auxiliary/util/u_math.h
+i915_prim_emit.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_prim_emit.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_prim_emit.o: /usr/include/math.h /usr/include/bits/huge_val.h
+i915_prim_emit.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+i915_prim_emit.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+i915_prim_emit.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+i915_prim_emit.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+i915_prim_emit.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_prim_emit.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+i915_prim_emit.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+i915_prim_emit.o: ../../../../src/gallium/auxiliary/util/u_pack_color.h
+i915_prim_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_prim_emit.o: ../../../../src/gallium/auxiliary/util/u_format.h
+i915_prim_emit.o: i915_context.h
+i915_prim_emit.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_prim_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_prim_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_prim_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_prim_emit.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_prim_emit.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_prim_emit.o: i915_reg.h i915_state.h i915_batch.h intel_batchbuffer.h
+i915_prim_emit.o: intel_winsys.h
+i915_prim_vbuf.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+i915_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_prim_vbuf.o: ../../../../src/gallium/auxiliary/draw/draw_vbuf.h
+i915_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_prim_vbuf.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_prim_vbuf.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_prim_vbuf.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+i915_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_prim_vbuf.o: /usr/include/stdlib.h /usr/include/features.h
+i915_prim_vbuf.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_prim_vbuf.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_prim_vbuf.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_prim_vbuf.o: /usr/include/string.h
+i915_prim_vbuf.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_prim_vbuf.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_prim_vbuf.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_prim_vbuf.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+i915_prim_vbuf.o: ../../../../src/gallium/auxiliary/util/u_math.h
+i915_prim_vbuf.o: /usr/include/math.h /usr/include/bits/huge_val.h
+i915_prim_vbuf.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+i915_prim_vbuf.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+i915_prim_vbuf.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+i915_prim_vbuf.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+i915_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_prim_vbuf.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+i915_prim_vbuf.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+i915_prim_vbuf.o: ../../../../src/gallium/auxiliary/util/u_fifo.h
+i915_prim_vbuf.o: i915_context.h
+i915_prim_vbuf.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_prim_vbuf.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_prim_vbuf.o: i915_reg.h i915_batch.h intel_batchbuffer.h intel_winsys.h
+i915_prim_vbuf.o: i915_state.h
+i915_texture.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_texture.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_texture.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_texture.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_texture.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_texture.o: /usr/include/stdlib.h /usr/include/features.h
+i915_texture.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_texture.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_texture.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_texture.o: /usr/include/string.h
+i915_texture.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_texture.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_texture.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_texture.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_texture.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_texture.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_texture.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_texture.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_texture.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_texture.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+i915_texture.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_texture.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_texture.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_texture.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+i915_texture.o: ../../../../src/gallium/auxiliary/util/u_format.h
+i915_texture.o: ../../../../src/gallium/auxiliary/util/u_math.h
+i915_texture.o: /usr/include/math.h /usr/include/bits/huge_val.h
+i915_texture.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+i915_texture.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+i915_texture.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+i915_texture.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+i915_texture.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_texture.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+i915_texture.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+i915_texture.o: i915_context.h
+i915_texture.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_texture.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_texture.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_texture.o: i915_texture.h i915_screen.h intel_winsys.h
+i915_fpc_emit.o: i915_reg.h i915_context.h
+i915_fpc_emit.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_fpc_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_fpc_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_fpc_emit.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_fpc_emit.o: /usr/include/stdlib.h /usr/include/features.h
+i915_fpc_emit.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_fpc_emit.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_fpc_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_fpc_emit.o: /usr/include/string.h
+i915_fpc_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_fpc_emit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_fpc_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_fpc_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_fpc_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_fpc_emit.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_fpc_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_fpc_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_fpc_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_fpc_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_fpc_emit.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_fpc_emit.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_fpc_emit.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_fpc_emit.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_fpc_emit.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_fpc_emit.o: i915_fpc.h ../../../../src/gallium/auxiliary/util/u_math.h
+i915_fpc_emit.o: /usr/include/math.h /usr/include/bits/huge_val.h
+i915_fpc_emit.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+i915_fpc_translate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_fpc_translate.o: i915_reg.h i915_context.h
+i915_fpc_translate.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_fpc_translate.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_fpc_translate.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_fpc_translate.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_fpc_translate.o: /usr/include/stdlib.h /usr/include/features.h
+i915_fpc_translate.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_fpc_translate.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_fpc_translate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_fpc_translate.o: /usr/include/string.h /usr/include/stdint.h
+i915_fpc_translate.o: /usr/include/bits/wchar.h
+i915_fpc_translate.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_fpc_translate.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_fpc_translate.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_fpc_translate.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_fpc_translate.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_fpc_translate.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_fpc_translate.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_fpc_translate.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_fpc_translate.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_fpc_translate.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_fpc_translate.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_fpc_translate.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_fpc_translate.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_fpc_translate.o: i915_fpc.h
+i915_fpc_translate.o: ../../../../src/gallium/auxiliary/util/u_math.h
+i915_fpc_translate.o: /usr/include/math.h /usr/include/bits/huge_val.h
+i915_fpc_translate.o: /usr/include/bits/mathdef.h
+i915_fpc_translate.o: /usr/include/bits/mathcalls.h
+i915_fpc_translate.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+i915_fpc_translate.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+i915_fpc_translate.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+i915_fpc_translate.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_fpc_translate.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+i915_fpc_translate.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+i915_fpc_translate.o: ../../../../src/gallium/auxiliary/util/u_string.h
+i915_fpc_translate.o: /usr/include/stdio.h /usr/include/bits/types.h
+i915_fpc_translate.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+i915_fpc_translate.o: /usr/include/_G_config.h /usr/include/wchar.h
+i915_fpc_translate.o: /usr/include/gconv.h /usr/include/bits/stdio_lim.h
+i915_fpc_translate.o: /usr/include/bits/sys_errlist.h
+i915_fpc_translate.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+i915_fpc_translate.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_dump.h
+i915_surface.o: i915_context.h
+i915_surface.o: ../../../../src/gallium/include/pipe/p_context.h
+i915_surface.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_surface.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_surface.o: ../../../../src/gallium/include/pipe/p_config.h
+i915_surface.o: /usr/include/stdlib.h /usr/include/features.h
+i915_surface.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+i915_surface.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+i915_surface.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+i915_surface.o: /usr/include/string.h
+i915_surface.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+i915_surface.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+i915_surface.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+i915_surface.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_surface.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_surface.o: ../../../../src/gallium/include/pipe/p_screen.h
+i915_surface.o: ../../../../src/gallium/include/pipe/p_compiler.h
+i915_surface.o: ../../../../src/gallium/include/pipe/p_format.h
+i915_surface.o: ../../../../src/gallium/include/pipe/p_defines.h
+i915_surface.o: ../../../../src/gallium/include/pipe/p_state.h
+i915_surface.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+i915_surface.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+i915_surface.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+i915_surface.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+i915_surface.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+i915_surface.o: i915_blit.h ../../../../src/gallium/auxiliary/util/u_format.h

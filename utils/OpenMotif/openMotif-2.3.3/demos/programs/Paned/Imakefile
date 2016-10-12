@@ -1,0 +1,14 @@
+#ifndef XmClientLibs
+#define XmClientLibs $(XMLIB) $(XTOOLLIB) $(XLIB)
+#endif
+
+
+EXTRA_INCLUDES = -I.
+
+SRCS = creation-c.c   paned.c
+OBJS = creation-c.o   paned.o
+LOCAL_LIBRARIES = -lXm -lXt -lXp -lX11 -lXext
+
+ComplexProgramTarget(paned);
+
+

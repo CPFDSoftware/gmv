@@ -1,0 +1,297 @@
+uil-UilLstLst.o uil-UilLstLst.o: UilLstLst.c ../../include/config.h \
+  /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xlib.h \
+  /usr/include/sys/types.h /usr/include/features.h \
+  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+  /usr/include/bits/types.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h \
+  /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/X11R6/include/X11/X.h \
+  /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+  /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/Xresource.h \
+  /usr/include/string.h /usr/include/bits/string.h \
+  /usr/include/bits/string2.h /usr/include/stdlib.h \
+  /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+  /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+  /usr/X11R6/include/X11/RectObj.h ../../lib/Xm/Xm.h \
+  /usr/X11R6/include/X11/Shell.h /usr/X11R6/include/X11/SM/SMlib.h \
+  /usr/X11R6/include/X11/SM/SM.h /usr/X11R6/include/X11/ICE/ICElib.h \
+  /usr/X11R6/include/X11/ICE/ICE.h /usr/X11R6/include/X11/Xatom.h \
+  ../../lib/Xm/XmStrDefs.h /usr/X11R6/include/X11/StringDefs.h \
+  ../../lib/Xm/XmStrDefs22.h ../../lib/Xm/XmStrDefs23.h \
+  ../../lib/Xm/VirtKeys.h ../../lib/Xm/Transfer.h ../../lib/Xm/DragC.h \
+  ../../lib/Xm/Display.h ../../lib/Xm/DropSMgr.h ../../lib/Xm/Primitive.h \
+  ../../lib/Xm/Manager.h ../../lib/Xm/Gadget.h ../../lib/Xm/TxtPropCv.h \
+  ../../lib/Xm/VendorS.h ../../lib/Xm/XmIm.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h UilDefI.h \
+  /usr/X11R6/include/X11/Xos_r.h /usr/X11R6/include/X11/Xos.h \
+  /usr/include/fcntl.h /usr/include/bits/fcntl.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
+  /usr/include/getopt.h /usr/include/sys/time.h \
+  /usr/X11R6/include/X11/Xarch.h /usr/X11R6/include/X11/Xfuncs.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h \
+  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h ../../lib/Mrm/MrmAppl.h \
+  ../../lib/Xm/XmP.h /usr/X11R6/include/X11/IntrinsicP.h \
+  /usr/X11R6/include/X11/CoreP.h /usr/X11R6/include/X11/CompositeP.h \
+  /usr/X11R6/include/X11/ConstrainP.h /usr/X11R6/include/X11/ObjectP.h \
+  /usr/X11R6/include/X11/RectObjP.h ../../lib/Xm/ColorP.h \
+  ../../lib/Xm/AccColorT.h ../../lib/Xm/BaseClassP.h \
+  ../../lib/Mrm/MrmPublic.h /usr/X11R6/include/X11/Xmd.h \
+  ../../lib/Mrm/MrmDecls.h ../../lib/Mrm/Mrm.h ../../lib/Xm/XmosP.h \
+  ../../lib/Xm/Xmfuncs.h /usr/include/alloca.h ../../lib/Mrm/IDB.h Uil.h \
+  UilDBDef.h UilMess.h UilSymDef.h UilSrcDef.h UilIODef.h \
+  /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+  /usr/include/wchar.h /usr/include/bits/wchar.h /usr/include/gconv.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h UilDiagDef.h UilSarDef.h \
+  ../../tools/wml/UilLexPars.h UilCmdDef.h UilLexDef.h UilSymGl.h \
+  UilCompGl.h /usr/include/setjmp.h /usr/include/bits/setjmp.h \
+  ../../tools/wml/UilSymGen.h
+
+../../include/config.h:
+
+/usr/X11R6/include/X11/Intrinsic.h:
+
+/usr/X11R6/include/X11/Xlib.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/types.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/X11R6/include/X11/X.h:
+
+/usr/X11R6/include/X11/Xfuncproto.h:
+
+/usr/X11R6/include/X11/Xosdefs.h:
+
+/usr/X11R6/include/X11/Xutil.h:
+
+/usr/X11R6/include/X11/Xresource.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/stdlib.h:
+
+/usr/X11R6/include/X11/Core.h:
+
+/usr/X11R6/include/X11/Composite.h:
+
+/usr/X11R6/include/X11/Constraint.h:
+
+/usr/X11R6/include/X11/Object.h:
+
+/usr/X11R6/include/X11/RectObj.h:
+
+../../lib/Xm/Xm.h:
+
+/usr/X11R6/include/X11/Shell.h:
+
+/usr/X11R6/include/X11/SM/SMlib.h:
+
+/usr/X11R6/include/X11/SM/SM.h:
+
+/usr/X11R6/include/X11/ICE/ICElib.h:
+
+/usr/X11R6/include/X11/ICE/ICE.h:
+
+/usr/X11R6/include/X11/Xatom.h:
+
+../../lib/Xm/XmStrDefs.h:
+
+/usr/X11R6/include/X11/StringDefs.h:
+
+../../lib/Xm/XmStrDefs22.h:
+
+../../lib/Xm/XmStrDefs23.h:
+
+../../lib/Xm/VirtKeys.h:
+
+../../lib/Xm/Transfer.h:
+
+../../lib/Xm/DragC.h:
+
+../../lib/Xm/Display.h:
+
+../../lib/Xm/DropSMgr.h:
+
+../../lib/Xm/Primitive.h:
+
+../../lib/Xm/Manager.h:
+
+../../lib/Xm/Gadget.h:
+
+../../lib/Xm/TxtPropCv.h:
+
+../../lib/Xm/VendorS.h:
+
+../../lib/Xm/XmIm.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h:
+
+UilDefI.h:
+
+/usr/X11R6/include/X11/Xos_r.h:
+
+/usr/X11R6/include/X11/Xos.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/sys/time.h:
+
+/usr/X11R6/include/X11/Xarch.h:
+
+/usr/X11R6/include/X11/Xfuncs.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+../../lib/Mrm/MrmAppl.h:
+
+../../lib/Xm/XmP.h:
+
+/usr/X11R6/include/X11/IntrinsicP.h:
+
+/usr/X11R6/include/X11/CoreP.h:
+
+/usr/X11R6/include/X11/CompositeP.h:
+
+/usr/X11R6/include/X11/ConstrainP.h:
+
+/usr/X11R6/include/X11/ObjectP.h:
+
+/usr/X11R6/include/X11/RectObjP.h:
+
+../../lib/Xm/ColorP.h:
+
+../../lib/Xm/AccColorT.h:
+
+../../lib/Xm/BaseClassP.h:
+
+../../lib/Mrm/MrmPublic.h:
+
+/usr/X11R6/include/X11/Xmd.h:
+
+../../lib/Mrm/MrmDecls.h:
+
+../../lib/Mrm/Mrm.h:
+
+../../lib/Xm/XmosP.h:
+
+../../lib/Xm/Xmfuncs.h:
+
+/usr/include/alloca.h:
+
+../../lib/Mrm/IDB.h:
+
+Uil.h:
+
+UilDBDef.h:
+
+UilMess.h:
+
+UilSymDef.h:
+
+UilSrcDef.h:
+
+UilIODef.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/gconv.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+UilDiagDef.h:
+
+UilSarDef.h:
+
+../../tools/wml/UilLexPars.h:
+
+UilCmdDef.h:
+
+UilLexDef.h:
+
+UilSymGl.h:
+
+UilCompGl.h:
+
+/usr/include/setjmp.h:
+
+/usr/include/bits/setjmp.h:
+
+../../tools/wml/UilSymGen.h:

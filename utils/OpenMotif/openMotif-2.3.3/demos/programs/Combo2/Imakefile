@@ -1,0 +1,15 @@
+#ifndef XmClientLibs
+#define XmClientLibs $(XMLIB) $(XTOOLLIB) $(XLIB)
+#endif
+
+#include "../demos.cf"
+
+EXTRA_INCLUDES = -I. EPakIncludes
+
+SRCS = combo.c
+OBJS = combo.o
+LOCAL_LIBRARIES = EPakClientLibs
+
+ComplexProgramTarget(combo);
+
+

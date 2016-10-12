@@ -1,0 +1,73 @@
+# DO NOT DELETE
+
+fo_state.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+fo_state.o: ../../../../src/gallium/include/pipe/p_context.h
+fo_state.o: ../../../../src/gallium/include/pipe/p_state.h
+fo_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+fo_state.o: ../../../../src/gallium/include/pipe/p_config.h
+fo_state.o: /usr/include/stdlib.h /usr/include/features.h
+fo_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+fo_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+fo_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+fo_state.o: /usr/include/string.h
+fo_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+fo_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+fo_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+fo_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+fo_state.o: ../../../../src/gallium/include/pipe/p_format.h
+fo_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+fo_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+fo_state.o: ../../../../src/gallium/include/pipe/p_format.h
+fo_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+fo_state.o: ../../../../src/gallium/include/pipe/p_state.h
+fo_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+fo_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+fo_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+fo_state.o: ../../../../src/gallium/auxiliary/util/u_atomic.h fo_context.h
+fo_state_emit.o: fo_context.h ../../../../src/gallium/include/pipe/p_state.h
+fo_state_emit.o: ../../../../src/gallium/include/pipe/p_context.h
+fo_state_emit.o: ../../../../src/gallium/include/pipe/p_state.h
+fo_state_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+fo_state_emit.o: ../../../../src/gallium/include/pipe/p_config.h
+fo_state_emit.o: /usr/include/stdlib.h /usr/include/features.h
+fo_state_emit.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+fo_state_emit.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+fo_state_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+fo_state_emit.o: /usr/include/string.h
+fo_state_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+fo_state_emit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+fo_state_emit.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+fo_state_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+fo_state_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+fo_state_emit.o: ../../../../src/gallium/include/pipe/p_screen.h
+fo_state_emit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+fo_state_emit.o: ../../../../src/gallium/include/pipe/p_format.h
+fo_state_emit.o: ../../../../src/gallium/include/pipe/p_defines.h
+fo_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+fo_context.o: ../../../../src/gallium/auxiliary/util/u_simple_screen.h
+fo_context.o: ../../../../src/gallium/include/pipe/p_format.h
+fo_context.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+fo_context.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+fo_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+fo_context.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+fo_context.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+fo_context.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+fo_context.o: ../../../../src/gallium/include/pipe/p_config.h
+fo_context.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+fo_context.o: /usr/include/stdlib.h /usr/include/features.h
+fo_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+fo_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+fo_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+fo_context.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+fo_context.o: ../../../../src/gallium/include/pipe/p_context.h
+fo_context.o: ../../../../src/gallium/include/pipe/p_state.h
+fo_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+fo_context.o: ../../../../src/gallium/include/pipe/p_config.h
+fo_context.o: /usr/include/string.h
+fo_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+fo_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+fo_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+fo_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+fo_context.o: ../../../../src/gallium/include/pipe/p_format.h
+fo_context.o: ../../../../src/gallium/include/pipe/p_screen.h fo_context.h
+fo_context.o: ../../../../src/gallium/include/pipe/p_state.h fo_winsys.h

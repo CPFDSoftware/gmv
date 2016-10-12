@@ -1,0 +1,592 @@
+Mrminit.lo Mrminit.o: Mrminit.c ../../include/config.h ../Mrm/MrmAppl.h \
+  /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xlib.h \
+  /usr/include/sys/types.h /usr/include/features.h \
+  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+  /usr/include/bits/types.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h \
+  /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/X11R6/include/X11/X.h \
+  /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+  /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/Xresource.h \
+  /usr/include/string.h /usr/include/bits/string.h \
+  /usr/include/bits/string2.h /usr/include/stdlib.h \
+  /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+  /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+  /usr/X11R6/include/X11/RectObj.h /usr/X11R6/include/X11/StringDefs.h \
+  /usr/X11R6/include/X11/Shell.h /usr/X11R6/include/X11/SM/SMlib.h \
+  /usr/X11R6/include/X11/SM/SM.h /usr/X11R6/include/X11/ICE/ICElib.h \
+  /usr/X11R6/include/X11/ICE/ICE.h ../Xm/XmP.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h ../Xm/Xm.h \
+  /usr/X11R6/include/X11/Xatom.h ../Xm/XmStrDefs.h ../Xm/XmStrDefs22.h \
+  ../Xm/XmStrDefs23.h ../Xm/VirtKeys.h ../Xm/Transfer.h ../Xm/DragC.h \
+  ../Xm/Display.h ../Xm/DropSMgr.h ../Xm/Primitive.h ../Xm/Manager.h \
+  ../Xm/Gadget.h ../Xm/TxtPropCv.h ../Xm/VendorS.h ../Xm/XmIm.h \
+  /usr/X11R6/include/X11/IntrinsicP.h /usr/X11R6/include/X11/CoreP.h \
+  /usr/X11R6/include/X11/CompositeP.h /usr/X11R6/include/X11/ConstrainP.h \
+  /usr/X11R6/include/X11/ObjectP.h /usr/X11R6/include/X11/RectObjP.h \
+  ../Xm/ColorP.h ../Xm/AccColorT.h ../Xm/BaseClassP.h ../Mrm/MrmPublic.h \
+  /usr/X11R6/include/X11/Xmd.h ../Mrm/MrmDecls.h ../Mrm/Mrm.h \
+  ../Xm/XmosP.h ../Xm/Xmfuncs.h /usr/include/alloca.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h \
+  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h ../Mrm/IDB.h \
+  /usr/X11R6/include/X11/ShellP.h /usr/X11R6/include/X11/VendorP.h \
+  /usr/X11R6/include/X11/Vendor.h ../Xm/Label.h ../Xm/LabelG.h \
+  ../Xm/LabelGP.h ../Xm/GadgetP.h ../Xm/ExtObjectP.h ../Xm/LabelP.h \
+  ../Xm/PrimitiveP.h ../Xm/RowColumn.h ../Xm/RowColumnP.h \
+  ../Xm/ManagerP.h ../Xm/ArrowB.h ../Xm/ArrowBG.h ../Xm/ArrowBGP.h \
+  ../Xm/ArrowBP.h ../Xm/AtomMgr.h ../Xm/BulletinB.h ../Xm/BulletinBP.h \
+  ../Xm/ButtonBox.h ../Xm/Ext.h ../Xm/ButtonBoxP.h ../Xm/CascadeB.h \
+  ../Xm/CascadeBG.h ../Xm/CascadeBGP.h ../Xm/CascadeBP.h ../Xm/Command.h \
+  ../Xm/CommandP.h ../Xm/SelectioBP.h ../Xm/SelectioB.h ../Xm/ColorS.h \
+  ../Xm/ColorSP.h ../Xm/CutPaste.h ../Xm/DataF.h ../Xm/TextF.h \
+  ../Xm/DataFP.h ../Xm/ExtP.h ../Xm/TextFP.h \
+  /usr/X11R6/include/X11/Xft/Xft.h /usr/include/ft2build.h \
+  /usr/include/freetype2/freetype/config/ftheader.h \
+  /usr/include/freetype2/freetype/internal/internal.h \
+  /usr/include/freetype2/freetype/freetype.h \
+  /usr/include/freetype2/freetype/config/ftconfig.h \
+  /usr/include/freetype2/freetype/config/ftoption.h \
+  /usr/include/freetype2/freetype/config/ftstdlib.h /usr/include/ctype.h \
+  /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+  /usr/include/wchar.h /usr/include/bits/wchar.h /usr/include/gconv.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/setjmp.h \
+  /usr/include/bits/setjmp.h /usr/include/freetype2/freetype/fterrors.h \
+  /usr/include/freetype2/freetype/ftmoderr.h \
+  /usr/include/freetype2/freetype/fterrdef.h \
+  /usr/include/freetype2/freetype/fttypes.h \
+  /usr/include/freetype2/freetype/ftsystem.h \
+  /usr/include/freetype2/freetype/ftimage.h \
+  /usr/include/fontconfig/fontconfig.h \
+  /usr/X11R6/include/X11/extensions/Xrender.h \
+  /usr/X11R6/include/X11/extensions/render.h \
+  /usr/X11R6/include/X11/Xft/XftCompat.h ../Xm/Picture.h ../Xm/DialogS.h \
+  ../Xm/DialogSP.h ../Xm/DrawingA.h ../Xm/DrawingAP.h ../Xm/DrawnB.h \
+  ../Xm/DrawnBP.h ../Xm/MultiList.h ../Xm/MultiListP.h ../Xm/DropDown.h \
+  ../Xm/DropDownP.h ../Xm/FileSB.h ../Xm/FileSBP.h ../Xm/FontS.h \
+  ../Xm/FontSP.h ../Xm/PanedP.h ../Xm/Paned.h ../Xm/Form.h ../Xm/FormP.h \
+  ../Xm/Frame.h ../Xm/FrameP.h ../Xm/IconButton.h ../Xm/IconButtonP.h \
+  ../Xm/IconBox.h ../Xm/IconBoxP.h ../Xm/List.h ../Xm/ListP.h \
+  ../Xm/ScrollBar.h ../Xm/ScrolledW.h ../Xm/MainW.h ../Xm/MainWP.h \
+  ../Xm/ScrolledWP.h ../Xm/ScrollFrameT.h ../Xm/NavigatorT.h \
+  ../Xm/SeparatoG.h ../Xm/MenuShell.h ../Xm/MenuShellP.h ../Xm/MessageB.h \
+  ../Xm/MessageBP.h ../Xm/Outline.h ../Xm/Hierarchy.h ../Xm/OutlineP.h \
+  ../Xm/HierarchyP.h ../Xm/xmlist.h ../Xm/PanedW.h ../Xm/PanedWP.h \
+  ../Xm/PushB.h ../Xm/PushBG.h ../Xm/PushBGP.h ../Xm/PushBP.h \
+  ../Xm/SashP.h ../Xm/Scale.h ../Xm/ScaleP.h ../Xm/ScrollBarP.h \
+  ../Xm/SeparatoGP.h ../Xm/Separator.h ../Xm/SeparatorP.h ../Xm/TabBox.h \
+  ../Xm/DrawUtils.h ../Xm/TabBoxP.h ../Xm/TabList.h ../Xm/TabStack.h \
+  ../Xm/TabStackP.h ../Xm/Text.h ../Xm/TextP.h ../Xm/TextOutP.h \
+  ../Xm/TextInP.h ../Xm/TextStrSoP.h ../Xm/TransferT.h ../Xm/TransferP.h \
+  ../Xm/ToggleB.h ../Xm/ToggleBG.h ../Xm/ToggleBGP.h ../Xm/ToggleBP.h \
+  ../Xm/TreeP.h ../Xm/Tree.h ../Xm/ComboBoxP.h ../Xm/ComboBox.h \
+  ../Xm/ContainerP.h ../Xm/DragCP.h ../Xm/DragIcon.h ../Xm/DragOverS.h \
+  ../Xm/DropSMgrP.h ../Xm/Container.h ../Xm/NotebookP.h ../Xm/Notebook.h \
+  ../Xm/SpinBP.h ../Xm/SpinB.h ../Xm/SSpinBP.h ../Xm/SSpinB.h \
+  ../Xm/IconGP.h ../Xm/IconG.h ../Xm/Column.h ../Xm/ColumnP.h \
+  ../Xm/XmRenderTI.h ../Xm/XmTabListI.h
+
+../../include/config.h:
+
+../Mrm/MrmAppl.h:
+
+/usr/X11R6/include/X11/Intrinsic.h:
+
+/usr/X11R6/include/X11/Xlib.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/types.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/X11R6/include/X11/X.h:
+
+/usr/X11R6/include/X11/Xfuncproto.h:
+
+/usr/X11R6/include/X11/Xosdefs.h:
+
+/usr/X11R6/include/X11/Xutil.h:
+
+/usr/X11R6/include/X11/Xresource.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/stdlib.h:
+
+/usr/X11R6/include/X11/Core.h:
+
+/usr/X11R6/include/X11/Composite.h:
+
+/usr/X11R6/include/X11/Constraint.h:
+
+/usr/X11R6/include/X11/Object.h:
+
+/usr/X11R6/include/X11/RectObj.h:
+
+/usr/X11R6/include/X11/StringDefs.h:
+
+/usr/X11R6/include/X11/Shell.h:
+
+/usr/X11R6/include/X11/SM/SMlib.h:
+
+/usr/X11R6/include/X11/SM/SM.h:
+
+/usr/X11R6/include/X11/ICE/ICElib.h:
+
+/usr/X11R6/include/X11/ICE/ICE.h:
+
+../Xm/XmP.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h:
+
+../Xm/Xm.h:
+
+/usr/X11R6/include/X11/Xatom.h:
+
+../Xm/XmStrDefs.h:
+
+../Xm/XmStrDefs22.h:
+
+../Xm/XmStrDefs23.h:
+
+../Xm/VirtKeys.h:
+
+../Xm/Transfer.h:
+
+../Xm/DragC.h:
+
+../Xm/Display.h:
+
+../Xm/DropSMgr.h:
+
+../Xm/Primitive.h:
+
+../Xm/Manager.h:
+
+../Xm/Gadget.h:
+
+../Xm/TxtPropCv.h:
+
+../Xm/VendorS.h:
+
+../Xm/XmIm.h:
+
+/usr/X11R6/include/X11/IntrinsicP.h:
+
+/usr/X11R6/include/X11/CoreP.h:
+
+/usr/X11R6/include/X11/CompositeP.h:
+
+/usr/X11R6/include/X11/ConstrainP.h:
+
+/usr/X11R6/include/X11/ObjectP.h:
+
+/usr/X11R6/include/X11/RectObjP.h:
+
+../Xm/ColorP.h:
+
+../Xm/AccColorT.h:
+
+../Xm/BaseClassP.h:
+
+../Mrm/MrmPublic.h:
+
+/usr/X11R6/include/X11/Xmd.h:
+
+../Mrm/MrmDecls.h:
+
+../Mrm/Mrm.h:
+
+../Xm/XmosP.h:
+
+../Xm/Xmfuncs.h:
+
+/usr/include/alloca.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+../Mrm/IDB.h:
+
+/usr/X11R6/include/X11/ShellP.h:
+
+/usr/X11R6/include/X11/VendorP.h:
+
+/usr/X11R6/include/X11/Vendor.h:
+
+../Xm/Label.h:
+
+../Xm/LabelG.h:
+
+../Xm/LabelGP.h:
+
+../Xm/GadgetP.h:
+
+../Xm/ExtObjectP.h:
+
+../Xm/LabelP.h:
+
+../Xm/PrimitiveP.h:
+
+../Xm/RowColumn.h:
+
+../Xm/RowColumnP.h:
+
+../Xm/ManagerP.h:
+
+../Xm/ArrowB.h:
+
+../Xm/ArrowBG.h:
+
+../Xm/ArrowBGP.h:
+
+../Xm/ArrowBP.h:
+
+../Xm/AtomMgr.h:
+
+../Xm/BulletinB.h:
+
+../Xm/BulletinBP.h:
+
+../Xm/ButtonBox.h:
+
+../Xm/Ext.h:
+
+../Xm/ButtonBoxP.h:
+
+../Xm/CascadeB.h:
+
+../Xm/CascadeBG.h:
+
+../Xm/CascadeBGP.h:
+
+../Xm/CascadeBP.h:
+
+../Xm/Command.h:
+
+../Xm/CommandP.h:
+
+../Xm/SelectioBP.h:
+
+../Xm/SelectioB.h:
+
+../Xm/ColorS.h:
+
+../Xm/ColorSP.h:
+
+../Xm/CutPaste.h:
+
+../Xm/DataF.h:
+
+../Xm/TextF.h:
+
+../Xm/DataFP.h:
+
+../Xm/ExtP.h:
+
+../Xm/TextFP.h:
+
+/usr/X11R6/include/X11/Xft/Xft.h:
+
+/usr/include/ft2build.h:
+
+/usr/include/freetype2/freetype/config/ftheader.h:
+
+/usr/include/freetype2/freetype/internal/internal.h:
+
+/usr/include/freetype2/freetype/freetype.h:
+
+/usr/include/freetype2/freetype/config/ftconfig.h:
+
+/usr/include/freetype2/freetype/config/ftoption.h:
+
+/usr/include/freetype2/freetype/config/ftstdlib.h:
+
+/usr/include/ctype.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/gconv.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/setjmp.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/freetype2/freetype/fterrors.h:
+
+/usr/include/freetype2/freetype/ftmoderr.h:
+
+/usr/include/freetype2/freetype/fterrdef.h:
+
+/usr/include/freetype2/freetype/fttypes.h:
+
+/usr/include/freetype2/freetype/ftsystem.h:
+
+/usr/include/freetype2/freetype/ftimage.h:
+
+/usr/include/fontconfig/fontconfig.h:
+
+/usr/X11R6/include/X11/extensions/Xrender.h:
+
+/usr/X11R6/include/X11/extensions/render.h:
+
+/usr/X11R6/include/X11/Xft/XftCompat.h:
+
+../Xm/Picture.h:
+
+../Xm/DialogS.h:
+
+../Xm/DialogSP.h:
+
+../Xm/DrawingA.h:
+
+../Xm/DrawingAP.h:
+
+../Xm/DrawnB.h:
+
+../Xm/DrawnBP.h:
+
+../Xm/MultiList.h:
+
+../Xm/MultiListP.h:
+
+../Xm/DropDown.h:
+
+../Xm/DropDownP.h:
+
+../Xm/FileSB.h:
+
+../Xm/FileSBP.h:
+
+../Xm/FontS.h:
+
+../Xm/FontSP.h:
+
+../Xm/PanedP.h:
+
+../Xm/Paned.h:
+
+../Xm/Form.h:
+
+../Xm/FormP.h:
+
+../Xm/Frame.h:
+
+../Xm/FrameP.h:
+
+../Xm/IconButton.h:
+
+../Xm/IconButtonP.h:
+
+../Xm/IconBox.h:
+
+../Xm/IconBoxP.h:
+
+../Xm/List.h:
+
+../Xm/ListP.h:
+
+../Xm/ScrollBar.h:
+
+../Xm/ScrolledW.h:
+
+../Xm/MainW.h:
+
+../Xm/MainWP.h:
+
+../Xm/ScrolledWP.h:
+
+../Xm/ScrollFrameT.h:
+
+../Xm/NavigatorT.h:
+
+../Xm/SeparatoG.h:
+
+../Xm/MenuShell.h:
+
+../Xm/MenuShellP.h:
+
+../Xm/MessageB.h:
+
+../Xm/MessageBP.h:
+
+../Xm/Outline.h:
+
+../Xm/Hierarchy.h:
+
+../Xm/OutlineP.h:
+
+../Xm/HierarchyP.h:
+
+../Xm/xmlist.h:
+
+../Xm/PanedW.h:
+
+../Xm/PanedWP.h:
+
+../Xm/PushB.h:
+
+../Xm/PushBG.h:
+
+../Xm/PushBGP.h:
+
+../Xm/PushBP.h:
+
+../Xm/SashP.h:
+
+../Xm/Scale.h:
+
+../Xm/ScaleP.h:
+
+../Xm/ScrollBarP.h:
+
+../Xm/SeparatoGP.h:
+
+../Xm/Separator.h:
+
+../Xm/SeparatorP.h:
+
+../Xm/TabBox.h:
+
+../Xm/DrawUtils.h:
+
+../Xm/TabBoxP.h:
+
+../Xm/TabList.h:
+
+../Xm/TabStack.h:
+
+../Xm/TabStackP.h:
+
+../Xm/Text.h:
+
+../Xm/TextP.h:
+
+../Xm/TextOutP.h:
+
+../Xm/TextInP.h:
+
+../Xm/TextStrSoP.h:
+
+../Xm/TransferT.h:
+
+../Xm/TransferP.h:
+
+../Xm/ToggleB.h:
+
+../Xm/ToggleBG.h:
+
+../Xm/ToggleBGP.h:
+
+../Xm/ToggleBP.h:
+
+../Xm/TreeP.h:
+
+../Xm/Tree.h:
+
+../Xm/ComboBoxP.h:
+
+../Xm/ComboBox.h:
+
+../Xm/ContainerP.h:
+
+../Xm/DragCP.h:
+
+../Xm/DragIcon.h:
+
+../Xm/DragOverS.h:
+
+../Xm/DropSMgrP.h:
+
+../Xm/Container.h:
+
+../Xm/NotebookP.h:
+
+../Xm/Notebook.h:
+
+../Xm/SpinBP.h:
+
+../Xm/SpinB.h:
+
+../Xm/SSpinBP.h:
+
+../Xm/SSpinB.h:
+
+../Xm/IconGP.h:
+
+../Xm/IconG.h:
+
+../Xm/Column.h:
+
+../Xm/ColumnP.h:
+
+../Xm/XmRenderTI.h:
+
+../Xm/XmTabListI.h:

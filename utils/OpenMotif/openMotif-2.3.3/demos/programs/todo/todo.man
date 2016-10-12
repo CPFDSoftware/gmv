@@ -1,0 +1,93 @@
+.\" $XConsortium: todo.man /main/4 1995/07/17 10:49:07 drk $
+...\" @OPENGROUP_COPYRIGHT@
+...\" COPYRIGHT NOTICE
+...\" Copyright (c) 1990, 1991, 1992, 1993 Open Software Foundation, Inc.
+...\" Copyright (c) 1996, 1997, 1998, 1999, 2000 The Open Group
+...\" ALL RIGHTS RESERVED (MOTIF).  See the file named COPYRIGHT.MOTIF for
+...\" the full copyright text.
+...\" 
+...\" This software is subject to an open license. It may only be
+...\" used on, with or for operating systems which are themselves open
+...\" source systems. You must contact The Open Group for a license
+...\" allowing distribution and sublicensing of this software on, with,
+...\" or for operating systems which are not Open Source programs.
+...\" 
+...\" See http://www.opengroup.org/openmotif/license for full
+...\" details of the license agreement. Any use, reproduction, or
+...\" distribution of the program constitutes recipient's acceptance of
+...\" this agreement.
+...\" 
+...\" EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS
+...\" PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+...\" KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY
+...\" WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY
+...\" OR FITNESS FOR A PARTICULAR PURPOSE
+...\" 
+...\" EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT
+...\" NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT,
+...\" INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+...\" DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED
+...\" AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+...\" LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+...\" ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE
+...\" EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE
+...\" POSSIBILITY OF SUCH DAMAGES.
+...\" 
+...\" 
+...\" HISTORY
+.TH todo 1X MOTIF "Demonstration programs"
+.SH NAME
+\*Ltodo\*O \(em Manage todo lists
+.SH SYNOPSIS
+.sS
+\*Ltodo [-todoFile pathname] \*O
+.sE
+.SH DESCRIPTION
+\*LTodo\*O
+is a simple todo list manager.  It provides a demonstration of the
+XmNotebook widget.  To use 
+\*Ltodo\*O,  you should be able to simply run it
+from any directory.  By default it reads its database from your
+home directory,  but this can be overriden by \fIpathname\fR.
+.SH Files
+.nf
+.ta 1.2i
+$HOME/.todo	The user's todo list
+.fi
+.SH X Defaults
+The class of this application is \fIXmDTodo\fR.  The name of the widgets
+of particular interest are:
+
+.nf
+.ta 1.2i
+notebook	The XmNotebook widget
+text	The XmText widget
+label	The status area XmLabel widget
+.fi
+
+To set a specific resource in your \fI.Xdefaults\fR file,  you specify the
+particular widget and resource.  For example,  if we wished to assign specific
+colors to the text widget's and notebook widget's background, we could
+do the following:
+
+.nf
+.ta 3i
+XmDTodo*notebook.background:	forestgreen
+XmDTodo*text.background:	white
+.fi
+
+Additionally there is an application resource to set the default
+todo file location:
+
+.nf
+.ta 3i
+XmDTodo*todoFile:	/users/myhomedir/sometodofile
+.fi
+
+.SH BUGS
+
+Todo can occationally get confused when pages are deleted.  Save the current
+contents and reopen to resync the application in this case. New pages are
+always prepended before the current page,  there should be a way to choose.
+Ideally the display should use an XmCSText with rich text and not plain
+ascii,  but that went beyond the scope of the demonstration.

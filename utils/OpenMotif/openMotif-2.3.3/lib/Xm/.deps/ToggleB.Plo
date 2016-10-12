@@ -1,0 +1,319 @@
+ToggleB.lo ToggleB.o: ToggleB.c ../../include/config.h \
+  /usr/include/stdio.h /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/include/bits/wchar.h /usr/include/gconv.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h XmI.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h \
+  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h ../Xm/XmP.h ../Xm/Xm.h \
+  /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xlib.h \
+  /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/X11R6/include/X11/X.h \
+  /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+  /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/Xresource.h \
+  /usr/include/string.h /usr/include/bits/string.h \
+  /usr/include/bits/string2.h /usr/include/stdlib.h \
+  /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+  /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+  /usr/X11R6/include/X11/RectObj.h /usr/X11R6/include/X11/Shell.h \
+  /usr/X11R6/include/X11/SM/SMlib.h /usr/X11R6/include/X11/SM/SM.h \
+  /usr/X11R6/include/X11/ICE/ICElib.h /usr/X11R6/include/X11/ICE/ICE.h \
+  /usr/X11R6/include/X11/Xatom.h ../Xm/XmStrDefs.h \
+  /usr/X11R6/include/X11/StringDefs.h ../Xm/XmStrDefs22.h \
+  ../Xm/XmStrDefs23.h ../Xm/VirtKeys.h ../Xm/Transfer.h ../Xm/DragC.h \
+  ../Xm/Display.h ../Xm/DropSMgr.h ../Xm/Primitive.h ../Xm/Manager.h \
+  ../Xm/Gadget.h ../Xm/TxtPropCv.h ../Xm/VendorS.h ../Xm/XmIm.h \
+  /usr/X11R6/include/X11/IntrinsicP.h /usr/X11R6/include/X11/CoreP.h \
+  /usr/X11R6/include/X11/CompositeP.h /usr/X11R6/include/X11/ConstrainP.h \
+  /usr/X11R6/include/X11/ObjectP.h /usr/X11R6/include/X11/RectObjP.h \
+  ../Xm/ColorP.h ../Xm/AccColorT.h ../Xm/BaseClassP.h XmStrDefsI.h \
+  /usr/X11R6/include/X11/ShellP.h /usr/X11R6/include/X11/VendorP.h \
+  /usr/X11R6/include/X11/Vendor.h ../Xm/CascadeB.h ../Xm/DisplayP.h \
+  ../Xm/DesktopP.h ../Xm/ExtObjectP.h ../Xm/VendorSEP.h ../Xm/ShellEP.h \
+  ../Xm/MwmUtil.h /usr/X11R6/include/X11/Xmd.h ../Xm/ScreenP.h \
+  ../Xm/Screen.h ../Xm/DragIcon.h ../Xm/DragCP.h ../Xm/DragOverS.h \
+  ../Xm/DropSMgrP.h ../Xm/VirtKeysP.h ../Xm/TearOffP.h ../Xm/DrawP.h \
+  ../Xm/ManagerP.h ../Xm/MenuT.h ../Xm/ToggleBG.h ../Xm/ToggleBP.h \
+  ../Xm/ToggleB.h ../Xm/LabelP.h ../Xm/Label.h ../Xm/PrimitiveP.h \
+  ../Xm/TraitP.h ../Xm/TransltnsP.h ../Xm/VaSimpleP.h ColorI.h LabelI.h \
+  MenuProcI.h ../Xm/MenuProcP.h MenuStateI.h ../Xm/MenuStateP.h \
+  ../Xm/RowColumnP.h ../Xm/RowColumn.h MenuUtilI.h ../Xm/MenuUtilP.h \
+  PrimitiveI.h RepTypeI.h ../Xm/RepType.h TravActI.h TraversalI.h \
+  UniqueEvnI.h
+
+../../include/config.h:
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/gconv.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+XmI.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/limits.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+../Xm/XmP.h:
+
+../Xm/Xm.h:
+
+/usr/X11R6/include/X11/Intrinsic.h:
+
+/usr/X11R6/include/X11/Xlib.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/X11R6/include/X11/X.h:
+
+/usr/X11R6/include/X11/Xfuncproto.h:
+
+/usr/X11R6/include/X11/Xosdefs.h:
+
+/usr/X11R6/include/X11/Xutil.h:
+
+/usr/X11R6/include/X11/Xresource.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/stdlib.h:
+
+/usr/X11R6/include/X11/Core.h:
+
+/usr/X11R6/include/X11/Composite.h:
+
+/usr/X11R6/include/X11/Constraint.h:
+
+/usr/X11R6/include/X11/Object.h:
+
+/usr/X11R6/include/X11/RectObj.h:
+
+/usr/X11R6/include/X11/Shell.h:
+
+/usr/X11R6/include/X11/SM/SMlib.h:
+
+/usr/X11R6/include/X11/SM/SM.h:
+
+/usr/X11R6/include/X11/ICE/ICElib.h:
+
+/usr/X11R6/include/X11/ICE/ICE.h:
+
+/usr/X11R6/include/X11/Xatom.h:
+
+../Xm/XmStrDefs.h:
+
+/usr/X11R6/include/X11/StringDefs.h:
+
+../Xm/XmStrDefs22.h:
+
+../Xm/XmStrDefs23.h:
+
+../Xm/VirtKeys.h:
+
+../Xm/Transfer.h:
+
+../Xm/DragC.h:
+
+../Xm/Display.h:
+
+../Xm/DropSMgr.h:
+
+../Xm/Primitive.h:
+
+../Xm/Manager.h:
+
+../Xm/Gadget.h:
+
+../Xm/TxtPropCv.h:
+
+../Xm/VendorS.h:
+
+../Xm/XmIm.h:
+
+/usr/X11R6/include/X11/IntrinsicP.h:
+
+/usr/X11R6/include/X11/CoreP.h:
+
+/usr/X11R6/include/X11/CompositeP.h:
+
+/usr/X11R6/include/X11/ConstrainP.h:
+
+/usr/X11R6/include/X11/ObjectP.h:
+
+/usr/X11R6/include/X11/RectObjP.h:
+
+../Xm/ColorP.h:
+
+../Xm/AccColorT.h:
+
+../Xm/BaseClassP.h:
+
+XmStrDefsI.h:
+
+/usr/X11R6/include/X11/ShellP.h:
+
+/usr/X11R6/include/X11/VendorP.h:
+
+/usr/X11R6/include/X11/Vendor.h:
+
+../Xm/CascadeB.h:
+
+../Xm/DisplayP.h:
+
+../Xm/DesktopP.h:
+
+../Xm/ExtObjectP.h:
+
+../Xm/VendorSEP.h:
+
+../Xm/ShellEP.h:
+
+../Xm/MwmUtil.h:
+
+/usr/X11R6/include/X11/Xmd.h:
+
+../Xm/ScreenP.h:
+
+../Xm/Screen.h:
+
+../Xm/DragIcon.h:
+
+../Xm/DragCP.h:
+
+../Xm/DragOverS.h:
+
+../Xm/DropSMgrP.h:
+
+../Xm/VirtKeysP.h:
+
+../Xm/TearOffP.h:
+
+../Xm/DrawP.h:
+
+../Xm/ManagerP.h:
+
+../Xm/MenuT.h:
+
+../Xm/ToggleBG.h:
+
+../Xm/ToggleBP.h:
+
+../Xm/ToggleB.h:
+
+../Xm/LabelP.h:
+
+../Xm/Label.h:
+
+../Xm/PrimitiveP.h:
+
+../Xm/TraitP.h:
+
+../Xm/TransltnsP.h:
+
+../Xm/VaSimpleP.h:
+
+ColorI.h:
+
+LabelI.h:
+
+MenuProcI.h:
+
+../Xm/MenuProcP.h:
+
+MenuStateI.h:
+
+../Xm/MenuStateP.h:
+
+../Xm/RowColumnP.h:
+
+../Xm/RowColumn.h:
+
+MenuUtilI.h:
+
+../Xm/MenuUtilP.h:
+
+PrimitiveI.h:
+
+RepTypeI.h:
+
+../Xm/RepType.h:
+
+TravActI.h:
+
+TraversalI.h:
+
+UniqueEvnI.h:

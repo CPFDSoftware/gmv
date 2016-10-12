@@ -1,0 +1,83 @@
+! $XConsortium: XmdDraw.ad /main/4 1995/07/17 18:52:43 drk $
+! @OPENGROUP_COPYRIGHT@
+! COPYRIGHT NOTICE
+! Copyright (c) 1990, 1991, 1992, 1993 Open Software Foundation, Inc.
+! Copyright (c) 1996, 1997, 1998, 1999, 2000 The Open Group
+! ALL RIGHTS RESERVED (MOTIF).  See the file named COPYRIGHT.MOTIF for
+! the full copyright text.
+! 
+! This software is subject to an open license. It may only be
+! used on, with or for operating systems which are themselves open
+! source systems. You must contact The Open Group for a license
+! allowing distribution and sublicensing of this software on, with,
+! or for operating systems which are not Open Source programs.
+! 
+! See http://www.opengroup.org/openmotif/license for full
+! details of the license agreement. Any use, reproduction, or
+! distribution of the program constitutes recipient's acceptance of
+! this agreement.
+! 
+! EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS
+! PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+! KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY
+! WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY
+! OR FITNESS FOR A PARTICULAR PURPOSE
+! 
+! EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT
+! NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT,
+! INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+! DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED
+! AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+! LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+! ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE
+! EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE
+! POSSIBILITY OF SUCH DAMAGES.
+! 
+! 
+! HISTORY
+*comw.scrolledWindowChildType:XmCOMMAND_WINDOW
+
+! map data
+draw.lines: 77_97, 73_123, 152_177, 171_243, 158_335, 117_399, 270_455, 314_408, 357_385, 382_382, 421_388, 436_396, 445_400, 477_378, 513_357, 467_241, 447_262, 483_144, 481_95, 359_8, 334_4, 292_4, 259_34, 211_63, 180_40, 156_49, 172_92, 77_97
+draw.towns: Paris, Marseille, Nice, Perigueux, Grenoble, ATLANTIC, MEDITERRANEE
+*Paris.x: 292
+*Paris.y: 114
+*Marseille.x: 391
+*Marseille.y: 386
+*Nice.x: 497
+*Nice.y: 349
+*Perigueux.x: 216
+*Perigueux.y: 293
+*Grenoble.x: 436
+*Grenoble.y: 296
+*ATLANTIC.x: 24
+*ATLANTIC.y: 242
+*ATLANTIC.background: blue
+*MEDITERRANEE.background: blue
+*MEDITERRANEE.x: 442
+*MEDITERRANEE.y: 466
+
+! numeral
+*work_area.width:1000
+*work_area.height:1000
+draw.width: 600
+draw.height:500
+*XmScale.minimum: 100
+*XmScale.maximum: 16000
+!labels
+
+*scale_w.titleString: Width
+*scale_h.titleString: Height
+
+! color and font stuff
+*topShadowColor:	white
+!*background:	lightgrey
+*XmMainWindow.background: wheat2
+!*work_area.background: blue
+*XmScale.background: wheat2
+*comw.spacing:0
+*fontList:-adobe-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+*highlightColor:Black
+*autoUnmanage: True
+
+*help_manager.helpFile: draw

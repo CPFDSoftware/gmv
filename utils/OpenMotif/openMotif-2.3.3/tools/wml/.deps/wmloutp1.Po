@@ -1,0 +1,8 @@
+wmloutp1.o wmloutp1.o: wmloutp1.c ../../include/config.h wml.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+
+../../include/config.h:
+
+wml.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h:

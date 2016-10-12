@@ -1,0 +1,90 @@
+/* $XConsortium: README /main/4 1996/07/15 14:05:37 drk $ */
+! @OPENGROUP_COPYRIGHT@
+! COPYRIGHT NOTICE
+! Copyright (c) 1990, 1991, 1992, 1993 Open Software Foundation, Inc.
+! Copyright (c) 1996, 1997, 1998, 1999, 2000 The Open Group
+! ALL RIGHTS RESERVED (MOTIF). See the file named COPYRIGHT.MOTIF for
+! the full copyright text.
+! 
+! This software is subject to an open license. It may only be
+! used on, with or for operating systems which are themselves open
+! source systems. You must contact The Open Group for a license
+! allowing distribution and sublicensing of this software on, with,
+! or for operating systems which are not Open Source programs.
+! 
+! See http://www.opengroup.org/openmotif/license for full
+! details of the license agreement. Any use, reproduction, or
+! distribution of the program constitutes recipient's acceptance of
+! this agreement.
+! 
+! EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS
+! PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+! KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY
+! WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY
+! OR FITNESS FOR A PARTICULAR PURPOSE
+! 
+! EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT
+! NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT,
+! INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+! DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED
+! AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+! LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+! ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE
+! EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE
+! POSSIBILITY OF SUCH DAMAGES.
+! 
+! HISTORY
+This directory contains an internationalized version of the sample 
+UIL/Xm program hellomotif, a simple program with a label and a push button.
+
+This version has been localized to the following languages:
+	english
+	french
+	hebrew
+	japanese (EUC encoding)
+	swedish
+
+The localization is accomplished by having different UIL files for the 
+different languages, also called locales. 
+
+There is also a UIL file for the default locale, C. This file is equivalent 
+to the english UIL file.
+
+To locate the UID files, the demo is using the $UIDPATH environment
+variable, which requires you to set $XAPPLRESDIR to ".", and the $LANG
+or the xnlLanguage resource to one of languages mentioned above.
+(use *xnlLanguage: $LANG in your .Xdefaults or on the command line if 
+ your system doesn't let you set $LANG to anything except C).
+
+
+The fonts needed for the demos are:
+
+    french, swedish: *-helvetica-medium-r-normal--14-*-iso8859-1
+    english: *-times-medium-r-normal--14-*-iso8859-1
+    hebrew: *-fixed-medium-r-normal--13-*-iso8859-8
+    japanese (fontset): *medium-r*--14* 
+
+If you don't have those fonts installed on your system, you can
+change the uil files to reference other fonts. The bdf directory
+contains a hebrew font (heb8x13.bdf), and two japanese fonts, both of 
+which are needed for japanese (7x14rk.bdf is for english characters
+and k14-1.bdf is for kanji). If you want to use these, you will need to
+compile and install them first.
+
+
+If your operating system/X implementation uses other names to indicate
+the locale than the ones mentioned above, you may need change the names 
+of the appropriate subdirectories.
+
+To find out the locale names on your system, refer to the setlocale man page
+(you may need to look at the man pages this refers to instead). Two common 
+locations for system locale files are /usr/lib/locale and /usr/lib/nls.
+
+To find out what locales are supported by your X implementation, you 
+would normally look in /usr/lib/X11/nls. If X is installed somewhere else, 
+there should be a directory named "nls" one or more levels under the 
+"lib" directory.
+
+NOTE: You may need to set the environment variable XNLSPATH. If this demo
+crashes on startup, set XNLSPATH to the path of the X nls directory (see
+previous paragraph). See the X library documentation for more information.

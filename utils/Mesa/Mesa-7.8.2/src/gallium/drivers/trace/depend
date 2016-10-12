@@ -1,0 +1,302 @@
+# DO NOT DELETE
+
+tr_buffer.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+tr_buffer.o: ../../../../src/gallium/include/pipe/p_context.h
+tr_buffer.o: ../../../../src/gallium/include/pipe/p_state.h
+tr_buffer.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_buffer.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_buffer.o: /usr/include/stdlib.h /usr/include/features.h
+tr_buffer.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tr_buffer.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tr_buffer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tr_buffer.o: /usr/include/string.h
+tr_buffer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tr_buffer.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tr_buffer.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tr_buffer.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_buffer.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_buffer.o: ../../../../src/gallium/include/pipe/p_screen.h
+tr_buffer.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_buffer.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_buffer.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_buffer.o: ../../../../src/gallium/include/pipe/p_state.h
+tr_buffer.o: ../../../../src/gallium/include/pipe/p_screen.h
+tr_buffer.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+tr_buffer.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+tr_buffer.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+tr_buffer.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+tr_buffer.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+tr_buffer.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+tr_buffer.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_buffer.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+tr_buffer.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+tr_buffer.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h
+tr_buffer.o: tr_buffer.h tr_screen.h
+tr_buffer.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+tr_context.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+tr_context.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_context.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+tr_context.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+tr_context.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_context.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+tr_context.o: /usr/include/stdlib.h /usr/include/features.h
+tr_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tr_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tr_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tr_context.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+tr_context.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_screen.h tr_dump.h
+tr_context.o: tr_dump_state.h ../../../../src/gallium/include/pipe/p_format.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_state.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_context.o: /usr/include/string.h
+tr_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tr_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tr_context.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tr_context.o: tr_state.h tr_context.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_context.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_state.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_defines.h tr_screen.h
+tr_context.o: ../../../../src/gallium/auxiliary/os/os_thread.h tr_buffer.h
+tr_context.o: tr_texture.h
+tr_dump.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_dump.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_dump.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+tr_dump.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+tr_dump.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+tr_dump.o: ../../../../src/gallium/auxiliary/os/os_stream.h
+tr_dump.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+tr_dump.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+tr_dump.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+tr_dump.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+tr_dump.o: /usr/include/stdlib.h /usr/include/features.h
+tr_dump.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tr_dump.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tr_dump.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tr_dump.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+tr_dump.o: ../../../../src/gallium/auxiliary/util/u_string.h
+tr_dump.o: /usr/include/stdio.h /usr/include/bits/types.h
+tr_dump.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+tr_dump.o: /usr/include/_G_config.h /usr/include/wchar.h
+tr_dump.o: /usr/include/bits/wchar.h /usr/include/gconv.h
+tr_dump.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tr_dump.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+tr_dump.o: tr_dump.h tr_screen.h
+tr_dump.o: ../../../../src/gallium/include/pipe/p_screen.h tr_texture.h
+tr_dump.o: ../../../../src/gallium/include/pipe/p_state.h tr_buffer.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+tr_dump_state.o: /usr/include/stdlib.h /usr/include/features.h
+tr_dump_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tr_dump_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tr_dump_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/util/u_format.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_dump.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_dump_state.o: /usr/include/string.h
+tr_dump_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tr_dump_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tr_dump_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tr_dump_state.o: tr_dump.h tr_dump_state.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_state.h
+tr_screen.o: ../../../../src/gallium/auxiliary/util/u_format.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_screen.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+tr_screen.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_screen.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+tr_screen.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+tr_screen.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+tr_screen.o: /usr/include/stdlib.h /usr/include/features.h
+tr_screen.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tr_screen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tr_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tr_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+tr_screen.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h
+tr_screen.o: tr_buffer.h ../../../../src/gallium/include/pipe/p_state.h
+tr_screen.o: tr_screen.h ../../../../src/gallium/include/pipe/p_screen.h
+tr_screen.o: ../../../../src/gallium/auxiliary/os/os_thread.h tr_dump.h
+tr_screen.o: tr_dump_state.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_screen.o: /usr/include/string.h
+tr_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tr_screen.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tr_screen.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tr_screen.o: tr_texture.h tr_context.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_context.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_state.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_screen.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_screen.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+tr_screen.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+tr_state.o: tr_state.h tr_context.h
+tr_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+tr_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+tr_state.o: ../../../../src/gallium/include/pipe/p_context.h
+tr_state.o: ../../../../src/gallium/include/pipe/p_state.h
+tr_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_state.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_state.o: /usr/include/stdlib.h /usr/include/features.h
+tr_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tr_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tr_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tr_state.o: /usr/include/string.h
+tr_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tr_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tr_state.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tr_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_state.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+tr_state.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_state.o: ../../../../src/gallium/include/pipe/p_defines.h tr_screen.h
+tr_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+tr_state.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+tr_state.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+tr_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+tr_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+tr_state.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+tr_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+tr_state.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h
+tr_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+tr_state.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+tr_rbug.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/util/u_format.h
+tr_rbug.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/util/u_string.h
+tr_rbug.o: /usr/include/stdio.h /usr/include/features.h
+tr_rbug.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tr_rbug.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tr_rbug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tr_rbug.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+tr_rbug.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+tr_rbug.o: /usr/include/bits/wchar.h /usr/include/gconv.h
+tr_rbug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tr_rbug.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+tr_rbug.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+tr_rbug.o: /usr/include/stdlib.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/util/u_network.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/os/os_time.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+tr_rbug.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+tr_rbug.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_rbug.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_rbug.o: /usr/include/string.h /usr/include/stdint.h
+tr_rbug.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h tr_dump.h
+tr_rbug.o: tr_state.h tr_context.h
+tr_rbug.o: ../../../../src/gallium/include/pipe/p_context.h
+tr_rbug.o: ../../../../src/gallium/include/pipe/p_state.h
+tr_rbug.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_rbug.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_rbug.o: ../../../../src/gallium/include/pipe/p_screen.h
+tr_rbug.o: ../../../../src/gallium/include/pipe/p_defines.h tr_screen.h
+tr_rbug.o: ../../../../src/gallium/include/pipe/p_screen.h tr_buffer.h
+tr_rbug.o: ../../../../src/gallium/include/pipe/p_state.h tr_texture.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/rbug/rbug.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/rbug/rbug_core.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/rbug/rbug_proto.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/rbug/rbug_shader.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/rbug/rbug_context.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/rbug/rbug_texture.h
+tr_rbug.o: ../../../../src/gallium/auxiliary/rbug/rbug_connection.h
+tr_rbug.o: /usr/include/errno.h /usr/include/bits/errno.h
+tr_rbug.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+tr_rbug.o: /usr/include/asm-x86_64/errno.h /usr/include/asm-generic/errno.h
+tr_rbug.o: /usr/include/asm-generic/errno-base.h
+tr_drm.o: ../../../../src/gallium/include/state_tracker/drm_api.h
+tr_drm.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_drm.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+tr_drm.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+tr_drm.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+tr_drm.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+tr_drm.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+tr_drm.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_drm.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+tr_drm.o: /usr/include/stdlib.h /usr/include/features.h
+tr_drm.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tr_drm.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tr_drm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tr_drm.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h tr_drm.h
+tr_drm.o: tr_screen.h ../../../../src/gallium/include/pipe/p_screen.h
+tr_drm.o: ../../../../src/gallium/auxiliary/os/os_thread.h tr_context.h
+tr_drm.o: ../../../../src/gallium/include/pipe/p_context.h
+tr_drm.o: ../../../../src/gallium/include/pipe/p_state.h
+tr_drm.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_drm.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_drm.o: /usr/include/string.h
+tr_drm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tr_drm.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tr_drm.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tr_drm.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_drm.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_drm.o: ../../../../src/gallium/include/pipe/p_screen.h
+tr_drm.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_drm.o: ../../../../src/gallium/include/pipe/p_defines.h tr_buffer.h
+tr_drm.o: ../../../../src/gallium/include/pipe/p_state.h tr_texture.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_context.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_state.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_texture.o: /usr/include/stdlib.h /usr/include/features.h
+tr_texture.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tr_texture.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tr_texture.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h
+tr_texture.o: /usr/include/string.h
+tr_texture.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h
+tr_texture.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tr_texture.o: /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdbool.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_screen.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_state.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_screen.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+tr_texture.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_hash_table.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+tr_texture.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_texture.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+tr_texture.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h
+tr_texture.o: tr_screen.h ../../../../src/gallium/auxiliary/os/os_thread.h
+tr_texture.o: tr_texture.h

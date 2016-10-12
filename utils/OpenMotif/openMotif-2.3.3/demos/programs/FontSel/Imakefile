@@ -1,0 +1,13 @@
+#ifndef XmClientLibs
+#define XmClientLibs $(XMLIB) $(XTOOLLIB) $(XLIB)
+#endif
+
+EXTRA_INCLUDES = -I.
+
+SRCS = callbacks-c.c  creation-c.c   fontsel.c
+OBJS = callbacks-c.o  creation-c.o   fontsel.o
+LOCAL_LIBRARIES = -lXm -lXt -lXp -lX11 -lXext
+
+ComplexProgramTarget(fontsel);
+
+

@@ -1,0 +1,348 @@
+-----------------------------------------------------------------------
+
+
+                            Open Motif 2.3.3
+
+                              Release Notes
+
+                             The Open Group
+                                   and
+                     Integrated Computer Solutions
+
+
+This document provides Release Notes for the release of Open Motif 2.3.3.
+
+This contains information on what is new in Open Motif 2.3.3. 
+Please see the COPYRIGHT.MOTIF file included with this release.
+
+
+Introduction
+
+This document and accompanying text files contain important information. 
+Please read them carefully before starting the build and
+installation procedures.
+
+There are two ways to build Open Motif from source code: Imake and AutoTools.
+
+If you are using Imake, please read INSTALL.imake for notes on how to build
+and install this product using Imake. This method is deprecated due to
+a lack of support. Users wishing to apply/test and patch the Imake system
+should join the development mailing list; all contributions are welcome.
+
+Please see the file INSTALL.configure on how to build and install this product
+using the autoconf tools. This method is now fully supported and 
+is the recommended build method.
+
+
+1. What is Open Motif 2.3.3
+
+Open Motif is the freely available source code distribution for the 
+Motif user interface component toolkit. Open Motif is built on top of the 
+standard X Toolkit(Xt) and X11 libraries.
+
+1.1. Overview of Open Motif
+
+Open Motif 2.3.3 is an updated version of Open Motif 2.3. 
+Any applications built against a previous 2.x release of Open Motif will be 
+binary compatible with this release.
+
+Pre-compiled versions are available for download at the MotifZone:
+
+http://www.openmotif.org
+
+After downloading this source distribution, it will need to be unpacked 
+and compiled. The distribution contains the following items:
+
+* libXm source code and include files
+* Open Motif reference documentation (man pages)
+* Utility libraries
+* Demo programs
+
+
+2. What is New in Open Motif 2.3.3
+
+This is a bug fix release.
+
+* Fixed bug #1507 (LDFLAGS not respected for building libXm and libMrm libraries)
+* Fixed bug #1495 (mwm's icon box has graphics corruption)
+* Fixed bug #1502 (crash in ToolTipGetData())
+* Fixed bug #1474 (Incrementation of XmNvisibleItemCount value does not work
+  properly in XmComboBox)
+* Fixed bug #1195 (Making on FreeBSD with non GNU make)   
+* Fixed bug #1489 (Paned.h is not included by XmAll.h)  
+* Fixed bug #1486 (Tooltip in DropDown widget makes X hang up)  
+* Fixed bug #1320 (Resizing a scrolled text widget can be very, very slow)  
+* Fixed bug #1449 (Uninitalised memory access with XFT fonts)  
+* Fixed bug #1418 (Add file with instructions how to build from CVS)  
+* Fixed bug #1484 (Warning on XmRlabelType when I put a pixmap 
+  and a value "top" on XmNPixmapPlacement)
+* Fixed bug #1475 (autoconf warning "X11/Xmu/Editres.h header present
+  but cannot be compiled")
+* Fixed bug #1426 (Make location of system.mwmrc configurable)
+* Fixed bug #1451 (XmStringDrawImage works incorrectly with XFT)
+* Fixed bug #1453 (MultiList not displayed properly)
+* Fixed bug #1412 (An insensitive popup menu parent lead to a display-freezing)
+* Fixed bug #345 (Openmotif accelerators XmNaccelerator do not work 
+  with CapsLock/ScrollLock/NumLock modifiers)
+* Fixed bug #1299 (XmForm erroneously finds "Circular dependency"
+  if widgets are inter-attachmed in vertical/horizontal directions)
+* Refixed bug #1381 (Sensitivity invisible with antialiased fonts)
+* Refixed bug #1388 (SEGV error moving mouse over window related
+  to XmToolTipGetLabel)
+* Refixed bug #1321 (Pasting into XmTextField is unreliable)  
+* Removed xmPanedWindowWidgetClass definition from Paned.h
+* Dropped fix #1476 (PanedWindow orientation error)
+* Added ability to build without libXp
+* Added splint checking and splint target
+
+3. Build Systems
+
+Open Motif 2.3.3 was built and tested on the following systems:
+* Fedora 8 i386
+* Fedora 9 i386
+* Fedora 10 i386
+* Fedora 8 x86_64
+* Fedora 9 x86_64
+* Fedora 10 x86_64
+* Red Hat Enterprise Linux 4.5 i386
+* Red Hat Enterprise Linux 5.1 i386
+* Red Hat Enterprise Linux 5.3 i386
+* Red Hat Enterprise Linux 4.5 x86_64
+* Red Hat Enterprise Linux 5.1 x86_64
+* Red Hat Enterprise Linux 5.3 x86_64
+* SUSE 9.3 i586
+* openSUSE 10.3 i586
+* openSUSE 11.1 i586
+* openSUSE 10.3 x86_64
+* openSUSE 11.1 x86_64
+
+In all cases, the compiler originally provided with the OS was used.
+
+3.1. OS Support
+
+The following platforms are supported operating systems:
+
+* Linux 2.6
+
+4. Filing Bug Reports
+
+If you find a reproducible bug in any of the Open Motif libraries or code, 
+or an error in the documentation, please reference the BUGREPORT file 
+and/or submit a bug report online at the Open Motif Development zone:
+
+http://bugs.openmotif.org
+
+The listing for the status of submitted bugs is maintained there.
+
+
+5. Documentation
+
+For postscript and PDF documentation (users guides and reference 
+manuals), see the URL:
+
+http://www.motifzone.net
+
+
+6. Compatibility Notice
+
+Open Motif 2.3.x is binary compatible with Open Motif 2.2.x. 
+Applications built against Open Motif 2.2 should work with Open Motif 2.3.x 
+without having to recompile it.
+
+Open Motif 2.3.x is not binary compatible with Open Motif 2.1.30.
+Applications built against Open Motif 2.1.30 will need to be recompiled 
+with the Open Motif 2.2+ header files.
+
+
+7. Change Log
+
+2.3.3 March 2010 
+This Release
+
+2.3.2 March 2009 
+* Fixed bug #1473 (When we set XmNvisibleItemCount resource available in 
+  XmComboBox, the widget displays the wrong number of items)
+* Added missing 'O' character to UTF8_SUPPORTED macro 
+* Fixed bug #1476 (PanedWindow orientation error)
+* Fixed bug #1277 (paned widget does not work under Fedora Core 2 
+  with openmotif 2.2.3-4.1)
+* Fixed bug #1212 (XmDropSiteRetrieve frees XRectangles before
+  caller can use them)
+* Fixed in order to allow build out of source tree
+* Added wml_DEPENDENCIES in tools/wml/Makefile.am
+* Added ACLOCAL_AMFLAGS in Makefile.am
+
+2.3.1 September 2008 
+* Added ${prefix}/share/Xm as possible prefix for demos binaries installation
+* Fixed bug #1443 (Build failure on FreeBSD: undefined reference to
+  `libiconv_open')
+* Fixed bug #1427 (_xrm '*.iconPixmap:SDtErrors.l' produces bogus
+  error messages)
+* Refixed bug #1381 (Sensitivity invisible with antialiased fonts)
+* Fixed bug #1359 (File dialog filter problem with * or [ in directory)
+* Fixed bug #1446 (Arrow button in DropDown widget issue.)
+* Fixed bug #1328 (Desktop hang: motif application in XGrabPointer)
+* Fixed bug #1425 (Resetting entryParent causes crash)
+* Fixed bug #1439 (warnings during compilation in TabBox.c)
+* Fixed bug #1420 (DataF.c holds message strings.)
+* Fixed bug #1419 (Bindings of DataField defined in DataF.c instead
+  of TranslNew.c)
+* Fixed bug #1431 (openmotif 2.3 and xorg 7.1.0 64bit problems)
+* Fixed bug #1432 (XmContainer incorrect GC allocation)
+* Fixed bug #1250 (XmCombo glyph is unexpectedly shifted
+  when setting XmNvisibleItemCount)
+* Fixed bug #1401 (Specifying state pixmaps in Container causes crash)
+* Refixed bug #1442 (Crash on Drag'n'Drop)
+* Fixed bug #1445 (PopupShell is closing  on MouseWheel)
+* Refixed bug #1371 (XmComboBox problem on FC6)
+* Fixed bug #1438 (Missing XSetErrorHandler call in XmXftDrawCreate)
+* Fixed bug #1444 (Function _XmXftDrawCreate() does not work correct 
+  with the pixmap)
+* Fixed bug #1434 (single character utf8 sting is not displayed)
+* Fixed bug #1442 (Crash on Drag'n'Drop)
+* Fixed bug #1436 (Definition of GetSameRenditions in XmRenderT.c 
+  needs USE_XFT conditional)
+* Fixed bug #1400 (Corrupted per-display font cache)
+* Fixed bug #1440 (Tags array size in Label widget is not enough)
+* Fixed bug #1429 (Build failure with libtool-2.2.4)
+
+2.3.1 Beta 1 May 2008 
+* Fixed bug #1410 (setting XmNisHomogeneous to True without setting 
+  XmNentryClass causes sigfault)
+* Fixed bug #1402 (Toggle button circular buttons can not mimic modern look)
+* Fixed bug #1415 (XFT width calculation problem)
+* Fixed bug #1362 (Repeated calls to XmListReplaceItemsPos 
+  cause Error: Cannot perform malloc when using Extended_Select)
+* Fixed bug #1365 (Top pixel of German character I with top '^' leaves trails)
+* Fixed bug #1414 (XFT support slowness)
+* Fixed bug #1351 (Bad dynamic propagation of the sensitive state 
+  to popup menus)
+* Fixed bug #1409 (XmTextField sometimes crashes if a string is set 
+  by XtSetValues when XmNmodifyVerifyCallback is set (Only in multibyte locale))
+* Fixed bug #1398 (newline not supported in UTF-8 mode)
+* Fixed bug #1406 (Insensitive icon on XmPushButton black instead of grayed out)
+* Fixed bug #1396 (ScrollBar warning when XmNotebook resized)
+* Refixed bug #1388 (SEGV error moving mouse over window 
+  related to XmToolTipGetLabel).
+* Fixed bug #1405 (Menus too short if PIXMAP_AND_STRING is used in PushButtons)
+* Fixed bug #1404 (PIXMAP_AND_STRING causes crash 
+  in XmPushButtton in OptionMenu)
+* Fixed incorrect parenthesis in if statement
+* Fixed bug #1371 (XmComboBox problem on FC6)
+* Fixed bug #1296 (Drag-and-drop behaves incorrectly 
+  if XtSetLanguageProc() is present)
+* Fixed bug #1399 (cut and copy don't work in XmText widget)
+* Added /usr as possible prefix for toolkit installation
+* Fixed bug #1395 (Wrong label foreground for etched in menus)
+* Fixed bug #1392 (The label widgets can have their core class 
+  translations changed).
+* Fixed bug #1337 (XmPushButton's ArmAndActivate() has incorrect callback call).
+* Fixed bug #1384 (Use of freed storage in XmContainer).
+* Fixed bug #1209 (XmTextPaste crashes using XmTextField).
+* Fixed bug #1367 (XmText autoShowCursorPosition is not always honoured 
+  when selected text is deleted).
+* Fixed bug #1140 (Functions do not check _XmGetWidgetExtData() result).
+* Fixed bug #1383 (missing semi-colon at end of sentense).
+* Fixed bug #1390 (out of range in array read in ReplaceItem).
+* Fixed bug #1388 (SEGV error moving mouse over window related 
+  to XmToolTipGetLabel).
+* Fixed bug #1387 (Scale Widget draws value text not centered to slider)
+* Fixed bug #1381 (Sensitivity invisible with antialiased fonts)
+* Fixed bug #1389 (A middle click on a tab lets nedit segfault)
+* Fixed bug #1377 (XmText memory leak in InitializeHook)
+* Fixed bug #1385 (core.self of XmMultiList is NULL, but must be 
+  pointer itself.)
+* Fixed bug #1380 (Can not set title bar in 2.3)
+
+2.3.0 Beta 2 January 2006
+* Fixed vulnerabilities in the libXpm code [CAN-2004-0914 
+  (multiple vulnerabilities) and CAN-2005-0605 (buffer overflow)] 
+* Got rid of the obsolete tmpnam() call in imake 
+* Fixed bug #1315 (Division by zero in List widget) 
+* Fixed bug #1314 (Buffer overflow in MrmItop.c on 64-bit systems) 
+* Fixed bug #1313 (getsubres.c has fallback resources defined that
+  aren't terminated with NULL) 
+* Fixed bug #1304 (Buffer overflow in MrmOpenHierarchy...()) 
+* Fixed bug #1297 (Insensitive XmPIXMAP XmPushButtons are stippled 
+  with the wrong color) 
+* Fixed bug #1294 (XmFileSelectionBox's XmNdirSpec resource misbehaves 
+  when pathMode is PATH_MODE_RELATIVE) 
+
+2.3.0 Beta 1 November 2005 
+* #1121 (TabBox translation error) 
+* Removed locking of the clipboard from XmClipboardRetrieveStart()
+* #1283 (TabBox translation error)
+* #1249 (XmCombo crashes program when resized)
+* #1286 (XmDataField error with XmALIGNMENT_END)
+* #1211 (Crash on setting XmNlabelPixmap in a ToggleButtonGadget)
+* #1264 (Crash in PutDSToStream due to bug in _XmResizeHashTable)
+* #1276 (Changing AddMode in XmList selects/deselects items without callback)
+* #1196 (Free memory read in XmIm.c/draw_separator())
+* #1193 (MWM crashes when restarting by a session manager)
+* #1202 (MWM crashes when duplicating a window menu containing f.circle_up)
+* #1186 (Invalid replacing XmList selected items)
+* #1214 (Cannot set a string to XmTextField with XtSetValues when 
+  XmNmodifyVerifyCallback is set)
+* #1279 (XmTextGetSelectionPosition returns incorrect values after 
+  deleting selection)
+* #1269 (Popup menus fail on Tarantella/VNC)
+* #1262 (Entering Esc key before pulldown menu realized crashes)
+* #1268 (XmCvtXmStringToCT improperly handles an empty string)
+* Added DataField.h and TabBox.h to XmAll.h
+* Added synthetic resolution independent conversion of width/height resources 
+  to ExtendedList for MultiList
+* Added wide character string value of search string 
+  to ExtendedListCallbackStruct
+* Made DropDown using XmGrabShell instead of TopLevelShell
+* #1260 (Option menu changes screen's focus to 'None')
+* #1258 (XmDataField: data out-of-bounds bug in df_FindPixelLength)
+* #1257 (XmTextField: "Character xxx not supported in font" errors, 
+  bug in multibyte code)
+* #1256 (Problem with XmNsingleSelectionCallback in XmExt18List widget)
+* Fixed incorrect XmRenderTableToProp() behavior appearing in RendToProp test
+* Fixed incorrect XmClipboardCopyByName() behavior appearing in CutPaste2 test
+
+2.3.0 May 2007
+a. Several bugs were fixed.
+
+2.2.4 October 2004
+a. Fixed vulnerabilities in libXpm code [CVE numbers CAN-2004-0687 
+   (integer overflows) and CAN-2004-0688 (stack overflows)].
+b. Fixed compilation under SUSE 9.1.
+c. Fixed building procedure under FreeBSD.
+d. Fixed building procedure in order to make it usable with 
+   new versions of autoconfig.
+
+2.2.3 August 2002
+a. uil support for the new widgets was finished along with 
+   demonstrations in the periodic demo.
+b. Several bugs were fixed. 
+c. Automake building is supported in an object directory. 
+
+2.2.1 January 29, 2002
+a. The Test directory that contained the automated tests was mentioned 
+   in the Release Notes but absent from the source distribution. 
+   The reference in the Release Notes was removed. The Tests are still 
+   available from the CVS tree.
+b. Due to an oversight, imake support was not included in the distribution. 
+   It was added back in this update.
+c. If an older version of Open Motif was installed, the Autoconf build would
+   pick up the older #include files and fail. The Autoconf configuration 
+   files were updated to use the proper #include files.
+d. Formatting errors in doc/man/man3/Makefile.am were corrected.
+e. The directory demos/unsupported/motifshell contained no source code but 
+   was mentioned in configure.in. The proper source code was placed 
+   in this directory.
+f. ToolTip.c and SlideC.c were included in config.h twice. The extra 
+   reference was removed.
+g. The demos for the new widgets were originally placed in the directory 
+   demos/programs/newwidgets. To maintain consistency, they were moved 
+   to demos/programs.
+h. The Releases Notes specified the incorrect resource names for enabling 
+   tooltips and specifying the string. These typos were corrected. 
+i. Compatibility note for user developed widgets was added to
+   Release Notes.
+
+2.2.0 January 28, 2002
+Initial Release
+

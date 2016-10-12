@@ -1,0 +1,100 @@
+.\" $TOG: xmkmf.man /main/9 1998/02/06 11:25:04 kaleb $
+.\" 
+.\" @OPENGROUP_COPYRIGHT@
+.\" COPYRIGHT NOTICE
+.\" Copyright (c) 1990, 1991, 1992, 1993 Open Software Foundation, Inc.
+.\" Copyright (c) 1996, 1997, 1998, 1999, 2000 The Open Group
+.\" ALL RIGHTS RESERVED (MOTIF). See the file named COPYRIGHT.MOTIF for
+.\" the full copyright text.
+.\"  
+.\" The above copyright notice and this permission notice shall be included in
+.\" all copies or substantial portions of the Software.
+.\" 
+.\" This software is subject to an open license. It may only be
+.\" used on, with or for operating systems which are themselves open
+.\" source systems. You must contact The Open Group for a license
+.\" allowing distribution and sublicensing of this software on, with,
+.\" or for operating systems which are not Open Source programs.
+.\" 
+.\" See http://www.opengroup.org/openmotif/license for full
+.\" details of the license agreement. Any use, reproduction, or
+.\" distribution of the program constitutes recipient's acceptance of
+.\" this agreement.
+.\" 
+.\" EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS
+.\" PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+.\" KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY
+.\" WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY
+.\" OR FITNESS FOR A PARTICULAR PURPOSE
+.\" 
+.\" EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT
+.\" NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT,
+.\" INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+.\" DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED
+.\" AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+.\" LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+.\" ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE
+.\" EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE
+.\" POSSIBILITY OF SUCH DAMAGES.
+.TH XMKMF 1 "Release 6.4" "X Version 11"
+.SH NAME
+xmkmf \- create a Makefile from an Imakefile
+.SH SYNOPSIS
+.B xmkmf
+[ -a ] [
+.I topdir
+[
+.I curdir
+] ]
+.SH DESCRIPTION
+The
+.I xmkmf
+command is the normal way to create a
+.I Makefile 
+from an
+.I Imakefile
+shipped with third-party software.
+.PP
+When invoked with no arguments in a directory containing an
+.I Imakefile,
+the
+.I imake
+program is run with arguments appropriate for your system
+(configured into
+.I xmkmf
+when X was built) and generates a
+.I Makefile.
+.PP
+When invoked with the
+.I \-a
+option,
+.I xmkmf
+builds the
+.I Makefile
+in the current directory, and then automatically executes
+``make Makefiles'' (in case there are subdirectories),
+``make includes'',
+and ``make depend'' for you.
+This is the normal way to configure software that is outside
+the X Consortium build tree.
+.PP
+If working inside the X Consortium build tree (unlikely unless you 
+are an X developer, and even then this option is never really used), the
+.I topdir
+argument should be specified as the relative pathname from the
+current directory to the top of the build tree.  Optionally,
+.I curdir
+may be specified as a relative pathname from the top of the build
+tree to the current directory.  It is necessary to supply
+.I curdir
+if the current directory has subdirectories, or the
+.I Makefile
+will not be able to build the subdirectories.
+If a
+.I topdir
+is given,
+.I xmkmf
+assumes nothing is installed on your system and looks for files in
+the build tree instead of using the installed versions.
+.SH "SEE ALSO"
+imake(1)

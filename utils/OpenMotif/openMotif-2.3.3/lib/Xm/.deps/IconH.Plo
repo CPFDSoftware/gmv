@@ -1,0 +1,183 @@
+IconH.lo IconH.o: IconH.c ../../include/config.h ../Xm/IconHP.h \
+  ../Xm/XmP.h /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h \
+  ../Xm/Xm.h /usr/X11R6/include/X11/Intrinsic.h \
+  /usr/X11R6/include/X11/Xlib.h /usr/include/sys/types.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h /usr/include/bits/types.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h \
+  /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/X11R6/include/X11/X.h \
+  /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+  /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/Xresource.h \
+  /usr/include/string.h /usr/include/bits/string.h \
+  /usr/include/bits/string2.h /usr/include/stdlib.h \
+  /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+  /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+  /usr/X11R6/include/X11/RectObj.h /usr/X11R6/include/X11/Shell.h \
+  /usr/X11R6/include/X11/SM/SMlib.h /usr/X11R6/include/X11/SM/SM.h \
+  /usr/X11R6/include/X11/ICE/ICElib.h /usr/X11R6/include/X11/ICE/ICE.h \
+  /usr/X11R6/include/X11/Xatom.h ../Xm/XmStrDefs.h \
+  /usr/X11R6/include/X11/StringDefs.h ../Xm/XmStrDefs22.h \
+  ../Xm/XmStrDefs23.h ../Xm/VirtKeys.h ../Xm/Transfer.h ../Xm/DragC.h \
+  ../Xm/Display.h ../Xm/DropSMgr.h ../Xm/Primitive.h ../Xm/Manager.h \
+  ../Xm/Gadget.h ../Xm/TxtPropCv.h ../Xm/VendorS.h ../Xm/XmIm.h \
+  /usr/X11R6/include/X11/IntrinsicP.h /usr/X11R6/include/X11/CoreP.h \
+  /usr/X11R6/include/X11/CompositeP.h /usr/X11R6/include/X11/ConstrainP.h \
+  /usr/X11R6/include/X11/ObjectP.h /usr/X11R6/include/X11/RectObjP.h \
+  ../Xm/ColorP.h ../Xm/AccColorT.h ../Xm/BaseClassP.h ../Xm/IconGP.h \
+  ../Xm/ManagerP.h ../Xm/GadgetP.h ../Xm/IconG.h ../Xm/ExtObjectP.h \
+  ../Xm/IconH.h
+
+../../include/config.h:
+
+../Xm/IconHP.h:
+
+../Xm/XmP.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stdarg.h:
+
+../Xm/Xm.h:
+
+/usr/X11R6/include/X11/Intrinsic.h:
+
+/usr/X11R6/include/X11/Xlib.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/types.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include/stddef.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/X11R6/include/X11/X.h:
+
+/usr/X11R6/include/X11/Xfuncproto.h:
+
+/usr/X11R6/include/X11/Xosdefs.h:
+
+/usr/X11R6/include/X11/Xutil.h:
+
+/usr/X11R6/include/X11/Xresource.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/stdlib.h:
+
+/usr/X11R6/include/X11/Core.h:
+
+/usr/X11R6/include/X11/Composite.h:
+
+/usr/X11R6/include/X11/Constraint.h:
+
+/usr/X11R6/include/X11/Object.h:
+
+/usr/X11R6/include/X11/RectObj.h:
+
+/usr/X11R6/include/X11/Shell.h:
+
+/usr/X11R6/include/X11/SM/SMlib.h:
+
+/usr/X11R6/include/X11/SM/SM.h:
+
+/usr/X11R6/include/X11/ICE/ICElib.h:
+
+/usr/X11R6/include/X11/ICE/ICE.h:
+
+/usr/X11R6/include/X11/Xatom.h:
+
+../Xm/XmStrDefs.h:
+
+/usr/X11R6/include/X11/StringDefs.h:
+
+../Xm/XmStrDefs22.h:
+
+../Xm/XmStrDefs23.h:
+
+../Xm/VirtKeys.h:
+
+../Xm/Transfer.h:
+
+../Xm/DragC.h:
+
+../Xm/Display.h:
+
+../Xm/DropSMgr.h:
+
+../Xm/Primitive.h:
+
+../Xm/Manager.h:
+
+../Xm/Gadget.h:
+
+../Xm/TxtPropCv.h:
+
+../Xm/VendorS.h:
+
+../Xm/XmIm.h:
+
+/usr/X11R6/include/X11/IntrinsicP.h:
+
+/usr/X11R6/include/X11/CoreP.h:
+
+/usr/X11R6/include/X11/CompositeP.h:
+
+/usr/X11R6/include/X11/ConstrainP.h:
+
+/usr/X11R6/include/X11/ObjectP.h:
+
+/usr/X11R6/include/X11/RectObjP.h:
+
+../Xm/ColorP.h:
+
+../Xm/AccColorT.h:
+
+../Xm/BaseClassP.h:
+
+../Xm/IconGP.h:
+
+../Xm/ManagerP.h:
+
+../Xm/GadgetP.h:
+
+../Xm/IconG.h:
+
+../Xm/ExtObjectP.h:
+
+../Xm/IconH.h:

@@ -1,0 +1,1 @@
+./configure --disable-shared --enable-gl-osmesa --with-driver=xlib --disable-egl
